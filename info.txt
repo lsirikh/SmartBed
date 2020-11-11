@@ -1,0 +1,6 @@
+{
+    "collection_period": 1,
+    "store_time": 24,
+    "max_file": 10,
+    "numbering": 0
+}
