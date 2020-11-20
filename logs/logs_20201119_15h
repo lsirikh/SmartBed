@@ -1,0 +1,1172 @@
+[INFO] 20201119 15:00:03.251584 [Class:WifiNT][Method:wifiConnection] Get Connected SSID.
+[INFO] 20201119 15:00:03.253371 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201119 15:00:03.254019 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201119 15:00:03.266438 [Class:WifiNT][Method:wifiConnection] Get Wifi Connection State from Wifi Module.
+[INFO] 20201119 15:00:03.268095 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201119 15:00:03.323757 [Class:WifiNT][Method:wifiConnection] Connected to 70:5d:cc:19:32:42 (on wlan0)
+	SSID: SW_Dev5G
+	freq: 5745
+	RX: 2022 bytes (12 packets)
+	TX: 1904 bytes (16 packets)
+	signal: -42 dBm
+	rx bitrate: 433.3 MBit/s
+	tx bitrate: 24.0 MBit/s
+
+	bss flags:	
+	dtim period:	1
+	beacon int:	200
+
+[NOTICE] 20201119 15:00:03.331984 [Class:WifiNT][Method:wifiConnection] SW_Dev5G
+[INFO] 20201119 15:00:03.332553 [Class:WifiNT][Method:wifiConnection] Connection Validated.
+[INFO] 20201119 15:00:03.333255 [Class:None][Method:initBT] Called.
+[INFO] 20201119 15:00:03.333785 [Class:BTReceive][Method:__init__] initiated.
+[INFO] 20201119 15:00:03.334181 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201119 15:00:03.334551 [Class:BTReceive][Method:pair] Called.
+[INFO] 20201119 15:00:03.334908 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201119 15:00:03.335604 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201119 15:00:03.335982 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201119 15:00:03.336727 [Class:BTReceive][Method:pair] Loaded - BT ADDRESS : 50:77:05:43:DF:98
+[INFO] 20201119 15:00:03.337111 [Class:BTReceive][Method:setAllThreadOn] Called.
+[INFO] 20201119 15:00:03.338050 [Class:BTReceive][Method:receiver] Called.
+[INFO] 20201119 15:00:03.338647 [Class:BTReceive][Method:monitor] Called.
+[INFO] 20201119 15:00:03.339719 [Class:BTReceive][Method:connection] Called.
+[NOTICE] 20201119 15:00:03.340492 [Class:BTReceive][Method:connection] Server socket was created
+[NOTICE] 20201119 15:00:03.341887 [Class:BTReceive][Method:connection] Try to connect to 50:77:05:43:DF:98
+[INFO] 20201119 15:00:08.329062 [Class:WifiNT][Method:wifiConnection] Get Connected SSID.
+[INFO] 20201119 15:00:08.329930 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201119 15:00:08.330527 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201119 15:00:08.407011 [Class:WifiNT][Method:wifiConnection] SW_Dev5G
+[INFO] 20201119 15:00:08.407929 [Class:WifiNT][Method:wifiConnection] Connection Validated.
+[INFO] 20201119 15:00:13.408956 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201119 15:00:13.409827 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201119 15:00:13.414384 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201119 15:00:13.415072 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201119 15:00:13.416274 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201119 15:00:13.416857 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201119 15:00:13.490799 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[SW_Dev5G], Now[SW_Dev5G]
+[INFO] 20201119 15:00:18.494064 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201119 15:00:18.494939 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201119 15:00:18.499068 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201119 15:00:18.499731 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201119 15:00:18.500884 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201119 15:00:18.501464 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201119 15:00:18.577160 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[SW_Dev5G], Now[SW_Dev5G]
+[INFO] 20201119 15:00:23.583883 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201119 15:00:23.584349 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201119 15:00:23.588246 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201119 15:00:23.588624 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201119 15:00:23.589157 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201119 15:00:23.589435 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201119 15:00:23.631756 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[SW_Dev5G], Now[SW_Dev5G]
+[INFO] 20201119 15:00:28.635103 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201119 15:00:28.635732 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201119 15:00:28.636170 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201119 15:00:28.636581 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201119 15:00:28.637493 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201119 15:00:28.637996 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201119 15:00:28.867568 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[SW_Dev5G], Now[SW_Dev5G]
+[INFO] 20201119 15:00:33.870188 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201119 15:00:33.870715 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201119 15:00:33.871091 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201119 15:00:33.871407 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201119 15:00:33.872028 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201119 15:00:33.872401 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201119 15:00:34.082301 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[SW_Dev5G], Now[SW_Dev5G]
+[INFO] 20201119 15:00:39.085948 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201119 15:00:39.086488 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201119 15:00:39.086899 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201119 15:00:39.087241 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201119 15:00:39.087912 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201119 15:00:39.088300 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201119 15:00:39.165760 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[SW_Dev5G], Now[SW_Dev5G]
+[INFO] 20201119 15:00:44.170384 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201119 15:00:44.176140 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201119 15:00:44.176649 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201119 15:00:44.177356 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201119 15:00:44.178242 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201119 15:00:44.178717 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201119 15:00:44.286658 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[SW_Dev5G], Now[SW_Dev5G]
+[INFO] 20201119 15:03:20.415478 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201119 15:03:20.416123 [Class:None][Method:setAllThreadOn] Called.
+[ERROR] 20201119 15:03:20.416675 [Class:None][Method:setAllThreadOn] Failed to execute : 'NoneType' object has no attribute 'receiverStatus'
+[INFO] 20201119 15:04:06.160676 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201119 15:04:06.161338 [Class:None][Method:setAllThreadOn] Called.
+[ERROR] 20201119 15:04:06.161950 [Class:None][Method:setAllThreadOn] Failed to execute : 'NoneType' object has no attribute 'receiverStatus'
+[INFO] 20201119 15:04:24.818919 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201119 15:04:29.369449 [Class:None][Method:setAllThreadOn] Called.
+[INFO] 20201119 15:05:56.923664 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201119 15:05:56.924432 [Class:None][Method:setAllThreadOn] Called.
+[INFO] 20201119 15:27:08.263531 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201119 15:27:24.897934 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201119 15:27:45.062329 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201119 15:28:34.040918 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201119 15:29:03.046465 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201119 15:29:36.372486 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201119 15:31:13.728782 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201119 15:32:34.500218 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201119 15:32:34.546080 [Class:None][Method:initBT] Called.
+[INFO] 20201119 15:32:34.547294 [Class:BTReceive][Method:__init__] initiated.
+[INFO] 20201119 15:32:34.547796 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201119 15:32:34.548197 [Class:BTReceive][Method:pair] Called.
+[INFO] 20201119 15:32:34.548565 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201119 15:32:34.548946 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201119 15:32:34.549250 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201119 15:32:34.550068 [Class:BTReceive][Method:pair] Loaded - BT ADDRESS : 50:77:05:43:DF:98
+[INFO] 20201119 15:32:34.550494 [Class:BTReceive][Method:setAllThreadOn] Called.
+[INFO] 20201119 15:32:34.552896 [Class:None][Method:initUart] Called.
+[INFO] 20201119 15:32:34.554223 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201119 15:32:34.554780 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201119 15:32:34.555281 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201119 15:32:34.555655 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201119 15:32:34.555973 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201119 15:32:34.556928 [Class:UartRead][Method:__init__] initiated.
+[INFO] 20201119 15:32:34.557377 [Class:UartRead][Method:loadFiles] Called.
+[INFO] 20201119 15:32:34.557714 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201119 15:32:34.558032 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201119 15:32:34.558294 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201119 15:32:34.558875 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201119 15:32:34.559211 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201119 15:32:34.559489 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201119 15:32:34.559983 [Class:UartRead][Method:initSerial] Called.
+[INFO] 20201119 15:32:34.560880 [Class:UartRead][Method:openSerial] Try to open port....
+[INFO] 20201119 15:32:34.562306 [Class:UartRead][Method:uartSet] Called.
+[INFO] 20201119 15:32:34.563689 [Class:BTReceive][Method:receiver] Called.
+[INFO] 20201119 15:32:34.564179 [Class:BTReceive][Method:connection] Called.
+[NOTICE] 20201119 15:32:34.564820 [Class:BTReceive][Method:connection] Server socket was created
+[NOTICE] 20201119 15:32:34.565502 [Class:BTReceive][Method:connection] Try to connect to 50:77:05:43:DF:98
+[INFO] 20201119 15:32:34.566827 [Class:None][Method:initWifi] Called.
+[INFO] 20201119 15:32:34.567904 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201119 15:32:34.568417 [Class:WifiNT][Method:__init__] initiated.
+[INFO] 20201119 15:32:34.568848 [Class:WifiNT][Method:setThreadOn] Called.
+[INFO] 20201119 15:32:34.566325 [Class:BTReceive][Method:monitor] Called.
+[INFO] 20201119 15:32:34.570512 [Class:WifiNT][Method:wifiConnection] Called.
+[INFO] 20201119 15:32:34.570941 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201119 15:32:34.571285 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201119 15:32:34.571571 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201119 15:32:34.571878 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201119 15:32:34.572480 [Class:WifiNT][Method:wifiConnection] Wifi Module was DOWN.
+[INFO] 20201119 15:32:34.572857 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201119 15:32:34.570284 [Class:WifiNT][Method:monitor] Called.
+[INFO] 20201119 15:32:34.578373 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201119 15:32:34.579098 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201119 15:32:34.579482 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201119 15:32:34.579831 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201119 15:32:34.580801 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201119 15:32:34.581233 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201119 15:32:34.925488 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[SW_Dev5G], Now[SW_Dev5G]
+[INFO] 20201119 15:32:35.169603 [Class:UartRead][Method:setAllThreadOn] Called.
+[INFO] 20201119 15:32:35.187862 [Class:UartRead][Method:receiver] Called.
+[INFO] 20201119 15:32:35.205251 [Class:UartRead][Method:monitor] Called.
+[INFO] 20201119 15:32:35.774579 [Class:WifiNT][Method:wifiConnection] Wifi Module was UP.
+[INFO] 20201119 15:32:35.781897 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201119 15:32:37.993338 [Class:WifiNT][Method:wifiConnection] wpa_supplicant.conf was created.
+[INFO] 20201119 15:32:37.994114 [Class:WifiNT][Method:setWpaFile] Called.
+[NOTICE] 20201119 15:32:38.100050 [Class:WifiNT][Method:wifiConnection] network={
+	ssid="SW_Dev5G"
+	#psk="sensorway"
+	psk=75bf863c2b8d01a223b6625c20e34cc0eaeee0c406a2ca29eddf130ac983a13e
+}
+
+[INFO] 20201119 15:32:38.101013 [Class:WifiNT][Method:wifiConnection] Wifi Module tried to connect AP(SW_Dev5G)
+[INFO] 20201119 15:32:38.101519 [Class:WifiNT][Method:setWpaCon] Called.
+[INFO] 20201119 15:32:38.102026 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201119 15:32:39.927401 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201119 15:32:39.928146 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201119 15:32:39.928475 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201119 15:32:39.928865 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201119 15:32:39.929498 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201119 15:32:39.929902 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201119 15:32:40.059122 [Class:WifiNT][Method:monitor] Wifi info was disconnected.
+[INFO] 20201119 15:32:40.059960 [Class:WifiNT][Method:wifiConnection] Called.
+[INFO] 20201119 15:32:40.060389 [Class:WifiNT][Method:wifiConnection] Wifi Module was DOWN.
+[INFO] 20201119 15:32:40.060766 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201119 15:32:41.165967 [Class:WifiNT][Method:wifiConnection] Wifi Module was UP.
+[INFO] 20201119 15:32:41.166793 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201119 15:32:43.389290 [Class:WifiNT][Method:wifiConnection] wpa_supplicant.conf was created.
+[INFO] 20201119 15:32:43.390060 [Class:WifiNT][Method:setWpaFile] Called.
+[NOTICE] 20201119 15:32:43.435709 [Class:WifiNT][Method:wifiConnection] Successfully initialized wpa_supplicant
+
+[NOTICE] 20201119 15:32:43.588754 [Class:WifiNT][Method:wifiConnection] network={
+	ssid="SW_Dev5G"
+	#psk="sensorway"
+	psk=75bf863c2b8d01a223b6625c20e34cc0eaeee0c406a2ca29eddf130ac983a13e
+}
+
+[INFO] 20201119 15:32:43.589267 [Class:WifiNT][Method:wifiConnection] Wifi Module tried to connect AP(SW_Dev5G)
+[INFO] 20201119 15:32:43.589607 [Class:WifiNT][Method:setWpaCon] Called.
+[INFO] 20201119 15:32:43.589954 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201119 15:32:48.442622 [Class:WifiNT][Method:wifiConnection] Get Wifi Connection State from Wifi Module.
+[INFO] 20201119 15:32:48.443394 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201119 15:32:48.482525 [Class:WifiNT][Method:wifiConnection] Not connected.
+
+[NOTICE] 20201119 15:32:49.153830 [Class:WifiNT][Method:wifiConnection] Successfully initialized wpa_supplicant
+
+[INFO] 20201119 15:32:53.488352 [Class:WifiNT][Method:wifiConnection] Get Connected SSID.
+[INFO] 20201119 15:32:53.489225 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201119 15:32:53.489818 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201119 15:32:53.571688 [Class:WifiNT][Method:wifiConnection] SW_Dev5G
+[INFO] 20201119 15:32:53.572649 [Class:WifiNT][Method:wifiConnection] Connection Validated.
+[INFO] 20201119 15:35:10.222940 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201119 15:35:10.351926 [Class:None][Method:initBT] Called.
+[INFO] 20201119 15:35:10.353254 [Class:BTReceive][Method:__init__] initiated.
+[INFO] 20201119 15:35:10.353834 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201119 15:35:10.354347 [Class:BTReceive][Method:pair] Called.
+[INFO] 20201119 15:35:10.354818 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201119 15:35:10.355315 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201119 15:35:10.355668 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201119 15:35:10.356754 [Class:BTReceive][Method:pair] Loaded - BT ADDRESS : 50:77:05:43:DF:98
+[INFO] 20201119 15:35:10.357209 [Class:BTReceive][Method:setAllThreadOn] Called.
+[INFO] 20201119 15:35:10.425350 [Class:BTReceive][Method:receiver] Called.
+[INFO] 20201119 15:35:10.425916 [Class:BTReceive][Method:connection] Called.
+[NOTICE] 20201119 15:35:10.428593 [Class:BTReceive][Method:connection] Server socket was created
+[NOTICE] 20201119 15:35:10.429299 [Class:BTReceive][Method:connection] Try to connect to 50:77:05:43:DF:98
+[INFO] 20201119 15:35:10.445244 [Class:BTReceive][Method:monitor] Called.
+[INFO] 20201119 15:35:10.446649 [Class:None][Method:initUart] Called.
+[INFO] 20201119 15:35:10.447342 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201119 15:35:10.447796 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201119 15:35:10.448125 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201119 15:35:10.448451 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201119 15:35:10.448745 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201119 15:35:10.449569 [Class:UartRead][Method:__init__] initiated.
+[INFO] 20201119 15:35:10.449958 [Class:UartRead][Method:loadFiles] Called.
+[INFO] 20201119 15:35:10.450273 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201119 15:35:10.450574 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201119 15:35:10.450877 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201119 15:35:10.451408 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201119 15:35:10.451719 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201119 15:35:10.452012 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201119 15:35:10.452483 [Class:UartRead][Method:initSerial] Called.
+[INFO] 20201119 15:35:10.453954 [Class:UartRead][Method:openSerial] Try to open port....
+[INFO] 20201119 15:35:10.465545 [Class:UartRead][Method:uartSet] Called.
+[INFO] 20201119 15:35:11.091434 [Class:UartRead][Method:setAllThreadOn] Called.
+[INFO] 20201119 15:35:11.155324 [Class:UartRead][Method:receiver] Called.
+[INFO] 20201119 15:35:11.178640 [Class:None][Method:initWifi] Called.
+[INFO] 20201119 15:35:11.179198 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201119 15:35:11.179643 [Class:WifiNT][Method:__init__] initiated.
+[INFO] 20201119 15:35:11.180017 [Class:WifiNT][Method:setThreadOn] Called.
+[INFO] 20201119 15:35:11.178000 [Class:UartRead][Method:monitor] Called.
+[INFO] 20201119 15:35:11.225500 [Class:WifiNT][Method:wifiConnection] Called.
+[INFO] 20201119 15:35:11.225246 [Class:WifiNT][Method:monitor] Called.
+[INFO] 20201119 15:35:11.226186 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201119 15:35:11.226390 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201119 15:35:11.227001 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201119 15:35:11.227192 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201119 15:35:11.227797 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201119 15:35:11.227984 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201119 15:35:11.228562 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201119 15:35:11.228798 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201119 15:35:11.235263 [Class:WifiNT][Method:wifiConnection] Wifi Module was DOWN.
+[INFO] 20201119 15:35:11.229905 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201119 15:35:11.235940 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201119 15:35:11.236223 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201119 15:35:11.536295 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[SW_Dev5G], Now[SW_Dev5G]
+[INFO] 20201119 15:35:12.451431 [Class:WifiNT][Method:wifiConnection] Wifi Module was UP.
+[INFO] 20201119 15:35:12.451981 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201119 15:35:14.631685 [Class:WifiNT][Method:wifiConnection] wpa_supplicant.conf was created.
+[INFO] 20201119 15:35:14.632530 [Class:WifiNT][Method:setWpaFile] Called.
+[NOTICE] 20201119 15:35:14.803902 [Class:WifiNT][Method:wifiConnection] network={
+	ssid="SW_Dev5G"
+	#psk="sensorway"
+	psk=75bf863c2b8d01a223b6625c20e34cc0eaeee0c406a2ca29eddf130ac983a13e
+}
+
+[INFO] 20201119 15:35:14.804768 [Class:WifiNT][Method:wifiConnection] Wifi Module tried to connect AP(SW_Dev5G)
+[INFO] 20201119 15:35:14.805505 [Class:WifiNT][Method:setWpaCon] Called.
+[INFO] 20201119 15:35:14.805937 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201119 15:35:16.542222 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201119 15:35:16.543075 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201119 15:35:16.543496 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201119 15:35:16.543864 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201119 15:35:16.544456 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201119 15:35:16.544832 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201119 15:35:16.795847 [Class:WifiNT][Method:monitor] Wifi info was disconnected.
+[INFO] 20201119 15:35:16.796702 [Class:WifiNT][Method:wifiConnection] Called.
+[INFO] 20201119 15:35:16.797181 [Class:WifiNT][Method:wifiConnection] Wifi Module was DOWN.
+[INFO] 20201119 15:35:16.797582 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201119 15:35:17.989361 [Class:WifiNT][Method:wifiConnection] Wifi Module was UP.
+[INFO] 20201119 15:35:17.990223 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201119 15:35:20.135347 [Class:WifiNT][Method:wifiConnection] wpa_supplicant.conf was created.
+[INFO] 20201119 15:35:20.136236 [Class:WifiNT][Method:setWpaFile] Called.
+[NOTICE] 20201119 15:35:20.138391 [Class:WifiNT][Method:wifiConnection] Successfully initialized wpa_supplicant
+
+[NOTICE] 20201119 15:35:20.250076 [Class:WifiNT][Method:wifiConnection] network={
+	ssid="SW_Dev5G"
+	#psk="sensorway"
+	psk=75bf863c2b8d01a223b6625c20e34cc0eaeee0c406a2ca29eddf130ac983a13e
+}
+
+[INFO] 20201119 15:35:20.250901 [Class:WifiNT][Method:wifiConnection] Wifi Module tried to connect AP(SW_Dev5G)
+[INFO] 20201119 15:35:20.251380 [Class:WifiNT][Method:setWpaCon] Called.
+[INFO] 20201119 15:35:20.251893 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201119 15:35:25.145975 [Class:WifiNT][Method:wifiConnection] Get Wifi Connection State from Wifi Module.
+[INFO] 20201119 15:35:25.147474 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201119 15:35:25.216585 [Class:WifiNT][Method:wifiConnection] Not connected.
+
+[NOTICE] 20201119 15:35:25.589706 [Class:WifiNT][Method:wifiConnection] Successfully initialized wpa_supplicant
+
+[INFO] 20201119 15:35:30.220900 [Class:WifiNT][Method:wifiConnection] Get Connected SSID.
+[INFO] 20201119 15:35:30.221784 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201119 15:35:30.226850 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201119 15:35:30.315866 [Class:WifiNT][Method:wifiConnection] SW_Dev5G
+[INFO] 20201119 15:35:30.316819 [Class:WifiNT][Method:wifiConnection] Connection Validated.
+[INFO] 20201119 15:35:30.595167 [Class:WifiNT][Method:wifiConnection] Get Wifi Connection State from Wifi Module.
+[INFO] 20201119 15:35:30.596110 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201119 15:35:30.650567 [Class:WifiNT][Method:wifiConnection] Connected to 70:5d:cc:19:32:42 (on wlan0)
+	SSID: SW_Dev5G
+	freq: 5745
+	RX: 1774 bytes (11 packets)
+	TX: 1694 bytes (15 packets)
+	signal: -43 dBm
+	rx bitrate: 433.3 MBit/s
+	tx bitrate: 24.0 MBit/s
+
+	bss flags:	
+	dtim period:	1
+	beacon int:	200
+
+[INFO] 20201119 15:35:35.656700 [Class:WifiNT][Method:wifiConnection] Get Connected SSID.
+[INFO] 20201119 15:35:35.657592 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201119 15:35:35.658184 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201119 15:35:35.732344 [Class:WifiNT][Method:wifiConnection] SW_Dev5G
+[INFO] 20201119 15:35:35.733409 [Class:WifiNT][Method:wifiConnection] Connection Validated.
+[INFO] 20201119 15:35:40.738999 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201119 15:35:40.739798 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201119 15:35:40.740313 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201119 15:35:40.740790 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201119 15:35:40.741753 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201119 15:35:40.742326 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201119 15:35:40.819940 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[SW_Dev5G], Now[SW_Dev5G]
+[INFO] 20201119 15:35:45.826286 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201119 15:35:45.827181 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201119 15:35:45.827776 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201119 15:35:45.828340 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201119 15:35:45.829421 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201119 15:35:45.830004 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201119 15:35:45.912593 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[SW_Dev5G], Now[SW_Dev5G]
+[INFO] 20201119 15:35:50.915460 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201119 15:35:50.916392 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201119 15:35:50.920373 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201119 15:35:50.921143 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201119 15:35:50.922515 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201119 15:35:50.923145 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201119 15:35:51.004369 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[SW_Dev5G], Now[SW_Dev5G]
+[INFO] 20201119 15:35:56.011238 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201119 15:35:56.012035 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201119 15:35:56.015828 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201119 15:35:56.016401 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201119 15:35:56.017379 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201119 15:35:56.017892 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201119 15:35:56.096307 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[SW_Dev5G], Now[SW_Dev5G]
+[INFO] 20201119 15:36:01.102582 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201119 15:36:01.103057 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201119 15:36:01.106949 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201119 15:36:01.107452 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201119 15:36:01.108222 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201119 15:36:01.108688 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201119 15:36:01.163484 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[SW_Dev5G], Now[SW_Dev5G]
+[INFO] 20201119 15:36:06.169296 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201119 15:36:06.174626 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201119 15:36:06.175589 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201119 15:36:06.176217 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201119 15:36:06.177311 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201119 15:36:06.177894 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201119 15:36:06.255772 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[SW_Dev5G], Now[SW_Dev5G]
+[INFO] 20201119 15:36:11.261822 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201119 15:36:11.267452 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201119 15:36:11.268338 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201119 15:36:11.268940 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201119 15:36:11.270044 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201119 15:36:11.270636 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201119 15:36:11.355156 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[SW_Dev5G], Now[SW_Dev5G]
+[INFO] 20201119 15:36:16.359854 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201119 15:36:16.365494 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201119 15:36:16.366417 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201119 15:36:16.367023 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201119 15:36:16.368146 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201119 15:36:16.368738 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201119 15:36:16.454576 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[SW_Dev5G], Now[SW_Dev5G]
+[INFO] 20201119 15:36:21.460727 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201119 15:36:21.461433 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201119 15:36:21.461976 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201119 15:36:21.462474 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201119 15:36:21.463373 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201119 15:36:21.463896 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201119 15:36:21.525537 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[SW_Dev5G], Now[SW_Dev5G]
+[INFO] 20201119 15:36:26.530377 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201119 15:36:26.531189 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201119 15:36:26.535053 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201119 15:36:26.535647 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201119 15:36:26.536640 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201119 15:36:26.537441 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201119 15:36:26.599224 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[SW_Dev5G], Now[SW_Dev5G]
+[INFO] 20201119 15:36:31.605324 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201119 15:36:31.605918 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201119 15:36:31.610583 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201119 15:36:31.611109 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201119 15:36:31.611957 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201119 15:36:31.612391 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201119 15:36:31.705857 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[SW_Dev5G], Now[SW_Dev5G]
+[INFO] 20201119 15:36:36.711661 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201119 15:36:36.712198 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201119 15:36:36.716815 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201119 15:36:36.717268 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201119 15:36:36.717946 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201119 15:36:36.718343 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201119 15:36:36.897921 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[SW_Dev5G], Now[SW_Dev5G]
+[INFO] 20201119 15:36:41.903610 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201119 15:36:41.904088 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201119 15:36:41.909597 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201119 15:36:41.910036 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201119 15:36:41.910727 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201119 15:36:41.911139 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201119 15:36:41.983323 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[SW_Dev5G], Now[SW_Dev5G]
+[INFO] 20201119 15:36:46.985089 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201119 15:36:46.985634 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201119 15:36:46.990443 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201119 15:36:46.990904 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201119 15:36:46.991589 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201119 15:36:46.991945 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201119 15:36:47.186219 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[SW_Dev5G], Now[SW_Dev5G]
+[INFO] 20201119 15:36:52.192103 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201119 15:36:52.192628 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201119 15:36:52.193010 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201119 15:36:52.193442 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201119 15:36:52.194242 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201119 15:36:52.194653 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201119 15:36:52.350650 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[SW_Dev5G], Now[SW_Dev5G]
+[INFO] 20201119 15:36:57.355085 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201119 15:36:57.355620 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201119 15:36:57.360974 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201119 15:36:57.361412 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201119 15:36:57.362102 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201119 15:36:57.362501 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201119 15:36:57.605886 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[SW_Dev5G], Now[SW_Dev5G]
+[INFO] 20201119 15:37:02.611701 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201119 15:37:02.612218 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201119 15:37:02.616555 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201119 15:37:02.616974 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201119 15:37:02.617636 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201119 15:37:02.618062 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201119 15:37:02.668346 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[SW_Dev5G], Now[SW_Dev5G]
+[INFO] 20201119 15:37:07.671634 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201119 15:37:07.672124 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201119 15:37:07.676795 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201119 15:37:07.677109 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201119 15:37:07.677598 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201119 15:37:07.677881 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201119 15:37:07.719825 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[SW_Dev5G], Now[SW_Dev5G]
+[INFO] 20201119 15:37:12.725539 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201119 15:37:12.726277 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201119 15:37:12.759979 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201119 15:37:12.760628 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201119 15:37:12.761676 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201119 15:37:12.762328 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201119 15:37:12.837309 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[SW_Dev5G], Now[SW_Dev5G]
+[INFO] 20201119 15:37:17.843226 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201119 15:37:17.846920 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201119 15:37:17.851031 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201119 15:37:17.851339 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201119 15:37:17.851874 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201119 15:37:17.852570 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201119 15:37:17.891782 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[SW_Dev5G], Now[SW_Dev5G]
+[INFO] 20201119 15:37:22.893644 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201119 15:37:22.898668 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201119 15:37:22.899177 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201119 15:37:22.899596 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201119 15:37:22.900263 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201119 15:37:22.900641 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201119 15:37:22.953869 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[SW_Dev5G], Now[SW_Dev5G]
+[INFO] 20201119 15:37:27.960472 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201119 15:37:27.961064 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201119 15:37:27.965340 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201119 15:37:27.965916 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201119 15:37:27.966714 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201119 15:37:27.967186 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201119 15:37:28.076245 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[SW_Dev5G], Now[SW_Dev5G]
+[INFO] 20201119 15:37:33.080480 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201119 15:37:33.085301 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201119 15:37:33.085621 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201119 15:37:33.085865 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201119 15:37:33.086353 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201119 15:37:33.086611 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201119 15:37:33.129290 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[SW_Dev5G], Now[SW_Dev5G]
+[INFO] 20201119 15:37:38.131061 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201119 15:37:38.131577 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201119 15:37:38.135581 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201119 15:37:38.136040 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201119 15:37:38.136843 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201119 15:37:38.137263 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201119 15:37:38.187805 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[SW_Dev5G], Now[SW_Dev5G]
+[INFO] 20201119 15:37:43.193673 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201119 15:37:43.194256 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201119 15:37:43.194715 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201119 15:37:43.195245 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201119 15:37:43.195973 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201119 15:37:43.196400 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201119 15:37:43.417175 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[SW_Dev5G], Now[SW_Dev5G]
+[INFO] 20201119 15:37:48.422491 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201119 15:37:48.422986 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201119 15:37:48.423320 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201119 15:37:48.423647 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201119 15:37:48.424237 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201119 15:37:48.424679 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201119 15:37:48.521798 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[SW_Dev5G], Now[SW_Dev5G]
+[INFO] 20201119 15:37:53.525084 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201119 15:37:53.525625 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201119 15:37:53.530988 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201119 15:37:53.531453 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201119 15:37:53.532090 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201119 15:37:53.532492 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201119 15:37:53.747179 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[SW_Dev5G], Now[SW_Dev5G]
+[INFO] 20201119 15:37:58.752530 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201119 15:37:58.753116 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201119 15:37:58.758143 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201119 15:37:58.758644 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201119 15:37:58.759348 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201119 15:37:58.759760 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201119 15:37:58.936046 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[SW_Dev5G], Now[SW_Dev5G]
+[INFO] 20201119 15:38:03.939948 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201119 15:38:03.940668 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201119 15:38:03.944924 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201119 15:38:03.945586 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201119 15:38:03.946394 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201119 15:38:03.946799 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201119 15:38:04.008388 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[SW_Dev5G], Now[SW_Dev5G]
+[INFO] 20201119 15:38:09.014416 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201119 15:38:09.018817 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201119 15:38:09.019147 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201119 15:38:09.019393 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201119 15:38:09.019882 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201119 15:38:09.020131 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201119 15:38:09.075247 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[SW_Dev5G], Now[SW_Dev5G]
+[INFO] 20201119 15:38:14.076798 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201119 15:38:14.077339 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201119 15:38:14.081338 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201119 15:38:14.081795 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201119 15:38:14.082488 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201119 15:38:14.082884 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201119 15:38:14.262891 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[SW_Dev5G], Now[SW_Dev5G]
+[INFO] 20201119 15:38:19.266625 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201119 15:38:19.267118 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201119 15:38:19.271928 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201119 15:38:19.272217 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201119 15:38:19.272703 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201119 15:38:19.272986 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201119 15:38:19.311882 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[SW_Dev5G], Now[SW_Dev5G]
+[INFO] 20201119 15:38:24.317591 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201119 15:38:24.318112 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201119 15:38:24.322121 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201119 15:38:24.322546 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201119 15:38:24.323230 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201119 15:38:24.323617 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201119 15:38:24.380446 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[SW_Dev5G], Now[SW_Dev5G]
+[INFO] 20201119 15:38:29.385076 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201119 15:38:29.385551 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201119 15:38:29.389597 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201119 15:38:29.390003 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201119 15:38:29.390617 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201119 15:38:29.390933 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201119 15:38:29.431201 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[SW_Dev5G], Now[SW_Dev5G]
+[INFO] 20201119 15:38:34.435069 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201119 15:38:34.435623 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201119 15:38:34.440231 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201119 15:38:34.440669 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201119 15:38:34.441380 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201119 15:38:34.441838 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201119 15:38:34.533800 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[SW_Dev5G], Now[SW_Dev5G]
+[INFO] 20201119 15:38:39.537565 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201119 15:38:39.538089 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201119 15:38:39.542411 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201119 15:38:39.542892 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201119 15:38:39.543588 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201119 15:38:39.543953 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201119 15:38:39.706784 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[SW_Dev5G], Now[SW_Dev5G]
+[INFO] 20201119 15:38:44.712625 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201119 15:38:44.713238 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201119 15:38:44.717448 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201119 15:38:44.717921 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201119 15:38:44.718595 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201119 15:38:44.719010 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201119 15:38:44.863263 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[SW_Dev5G], Now[SW_Dev5G]
+[INFO] 20201119 15:38:49.866233 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201119 15:38:49.866719 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201119 15:38:49.871129 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201119 15:38:49.871535 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201119 15:38:49.872071 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201119 15:38:49.872339 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201119 15:38:49.911941 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[SW_Dev5G], Now[SW_Dev5G]
+[INFO] 20201119 15:38:54.917062 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201119 15:38:54.917609 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201119 15:38:54.921681 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201119 15:38:54.922143 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201119 15:38:54.922837 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201119 15:38:54.923175 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201119 15:38:55.139407 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[SW_Dev5G], Now[SW_Dev5G]
+[INFO] 20201119 15:39:00.145083 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201119 15:39:00.145634 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201119 15:39:00.149613 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201119 15:39:00.150066 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201119 15:39:00.150744 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201119 15:39:00.151144 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201119 15:39:00.395840 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[SW_Dev5G], Now[SW_Dev5G]
+[INFO] 20201119 15:39:05.401217 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201119 15:39:05.401811 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201119 15:39:05.402220 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201119 15:39:05.402629 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201119 15:39:05.403245 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201119 15:39:05.403596 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201119 15:39:05.515633 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[SW_Dev5G], Now[SW_Dev5G]
+[INFO] 20201119 15:41:25.606800 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201119 15:41:25.676291 [Class:None][Method:initBT] Called.
+[INFO] 20201119 15:41:25.677787 [Class:BTReceive][Method:__init__] initiated.
+[INFO] 20201119 15:41:25.678273 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201119 15:41:25.678703 [Class:BTReceive][Method:pair] Called.
+[INFO] 20201119 15:41:25.679073 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201119 15:41:25.679408 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201119 15:41:25.679758 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201119 15:41:25.680726 [Class:BTReceive][Method:pair] Loaded - BT ADDRESS : 50:77:05:43:DF:98
+[INFO] 20201119 15:41:25.681150 [Class:BTReceive][Method:setAllThreadOn] Called.
+[INFO] 20201119 15:41:25.755396 [Class:BTReceive][Method:receiver] Called.
+[INFO] 20201119 15:41:25.756563 [Class:BTReceive][Method:connection] Called.
+[NOTICE] 20201119 15:41:25.757242 [Class:BTReceive][Method:connection] Server socket was created
+[NOTICE] 20201119 15:41:25.757901 [Class:BTReceive][Method:connection] Try to connect to 50:77:05:43:DF:98
+[INFO] 20201119 15:41:25.782463 [Class:None][Method:initUart] Called.
+[INFO] 20201119 15:41:25.783049 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201119 15:41:25.783594 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201119 15:41:25.783979 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201119 15:41:25.784333 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201119 15:41:25.784665 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201119 15:41:25.785561 [Class:UartRead][Method:__init__] initiated.
+[INFO] 20201119 15:41:25.786016 [Class:UartRead][Method:loadFiles] Called.
+[INFO] 20201119 15:41:25.786412 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201119 15:41:25.786765 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201119 15:41:25.787054 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201119 15:41:25.787661 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201119 15:41:25.788050 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201119 15:41:25.788368 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201119 15:41:25.788870 [Class:UartRead][Method:initSerial] Called.
+[INFO] 20201119 15:41:25.789805 [Class:UartRead][Method:openSerial] Try to open port....
+[INFO] 20201119 15:41:25.791271 [Class:UartRead][Method:uartSet] Called.
+[INFO] 20201119 15:41:25.781273 [Class:BTReceive][Method:monitor] Called.
+[INFO] 20201119 15:41:26.393136 [Class:UartRead][Method:setAllThreadOn] Called.
+[INFO] 20201119 15:41:26.412848 [Class:UartRead][Method:receiver] Called.
+[INFO] 20201119 15:41:26.428395 [Class:None][Method:initWifi] Called.
+[INFO] 20201119 15:41:26.428979 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201119 15:41:26.429417 [Class:WifiNT][Method:__init__] initiated.
+[INFO] 20201119 15:41:26.429751 [Class:WifiNT][Method:setThreadOn] Called.
+[INFO] 20201119 15:41:26.423003 [Class:UartRead][Method:monitor] Called.
+[INFO] 20201119 15:41:26.455508 [Class:WifiNT][Method:wifiConnection] Called.
+[INFO] 20201119 15:41:26.455931 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201119 15:41:26.456315 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201119 15:41:26.456617 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201119 15:41:26.456883 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201119 15:41:26.457417 [Class:WifiNT][Method:wifiConnection] Wifi Module was DOWN.
+[INFO] 20201119 15:41:26.457816 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201119 15:41:26.455245 [Class:WifiNT][Method:monitor] Called.
+[INFO] 20201119 15:41:26.466940 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201119 15:41:26.467695 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201119 15:41:26.468053 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201119 15:41:26.468415 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201119 15:41:26.469352 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201119 15:41:26.469805 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201119 15:41:26.674100 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[SW_Dev5G], Now[SW_Dev5G]
+[INFO] 20201119 15:41:27.669941 [Class:WifiNT][Method:wifiConnection] Wifi Module was UP.
+[INFO] 20201119 15:41:27.676798 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201119 15:41:29.952145 [Class:WifiNT][Method:wifiConnection] wpa_supplicant.conf was created.
+[INFO] 20201119 15:41:29.952914 [Class:WifiNT][Method:setWpaFile] Called.
+[NOTICE] 20201119 15:41:30.196556 [Class:WifiNT][Method:wifiConnection] network={
+	ssid="SW_Dev5G"
+	#psk="sensorway"
+	psk=75bf863c2b8d01a223b6625c20e34cc0eaeee0c406a2ca29eddf130ac983a13e
+}
+
+[INFO] 20201119 15:41:30.197347 [Class:WifiNT][Method:wifiConnection] Wifi Module tried to connect AP(SW_Dev5G)
+[INFO] 20201119 15:41:30.197718 [Class:WifiNT][Method:setWpaCon] Called.
+[INFO] 20201119 15:41:30.198086 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201119 15:41:31.675165 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201119 15:41:31.675996 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201119 15:41:31.676376 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201119 15:41:31.676736 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201119 15:41:31.677426 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201119 15:41:31.677832 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201119 15:41:31.816489 [Class:WifiNT][Method:monitor] Wifi info was disconnected.
+[INFO] 20201119 15:41:31.817277 [Class:WifiNT][Method:wifiConnection] Called.
+[INFO] 20201119 15:41:31.817654 [Class:WifiNT][Method:wifiConnection] Wifi Module was DOWN.
+[INFO] 20201119 15:41:31.817981 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201119 15:41:32.975153 [Class:WifiNT][Method:wifiConnection] Wifi Module was UP.
+[INFO] 20201119 15:41:32.976139 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201119 15:41:35.165125 [Class:WifiNT][Method:wifiConnection] wpa_supplicant.conf was created.
+[INFO] 20201119 15:41:35.165812 [Class:WifiNT][Method:setWpaFile] Called.
+[NOTICE] 20201119 15:41:35.201013 [Class:WifiNT][Method:wifiConnection] network={
+	ssid="SW_Dev5G"
+	#psk="sensorway"
+	psk=75bf863c2b8d01a223b6625c20e34cc0eaeee0c406a2ca29eddf130ac983a13e
+}
+
+[INFO] 20201119 15:41:35.201682 [Class:WifiNT][Method:wifiConnection] Wifi Module tried to connect AP(SW_Dev5G)
+[INFO] 20201119 15:41:35.201972 [Class:WifiNT][Method:setWpaCon] Called.
+[INFO] 20201119 15:41:35.202250 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201119 15:41:35.639474 [Class:WifiNT][Method:wifiConnection] Successfully initialized wpa_supplicant
+
+[NOTICE] 20201119 15:41:40.376707 [Class:WifiNT][Method:wifiConnection] Successfully initialized wpa_supplicant
+
+[INFO] 20201119 15:41:40.645484 [Class:WifiNT][Method:wifiConnection] Get Wifi Connection State from Wifi Module.
+[INFO] 20201119 15:41:40.646247 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201119 15:41:40.698671 [Class:WifiNT][Method:wifiConnection] Not connected.
+
+[INFO] 20201119 15:41:45.382530 [Class:WifiNT][Method:wifiConnection] Get Wifi Connection State from Wifi Module.
+[INFO] 20201119 15:41:45.383470 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201119 15:41:45.443667 [Class:WifiNT][Method:wifiConnection] Connected to 70:5d:cc:19:32:42 (on wlan0)
+	SSID: SW_Dev5G
+	freq: 5745
+	RX: 2004 bytes (13 packets)
+	TX: 1694 bytes (15 packets)
+	signal: -42 dBm
+	rx bitrate: 433.3 MBit/s
+	tx bitrate: 24.0 MBit/s
+
+	bss flags:	
+	dtim period:	1
+	beacon int:	200
+
+[INFO] 20201119 15:41:45.704867 [Class:WifiNT][Method:wifiConnection] Get Connected SSID.
+[INFO] 20201119 15:41:45.705840 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201119 15:41:45.706455 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201119 15:41:45.797967 [Class:WifiNT][Method:wifiConnection] SW_Dev5G
+[INFO] 20201119 15:41:45.799356 [Class:WifiNT][Method:wifiConnection] Connection Validated.
+[INFO] 20201119 15:41:50.450298 [Class:WifiNT][Method:wifiConnection] Get Connected SSID.
+[INFO] 20201119 15:41:50.451208 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201119 15:41:50.451848 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201119 15:41:50.531685 [Class:WifiNT][Method:wifiConnection] SW_Dev5G
+[INFO] 20201119 15:41:50.532855 [Class:WifiNT][Method:wifiConnection] Connection Validated.
+[INFO] 20201119 15:41:55.538512 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201119 15:41:55.539424 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201119 15:41:55.543686 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201119 15:41:55.544300 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201119 15:41:55.545512 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201119 15:41:55.546137 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201119 15:41:55.620420 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[SW_Dev5G], Now[SW_Dev5G]
+[INFO] 20201119 15:42:00.626508 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201119 15:42:00.627422 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201119 15:42:00.632883 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201119 15:42:00.633523 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201119 15:42:00.634673 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201119 15:42:00.635459 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201119 15:42:00.716166 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[SW_Dev5G], Now[SW_Dev5G]
+[INFO] 20201119 15:42:05.720513 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201119 15:42:05.721398 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201119 15:42:05.725461 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201119 15:42:05.726136 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201119 15:42:05.727307 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201119 15:42:05.727954 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201119 15:42:05.808934 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[SW_Dev5G], Now[SW_Dev5G]
+[INFO] 20201119 15:42:10.815221 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201119 15:42:10.815948 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201119 15:42:10.820115 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201119 15:42:10.820608 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201119 15:42:10.821466 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201119 15:42:10.821911 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201119 15:42:10.893738 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[SW_Dev5G], Now[SW_Dev5G]
+[INFO] 20201119 15:50:36.411657 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201119 15:50:36.460725 [Class:None][Method:initBT] Called.
+[INFO] 20201119 15:50:36.462120 [Class:BTReceive][Method:__init__] initiated.
+[INFO] 20201119 15:50:36.462645 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201119 15:50:36.463054 [Class:BTReceive][Method:pair] Called.
+[INFO] 20201119 15:50:36.463468 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201119 15:50:36.464186 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201119 15:50:36.465089 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201119 15:50:36.466474 [Class:BTReceive][Method:pair] Loaded - BT ADDRESS : 50:77:05:43:DF:98
+[INFO] 20201119 15:50:36.466921 [Class:BTReceive][Method:setAllThreadOn] Called.
+[INFO] 20201119 15:50:36.468732 [Class:BTReceive][Method:receiver] Called.
+[INFO] 20201119 15:50:36.469623 [Class:BTReceive][Method:connection] Called.
+[NOTICE] 20201119 15:50:36.470354 [Class:BTReceive][Method:connection] Server socket was created
+[NOTICE] 20201119 15:50:36.471076 [Class:BTReceive][Method:connection] Try to connect to 50:77:05:43:DF:98
+[INFO] 20201119 15:50:36.472793 [Class:None][Method:initUart] Called.
+[INFO] 20201119 15:50:36.473369 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201119 15:50:36.473844 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201119 15:50:36.474822 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201119 15:50:36.475451 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201119 15:50:36.475851 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201119 15:50:36.476552 [Class:UartRead][Method:__init__] initiated.
+[INFO] 20201119 15:50:36.477014 [Class:UartRead][Method:loadFiles] Called.
+[INFO] 20201119 15:50:36.477351 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201119 15:50:36.477681 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201119 15:50:36.478075 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201119 15:50:36.478774 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201119 15:50:36.479161 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201119 15:50:36.479491 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201119 15:50:36.480073 [Class:UartRead][Method:initSerial] Called.
+[INFO] 20201119 15:50:36.481202 [Class:UartRead][Method:openSerial] Try to open port....
+[INFO] 20201119 15:50:36.482653 [Class:UartRead][Method:uartSet] Called.
+[INFO] 20201119 15:50:36.471767 [Class:BTReceive][Method:monitor] Called.
+[INFO] 20201119 15:50:37.084586 [Class:UartRead][Method:setAllThreadOn] Called.
+[INFO] 20201119 15:50:37.095096 [Class:UartRead][Method:receiver] Called.
+[INFO] 20201119 15:50:37.109580 [Class:None][Method:initWifi] Called.
+[INFO] 20201119 15:50:37.110153 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201119 15:50:37.110537 [Class:WifiNT][Method:__init__] initiated.
+[INFO] 20201119 15:50:37.110875 [Class:WifiNT][Method:setThreadOn] Called.
+[INFO] 20201119 15:50:37.108953 [Class:UartRead][Method:monitor] Called.
+[INFO] 20201119 15:50:37.125526 [Class:WifiNT][Method:wifiConnection] Called.
+[INFO] 20201119 15:50:37.125968 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201119 15:50:37.126320 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201119 15:50:37.126630 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201119 15:50:37.126964 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201119 15:50:37.127536 [Class:WifiNT][Method:wifiConnection] Wifi Module was DOWN.
+[INFO] 20201119 15:50:37.127912 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201119 15:50:37.125265 [Class:WifiNT][Method:monitor] Called.
+[INFO] 20201119 15:50:37.134096 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201119 15:50:37.134945 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201119 15:50:37.153046 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201119 15:50:37.153519 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201119 15:50:37.154242 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201119 15:50:37.154658 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201119 15:50:37.433414 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[SW_Dev5G], Now[SW_Dev5G]
+[INFO] 20201119 15:50:38.331784 [Class:WifiNT][Method:wifiConnection] Wifi Module was UP.
+[INFO] 20201119 15:50:38.332348 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201119 15:50:40.485154 [Class:WifiNT][Method:wifiConnection] wpa_supplicant.conf was created.
+[INFO] 20201119 15:50:40.485917 [Class:WifiNT][Method:setWpaFile] Called.
+[NOTICE] 20201119 15:50:40.629608 [Class:WifiNT][Method:wifiConnection] network={
+	ssid="SW_Dev5G"
+	#psk="sensorway"
+	psk=75bf863c2b8d01a223b6625c20e34cc0eaeee0c406a2ca29eddf130ac983a13e
+}
+
+[INFO] 20201119 15:50:40.630375 [Class:WifiNT][Method:wifiConnection] Wifi Module tried to connect AP(SW_Dev5G)
+[INFO] 20201119 15:50:40.630813 [Class:WifiNT][Method:setWpaCon] Called.
+[INFO] 20201119 15:50:40.631196 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201119 15:50:42.445182 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201119 15:50:42.446036 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201119 15:50:42.453078 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201119 15:50:42.453521 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201119 15:50:42.454308 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201119 15:50:42.454772 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201119 15:50:42.656162 [Class:WifiNT][Method:monitor] Wifi info was disconnected.
+[INFO] 20201119 15:50:42.656901 [Class:WifiNT][Method:wifiConnection] Called.
+[INFO] 20201119 15:50:42.657266 [Class:WifiNT][Method:wifiConnection] Wifi Module was DOWN.
+[INFO] 20201119 15:50:42.657607 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201119 15:50:43.741607 [Class:WifiNT][Method:wifiConnection] Wifi Module was UP.
+[INFO] 20201119 15:50:43.742367 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201119 15:50:45.915157 [Class:WifiNT][Method:wifiConnection] wpa_supplicant.conf was created.
+[INFO] 20201119 15:50:45.915930 [Class:WifiNT][Method:setWpaFile] Called.
+[NOTICE] 20201119 15:50:45.970656 [Class:WifiNT][Method:wifiConnection] Successfully initialized wpa_supplicant
+
+[NOTICE] 20201119 15:50:46.127114 [Class:WifiNT][Method:wifiConnection] network={
+	ssid="SW_Dev5G"
+	#psk="sensorway"
+	psk=75bf863c2b8d01a223b6625c20e34cc0eaeee0c406a2ca29eddf130ac983a13e
+}
+
+[INFO] 20201119 15:50:46.127616 [Class:WifiNT][Method:wifiConnection] Wifi Module tried to connect AP(SW_Dev5G)
+[INFO] 20201119 15:50:46.127974 [Class:WifiNT][Method:setWpaCon] Called.
+[INFO] 20201119 15:50:46.128335 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201119 15:50:50.976722 [Class:WifiNT][Method:wifiConnection] Get Wifi Connection State from Wifi Module.
+[INFO] 20201119 15:50:50.978220 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201119 15:50:51.041196 [Class:WifiNT][Method:wifiConnection] Not connected.
+
+[NOTICE] 20201119 15:50:51.535393 [Class:WifiNT][Method:wifiConnection] Successfully initialized wpa_supplicant
+
+[INFO] 20201119 15:50:56.046514 [Class:WifiNT][Method:wifiConnection] Get Connected SSID.
+[INFO] 20201119 15:50:56.047283 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201119 15:50:56.047805 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201119 15:50:56.120337 [Class:WifiNT][Method:wifiConnection] SW_Dev5G
+[INFO] 20201119 15:50:56.121278 [Class:WifiNT][Method:wifiConnection] Connection Validated.
+[INFO] 20201119 15:50:56.541041 [Class:WifiNT][Method:wifiConnection] Get Wifi Connection State from Wifi Module.
+[INFO] 20201119 15:50:56.541830 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201119 15:50:56.600258 [Class:WifiNT][Method:wifiConnection] Connected to 70:5d:cc:19:32:42 (on wlan0)
+	SSID: SW_Dev5G
+	freq: 5745
+	RX: 2230 bytes (14 packets)
+	TX: 1958 bytes (17 packets)
+	signal: -41 dBm
+	rx bitrate: 433.3 MBit/s
+	tx bitrate: 24.0 MBit/s
+
+	bss flags:	
+	dtim period:	1
+	beacon int:	200
+
+[INFO] 20201119 15:51:01.606478 [Class:WifiNT][Method:wifiConnection] Get Connected SSID.
+[INFO] 20201119 15:51:01.607346 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201119 15:51:01.607935 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201119 15:51:01.687538 [Class:WifiNT][Method:wifiConnection] SW_Dev5G
+[INFO] 20201119 15:51:01.688386 [Class:WifiNT][Method:wifiConnection] Connection Validated.
+[INFO] 20201119 15:51:06.693910 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201119 15:51:06.694818 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201119 15:51:06.699976 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201119 15:51:06.700601 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201119 15:51:06.701755 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201119 15:51:06.702421 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201119 15:51:06.787735 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[SW_Dev5G], Now[SW_Dev5G]
+[INFO] 20201119 15:51:11.793971 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201119 15:51:11.794781 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201119 15:51:11.804693 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201119 15:51:11.805298 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201119 15:51:11.806276 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201119 15:51:11.806776 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201119 15:51:11.884412 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[SW_Dev5G], Now[SW_Dev5G]
+[INFO] 20201119 15:51:16.890576 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201119 15:51:16.891242 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201119 15:51:16.900524 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201119 15:51:16.901017 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201119 15:51:16.901720 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201119 15:51:16.902090 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201119 15:51:16.973180 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[SW_Dev5G], Now[SW_Dev5G]
+[INFO] 20201119 15:51:21.979456 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201119 15:51:21.980475 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201119 15:51:21.989479 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201119 15:51:21.990134 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201119 15:51:21.991109 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201119 15:51:21.991606 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201119 15:51:22.069788 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[SW_Dev5G], Now[SW_Dev5G]
+[INFO] 20201119 15:51:27.076038 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201119 15:51:27.076949 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201119 15:51:27.086220 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201119 15:51:27.086867 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201119 15:51:27.087982 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201119 15:51:27.088565 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201119 15:51:27.170075 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[SW_Dev5G], Now[SW_Dev5G]
+[INFO] 20201119 15:51:32.173004 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201119 15:51:32.173646 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201119 15:51:32.183314 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201119 15:51:32.183814 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201119 15:51:32.184531 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201119 15:51:32.184903 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201119 15:51:32.227967 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[SW_Dev5G], Now[SW_Dev5G]
+[INFO] 20201119 15:51:37.233616 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201119 15:51:37.243119 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201119 15:51:37.243433 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201119 15:51:37.243669 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201119 15:51:37.244138 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201119 15:51:37.244376 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201119 15:51:37.288163 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[SW_Dev5G], Now[SW_Dev5G]
+[INFO] 20201119 15:51:42.293821 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201119 15:51:42.303456 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201119 15:51:42.303759 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201119 15:51:42.303996 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201119 15:51:42.304476 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201119 15:51:42.304727 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201119 15:51:42.349721 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[SW_Dev5G], Now[SW_Dev5G]
+[INFO] 20201119 15:51:47.355409 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201119 15:51:47.365133 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201119 15:51:47.365702 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201119 15:51:47.366136 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201119 15:51:47.367025 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201119 15:51:47.367456 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201119 15:51:47.429210 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[SW_Dev5G], Now[SW_Dev5G]
+[INFO] 20201119 15:51:52.435182 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201119 15:51:52.435640 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201119 15:51:52.435890 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201119 15:51:52.436121 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201119 15:51:52.436586 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201119 15:51:52.436830 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201119 15:51:52.475396 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[SW_Dev5G], Now[SW_Dev5G]
+[INFO] 20201119 15:51:57.481154 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201119 15:51:57.486562 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201119 15:51:57.487345 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201119 15:51:57.487877 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201119 15:51:57.488837 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201119 15:51:57.489334 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201119 15:51:57.566046 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[SW_Dev5G], Now[SW_Dev5G]
+[INFO] 20201119 15:52:02.572293 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201119 15:52:02.573205 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201119 15:52:02.573803 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201119 15:52:02.578094 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201119 15:52:02.579466 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201119 15:52:02.580072 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201119 15:52:02.665133 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[SW_Dev5G], Now[SW_Dev5G]
+[INFO] 20201119 15:52:07.668940 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201119 15:52:07.669848 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201119 15:52:07.673687 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201119 15:52:07.674325 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201119 15:52:07.675673 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201119 15:52:07.676275 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201119 15:52:07.758485 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[SW_Dev5G], Now[SW_Dev5G]
+[INFO] 20201119 15:52:12.764935 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201119 15:52:12.765931 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201119 15:52:12.770091 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201119 15:52:12.770746 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201119 15:52:12.772100 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201119 15:52:12.772855 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201119 15:52:12.869332 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[SW_Dev5G], Now[SW_Dev5G]
+[INFO] 20201119 15:52:17.874144 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201119 15:52:17.874887 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201119 15:52:17.879133 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201119 15:52:17.879699 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201119 15:52:17.880757 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201119 15:52:17.881252 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201119 15:52:17.947244 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[SW_Dev5G], Now[SW_Dev5G]
+[INFO] 20201119 15:58:50.112697 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201119 15:58:50.196436 [Class:None][Method:initBT] Called.
+[INFO] 20201119 15:58:50.197975 [Class:BTReceive][Method:__init__] initiated.
+[INFO] 20201119 15:58:50.198557 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201119 15:58:50.199020 [Class:BTReceive][Method:pair] Called.
+[INFO] 20201119 15:58:50.199554 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201119 15:58:50.200035 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201119 15:58:50.200455 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201119 15:58:50.201872 [Class:BTReceive][Method:pair] Loaded - BT ADDRESS : 50:77:05:43:DF:98
+[INFO] 20201119 15:58:50.202351 [Class:BTReceive][Method:setAllThreadOn] Called.
+[INFO] 20201119 15:58:50.203883 [Class:BTReceive][Method:receiver] Called.
+[INFO] 20201119 15:58:50.204656 [Class:BTReceive][Method:connection] Called.
+[NOTICE] 20201119 15:58:50.205347 [Class:BTReceive][Method:connection] Server socket was created
+[NOTICE] 20201119 15:58:50.206100 [Class:BTReceive][Method:connection] Try to connect to 50:77:05:43:DF:98
+[INFO] 20201119 15:58:50.214650 [Class:BTReceive][Method:monitor] Called.
+[INFO] 20201119 15:58:50.216297 [Class:None][Method:initUart] Called.
+[INFO] 20201119 15:58:50.216844 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201119 15:58:50.217402 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201119 15:58:50.217819 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201119 15:58:50.218190 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201119 15:58:50.218528 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201119 15:58:50.219167 [Class:UartRead][Method:__init__] initiated.
+[INFO] 20201119 15:58:50.219700 [Class:UartRead][Method:loadFiles] Called.
+[INFO] 20201119 15:58:50.220124 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201119 15:58:50.220493 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201119 15:58:50.220863 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201119 15:58:50.221456 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201119 15:58:50.221873 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201119 15:58:50.222170 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201119 15:58:50.222697 [Class:UartRead][Method:initSerial] Called.
+[INFO] 20201119 15:58:50.223515 [Class:UartRead][Method:openSerial] Try to open port....
+[INFO] 20201119 15:58:50.235406 [Class:UartRead][Method:uartSet] Called.
+[INFO] 20201119 15:58:50.837297 [Class:UartRead][Method:setAllThreadOn] Called.
+[INFO] 20201119 15:58:50.838391 [Class:UartRead][Method:receiver] Called.
+[INFO] 20201119 15:58:50.839626 [Class:None][Method:initWifi] Called.
+[INFO] 20201119 15:58:50.840639 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201119 15:58:50.841176 [Class:WifiNT][Method:__init__] initiated.
+[INFO] 20201119 15:58:50.841583 [Class:WifiNT][Method:setThreadOn] Called.
+[INFO] 20201119 15:58:50.838973 [Class:UartRead][Method:monitor] Called.
+[INFO] 20201119 15:58:50.842646 [Class:WifiNT][Method:monitor] Called.
+[INFO] 20201119 15:58:50.843168 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201119 15:58:50.843605 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201119 15:58:50.843958 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201119 15:58:50.844303 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201119 15:58:50.845109 [Class:WifiNT][Method:wifiConnection] Called.
+[INFO] 20201119 15:58:50.845600 [Class:WifiNT][Method:wifiConnection] Wifi Module was DOWN.
+[INFO] 20201119 15:58:50.846003 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201119 15:58:50.844873 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201119 15:58:50.856206 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201119 15:58:50.936338 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[SW_Dev5G], Now[SW_Dev5G]
+[INFO] 20201119 15:58:51.927401 [Class:WifiNT][Method:wifiConnection] Wifi Module was UP.
+[INFO] 20201119 15:58:51.927944 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201119 15:58:53.970697 [Class:WifiNT][Method:wifiConnection] wpa_supplicant.conf was created.
+[INFO] 20201119 15:58:53.972098 [Class:WifiNT][Method:setWpaFile] Called.
+[NOTICE] 20201119 15:58:54.038943 [Class:WifiNT][Method:wifiConnection] network={
+	ssid="SW_Dev5G"
+	#psk="sensorway"
+	psk=75bf863c2b8d01a223b6625c20e34cc0eaeee0c406a2ca29eddf130ac983a13e
+}
+
+[INFO] 20201119 15:58:54.040050 [Class:WifiNT][Method:wifiConnection] Wifi Module tried to connect AP(SW_Dev5G)
+[INFO] 20201119 15:58:54.040520 [Class:WifiNT][Method:setWpaCon] Called.
+[INFO] 20201119 15:58:54.040974 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201119 15:58:55.942320 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201119 15:58:55.943749 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201119 15:58:55.944355 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201119 15:58:55.944914 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201119 15:58:55.946146 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201119 15:58:55.946725 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201119 15:58:56.029681 [Class:WifiNT][Method:monitor] Wifi info was disconnected.
+[INFO] 20201119 15:58:56.030627 [Class:WifiNT][Method:wifiConnection] Called.
+[INFO] 20201119 15:58:56.031040 [Class:WifiNT][Method:wifiConnection] Wifi Module was DOWN.
+[INFO] 20201119 15:58:56.031420 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201119 15:58:57.085032 [Class:WifiNT][Method:wifiConnection] Wifi Module was UP.
+[INFO] 20201119 15:58:57.086418 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201119 15:58:59.150502 [Class:WifiNT][Method:wifiConnection] wpa_supplicant.conf was created.
+[INFO] 20201119 15:58:59.151891 [Class:WifiNT][Method:setWpaFile] Called.
+[NOTICE] 20201119 15:58:59.225921 [Class:WifiNT][Method:wifiConnection] network={
+	ssid="SW_Dev5G"
+	#psk="sensorway"
+	psk=75bf863c2b8d01a223b6625c20e34cc0eaeee0c406a2ca29eddf130ac983a13e
+}
+
+[INFO] 20201119 15:58:59.226844 [Class:WifiNT][Method:wifiConnection] Wifi Module tried to connect AP(SW_Dev5G)
+[INFO] 20201119 15:58:59.227209 [Class:WifiNT][Method:setWpaCon] Called.
+[INFO] 20201119 15:58:59.227817 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201119 15:58:59.305292 [Class:WifiNT][Method:wifiConnection] Successfully initialized wpa_supplicant
+
+[INFO] 20201119 15:59:04.308333 [Class:WifiNT][Method:wifiConnection] Get Wifi Connection State from Wifi Module.
+[INFO] 20201119 15:59:04.309215 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201119 15:59:04.367932 [Class:WifiNT][Method:wifiConnection] Not connected.
+
+[NOTICE] 20201119 15:59:04.425384 [Class:WifiNT][Method:wifiConnection] Successfully initialized wpa_supplicant
+
+[INFO] 20201119 15:59:09.374097 [Class:WifiNT][Method:wifiConnection] Get Connected SSID.
+[INFO] 20201119 15:59:09.375190 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201119 15:59:09.379877 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201119 15:59:09.431373 [Class:WifiNT][Method:wifiConnection] Get Wifi Connection State from Wifi Module.
+[INFO] 20201119 15:59:09.433063 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201119 15:59:09.464386 [Class:WifiNT][Method:wifiConnection] SW_Dev5G
+[INFO] 20201119 15:59:09.465352 [Class:WifiNT][Method:wifiConnection] Connection Validated.
+[NOTICE] 20201119 15:59:09.478111 [Class:WifiNT][Method:wifiConnection] Connected to 70:5d:cc:19:32:42 (on wlan0)
+	SSID: SW_Dev5G
+	freq: 5745
+	RX: 2022 bytes (12 packets)
+	TX: 1958 bytes (17 packets)
+	signal: -43 dBm
+	rx bitrate: 433.3 MBit/s
+	tx bitrate: 24.0 MBit/s
+
+	bss flags:	
+	dtim period:	1
+	beacon int:	200
+
+[INFO] 20201119 15:59:14.483581 [Class:WifiNT][Method:wifiConnection] Get Connected SSID.
+[INFO] 20201119 15:59:14.484463 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201119 15:59:14.488785 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201119 15:59:14.577966 [Class:WifiNT][Method:wifiConnection] SW_Dev5G
+[INFO] 20201119 15:59:14.579339 [Class:WifiNT][Method:wifiConnection] Connection Validated.
+[INFO] 20201119 15:59:19.581412 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201119 15:59:19.582337 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201119 15:59:19.586808 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201119 15:59:19.587456 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201119 15:59:19.588575 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201119 15:59:19.589165 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201119 15:59:19.665622 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[SW_Dev5G], Now[SW_Dev5G]
+[INFO] 20201119 15:59:24.671655 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201119 15:59:24.672585 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201119 15:59:24.676581 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201119 15:59:24.677209 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201119 15:59:24.678331 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201119 15:59:24.678912 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201119 15:59:24.761168 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[SW_Dev5G], Now[SW_Dev5G]
+[INFO] 20201119 15:59:29.767062 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201119 15:59:29.767531 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201119 15:59:29.772253 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201119 15:59:29.772522 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201119 15:59:29.773000 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201119 15:59:29.773272 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201119 15:59:29.812298 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[SW_Dev5G], Now[SW_Dev5G]
+[INFO] 20201119 15:59:34.817233 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201119 15:59:34.817705 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201119 15:59:34.821633 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201119 15:59:34.822026 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201119 15:59:34.822512 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201119 15:59:34.822774 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201119 15:59:34.863021 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[SW_Dev5G], Now[SW_Dev5G]
+[INFO] 20201119 15:59:39.868763 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201119 15:59:39.869699 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201119 15:59:39.874088 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201119 15:59:39.874706 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201119 15:59:39.875977 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201119 15:59:39.876573 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201119 15:59:39.952782 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[SW_Dev5G], Now[SW_Dev5G]
+[INFO] 20201119 15:59:44.955140 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201119 15:59:44.955890 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201119 15:59:44.959983 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201119 15:59:44.960655 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201119 15:59:44.961758 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201119 15:59:44.962386 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201119 15:59:45.016504 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[SW_Dev5G], Now[SW_Dev5G]
+[INFO] 20201119 15:59:50.022381 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201119 15:59:50.022943 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201119 15:59:50.027796 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201119 15:59:50.028261 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201119 15:59:50.029107 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201119 15:59:50.029526 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201119 15:59:50.103337 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[SW_Dev5G], Now[SW_Dev5G]
+[INFO] 20201119 15:59:55.105086 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201119 15:59:55.105655 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201119 15:59:55.111303 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201119 15:59:55.111785 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201119 15:59:55.112530 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201119 15:59:55.112932 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201119 15:59:55.177519 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[SW_Dev5G], Now[SW_Dev5G]

@@ -8,15 +8,12 @@ import threading
 
 from api import ApiServer
 from diskio import FileProcess
+from logs import Logs
 from message import ApiSendData
 
-# prop = {}
-# prop['duid'] = '8800000000000'
-# prop['name'] = 'sensorway'
-# prop['sex'] = 'm'
-# prop['age'] = '30'
-# prop['height'] = '176'
-# prop['weight'] = '78'
+import inspect
+
+from monitor import MonitorClass
 
 SPEED00 = 'p'  # stop
 
@@ -31,10 +28,14 @@ SPEED08 = 's08'  # 800ms
 SPEED09 = 's09'  # 900ms
 SPEED10 = 's10'  # 1000ms
 
+DEVICE_PORT = "/dev/ttyAMA1" # set device serial port
 
-class UartRead():
+
+class UartRead(MonitorClass):
 
     def __init__(self):
+        super().setUartStatus(False)
+        #print("UartRead - ", self.getUartStatus())
         # status variable to control thread
         self.receiverStatus = False
         self.monitorStatus = False
@@ -46,10 +47,13 @@ class UartRead():
         # Serial object
         self.ser = None
 
-        # File Control object
+        # File Control Object
         self.file = FileProcess()
         # Api Server Object
         self.api = ApiServer()
+        # Log Object
+        self.log = Logs(self.__class__.__name__)
+        self.log.write(self.log.INFO, self.__init__.__name__, "initiated.")
 
         # operation variable
         self.op_code = 'off'
@@ -57,6 +61,7 @@ class UartRead():
         # info variable
         self.prop = {}
 
+    def initialize(self):
         self.loadFiles()
         self.initSerial()
         self.openSerial()
@@ -64,6 +69,8 @@ class UartRead():
         self.setAllThreadOn()
 
     def loadFiles(self):
+        self.log.write(self.log.INFO, self.loadFiles.__name__, "Called.")
+
         str = self.file.fileRead("", "user.txt")
         json_data = json.loads(str)
         dict_info = dict(json_data)
@@ -76,13 +83,13 @@ class UartRead():
         self.prop = dict_bed
 
     def initSerial(self):
+        self.log.write(self.log.INFO, self.initSerial.__name__, "Called.")
         if self.ser is not None:
+            self.log.write(self.log.WARNING, self.initSerial.__name__, "Uart Serial Object was not null.")
             self.ser.close()
 
         self.ser = serial.Serial()
-        # ser.port = "/dev/ttyUSB0"
-        # ser.port = "/dev/ttyS2"
-        self.ser.port = "/dev/ttyAMA1"
+        self.ser.port = DEVICE_PORT
         self.ser.baudrate = 115200
         self.ser.bytesize = serial.EIGHTBITS  # number of bits per bytes
         self.ser.parity = serial.PARITY_NONE  # set parity check: no parity
@@ -97,12 +104,19 @@ class UartRead():
 
     def openSerial(self):
         try:
+            self.log.write(self.log.INFO, self.openSerial.__name__, "Try to open port....")
             self.ser.open()
-        except Exception as e:
-            print("error open serial port: " + str(e))
+
+            # At this line, It was regarded as uart communication is ready
+            self.setUartStatus(True)
+
+        except Exception as ex:
+            self.log.write(self.log.ERROR, self.openSerial.__name__, "Failed to execute : {0}".format(ex))
+            #print("error open serial port: " + str(e))
             exit()
 
     def uartSet(self, level):
+        self.log.write(self.log.INFO, self.uartSet.__name__, "Called.")
         if level is None:
             level = SPEED01
         try:
@@ -110,7 +124,7 @@ class UartRead():
                 for i in range(3):
                     # stop data
                     op = 'p'
-                    r = self.ser.write(op.encode())
+                    self.ser.write(op.encode())
                     time.sleep(0.2)  # give the serial port sometime to receive the data
             else:
                 for i in range(3):
@@ -121,62 +135,61 @@ class UartRead():
                     time.sleep(0.2)  # give the serial port sometime to receive the data
 
 
-            # if self.op_code == 'on':
-            #     for i in range(3):
-            #         # Set operation mode and level
-            #         op = level
-            #         # send data by uart
-            #         self.ser.write(op.encode())
-            #         time.sleep(0.2)  # give the serial port sometime to receive the data
-            #
-            # elif self.op_code == 'off':
-            #     for i in range(3):
-            #         # stop data
-            #         op = 'p'
-            #         r = self.ser.write(op.encode())
-            #         time.sleep(0.2)  # give the serial port sometime to receive the data
             return True
 
         except Exception as ex:
-            print("Failed to execute uartSet function in UartRead")
+            self.log.write(self.log.ERROR, self.uartSet.__name__, "Failed to execute : {0}".format(ex))
+            #print("Failed to execute uartSet function in UartRead")
             return False
 
     def setAllThreadOn(self):
+        self.log.write(self.log.INFO, self.setAllThreadOn.__name__, "Called.")
         try:
             self.threadReceive = Thread(target=self.receiver)
             self.threadMonitor = Thread(target=self.monitor)
+            self.threadReceive.daemon = True
+            self.threadMonitor.daemon = True
             self.receiverStatus = True
             self.monitorStatus = True
             self.threadReceive.start()
             self.threadMonitor.start()
 
         except Exception as ex:
-            print("Failed to assign or start threadReceive, threadMonitor.")
+            self.log.write(self.log.ERROR, self.setAllThreadOn.__name__, "Failed to execute : {0}".format(ex))
+            #print("Failed to assign or start threadReceive, threadMonitor.")
 
     def setReceiveThreadOn(self):
+        self.log.write(self.log.INFO, self.setReceiveThreadOn.__name__, "Called.")
         try:
             self.initSerial()
             self.openSerial()
             self.uartSet(SPEED00)
             self.threadReceive = Thread(target=self.receiver)
+            self.threadReceive.daemon = True
             self.receiverStatus = True
             self.threadReceive.start()
 
         except Exception as ex:
-            print("Failed to assign or start threadReceive.")
+            self.log.write(self.log.ERROR, self.setReceiveThreadOn.__name__, "Failed to execute : {0}".format(ex))
+            #print("Failed to assign or start threadReceive.")
 
     def monitor(self):
-
+        self.log.write(self.log.INFO, self.monitor.__name__, "Called.")
         while self.monitorStatus:
-            if self.threadReceive.is_alive() is False:
-                print("threadReceive was terminated.")
-                print("threadReceive will re-initiate.")
-                self.setReceiveThreadOn()
+            try:
+                if self.threadReceive.is_alive() is False:
+                    self.setUartStatus(False)
+                    self.setReceiveThreadOn()
+                    self.log.write(self.log.NOTICE, self.monitor.__name__, "threadReceive was terminated and "
+                                                                           "re-initiated.")
 
-            time.sleep(1)
+                time.sleep(1)
+            except Exception as ex:
+                self.log.write(self.log.WARNING, self.monitor.__name__, "Failed to execute : {0}".format(ex))
+
 
     def receiver(self):
-        # self.init()
+        self.log.write(self.log.INFO, self.receiver.__name__, "Called.")
         while self.receiverStatus:
             try:
                 if self.ser.isOpen():
@@ -189,47 +202,47 @@ class UartRead():
 
                     stf = dt.strftime('%Y-%m-%d %H:%M:%S')
                     self.prop['collect_time'] = stf
-                    #dict_data = build_data(line, self.prop)
                     dict_data = ApiSendData(line, self.prop)
 
                     res = self.api.dataSend(dict_data.__dict__)
-                    print(res)
-                    # url = 'http://182.173.185.246:3001/api/Bed/Sensor/SendData/Start'
-                    # header = {'Content-Type': 'application/json; charset=utf-8'}
-                    #
-                    # # async thread
+                    #print(stf, res)
+                    self.log.write(self.log.INFO, self.receiver.__name__, res)
+
+                    # async thread
                     # res = requests.post(url, headers=header, data=json.dumps(dict_data))
 
                     # async thread
                     #self.file.data_store(dict_data)
 
-                    # set delay
-                    # print(res)
-
-                    # time.sleep(0.08)
-
             except Exception as ex:
                 print(ex)
                 break
 
-    def timestamp(self):
+    def timeStamp(self):
         """
 
         :return:
         """
+        self.log.write(self.log.INFO, self.timeStamp.__name__, "Called.")
         dt = datetime.datetime.now()
         stamp = dt.strftime('%Y-%m-%d %H:%M:%S,%f')
-        timestamp = datetime.datetime.strptime(stamp, '%Y-%m-%d %H:%M:%S,%f')
-        timestamp = timestamp.timestamp() * 1000
+
+
 
     def closeSerial(self):
         """
 
         :return:
         """
-        self.ser.close()
+        self.log.write(self.log.INFO, self.closeSerial.__name__, "Called.")
+        try:
+            self.ser.close()
+        except Exception as ex:
+            self.log.write(self.log.ERROR, self.closeSerial.__name__, "Failed to execute : {0}".format(ex))
 
     def finish(self):
+
+        self.log.write(self.log.INFO, self.finish.__name__, "Called.")
         self.monitorStatus = False
         self.receiverStatus = False
         self.closeSerial()
@@ -238,14 +251,17 @@ class UartRead():
         try:
             if self.threadReceive.is_alive():
                 self.threadReceive.join()
-                print("uart threadReceive was successfully finished")
+                self.log.write(self.log.NOTICE, self.finish.__name__, "uart threadReceive was successfully finished.")
+                #print("uart threadReceive was successfully finished")
 
             if self.threadMonitor.is_alive():
                 self.threadMonitor.join()
-                print("uart threadMonitor was successfully finished")
+                self.log.write(self.log.NOTICE, self.finish.__name__, "uart threadMonitor was successfully finished.")
+                #print("uart threadMonitor was successfully finished")
 
             return True
 
         except Exception as ex:
-            print("uart Join threads were failed - ", ex)
+            self.log.write(self.log.NOTICE, self.finish.__name__, "Failed to execute : {0}".format(ex))
+            #print("uart Join threads were failed - ", ex)
             return False

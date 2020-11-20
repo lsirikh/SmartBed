@@ -1,0 +1,891 @@
+[INFO] 20201118 17:03:12.831533 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201118 17:03:12.832036 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201118 17:03:12.832321 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201118 17:03:12.832568 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201118 17:03:12.832798 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201118 17:03:12.833011 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201118 17:03:12.833407 [Class:UartRead][Method:__init__] initiated.
+[INFO] 20201118 17:03:12.833641 [Class:UartRead][Method:loadFiles] Called.
+[INFO] 20201118 17:03:12.833854 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201118 17:03:12.834061 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201118 17:03:12.834268 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201118 17:03:12.834610 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201118 17:03:12.834828 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201118 17:03:12.835096 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201118 17:03:12.835447 [Class:UartRead][Method:initSerial] Called.
+[INFO] 20201118 17:03:12.835746 [Class:UartRead][Method:openSerial] Try to open port....
+[INFO] 20201118 17:03:12.836324 [Class:UartRead][Method:uartSet] Called.
+[INFO] 20201118 17:03:13.437482 [Class:UartRead][Method:setAllThreadOn] Called.
+[INFO] 20201118 17:03:13.438889 [Class:BTReceive][Method:__init__] initiated.
+[INFO] 20201118 17:03:13.438324 [Class:UartRead][Method:receiver] Called.
+[INFO] 20201118 17:03:13.438697 [Class:UartRead][Method:monitor] Called.
+[INFO] 20201118 17:03:13.439675 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201118 17:03:13.439982 [Class:BTReceive][Method:pair] Called.
+[INFO] 20201118 17:03:13.440203 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201118 17:03:13.440426 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201118 17:03:13.440642 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201118 17:03:13.441016 [Class:BTReceive][Method:pair] Loaded - BT ADDRESS : 50:77:05:43:DF:98
+[INFO] 20201118 17:03:13.441621 [Class:BTReceive][Method:connection] Called.
+[NOTICE] 20201118 17:03:13.442245 [Class:BTReceive][Method:connection] Server socket was created
+[NOTICE] 20201118 17:03:13.442576 [Class:BTReceive][Method:connection] Try to connect to 50:77:05:43:DF:98
+[INFO] 20201118 17:04:32.150983 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201118 17:04:32.151461 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201118 17:04:32.151718 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201118 17:04:32.151967 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201118 17:04:32.152195 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201118 17:04:32.152412 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201118 17:04:32.152818 [Class:UartRead][Method:__init__] initiated.
+[INFO] 20201118 17:04:32.153056 [Class:UartRead][Method:loadFiles] Called.
+[INFO] 20201118 17:04:32.153273 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201118 17:04:32.153482 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201118 17:04:32.153691 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201118 17:04:32.154040 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201118 17:04:32.154259 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201118 17:04:32.154468 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201118 17:04:32.154800 [Class:UartRead][Method:initSerial] Called.
+[INFO] 20201118 17:04:32.155123 [Class:UartRead][Method:openSerial] Try to open port....
+[INFO] 20201118 17:04:32.155738 [Class:UartRead][Method:uartSet] Called.
+[INFO] 20201118 17:04:32.757055 [Class:UartRead][Method:setAllThreadOn] Called.
+[INFO] 20201118 17:04:32.758483 [Class:BTReceive][Method:__init__] initiated.
+[INFO] 20201118 17:04:32.758275 [Class:UartRead][Method:monitor] Called.
+[INFO] 20201118 17:04:32.757920 [Class:UartRead][Method:receiver] Called.
+[INFO] 20201118 17:04:32.759432 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201118 17:04:32.759736 [Class:BTReceive][Method:pair] Called.
+[INFO] 20201118 17:04:32.759965 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201118 17:04:32.760181 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201118 17:04:32.760395 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201118 17:04:32.760775 [Class:BTReceive][Method:pair] Loaded - BT ADDRESS : 50:77:05:43:DF:98
+[INFO] 20201118 17:04:32.761402 [Class:BTReceive][Method:connection] Called.
+[NOTICE] 20201118 17:04:32.762048 [Class:BTReceive][Method:connection] Server socket was created
+[NOTICE] 20201118 17:04:32.762388 [Class:BTReceive][Method:connection] Try to connect to 50:77:05:43:DF:98
+[INFO] 20201118 17:04:38.006554 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201118 17:04:38.007556 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201118 17:04:38.008022 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201118 17:04:38.008432 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201118 17:04:38.008836 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201118 17:04:38.009232 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201118 17:04:38.010301 [Class:UartRead][Method:__init__] initiated.
+[INFO] 20201118 17:04:38.010757 [Class:UartRead][Method:loadFiles] Called.
+[INFO] 20201118 17:04:38.011150 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201118 17:04:38.011532 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201118 17:04:38.011905 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201118 17:04:38.012531 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201118 17:04:38.012933 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201118 17:04:38.013311 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201118 17:04:38.013911 [Class:UartRead][Method:initSerial] Called.
+[INFO] 20201118 17:04:38.014729 [Class:UartRead][Method:openSerial] Try to open port....
+[INFO] 20201118 17:04:38.015736 [Class:UartRead][Method:uartSet] Called.
+[INFO] 20201118 17:04:38.617534 [Class:UartRead][Method:setAllThreadOn] Called.
+[INFO] 20201118 17:04:38.620855 [Class:BTReceive][Method:__init__] initiated.
+[INFO] 20201118 17:04:38.621679 [Class:UartRead][Method:receiver] Called.
+[INFO] 20201118 17:04:38.622739 [Class:UartRead][Method:monitor] Called.
+[INFO] 20201118 17:04:38.623270 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201118 17:04:38.624218 [Class:BTReceive][Method:pair] Called.
+[INFO] 20201118 17:04:38.624652 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201118 17:04:38.625114 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201118 17:04:38.625527 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201118 17:04:38.626154 [Class:BTReceive][Method:pair] Loaded - BT ADDRESS : 50:77:05:43:DF:98
+[INFO] 20201118 17:04:38.627640 [Class:BTReceive][Method:connection] Called.
+[NOTICE] 20201118 17:04:49.958496 [Class:BTReceive][Method:connection] Server socket was created
+[INFO] 20201118 17:14:52.331979 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201118 17:14:52.332690 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201118 17:14:52.333163 [Class:WifiNT][Method:__init__] initiated.
+[INFO] 20201118 17:14:52.333561 [Class:WifiNT][Method:wifiConnection] Called.
+[INFO] 20201118 17:14:52.334014 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201118 17:14:52.334432 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201118 17:14:52.334832 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201118 17:14:52.335267 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201118 17:14:52.335975 [Class:WifiNT][Method:wifiConnection] Wifi Module was DOWN.
+[INFO] 20201118 17:14:52.336478 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 17:14:53.530188 [Class:WifiNT][Method:wifiConnection] Wifi Module was UP.
+[INFO] 20201118 17:14:53.531033 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 17:14:55.610982 [Class:WifiNT][Method:wifiConnection] wpa_supplicant.conf was created.
+[INFO] 20201118 17:14:55.611796 [Class:WifiNT][Method:setWpaFile] Called.
+[NOTICE] 20201118 17:14:55.789949 [Class:WifiNT][Method:wifiConnection] network={
+	ssid="sensorway5g"
+	#psk="0295765000000"
+	psk=e55f2ebcbf573cb0b821c96e82a89fa7e780a7fa8d4611c3fd7cd5e918d7a294
+}
+
+[INFO] 20201118 17:14:55.790700 [Class:WifiNT][Method:wifiConnection] Wifi Module tried to connect AP(sensorway5g)
+[INFO] 20201118 17:14:55.791019 [Class:WifiNT][Method:setWpaCon] Called.
+[INFO] 20201118 17:14:55.791329 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201118 17:15:01.097607 [Class:WifiNT][Method:wifiConnection] Successfully initialized wpa_supplicant
+
+[INFO] 20201118 17:15:06.103292 [Class:WifiNT][Method:wifiConnection] Get Wifi Connection State from Wifi Module.
+[INFO] 20201118 17:15:06.103749 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201118 17:15:06.137097 [Class:WifiNT][Method:wifiConnection] Connected to 70:5d:cc:0c:c5:3e (on wlan0)
+	SSID: sensorway5g
+	freq: 5745
+	RX: 590 bytes (3 packets)
+	TX: 1748 bytes (16 packets)
+	signal: -62 dBm
+	rx bitrate: 292.5 MBit/s
+	tx bitrate: 24.0 MBit/s
+
+	bss flags:	
+	dtim period:	1
+	beacon int:	200
+
+[INFO] 20201118 17:15:11.139798 [Class:WifiNT][Method:wifiConnection] Get Connected SSID.
+[INFO] 20201118 17:15:11.140589 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 17:15:11.145344 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201118 17:15:11.214449 [Class:WifiNT][Method:wifiConnection] sensorway5g
+[INFO] 20201118 17:15:11.215357 [Class:WifiNT][Method:wifiConnection] Connection Validated.
+[INFO] 20201118 17:15:11.215758 [Class:WifiNT][Method:setThreadOn] Called.
+[INFO] 20201118 17:15:11.217361 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201118 17:15:11.217018 [Class:WifiNT][Method:monitor] Called.
+[INFO] 20201118 17:15:11.218177 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201118 17:15:11.218347 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 17:15:11.219020 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 17:15:11.219216 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201118 17:15:11.219967 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201118 17:15:11.231401 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201118 17:15:11.233050 [Class:UartRead][Method:__init__] initiated.
+[INFO] 20201118 17:15:11.233548 [Class:UartRead][Method:loadFiles] Called.
+[INFO] 20201118 17:15:11.233943 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201118 17:15:11.234310 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201118 17:15:11.234660 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201118 17:15:11.235431 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201118 17:15:11.235933 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201118 17:15:11.236325 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201118 17:15:11.236951 [Class:UartRead][Method:initSerial] Called.
+[INFO] 20201118 17:15:11.237699 [Class:UartRead][Method:openSerial] Try to open port....
+[INFO] 20201118 17:15:11.238913 [Class:UartRead][Method:uartSet] Called.
+[INFO] 20201118 17:15:11.840784 [Class:UartRead][Method:setAllThreadOn] Called.
+[INFO] 20201118 17:15:11.843864 [Class:BTReceive][Method:__init__] initiated.
+[INFO] 20201118 17:15:11.843368 [Class:UartRead][Method:monitor] Called.
+[INFO] 20201118 17:15:11.844892 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201118 17:15:11.845911 [Class:BTReceive][Method:pair] Called.
+[INFO] 20201118 17:15:11.846406 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201118 17:15:11.846873 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201118 17:15:11.847330 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201118 17:15:11.848166 [Class:BTReceive][Method:pair] Loaded - BT ADDRESS : 50:77:05:43:DF:98
+[INFO] 20201118 17:15:11.842468 [Class:UartRead][Method:receiver] Called.
+[INFO] 20201118 17:15:11.849515 [Class:BTReceive][Method:connection] Called.
+[NOTICE] 20201118 17:15:11.851375 [Class:BTReceive][Method:connection] Server socket was created
+[NOTICE] 20201118 17:15:11.852312 [Class:BTReceive][Method:connection] Try to connect to 50:77:05:43:DF:98
+[INFO] 20201118 17:15:16.279031 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 17:15:16.279909 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 17:15:21.362860 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 17:15:21.363593 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 17:15:26.454206 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 17:15:26.455340 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 17:15:31.543643 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 17:15:31.544285 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 17:15:36.599499 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 17:15:36.600859 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 17:15:41.685143 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 17:15:41.685870 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 17:15:46.784956 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 17:15:46.785741 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 17:15:51.957070 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 17:15:51.958067 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 17:15:57.026315 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 17:15:57.027707 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 17:16:02.185133 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 17:16:02.185888 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 17:16:07.380292 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 17:16:07.381699 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 17:16:12.437679 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 17:16:12.443367 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 17:16:17.533400 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 17:16:17.534241 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 17:16:22.654315 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 17:16:22.655174 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 17:16:27.851264 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 17:16:27.851917 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 17:16:32.896547 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 17:16:32.897269 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 17:16:38.133598 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 17:16:38.134779 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 17:16:43.262052 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 17:16:43.262701 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 17:16:48.315153 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 17:16:48.320070 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 17:16:53.455125 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 17:16:53.455765 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 17:16:58.504407 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 17:16:58.505250 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 17:17:03.672120 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 17:17:03.673001 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 17:17:08.760869 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 17:17:08.765900 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 17:17:13.886760 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 17:17:13.892445 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 17:17:19.049617 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 17:17:19.050789 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 17:17:24.209912 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 17:17:24.210634 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 17:17:29.365140 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 17:17:29.365978 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 17:17:34.484695 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 17:17:34.489759 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 17:17:39.538370 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 17:17:39.539132 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 17:17:44.626855 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 17:17:44.627697 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 17:17:49.773940 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 17:17:49.774606 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 17:17:54.818942 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 17:17:54.819586 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 17:17:59.866034 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 17:17:59.866759 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 17:18:04.941209 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 17:18:04.941965 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 17:18:10.175169 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 17:18:10.175811 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 17:18:15.230283 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 17:18:15.235458 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 17:18:20.322088 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 17:18:20.327336 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 17:18:25.444755 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 17:18:25.445552 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 17:18:30.546041 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 17:18:30.550666 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 17:18:35.594556 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 17:18:35.599517 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 17:18:40.645166 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 17:18:40.650236 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 17:18:45.805148 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 17:18:45.810204 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 17:18:50.905147 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 17:18:50.906003 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 17:18:56.054465 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 17:18:56.055145 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 17:19:01.103705 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 17:19:01.109351 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 17:19:06.194422 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 17:19:06.195678 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 17:19:11.279888 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 17:19:11.280704 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 17:19:16.355142 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 17:19:16.356338 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 17:19:21.439019 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 17:19:21.439660 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 17:19:26.495734 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 17:19:26.497111 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 17:19:31.572125 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 17:19:31.573009 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 17:19:36.639120 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 17:19:36.640318 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 17:19:41.735266 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 17:19:41.736316 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 17:19:46.975161 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 17:19:46.977121 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 17:19:52.095161 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 17:19:52.096013 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 17:19:57.214078 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 17:19:57.219404 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 17:20:02.305131 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 17:20:02.305847 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 17:20:07.373615 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 17:20:07.374279 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 17:20:12.424078 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 17:20:12.424778 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 17:20:17.487736 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 17:20:17.489099 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 17:20:22.587554 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 17:20:22.588193 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 17:20:27.636664 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 17:20:27.637420 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 17:20:32.771399 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 17:20:32.772042 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 17:20:37.906051 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 17:20:37.906869 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 17:20:43.013956 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 17:20:43.014688 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 17:20:48.096906 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 17:20:48.098119 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 17:20:53.176578 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 17:20:53.177459 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 17:20:58.245168 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 17:20:58.246132 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 17:21:03.329307 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 17:21:03.330490 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 17:21:08.408357 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 17:21:08.409116 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 17:21:13.478243 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 17:21:13.479455 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 17:21:18.567211 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 17:21:18.567929 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 17:21:23.619081 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 17:21:23.620054 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 17:21:28.691301 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 17:21:28.692177 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 17:21:33.754893 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 17:21:33.755577 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 17:21:38.807283 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 17:21:38.808652 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 17:21:43.901378 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 17:21:43.902107 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 17:21:48.955096 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 17:21:49.068973 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 17:21:54.140537 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 17:21:54.146544 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 17:21:59.235117 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 17:21:59.235768 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 17:22:04.293964 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 17:22:04.294611 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 17:22:09.344405 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 17:22:09.350048 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 17:22:14.411158 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 17:22:14.416422 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 17:22:19.547330 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 17:22:19.547987 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 17:22:24.592904 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 17:22:24.593589 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 17:22:29.638414 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 17:22:29.639772 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 17:22:34.725263 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 17:22:34.726463 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 17:22:39.804179 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 17:22:39.804848 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 17:22:44.885135 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 17:22:44.886443 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 17:22:49.935266 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 17:22:49.936338 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 17:22:55.015161 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 17:22:55.016419 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 17:23:00.080096 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 17:23:00.081447 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 17:23:05.164403 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 17:23:05.165096 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 17:23:10.211842 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 17:23:10.212483 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 17:23:15.260520 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 17:23:15.261186 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 17:23:20.311609 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 17:23:20.312980 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 17:23:25.415756 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 17:23:25.417107 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 17:23:30.498999 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 17:23:30.500369 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 17:23:35.578901 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 17:23:35.579637 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 17:23:40.681214 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 17:23:40.682397 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 17:23:45.759129 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 17:23:45.760188 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 17:23:50.836220 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 17:23:50.837857 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 17:23:55.910524 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 17:23:55.911160 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 17:24:00.992875 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 17:24:00.993521 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 17:24:06.038829 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 17:24:06.039472 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 17:24:11.085169 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 17:24:11.090667 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 17:24:16.223760 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 17:24:16.228678 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 17:24:21.289445 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 17:24:21.294648 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 17:24:26.371362 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 17:24:26.376676 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 17:24:31.454353 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 17:24:31.455049 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 17:24:36.511682 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 17:24:36.517639 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 17:24:41.615149 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 17:24:41.620306 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 17:24:46.706341 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 17:24:46.712525 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 17:24:51.764957 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 17:24:51.769653 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 17:24:56.817114 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 17:24:56.817751 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 17:25:01.865163 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 17:25:01.866022 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 17:25:07.011017 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 17:25:07.012371 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 17:25:12.102275 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 17:25:12.103635 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 17:25:17.195559 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 17:25:17.196911 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 17:25:22.292677 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 17:25:22.294037 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 17:25:27.390052 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 17:25:27.391401 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 17:25:32.474282 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 17:25:32.475681 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 17:25:37.571850 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 17:25:37.573216 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 17:25:42.663079 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 17:25:42.664470 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 17:25:47.763119 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 17:25:47.764462 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 17:25:52.851080 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 17:25:52.852437 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 17:34:23.355293 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201118 17:34:23.355756 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201118 17:34:23.356011 [Class:WifiNT][Method:__init__] initiated.
+[INFO] 20201118 17:34:23.356238 [Class:WifiNT][Method:wifiConnection] Called.
+[INFO] 20201118 17:34:23.356462 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201118 17:34:23.356682 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201118 17:34:23.356898 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201118 17:34:23.357115 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201118 17:34:23.357519 [Class:WifiNT][Method:wifiConnection] Wifi Module was DOWN.
+[INFO] 20201118 17:34:23.357759 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 17:34:24.394170 [Class:WifiNT][Method:wifiConnection] Wifi Module was UP.
+[INFO] 20201118 17:34:24.395629 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 17:34:26.463601 [Class:WifiNT][Method:wifiConnection] wpa_supplicant.conf was created.
+[INFO] 20201118 17:34:26.464822 [Class:WifiNT][Method:setWpaFile] Called.
+[NOTICE] 20201118 17:34:26.522731 [Class:WifiNT][Method:wifiConnection] network={
+	ssid="sensorway5g"
+	#psk="0295765000000"
+	psk=e55f2ebcbf573cb0b821c96e82a89fa7e780a7fa8d4611c3fd7cd5e918d7a294
+}
+
+[INFO] 20201118 17:34:26.523672 [Class:WifiNT][Method:wifiConnection] Wifi Module tried to connect AP(sensorway5g)
+[INFO] 20201118 17:34:26.524088 [Class:WifiNT][Method:setWpaCon] Called.
+[INFO] 20201118 17:34:26.524522 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 17:38:55.155203 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201118 17:38:55.155685 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201118 17:38:55.155935 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201118 17:38:55.156163 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201118 17:38:55.156411 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201118 17:38:55.156633 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201118 17:38:55.157050 [Class:UartRead][Method:__init__] initiated.
+[INFO] 20201118 17:38:55.157312 [Class:UartRead][Method:loadFiles] Called.
+[INFO] 20201118 17:38:55.157553 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201118 17:38:55.157777 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201118 17:38:55.157988 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201118 17:38:55.158346 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201118 17:38:55.158570 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201118 17:38:55.158861 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201118 17:38:55.159210 [Class:UartRead][Method:initSerial] Called.
+[INFO] 20201118 17:38:55.159511 [Class:UartRead][Method:openSerial] Try to open port....
+[INFO] 20201118 17:38:55.160091 [Class:UartRead][Method:uartSet] Called.
+[INFO] 20201118 17:38:55.761463 [Class:UartRead][Method:setAllThreadOn] Called.
+[INFO] 20201118 17:38:55.764550 [Class:BTReceive][Method:__init__] initiated.
+[INFO] 20201118 17:38:55.764051 [Class:UartRead][Method:monitor] Called.
+[INFO] 20201118 17:38:55.766183 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201118 17:38:55.766901 [Class:BTReceive][Method:pair] Called.
+[INFO] 20201118 17:38:55.767451 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201118 17:38:55.767982 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201118 17:38:55.768507 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201118 17:38:55.769440 [Class:BTReceive][Method:pair] Loaded - BT ADDRESS : 50:77:05:43:DF:98
+[INFO] 20201118 17:38:55.763287 [Class:UartRead][Method:receiver] Called.
+[INFO] 20201118 17:39:29.852503 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201118 17:39:29.853031 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201118 17:39:29.853333 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201118 17:39:29.853573 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201118 17:39:29.853833 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201118 17:39:29.854152 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201118 17:39:29.854855 [Class:UartRead][Method:__init__] initiated.
+[INFO] 20201118 17:39:29.855316 [Class:UartRead][Method:loadFiles] Called.
+[INFO] 20201118 17:39:29.855667 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201118 17:39:29.856043 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201118 17:39:29.856431 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201118 17:39:29.856948 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201118 17:39:29.857271 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201118 17:39:29.857646 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201118 17:39:29.858156 [Class:UartRead][Method:initSerial] Called.
+[INFO] 20201118 17:39:29.858549 [Class:UartRead][Method:openSerial] Try to open port....
+[INFO] 20201118 17:39:29.859287 [Class:UartRead][Method:uartSet] Called.
+[INFO] 20201118 17:39:30.460723 [Class:UartRead][Method:setAllThreadOn] Called.
+[INFO] 20201118 17:39:30.462175 [Class:BTReceive][Method:__init__] initiated.
+[INFO] 20201118 17:39:30.461579 [Class:UartRead][Method:receiver] Called.
+[INFO] 20201118 17:39:30.461970 [Class:UartRead][Method:monitor] Called.
+[INFO] 20201118 17:39:30.462817 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201118 17:39:30.463492 [Class:BTReceive][Method:pair] Called.
+[INFO] 20201118 17:39:30.463741 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201118 17:39:30.463962 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201118 17:39:30.464178 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201118 17:39:30.464581 [Class:BTReceive][Method:pair] Loaded - BT ADDRESS : 50:77:05:43:DF:98
+[INFO] 20201118 17:39:30.464819 [Class:BTReceive][Method:setAllThreadOn] Called.
+[INFO] 20201118 17:39:30.465465 [Class:BTReceive][Method:receiver] Called.
+[INFO] 20201118 17:41:50.205017 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201118 17:41:50.205661 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201118 17:41:50.206084 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201118 17:41:50.206434 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201118 17:41:50.206918 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201118 17:41:50.207266 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201118 17:41:50.208004 [Class:UartRead][Method:__init__] initiated.
+[INFO] 20201118 17:41:50.208431 [Class:UartRead][Method:loadFiles] Called.
+[INFO] 20201118 17:41:50.208877 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201118 17:41:50.209255 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201118 17:41:50.209600 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201118 17:41:50.210301 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201118 17:41:50.210633 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201118 17:41:50.210963 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201118 17:41:50.211585 [Class:UartRead][Method:initSerial] Called.
+[INFO] 20201118 17:41:50.219420 [Class:UartRead][Method:openSerial] Try to open port....
+[INFO] 20201118 17:41:50.220332 [Class:UartRead][Method:uartSet] Called.
+[INFO] 20201118 17:41:50.821938 [Class:UartRead][Method:setAllThreadOn] Called.
+[INFO] 20201118 17:41:50.841056 [Class:UartRead][Method:receiver] Called.
+[INFO] 20201118 17:41:50.845571 [Class:BTReceive][Method:__init__] initiated.
+[INFO] 20201118 17:41:50.846066 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201118 17:41:50.846468 [Class:BTReceive][Method:pair] Called.
+[INFO] 20201118 17:41:50.846870 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201118 17:41:50.847201 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201118 17:41:50.847500 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201118 17:41:50.848054 [Class:BTReceive][Method:pair] Loaded - BT ADDRESS : 50:77:05:43:DF:98
+[INFO] 20201118 17:41:50.848414 [Class:BTReceive][Method:setAllThreadOn] Called.
+[INFO] 20201118 17:41:50.845257 [Class:UartRead][Method:monitor] Called.
+[INFO] 20201118 17:41:50.864841 [Class:BTReceive][Method:receiver] Called.
+[INFO] 20201118 17:41:50.870251 [Class:BTReceive][Method:connection] Called.
+[NOTICE] 20201118 17:41:50.870687 [Class:BTReceive][Method:connection] Server socket was created
+[NOTICE] 20201118 17:41:50.871140 [Class:BTReceive][Method:connection] Try to connect to 50:77:05:43:DF:98
+[INFO] 20201118 17:41:50.895540 [Class:None][Method:getSubpro] Called.
+[INFO] 20201118 17:41:50.895238 [Class:BTReceive][Method:monitor] Called.
+[INFO] 20201118 17:44:08.045773 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201118 17:44:08.046433 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201118 17:44:08.052328 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201118 17:44:08.052682 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201118 17:44:08.052912 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201118 17:44:08.053153 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201118 17:44:08.053594 [Class:UartRead][Method:__init__] initiated.
+[INFO] 20201118 17:44:08.053944 [Class:UartRead][Method:loadFiles] Called.
+[INFO] 20201118 17:44:08.054182 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201118 17:44:08.054400 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201118 17:44:08.054612 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201118 17:44:08.054969 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201118 17:44:08.055288 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201118 17:44:08.055504 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201118 17:44:08.055947 [Class:UartRead][Method:initSerial] Called.
+[INFO] 20201118 17:44:08.056260 [Class:UartRead][Method:openSerial] Try to open port....
+[INFO] 20201118 17:44:08.056841 [Class:UartRead][Method:uartSet] Called.
+[INFO] 20201118 17:44:08.658186 [Class:UartRead][Method:setAllThreadOn] Called.
+[INFO] 20201118 17:44:08.659393 [Class:UartRead][Method:monitor] Called.
+[INFO] 20201118 17:44:08.659025 [Class:UartRead][Method:receiver] Called.
+[INFO] 20201118 17:44:08.659608 [Class:BTReceive][Method:__init__] initiated.
+[INFO] 20201118 17:44:08.660622 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201118 17:44:08.660900 [Class:BTReceive][Method:pair] Called.
+[INFO] 20201118 17:44:08.661120 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201118 17:44:08.661333 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201118 17:44:08.661545 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201118 17:44:08.661917 [Class:BTReceive][Method:pair] Loaded - BT ADDRESS : 50:77:05:43:DF:98
+[INFO] 20201118 17:44:08.662148 [Class:BTReceive][Method:setAllThreadOn] Called.
+[INFO] 20201118 17:44:08.663373 [Class:None][Method:getSubpro] Called.
+[INFO] 20201118 17:44:08.663094 [Class:BTReceive][Method:monitor] Called.
+[INFO] 20201118 17:44:08.662759 [Class:BTReceive][Method:receiver] Called.
+[INFO] 20201118 17:44:08.668169 [Class:BTReceive][Method:connection] Called.
+[NOTICE] 20201118 17:44:08.669006 [Class:BTReceive][Method:connection] Server socket was created
+[NOTICE] 20201118 17:44:08.669487 [Class:BTReceive][Method:connection] Try to connect to 50:77:05:43:DF:98
+[INFO] 20201118 17:44:36.533494 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201118 17:44:36.534202 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201118 17:44:36.534685 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201118 17:44:36.535091 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201118 17:44:36.535649 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201118 17:44:36.535994 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201118 17:44:36.536771 [Class:UartRead][Method:__init__] initiated.
+[INFO] 20201118 17:44:36.537164 [Class:UartRead][Method:loadFiles] Called.
+[INFO] 20201118 17:44:36.542352 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201118 17:44:36.542726 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201118 17:44:36.547787 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201118 17:44:36.548400 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201118 17:44:36.548977 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201118 17:44:36.549323 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201118 17:44:36.550026 [Class:UartRead][Method:initSerial] Called.
+[INFO] 20201118 17:44:36.550492 [Class:UartRead][Method:openSerial] Try to open port....
+[INFO] 20201118 17:44:36.551456 [Class:UartRead][Method:uartSet] Called.
+[INFO] 20201118 17:44:37.153312 [Class:UartRead][Method:setAllThreadOn] Called.
+[INFO] 20201118 17:44:37.165256 [Class:UartRead][Method:receiver] Called.
+[INFO] 20201118 17:44:37.171414 [Class:BTReceive][Method:__init__] initiated.
+[INFO] 20201118 17:44:37.171200 [Class:UartRead][Method:monitor] Called.
+[INFO] 20201118 17:44:37.171996 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201118 17:44:37.172274 [Class:BTReceive][Method:pair] Called.
+[INFO] 20201118 17:44:37.172503 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201118 17:44:37.172723 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201118 17:44:37.172940 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201118 17:44:37.173319 [Class:BTReceive][Method:pair] Loaded - BT ADDRESS : 50:77:05:43:DF:98
+[INFO] 20201118 17:44:37.173551 [Class:BTReceive][Method:setAllThreadOn] Called.
+[INFO] 20201118 17:44:37.174139 [Class:BTReceive][Method:receiver] Called.
+[INFO] 20201118 17:44:37.175563 [Class:BTReceive][Method:connection] Called.
+[NOTICE] 20201118 17:44:37.175893 [Class:BTReceive][Method:connection] Server socket was created
+[NOTICE] 20201118 17:44:37.176274 [Class:BTReceive][Method:connection] Try to connect to 50:77:05:43:DF:98
+[INFO] 20201118 17:44:37.177496 [Class:None][Method:getSubpro] Called.
+[INFO] 20201118 17:44:37.177064 [Class:BTReceive][Method:monitor] Called.
+[INFO] 20201118 17:45:27.893471 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201118 17:45:27.894144 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201118 17:45:27.894607 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201118 17:45:27.894961 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201118 17:45:27.895435 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201118 17:45:27.895946 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201118 17:45:27.896712 [Class:UartRead][Method:__init__] initiated.
+[INFO] 20201118 17:45:27.897130 [Class:UartRead][Method:loadFiles] Called.
+[INFO] 20201118 17:45:27.897471 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201118 17:45:27.897799 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201118 17:45:27.898199 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201118 17:45:27.898776 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201118 17:45:27.899147 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201118 17:45:27.899418 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201118 17:45:27.900052 [Class:UartRead][Method:initSerial] Called.
+[INFO] 20201118 17:45:27.900511 [Class:UartRead][Method:openSerial] Try to open port....
+[INFO] 20201118 17:45:27.901479 [Class:UartRead][Method:uartSet] Called.
+[INFO] 20201118 17:45:28.505091 [Class:UartRead][Method:setAllThreadOn] Called.
+[INFO] 20201118 17:45:28.545238 [Class:UartRead][Method:monitor] Called.
+[INFO] 20201118 17:45:28.545567 [Class:BTReceive][Method:__init__] initiated.
+[INFO] 20201118 17:45:28.555875 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201118 17:45:28.556342 [Class:BTReceive][Method:pair] Called.
+[INFO] 20201118 17:45:28.556769 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201118 17:45:28.557183 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201118 17:45:28.557576 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201118 17:45:28.558263 [Class:BTReceive][Method:pair] Loaded - BT ADDRESS : 50:77:05:43:DF:98
+[INFO] 20201118 17:45:28.558726 [Class:BTReceive][Method:setAllThreadOn] Called.
+[INFO] 20201118 17:45:28.535346 [Class:UartRead][Method:receiver] Called.
+[INFO] 20201118 17:45:28.585351 [Class:BTReceive][Method:receiver] Called.
+[INFO] 20201118 17:45:28.605259 [Class:None][Method:getSubpro] Called.
+[INFO] 20201118 17:45:28.605853 [Class:BTReceive][Method:connection] Called.
+[INFO] 20201118 17:45:28.595275 [Class:BTReceive][Method:monitor] Called.
+[NOTICE] 20201118 17:45:28.610412 [Class:BTReceive][Method:connection] Server socket was created
+[NOTICE] 20201118 17:45:28.612846 [Class:BTReceive][Method:connection] Try to connect to 50:77:05:43:DF:98
+[INFO] 20201118 17:48:31.695319 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201118 17:48:31.695921 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201118 17:48:31.696268 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201118 17:48:31.696642 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201118 17:48:31.697103 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201118 17:48:31.697575 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201118 17:48:31.698372 [Class:UartRead][Method:__init__] initiated.
+[INFO] 20201118 17:48:31.698956 [Class:UartRead][Method:loadFiles] Called.
+[INFO] 20201118 17:48:31.699459 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201118 17:48:31.700011 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201118 17:48:31.700496 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201118 17:48:31.701237 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201118 17:48:31.701735 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201118 17:48:31.702210 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201118 17:48:31.702924 [Class:UartRead][Method:initSerial] Called.
+[INFO] 20201118 17:48:31.703452 [Class:UartRead][Method:openSerial] Try to open port....
+[INFO] 20201118 17:48:31.704384 [Class:UartRead][Method:uartSet] Called.
+[INFO] 20201118 17:48:32.305872 [Class:UartRead][Method:setAllThreadOn] Called.
+[INFO] 20201118 17:48:32.325308 [Class:UartRead][Method:receiver] Called.
+[INFO] 20201118 17:48:32.332523 [Class:BTReceive][Method:__init__] initiated.
+[INFO] 20201118 17:48:32.332988 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201118 17:48:32.333419 [Class:BTReceive][Method:pair] Called.
+[INFO] 20201118 17:48:32.333789 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201118 17:48:32.334158 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201118 17:48:32.334498 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201118 17:48:32.335167 [Class:BTReceive][Method:pair] Loaded - BT ADDRESS : 50:77:05:43:DF:98
+[INFO] 20201118 17:48:32.335646 [Class:BTReceive][Method:setAllThreadOn] Called.
+[INFO] 20201118 17:48:32.332232 [Class:UartRead][Method:monitor] Called.
+[INFO] 20201118 17:48:32.355355 [Class:BTReceive][Method:receiver] Called.
+[INFO] 20201118 17:48:32.356080 [Class:BTReceive][Method:connection] Called.
+[NOTICE] 20201118 17:48:32.356533 [Class:BTReceive][Method:connection] Server socket was created
+[NOTICE] 20201118 17:48:32.356995 [Class:BTReceive][Method:connection] Try to connect to 50:77:05:43:DF:98
+[INFO] 20201118 17:49:45.699535 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201118 17:49:45.700252 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201118 17:49:45.700714 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201118 17:49:45.701100 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201118 17:49:45.701552 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201118 17:49:45.702021 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201118 17:49:45.702835 [Class:UartRead][Method:__init__] initiated.
+[INFO] 20201118 17:49:45.703350 [Class:UartRead][Method:loadFiles] Called.
+[INFO] 20201118 17:49:45.703814 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201118 17:49:45.704270 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201118 17:49:45.704729 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201118 17:49:45.705515 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201118 17:49:45.706007 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201118 17:49:45.706470 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201118 17:49:45.707187 [Class:UartRead][Method:initSerial] Called.
+[INFO] 20201118 17:49:45.707765 [Class:UartRead][Method:openSerial] Try to open port....
+[INFO] 20201118 17:49:45.708732 [Class:UartRead][Method:uartSet] Called.
+[INFO] 20201118 17:49:46.310348 [Class:UartRead][Method:setAllThreadOn] Called.
+[INFO] 20201118 17:49:46.311831 [Class:BTReceive][Method:__init__] initiated.
+[INFO] 20201118 17:49:46.311233 [Class:UartRead][Method:receiver] Called.
+[INFO] 20201118 17:49:46.311611 [Class:UartRead][Method:monitor] Called.
+[INFO] 20201118 17:49:46.312494 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201118 17:49:46.313113 [Class:BTReceive][Method:pair] Called.
+[INFO] 20201118 17:49:46.313471 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201118 17:49:46.313700 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201118 17:49:46.313919 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201118 17:49:46.314305 [Class:BTReceive][Method:pair] Loaded - BT ADDRESS : 50:77:05:43:DF:98
+[INFO] 20201118 17:49:46.314543 [Class:BTReceive][Method:setAllThreadOn] Called.
+[INFO] 20201118 17:49:46.315709 [Class:None][Method:getSubpro] Called.
+[INFO] 20201118 17:49:46.315169 [Class:BTReceive][Method:receiver] Called.
+[INFO] 20201118 17:49:46.315534 [Class:BTReceive][Method:monitor] Called.
+[INFO] 20201118 17:49:46.316348 [Class:BTReceive][Method:connection] Called.
+[NOTICE] 20201118 17:49:46.321133 [Class:BTReceive][Method:connection] Server socket was created
+[NOTICE] 20201118 17:49:46.321852 [Class:BTReceive][Method:connection] Try to connect to 50:77:05:43:DF:98
+[INFO] 20201118 17:50:58.248091 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201118 17:50:58.248717 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201118 17:50:58.254364 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201118 17:50:58.254744 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201118 17:50:58.255063 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201118 17:50:58.255426 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201118 17:50:58.256019 [Class:UartRead][Method:__init__] initiated.
+[INFO] 20201118 17:50:58.256427 [Class:UartRead][Method:loadFiles] Called.
+[INFO] 20201118 17:50:58.256792 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201118 17:50:58.257105 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201118 17:50:58.257445 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201118 17:50:58.258014 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201118 17:50:58.258409 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201118 17:50:58.258790 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201118 17:50:58.259331 [Class:UartRead][Method:initSerial] Called.
+[INFO] 20201118 17:50:58.259821 [Class:UartRead][Method:openSerial] Try to open port....
+[INFO] 20201118 17:50:58.260659 [Class:UartRead][Method:uartSet] Called.
+[INFO] 20201118 17:50:58.862256 [Class:UartRead][Method:setAllThreadOn] Called.
+[INFO] 20201118 17:50:58.870494 [Class:BTReceive][Method:__init__] initiated.
+[INFO] 20201118 17:50:58.871085 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201118 17:50:58.871637 [Class:BTReceive][Method:pair] Called.
+[INFO] 20201118 17:50:58.863403 [Class:UartRead][Method:receiver] Called.
+[INFO] 20201118 17:50:58.869185 [Class:UartRead][Method:monitor] Called.
+[INFO] 20201118 17:50:58.873129 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201118 17:50:58.874192 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201118 17:50:58.874728 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201118 17:50:58.875527 [Class:BTReceive][Method:pair] Loaded - BT ADDRESS : 50:77:05:43:DF:98
+[INFO] 20201118 17:50:58.876135 [Class:BTReceive][Method:setAllThreadOn] Called.
+[INFO] 20201118 17:50:58.885378 [Class:BTReceive][Method:receiver] Called.
+[INFO] 20201118 17:50:58.886429 [Class:BTReceive][Method:connection] Called.
+[NOTICE] 20201118 17:50:58.886922 [Class:BTReceive][Method:connection] Server socket was created
+[NOTICE] 20201118 17:50:58.887421 [Class:BTReceive][Method:connection] Try to connect to 50:77:05:43:DF:98
+[INFO] 20201118 17:50:58.902441 [Class:None][Method:getSubpro] Called.
+[INFO] 20201118 17:50:58.902123 [Class:BTReceive][Method:monitor] Called.
+[INFO] 20201118 17:51:52.935966 [Class:BTReceive][Method:msgConvert] Called.
+[INFO] 20201118 17:51:53.005198 [Class:UartRead][Method:uartSet] Called.
+[INFO] 20201118 17:51:53.143843 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 17:51:53.222781 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 17:51:53.321294 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 17:51:53.421784 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 17:51:53.521065 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 17:51:53.607101 [Class:BTReceive][Method:sendMessageTo] Called.
+[INFO] 20201118 17:51:53.620289 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 17:51:53.720576 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 17:51:53.820119 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 17:51:53.924414 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 17:51:54.022434 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 17:51:54.123010 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 17:51:54.223523 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 17:51:54.323554 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 17:51:54.420865 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 17:51:54.521925 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 17:51:54.620931 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 17:51:54.720806 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 17:51:54.820122 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 17:51:54.920825 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 17:51:55.019958 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 17:51:55.119879 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 17:51:55.220048 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 17:51:55.319552 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 17:51:55.418641 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 17:51:55.517879 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 17:51:55.618275 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 17:51:55.717675 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 17:51:55.816988 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 17:51:55.917208 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 17:51:56.017342 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 17:51:56.117025 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 17:51:56.215730 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 17:51:56.316297 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 17:51:56.416496 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 17:51:56.516096 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 17:51:56.616048 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 17:51:56.715767 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 17:51:56.814970 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 17:51:56.914865 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 17:51:57.016298 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 17:51:57.114421 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 17:51:57.213273 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 17:51:57.313669 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 17:51:57.414040 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 17:51:57.513944 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 17:51:57.612186 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 17:51:57.712988 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 17:51:57.808839 [Class:BTReceive][Method:msgConvert] Called.
+[INFO] 20201118 17:51:57.813607 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 17:51:57.820627 [Class:UartRead][Method:uartSet] Called.
+[INFO] 20201118 17:51:58.422470 [Class:BTReceive][Method:sendMessageTo] Called.
+[INFO] 20201118 17:52:21.927077 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201118 17:52:21.927713 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201118 17:52:21.961614 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201118 17:52:21.962094 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201118 17:52:21.962476 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201118 17:52:21.962871 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201118 17:52:21.963528 [Class:UartRead][Method:__init__] initiated.
+[INFO] 20201118 17:52:21.963930 [Class:UartRead][Method:loadFiles] Called.
+[INFO] 20201118 17:52:21.964315 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201118 17:52:21.964698 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201118 17:52:21.985195 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201118 17:52:21.985871 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201118 17:52:21.986265 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201118 17:52:21.986607 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201118 17:52:21.987152 [Class:UartRead][Method:initSerial] Called.
+[INFO] 20201118 17:52:21.987621 [Class:UartRead][Method:openSerial] Try to open port....
+[INFO] 20201118 17:52:21.988481 [Class:UartRead][Method:uartSet] Called.
+[INFO] 20201118 17:52:22.590164 [Class:UartRead][Method:setAllThreadOn] Called.
+[INFO] 20201118 17:52:22.603486 [Class:UartRead][Method:receiver] Called.
+[INFO] 20201118 17:52:22.615467 [Class:BTReceive][Method:__init__] initiated.
+[INFO] 20201118 17:52:22.615220 [Class:UartRead][Method:monitor] Called.
+[INFO] 20201118 17:52:22.616061 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201118 17:52:22.616377 [Class:BTReceive][Method:pair] Called.
+[INFO] 20201118 17:52:22.616608 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201118 17:52:22.616823 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201118 17:52:22.617037 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201118 17:52:22.617417 [Class:BTReceive][Method:pair] Loaded - BT ADDRESS : 50:77:05:43:DF:98
+[INFO] 20201118 17:52:22.617666 [Class:BTReceive][Method:setAllThreadOn] Called.
+[INFO] 20201118 17:52:22.618737 [Class:BTReceive][Method:receiver] Called.
+[INFO] 20201118 17:52:22.619220 [Class:BTReceive][Method:connection] Called.
+[INFO] 20201118 17:52:22.619865 [Class:BTReceive][Method:monitor] Called.
+[INFO] 20201118 17:52:22.624579 [Class:None][Method:getSubpro] Called.
+[NOTICE] 20201118 17:52:22.619485 [Class:BTReceive][Method:connection] Server socket was created
+[NOTICE] 20201118 17:52:22.625326 [Class:BTReceive][Method:connection] Try to connect to 50:77:05:43:DF:98
+[INFO] 20201118 17:52:32.582812 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201118 17:52:32.583288 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201118 17:52:32.583546 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201118 17:52:32.583778 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201118 17:52:32.583999 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201118 17:52:32.584218 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201118 17:52:32.584648 [Class:UartRead][Method:__init__] initiated.
+[INFO] 20201118 17:52:32.585031 [Class:UartRead][Method:loadFiles] Called.
+[INFO] 20201118 17:52:32.585286 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201118 17:52:32.585507 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201118 17:52:32.585722 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201118 17:52:32.586084 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201118 17:52:32.586332 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201118 17:52:32.586548 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201118 17:52:32.586891 [Class:UartRead][Method:initSerial] Called.
+[INFO] 20201118 17:52:32.587192 [Class:UartRead][Method:openSerial] Try to open port....
+[INFO] 20201118 17:52:32.587793 [Class:UartRead][Method:uartSet] Called.
+[INFO] 20201118 17:52:33.189185 [Class:UartRead][Method:setAllThreadOn] Called.
+[INFO] 20201118 17:52:33.215389 [Class:BTReceive][Method:__init__] initiated.
+[INFO] 20201118 17:52:33.215895 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201118 17:52:33.216340 [Class:BTReceive][Method:pair] Called.
+[INFO] 20201118 17:52:33.216658 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201118 17:52:33.216971 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201118 17:52:33.217314 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201118 17:52:33.217856 [Class:BTReceive][Method:pair] Loaded - BT ADDRESS : 50:77:05:43:DF:98
+[INFO] 20201118 17:52:33.218272 [Class:BTReceive][Method:setAllThreadOn] Called.
+[INFO] 20201118 17:52:33.204290 [Class:UartRead][Method:receiver] Called.
+[INFO] 20201118 17:52:33.204829 [Class:UartRead][Method:monitor] Called.
+[INFO] 20201118 17:52:33.240182 [Class:BTReceive][Method:receiver] Called.
+[INFO] 20201118 17:52:33.245473 [Class:BTReceive][Method:connection] Called.
+[NOTICE] 20201118 17:52:33.246071 [Class:BTReceive][Method:connection] Server socket was created
+[NOTICE] 20201118 17:52:33.246718 [Class:BTReceive][Method:connection] Try to connect to 50:77:05:43:DF:98
+[INFO] 20201118 17:52:33.257003 [Class:None][Method:getSubpro] Called.
+[INFO] 20201118 17:52:33.256686 [Class:BTReceive][Method:monitor] Called.
+[INFO] 20201118 17:53:17.720744 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201118 17:53:17.722035 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201118 17:53:17.722625 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201118 17:53:17.723589 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201118 17:53:17.723943 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201118 17:53:17.724205 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201118 17:53:17.724722 [Class:UartRead][Method:__init__] initiated.
+[INFO] 20201118 17:53:17.725136 [Class:UartRead][Method:loadFiles] Called.
+[INFO] 20201118 17:53:17.725451 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201118 17:53:17.725695 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201118 17:53:17.725928 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201118 17:53:17.726359 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201118 17:53:17.726657 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201118 17:53:17.726900 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201118 17:53:17.727517 [Class:UartRead][Method:initSerial] Called.
+[INFO] 20201118 17:53:17.727893 [Class:UartRead][Method:openSerial] Try to open port....
+[INFO] 20201118 17:53:17.728558 [Class:UartRead][Method:uartSet] Called.
+[INFO] 20201118 17:53:18.330323 [Class:UartRead][Method:setAllThreadOn] Called.
+[INFO] 20201118 17:53:18.331782 [Class:BTReceive][Method:__init__] initiated.
+[INFO] 20201118 17:53:18.331205 [Class:UartRead][Method:receiver] Called.
+[INFO] 20201118 17:53:18.331557 [Class:UartRead][Method:monitor] Called.
+[INFO] 20201118 17:53:18.332546 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201118 17:53:18.332999 [Class:BTReceive][Method:pair] Called.
+[INFO] 20201118 17:53:18.333234 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201118 17:53:18.333453 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201118 17:53:18.333666 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201118 17:53:18.334045 [Class:BTReceive][Method:pair] Loaded - BT ADDRESS : 50:77:05:43:DF:98
+[INFO] 20201118 17:53:18.334282 [Class:BTReceive][Method:setAllThreadOn] Called.
+[INFO] 20201118 17:53:18.334887 [Class:BTReceive][Method:receiver] Called.
+[INFO] 20201118 17:53:18.335561 [Class:None][Method:getSubpro] Called.
+[INFO] 20201118 17:53:18.335947 [Class:BTReceive][Method:connection] Called.
+[NOTICE] 20201118 17:53:18.336463 [Class:BTReceive][Method:connection] Server socket was created
+[INFO] 20201118 17:53:18.335391 [Class:BTReceive][Method:monitor] Called.
+[NOTICE] 20201118 17:53:18.341155 [Class:BTReceive][Method:connection] Try to connect to 50:77:05:43:DF:98
+[INFO] 20201118 17:53:18.376608 [Class:None][Method:getSubpro] Called.

@@ -1,3 +1,7 @@
+SUCCESS = "success"
+FAIL = "failure"
+
+
 class TypeMessage:
     """
     ᆞTypeMessage : 메시지 타입
@@ -11,6 +15,15 @@ class TypeMessage:
 class RequestData(TypeMessage):
     """
     수집데이터 전송 요청
+    {
+       "TypeMessage":1,
+       "RequestData_Option": {
+          "Target" : 0,
+          "Range_Start" : "2019-08-23 12:00:00",
+          "Range_Stop" : "2019-08-23 12:00:00",
+          "Bed_Num" : "8800000000000"
+       }
+    }
     """
 
     def __init__(self, dict):
@@ -24,6 +37,51 @@ class RequestData(TypeMessage):
         return "{},{},{},{},{}".format(self.typeMessage, self.target,
                                        self.range_start, self.range_end,
                                        self.bed_num)
+
+    def checkBedNum(self, num):
+        if num != self.bed_num:
+            return False
+        else:
+            return True
+
+    def setRequest(self):
+        dict_data = dict()
+        try:
+
+            dict_data["target"] = 0
+            dict_data["range_start"] = self.range_start
+            dict_data["range_stop"] = self.range_end
+            dict_data["bed_num"] = self.bed_num
+            return dict_data
+
+        except Exception as ex:
+            print(ex)
+            return False
+
+
+    def response(self, flag):
+        """
+        {
+           "TypeMessage":101,
+           "RequestData_Option": {
+              "RequestData_Set" : "success"
+           }
+        }
+        :param flag: True or False boolean value
+        :return: Dict type data will be converted into json message
+        """
+        dict_return = {"TypeMessage": self.typeMessage+100,
+                       "RequestData_Option":
+                           {
+                               "RequestData_Set": "",
+                           }
+                       }
+        if flag:
+            dict_return["RequestData_Option"]["RequestData_Set"] = SUCCESS
+        else:
+            dict_return["RequestData_Option"]["RequestData_Set"] = FAIL
+
+        return dict_return
 
 
 class User(TypeMessage):
@@ -53,6 +111,13 @@ class User(TypeMessage):
         return "{},{},{},{},{},{}".format(self.typeMessage, self.name, self.sex,
                                           self.age, self.height, self.weight)
 
+    def getData(self):
+        dict_data = {
+            'name': self.name, 'sex': self.sex,
+            'age': self.age, 'height': self.height,
+            'weight': self.weight}
+        return dict_data
+
     def response(self, flag):
         """
         {
@@ -64,16 +129,16 @@ class User(TypeMessage):
         :param flag: True or False boolean value
         :return: Dict type data will be converted into json message
         """
-        dict_return = {"TypeMessage": 5,
+        dict_return = {"TypeMessage": self.typeMessage+100,
                        "User_Option":
                            {
                                "User_Setting": "",
                            }
                        }
         if flag:
-            dict_return["User_Option"]["User_Setting"] = "success"
+            dict_return["User_Option"]["User_Setting"] = SUCCESS
         else:
-            dict_return["User_Option"]["User_Setting"] = "success"
+            dict_return["User_Option"]["User_Setting"] = FAIL
 
         return dict_return
 
@@ -81,6 +146,13 @@ class User(TypeMessage):
 class InfoTime(TypeMessage):
     """
     시간 정보 설정
+    {
+       "TypeMessage":3,
+       "Time_Option": {
+          "Date" : "2019-08-26",
+          "Time" : "17:00:00"
+       }
+    }
     """
 
     def __init__(self, dict):
@@ -91,10 +163,41 @@ class InfoTime(TypeMessage):
     def __str__(self):
         return "{},{},{}".format(self.typeMessage, self.date, self.time)
 
+    def response(self, flag):
+        """
+        {
+           "TypeMessage":103,
+           "Time_Option": {
+              "Time_Setting" : "success"
+           }
+        }
+        :param flag: True or False boolean value
+        :return: Dict type data will be converted into json message
+        """
+        dict_return = {"TypeMessage": self.typeMessage+100,
+                       "Time_Option":
+                           {
+                               "Time_Setting": "",
+                           }
+                       }
+        if flag:
+            dict_return["Time_Option"]["Time_Setting"] = SUCCESS
+        else:
+            dict_return["Time_Option"]["Time_Setting"] = FAIL
+
+        return dict_return
+
 
 class WifiInfo(TypeMessage):
     """
     Wifi 연결 정보 확인 요청
+    {
+       "TypeMessage":4,
+       "Wifi_Option": {
+          "Option_Sel" : 0,
+          "Wifi_Info_Chk" : "on"
+       }
+    }
     """
 
     def __init__(self, dict):
@@ -102,13 +205,53 @@ class WifiInfo(TypeMessage):
         self.option_sel = dict["Wifi_Option"]["Option_Sel"]
         self.wifi_info_chk = dict["Wifi_Option"]["Wifi_Info_Chk"]
 
+
     def __str__(self):
         return "{},{},{}".format(self.typeMessage, self.option_sel, self.wifi_info_chk)
+
+    # def getSsid(self):
+    #     if self.wifi_info_chk == "on" or self.wifi_info_chk == "On":
+    #         return True
+    #     else:
+    #         return False
+
+
+    def response(self, ssid):
+        """
+        {
+           "TypeMessage":104,
+           "Wifi_Option": {
+              "Option_Sel" : 0,
+              "Wifi_Info_Name" : "imc_wifi"
+           }
+        }
+        :param ssid: Wifi_Info_Name
+        :return: Dict type data will be converted into json message
+        """
+        dict_return = {"TypeMessage": self.typeMessage+100,
+                       "Wifi_Option":
+                           {
+                               "Option_Sel": self.option_sel,
+                               "Wifi_Info_Name": "",
+                           }
+                       }
+        dict_return["Wifi_Option"]["Wifi_Info_Name"] = ssid
+        #print(dict_return)
+
+        return dict_return
 
 
 class WifiSetting(TypeMessage):
     """
     Wifi 연결 정보 설정 요청
+    {
+       "TypeMessage":4,
+       "Wifi_Option": {
+          "Option_Sel" : 1,
+          "Wifi_Name" : "imc_wifi",
+          "Wifi_Password" : "wifi12345"
+       }
+    }
     """
 
     def __init__(self, dict):
@@ -120,10 +263,53 @@ class WifiSetting(TypeMessage):
     def __str__(self):
         return "{},{},{},{}".format(self.typeMessage, self.option_sel, self.wifi_name, self.wifi_password)
 
+    def setWifi(self, dict_data):
+        try:
+            dict_data["wifi-ssid"] = self.wifi_name
+            dict_data["wifi-password"] = self.wifi_password
+            return dict_data
+
+        except Exception as ex:
+            print(ex)
+            return False
+
+    def response(self, flag):
+        """
+        {
+           "TypeMessage":104,
+           "Wifi_Option": {
+             "Option_Sel" : 1,
+              "Wifi_Setting" : "success"
+           }
+        }
+        :param flag: True or False boolean value
+        :return: Dict type data will be converted into json message
+        """
+        dict_return = {"TypeMessage": self.typeMessage+100,
+                       "Wifi_Option":
+                           {
+                               "Option_Sel": self.option_sel,
+                               "Wifi_Setting": ""
+                           }
+                       }
+        if flag:
+            dict_return["Wifi_Option"]["Wifi_Setting"] = SUCCESS
+        else:
+            dict_return["Wifi_Option"]["Wifi_Setting"] = FAIL
+
+        return dict_return
+
 
 class WifiIP(TypeMessage):
     """
     Wifi IP 정보 설정 요청
+    {
+       "TypeMessage":4,
+       "Wifi_Option": {
+          "Option_Sel" : 2,
+          "Wifi_Setip_Info" : "192.168.0.202"
+       }
+    }
     """
 
     def __init__(self, dict):
@@ -133,6 +319,87 @@ class WifiIP(TypeMessage):
 
     def __str__(self):
         return "{},{},{}".format(self.typeMessage, self.option_sel, self.wifi_setip_info)
+
+    def response(self, flag):
+        """
+        {
+           "TypeMessage":104,
+           "Wifi_Option": {
+             "Option_Sel" : 1,
+              "Wifi_Ip_Setting" : "success"
+           }
+        }
+        :param flag: True or False boolean value
+        :return: Dict type data will be converted into json message
+        """
+        dict_return = {"TypeMessage": self.typeMessage+100,
+                       "Wifi_Option":
+                           {
+                               "Option_sel": self.option_sel,
+                               "Wifi_Ip_Setting": "",
+                           }
+                       }
+        if flag:
+            dict_return["Wifi_Option"]["Wifi_Ip_Setting"] = SUCCESS
+        else:
+            dict_return["Wifi_Option"]["Wifi_Ip_Setting"] = FAIL
+
+        return dict_return
+
+
+class WifiAPList(TypeMessage):
+    """
+    Wifi IP 정보 설정 요청
+    {
+       "TypeMessage":4,
+       "Wifi_Option": {
+          "Option_Sel" : 3,
+          "Wifi_AP_List_Request" : "on"
+       }
+    }
+    """
+
+    def __init__(self, dict):
+        super().__init__(dict)
+        self.option_sel = dict["Wifi_Option"]["Option_Sel"]
+        self.wifi_ap_list_request = dict["Wifi_Option"]["Wifi_AP_List_Request"]
+
+    def __str__(self):
+        return "{},{},{}".format(self.typeMessage, self.option_sel, self.wifi_ap_list_request)
+
+    def request(self):
+        if self.wifi_ap_list_request == "on":
+            return True
+        else:
+            return False
+
+    def response(self, ap_list):
+        """
+        {
+           "TypeMessage":104,
+           "Wifi_Option": {
+             "Option_Sel" : 3,
+              "Wifi_AP_List" : ["a","b",...]
+           }
+        }
+        :param flag: True or False boolean value
+        :return: Dict type data will be converted into json message
+        """
+
+
+        dict_return = {"TypeMessage": self.typeMessage+100,
+                       "Wifi_Option":
+                           {
+                               "Option_Sel": self.option_sel,
+                               "Wifi_AP_List": "",
+                           }
+                       }
+        if ap_list is not None:
+            dict_return["Wifi_Option"]["Wifi_AP_List"] = ap_list
+        else:
+            dict_return["Wifi_Option"]["Wifi_AP_List"] = []
+
+        return dict_return
 
 
 class CloudInfo(TypeMessage):
@@ -168,10 +435,10 @@ class CloudInfo(TypeMessage):
         :param dict_info:
         :return:
         """
-        dict_return = {"TypeMessage": 5,
+        dict_return = {"TypeMessage": self.typeMessage+100,
                        "CloudServer_Option":
                            {
-                               "Option_sel": 1,
+                               "Option_sel": self.option_sel,
                                "CloudServer_Info_host": "",
                                "CloudServer_Info_Database": ""
                            }
@@ -216,9 +483,12 @@ class CloudStatus(TypeMessage):
         :param flag:
         :return:
         """
-        dict_return = {"TypeMessage": 5,
+        dict_return = {"TypeMessage": self.typeMessage+100,
                        "CloudServer_Option":
-                           {"Option_sel": 1, "Connect_Check_Result": "connect"}
+                           {
+                               "Option_sel": self.option_sel,
+                               "Connect_Check_Result": "connect"
+                           }
                        }
 
         if flag:
@@ -268,16 +538,19 @@ class CloudInfoSet(TypeMessage):
         :param flag:
         :return:
         """
-        dict_return = {"TypeMessage": 5,
+        dict_return = {"TypeMessage": self.typeMessage+100,
                        "CloudServer_Option":
-                           {"Option_sel": 2, "CloudServer_Setting": "success"}
+                           {
+                               "Option_sel": self.option_sel,
+                               "CloudServer_Setting": "success"
+                           }
                        }
 
         if flag:
-            dict_return["CloudServer_Option"]["CloudServer_Setting"] = "success"
+            dict_return["CloudServer_Option"]["CloudServer_Setting"] = SUCCESS
             return dict_return
         else:
-            dict_return["CloudServer_Option"]["CloudServer_Setting"] = "fail"
+            dict_return["CloudServer_Option"]["CloudServer_Setting"] = FAIL
             return dict_return
 
 
@@ -338,16 +611,19 @@ class CloudCycleSet(TypeMessage):
         :param flag:
         :return:
         """
-        dict_return = {"TypeMessage": 5,
+        dict_return = {"TypeMessage": self.typeMessage+100,
                        "CloudServer_Option":
-                           {"Option_sel": 3, "CloudServer_Setting": "success"}
+                           {
+                               "Option_sel": self.option_sel,
+                               "CloudServer_Setting": "success"
+                           }
                        }
 
         if flag:
-            dict_return["CloudServer_Option"]["CloudServer_Setting"] = "success"
+            dict_return["CloudServer_Option"]["CloudServer_Setting"] = SUCCESS
             return dict_return
         else:
-            dict_return["CloudServer_Option"]["CloudServer_Setting"] = "fail"
+            dict_return["CloudServer_Option"]["CloudServer_Setting"] = FAIL
             return dict_return
 
 
@@ -390,6 +666,60 @@ class PressStatus(TypeMessage):
         return "{},{}".format(self.typeMessage, self.option_sel)
 
 
+class StoredDataList(TypeMessage):
+    """
+          Stored data request
+        {
+           "TypeMessage":6,
+           "StoredFiles_Option": {
+              "Option_Sel" : 0,
+              "Stored_Data_list_Request" : "on",
+           }
+        }
+        """
+
+    def __init__(self, dict):
+        super().__init__(dict)
+        self.option_sel = dict["StoredFiles_Option"]["Option_Sel"]
+        self.stored_data_list_request = dict["StoredFiles_Option"]["Stored_Data_list_Request"]
+
+    def __str__(self):
+        return "{},{},{}".format(self.typeMessage, self.option_sel, self.stored_data_list_request)
+
+    def request(self):
+        if self.stored_data_list_request == "on":
+            return True
+        else:
+            return False
+
+    def response(self, data_list):
+        """
+        {
+           "TypeMessage":106,
+           "StoredFiles_Option": {
+             "Option_Sel" : 0,
+              "Stored_Data_List" : ["a.txt","b.txt",...]
+           }
+        }
+        :param data_list:
+        :return: Dict type data will be converted into json message
+        """
+
+        dict_return = {"TypeMessage": self.typeMessage + 100,
+                       "StoredFiles_Option":
+                           {
+                               "Option_Sel": self.option_sel,
+                               "Stored_Data_List": "",
+                           }
+                       }
+        if data_list is not None:
+            dict_return["StoredFiles_Option"]["Stored_Data_List"] = data_list
+        else:
+            dict_return["StoredFiles_Option"]["Stored_Data_List"] = []
+
+        return dict_return
+
+
 class ControlUart(TypeMessage):
     """
     Uart 데이터 전송 On/Off
@@ -413,10 +743,10 @@ class ControlUart(TypeMessage):
         :return:
         """
         if self.op == "on":
-            #print("operation is on")
+            # print("operation is on")
             return True
         elif self.op == "off":
-            #print("operation is off")
+            # print("operation is off")
             return False
         else:
             return False
@@ -433,14 +763,16 @@ class ControlUart(TypeMessage):
         :return:
         """
 
-        dict_return = {"TypeMessage": 8,
+        dict_return = {"TypeMessage": self.typeMessage+100,
                        "Uart_Cmd_Setting":
-                           {"Uart_Cmd_Setting": "success"}
+                           {
+                               "Uart_Cmd_Setting": "success"
+                           }
                        }
 
         if flag:
-            dict_return["Uart_Cmd_Setting"]["Uart_Cmd_Setting"] = "success"
+            dict_return["Uart_Cmd_Setting"]["Uart_Cmd_Setting"] = SUCCESS
         else:
-            dict_return["Uart_Cmd_Setting"]["Uart_Cmd_Setting"] = "fail"
+            dict_return["Uart_Cmd_Setting"]["Uart_Cmd_Setting"] = FAIL
 
         return dict_return

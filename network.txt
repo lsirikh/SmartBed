@@ -1,10 +1,10 @@
 {
-    "bluetooth":"50:77:05:43:DF:98",
-    "wifi-ssid":"sensorway5g",
-    "wifi-password":"0295765000000",
-    "time_server-ip":"123.123.123.123",
-    "time_server-port":6400,
-    "cloud_server-ip":"182.173.185.246",
-    "cloud_server-port":3001,
-    "cloud_server-urls":"/api/Bed/Sensor/SendData/Start"
+    "bluetooth": "50:77:05:43:DF:98",
+    "wifi-ssid": "sensorway5g",
+    "wifi-password": "0295765000000",
+    "time_server-ip": "123.123.123.123",
+    "time_server-port": 6400,
+    "cloud_server-ip": "182.173.185.246",
+    "cloud_server-port": 3001,
+    "cloud_server-urls": "/api/Bed/Sensor/SendData/Start"
 }

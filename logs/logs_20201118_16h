@@ -1,0 +1,215 @@
+[INFO] 20201118 16:08:42.604898 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201118 16:08:42.605645 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201118 16:08:42.606099 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201118 16:08:42.606480 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201118 16:08:42.607000 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201118 16:08:42.607375 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201118 16:08:42.607969 [Class:UartRead][Method:__init__] initiated.
+[INFO] 20201118 16:08:42.608367 [Class:UartRead][Method:loadFiles] Called.
+[INFO] 20201118 16:08:42.608731 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201118 16:08:42.609238 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201118 16:08:42.609597 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201118 16:08:42.610173 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201118 16:08:42.610470 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201118 16:08:42.610805 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201118 16:08:42.611352 [Class:UartRead][Method:initSerial] Called.
+[INFO] 20201118 16:08:42.611823 [Class:UartRead][Method:openSerial] Try to open port....
+[INFO] 20201118 16:08:42.612642 [Class:UartRead][Method:uartSet] Called.
+[INFO] 20201118 16:08:43.214290 [Class:UartRead][Method:setAllThreadOn] Called.
+[INFO] 20201118 16:08:43.229722 [Class:UartRead][Method:receiver] Called.
+[INFO] 20201118 16:08:43.250105 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201118 16:08:43.250645 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201118 16:08:43.251108 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201118 16:08:43.251485 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201118 16:08:43.249757 [Class:UartRead][Method:monitor] Called.
+[INFO] 20201118 16:44:32.194796 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201118 16:44:32.195314 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201118 16:44:32.195570 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201118 16:44:32.195797 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201118 16:44:32.196016 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201118 16:44:32.196233 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201118 16:44:32.196630 [Class:UartRead][Method:__init__] initiated.
+[INFO] 20201118 16:44:32.196870 [Class:UartRead][Method:loadFiles] Called.
+[INFO] 20201118 16:44:32.197086 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201118 16:44:32.197297 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201118 16:44:32.197505 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201118 16:44:32.197855 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201118 16:44:32.198201 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201118 16:44:32.198427 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201118 16:44:32.198771 [Class:UartRead][Method:initSerial] Called.
+[INFO] 20201118 16:44:32.199073 [Class:UartRead][Method:openSerial] Try to open port....
+[INFO] 20201118 16:44:32.199671 [Class:UartRead][Method:uartSet] Called.
+[INFO] 20201118 16:44:32.801146 [Class:UartRead][Method:setAllThreadOn] Called.
+[INFO] 20201118 16:44:32.804085 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201118 16:44:32.802863 [Class:UartRead][Method:receiver] Called.
+[INFO] 20201118 16:44:32.805637 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201118 16:44:32.803638 [Class:UartRead][Method:monitor] Called.
+[INFO] 20201118 16:44:32.806983 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201118 16:44:32.807781 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201118 16:45:20.694278 [Class:FileProcess][Method:fileWrite] Called.
+[INFO] 20201118 16:45:20.695186 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201118 16:45:20.695786 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201118 16:45:20.697646 [Class:UartRead][Method:loadFiles] Called.
+[INFO] 20201118 16:45:20.698334 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201118 16:45:20.698947 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201118 16:45:20.699487 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201118 16:45:20.700403 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201118 16:45:20.701053 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201118 16:45:20.701593 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201118 16:45:26.713192 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201118 16:45:26.714029 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201118 16:45:26.723915 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201118 16:45:29.029115 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201118 16:45:29.029948 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201118 16:45:29.030510 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201118 16:45:29.031461 [Class:FileProcess][Method:fileWrite] Called.
+[INFO] 20201118 16:45:29.032037 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201118 16:45:29.032568 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201118 16:45:32.642125 [Class:UartRead][Method:uartSet] Called.
+[INFO] 20201118 16:45:33.645775 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 16:45:34.633987 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 16:45:35.627937 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 16:45:36.625334 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 16:45:37.622373 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 16:45:38.619677 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 16:45:39.619323 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 16:45:40.617421 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 16:45:41.613909 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 16:45:41.658235 [Class:UartRead][Method:uartSet] Called.
+[INFO] 20201118 16:45:42.607158 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 16:45:43.603703 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 16:45:44.599586 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 16:45:44.965495 [Class:UartRead][Method:uartSet] Called.
+[INFO] 20201118 16:45:45.101592 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 16:45:45.200190 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 16:45:45.297505 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 16:45:45.397190 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 16:45:45.497449 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 16:45:45.596862 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 16:45:45.697113 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 16:45:45.796173 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 16:45:45.894876 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 16:45:45.995350 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 16:45:46.094748 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 16:45:46.192571 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 16:45:46.293101 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 16:45:46.393904 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 16:45:46.493714 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 16:45:46.592897 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 16:45:46.692364 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 16:45:46.792217 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 16:45:46.891291 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 16:45:46.992417 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 16:45:47.091712 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 16:45:47.190527 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 16:45:47.290069 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 16:45:47.390500 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 16:45:47.490609 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 16:45:47.589813 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 16:45:47.690167 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 16:45:47.789771 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 16:45:47.890079 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 16:45:47.989618 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 16:45:48.088474 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 16:45:48.187873 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 16:45:48.287160 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 16:45:48.387615 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 16:45:48.487472 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 16:45:48.586194 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 16:45:48.688131 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 16:45:48.787743 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 16:45:48.886365 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 16:45:48.985669 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 16:45:49.085279 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 16:45:49.185557 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 16:45:49.284872 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 16:45:49.383484 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 16:45:49.482835 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 16:45:49.583654 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 16:45:49.684454 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 16:45:49.783801 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 16:45:49.882053 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 16:45:49.982550 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 16:45:50.082111 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 16:45:50.181308 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 16:45:50.280674 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 16:45:50.381338 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 16:45:50.481404 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 16:45:50.580840 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 16:45:50.680703 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 16:45:50.780903 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 16:45:50.880752 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 16:45:50.980419 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 16:45:51.079324 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 16:45:51.179648 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 16:45:51.278662 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 16:45:51.378797 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 16:45:51.477677 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 16:45:51.577285 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 16:45:51.676958 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 16:45:51.777292 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 16:45:51.876759 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 16:45:51.975282 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 16:45:52.077384 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 16:45:52.175553 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 16:45:52.275467 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 16:45:52.374539 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 16:45:52.473824 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 16:45:53.578158 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 16:45:53.630279 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 16:45:53.665778 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 16:45:53.691006 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 16:45:53.715740 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 16:45:53.740149 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 16:45:53.765210 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 16:45:53.790430 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 16:45:53.815703 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 16:45:53.840388 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 16:45:53.866304 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 16:45:53.891938 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 16:45:53.917675 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 16:45:53.942855 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 16:45:53.968263 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 16:45:54.067760 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 16:45:54.166955 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 16:45:54.267718 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 16:45:54.368751 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 16:45:54.469102 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 16:45:54.568696 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 16:45:54.667598 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 16:45:54.768297 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 16:45:54.866523 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 16:45:54.967724 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 16:45:55.066708 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 16:45:55.166185 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 16:45:55.266079 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 16:45:55.366334 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 16:45:55.466066 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 16:45:55.565258 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 16:45:55.665157 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 16:45:55.690780 [Class:UartRead][Method:uartSet] Called.
+[INFO] 20201118 16:54:45.825547 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201118 16:54:45.826139 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201118 16:54:45.826526 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201118 16:54:45.827010 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201118 16:54:45.827537 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201118 16:54:45.828004 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201118 16:54:45.828683 [Class:UartRead][Method:__init__] initiated.
+[INFO] 20201118 16:54:45.829053 [Class:UartRead][Method:loadFiles] Called.
+[INFO] 20201118 16:54:45.829378 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201118 16:54:45.829693 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201118 16:54:45.830011 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201118 16:54:45.830524 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201118 16:54:45.830883 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201118 16:54:45.831239 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201118 16:54:45.831760 [Class:UartRead][Method:initSerial] Called.
+[INFO] 20201118 16:54:45.832195 [Class:UartRead][Method:openSerial] Try to open port....
+[INFO] 20201118 16:54:45.832997 [Class:UartRead][Method:uartSet] Called.
+[INFO] 20201118 16:54:46.434628 [Class:UartRead][Method:setAllThreadOn] Called.
+[INFO] 20201118 16:54:46.435531 [Class:UartRead][Method:receiver] Called.
+[INFO] 20201118 16:54:46.436098 [Class:BTReceive][Method:__init__] initiated.
+[INFO] 20201118 16:54:46.435904 [Class:UartRead][Method:monitor] Called.
+[INFO] 20201118 16:54:46.436962 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201118 16:54:46.437324 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201118 16:54:46.437555 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201118 16:54:46.437769 [Class:FileProcess][Method:getFilePath] Called.

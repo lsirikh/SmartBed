@@ -1,0 +1,592 @@
+[INFO] 20201118 18:00:27.148895 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201118 18:00:27.149610 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201118 18:00:27.150011 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201118 18:00:27.150368 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201118 18:00:27.150760 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201118 18:00:27.151197 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201118 18:00:27.151922 [Class:UartRead][Method:__init__] initiated.
+[INFO] 20201118 18:00:27.152352 [Class:UartRead][Method:loadFiles] Called.
+[INFO] 20201118 18:00:27.152671 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201118 18:00:27.152926 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201118 18:00:27.153190 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201118 18:00:27.153608 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201118 18:00:27.153890 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201118 18:00:27.154136 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201118 18:00:27.154521 [Class:UartRead][Method:initSerial] Called.
+[INFO] 20201118 18:00:27.154849 [Class:UartRead][Method:openSerial] Try to open port....
+[INFO] 20201118 18:00:27.155566 [Class:UartRead][Method:uartSet] Called.
+[INFO] 20201118 18:00:27.756996 [Class:UartRead][Method:setAllThreadOn] Called.
+[INFO] 20201118 18:00:27.757989 [Class:UartRead][Method:receiver] Called.
+[INFO] 20201118 18:00:27.758709 [Class:BTReceive][Method:__init__] initiated.
+[INFO] 20201118 18:00:27.758462 [Class:UartRead][Method:monitor] Called.
+[INFO] 20201118 18:00:27.761006 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201118 18:00:27.762840 [Class:BTReceive][Method:pair] Called.
+[INFO] 20201118 18:00:27.763302 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201118 18:00:27.763681 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201118 18:00:27.763983 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201118 18:00:27.764451 [Class:BTReceive][Method:pair] Loaded - BT ADDRESS : 50:77:05:43:DF:98
+[INFO] 20201118 18:00:27.764833 [Class:BTReceive][Method:setAllThreadOn] Called.
+[INFO] 20201118 18:00:27.766411 [Class:BTReceive][Method:monitor] Called.
+[INFO] 20201118 18:00:27.765888 [Class:BTReceive][Method:receiver] Called.
+[INFO] 20201118 18:00:27.767183 [Class:BTReceive][Method:connection] Called.
+[NOTICE] 20201118 18:00:27.767590 [Class:BTReceive][Method:connection] Server socket was created
+[NOTICE] 20201118 18:00:27.768018 [Class:BTReceive][Method:connection] Try to connect to 50:77:05:43:DF:98
+[INFO] 20201118 18:18:48.235364 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201118 18:18:48.236149 [Class:None][Method:setAllThreadOn] Called.
+[INFO] 20201118 18:18:48.236582 [Class:None][Method:initUart] Called.
+[INFO] 20201118 18:18:48.237139 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201118 18:18:48.237573 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201118 18:18:48.238033 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201118 18:18:48.238503 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201118 18:18:48.238836 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201118 18:18:48.239656 [Class:UartRead][Method:__init__] initiated.
+[INFO] 20201118 18:18:48.240038 [Class:UartRead][Method:loadFiles] Called.
+[INFO] 20201118 18:18:48.240561 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201118 18:18:48.240913 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201118 18:18:48.241338 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201118 18:18:48.242009 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201118 18:18:48.242474 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201118 18:18:48.242914 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201118 18:18:48.243500 [Class:UartRead][Method:initSerial] Called.
+[INFO] 20201118 18:18:48.243963 [Class:UartRead][Method:openSerial] Try to open port....
+[INFO] 20201118 18:18:48.244830 [Class:UartRead][Method:uartSet] Called.
+[INFO] 20201118 18:18:48.846497 [Class:UartRead][Method:setAllThreadOn] Called.
+[INFO] 20201118 18:18:48.861348 [Class:UartRead][Method:receiver] Called.
+[INFO] 20201118 18:18:48.905597 [Class:None][Method:initWifi] Called.
+[INFO] 20201118 18:18:48.906073 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201118 18:18:48.906439 [Class:WifiNT][Method:__init__] initiated.
+[INFO] 20201118 18:18:48.906786 [Class:WifiNT][Method:wifiConnection] Called.
+[INFO] 20201118 18:18:48.907108 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201118 18:18:48.907448 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201118 18:18:48.907707 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201118 18:18:48.908004 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201118 18:18:48.908513 [Class:WifiNT][Method:wifiConnection] Wifi Module was DOWN.
+[INFO] 20201118 18:18:48.908865 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 18:18:48.905251 [Class:UartRead][Method:monitor] Called.
+[INFO] 20201118 18:18:50.117234 [Class:WifiNT][Method:wifiConnection] Wifi Module was UP.
+[INFO] 20201118 18:18:50.117786 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 18:18:52.246937 [Class:WifiNT][Method:wifiConnection] wpa_supplicant.conf was created.
+[INFO] 20201118 18:18:52.253660 [Class:WifiNT][Method:setWpaFile] Called.
+[NOTICE] 20201118 18:18:52.342820 [Class:WifiNT][Method:wifiConnection] network={
+	ssid="sensorway5g"
+	#psk="0295765000000"
+	psk=e55f2ebcbf573cb0b821c96e82a89fa7e780a7fa8d4611c3fd7cd5e918d7a294
+}
+
+[INFO] 20201118 18:18:52.343806 [Class:WifiNT][Method:wifiConnection] Wifi Module tried to connect AP(sensorway5g)
+[INFO] 20201118 18:18:52.344348 [Class:WifiNT][Method:setWpaCon] Called.
+[INFO] 20201118 18:18:52.344784 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201118 18:18:57.692791 [Class:WifiNT][Method:wifiConnection] Successfully initialized wpa_supplicant
+
+[INFO] 20201118 18:19:02.696303 [Class:WifiNT][Method:wifiConnection] Get Wifi Connection State from Wifi Module.
+[INFO] 20201118 18:19:02.701477 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201118 18:19:02.731632 [Class:WifiNT][Method:wifiConnection] Connected to 70:5d:cc:0c:c5:3e (on wlan0)
+	SSID: sensorway5g
+	freq: 5745
+	RX: 342 bytes (2 packets)
+	TX: 1904 bytes (16 packets)
+	signal: -63 dBm
+	rx bitrate: 24.0 MBit/s
+	tx bitrate: 24.0 MBit/s
+
+	bss flags:	
+	dtim period:	1
+	beacon int:	200
+
+[INFO] 20201118 18:19:07.734196 [Class:WifiNT][Method:wifiConnection] Get Connected SSID.
+[INFO] 20201118 18:19:07.739616 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 18:19:07.740562 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201118 18:19:07.824149 [Class:WifiNT][Method:wifiConnection] sensorway5g
+[INFO] 20201118 18:19:07.825107 [Class:WifiNT][Method:wifiConnection] Connection Validated.
+[INFO] 20201118 18:19:07.825555 [Class:WifiNT][Method:setThreadOn] Called.
+[INFO] 20201118 18:19:07.827135 [Class:None][Method:initBT] Called.
+[INFO] 20201118 18:19:07.826732 [Class:WifiNT][Method:monitor] Called.
+[INFO] 20201118 18:19:07.827972 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 18:19:07.828304 [Class:BTReceive][Method:__init__] initiated.
+[INFO] 20201118 18:19:07.828987 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 18:19:07.829339 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201118 18:19:07.829918 [Class:BTReceive][Method:pair] Called.
+[INFO] 20201118 18:19:07.835886 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201118 18:19:07.836750 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201118 18:19:07.837151 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201118 18:19:07.838114 [Class:BTReceive][Method:pair] Loaded - BT ADDRESS : 50:77:05:43:DF:98
+[INFO] 20201118 18:19:07.839344 [Class:BTReceive][Method:setAllThreadOn] Called.
+[INFO] 20201118 18:19:07.840684 [Class:BTReceive][Method:receiver] Called.
+[INFO] 20201118 18:19:07.841622 [Class:BTReceive][Method:connection] Called.
+[NOTICE] 20201118 18:19:07.842226 [Class:BTReceive][Method:connection] Server socket was created
+[NOTICE] 20201118 18:19:07.843102 [Class:BTReceive][Method:connection] Try to connect to 50:77:05:43:DF:98
+[INFO] 20201118 18:19:07.843773 [Class:BTReceive][Method:monitor] Called.
+[INFO] 20201118 18:19:12.893391 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 18:19:12.894090 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 18:19:17.972379 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 18:19:17.973542 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 18:19:23.061388 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 18:19:23.062553 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 18:19:28.146297 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 18:19:28.147677 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 18:19:33.246688 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 18:19:33.247482 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 18:20:57.261586 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201118 18:20:57.262071 [Class:None][Method:setAllThreadOn] Called.
+[INFO] 20201118 18:20:57.262325 [Class:None][Method:initUart] Called.
+[INFO] 20201118 18:20:57.262558 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201118 18:20:57.262786 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201118 18:20:57.263020 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201118 18:20:57.263237 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201118 18:20:57.263451 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201118 18:20:57.263865 [Class:UartRead][Method:__init__] initiated.
+[INFO] 20201118 18:20:57.264195 [Class:UartRead][Method:loadFiles] Called.
+[INFO] 20201118 18:20:57.264453 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201118 18:20:57.264667 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201118 18:20:57.264881 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201118 18:20:57.265316 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201118 18:20:57.265543 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201118 18:20:57.265754 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201118 18:20:57.266096 [Class:UartRead][Method:initSerial] Called.
+[INFO] 20201118 18:20:57.266401 [Class:UartRead][Method:openSerial] Try to open port....
+[INFO] 20201118 18:20:57.266981 [Class:UartRead][Method:uartSet] Called.
+[INFO] 20201118 18:20:57.868186 [Class:UartRead][Method:setAllThreadOn] Called.
+[INFO] 20201118 18:20:57.869651 [Class:None][Method:initWifi] Called.
+[INFO] 20201118 18:20:57.869416 [Class:UartRead][Method:monitor] Called.
+[INFO] 20201118 18:20:57.869043 [Class:UartRead][Method:receiver] Called.
+[INFO] 20201118 18:20:57.870465 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201118 18:20:57.870999 [Class:WifiNT][Method:__init__] initiated.
+[INFO] 20201118 18:20:57.871255 [Class:WifiNT][Method:wifiConnection] Called.
+[INFO] 20201118 18:20:57.871477 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201118 18:20:57.871691 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201118 18:20:57.871906 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201118 18:20:57.872118 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201118 18:20:57.872503 [Class:WifiNT][Method:wifiConnection] Wifi Module was DOWN.
+[INFO] 20201118 18:20:57.872757 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 18:20:58.906291 [Class:WifiNT][Method:wifiConnection] Wifi Module was UP.
+[INFO] 20201118 18:20:58.907523 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 18:21:00.967611 [Class:WifiNT][Method:wifiConnection] wpa_supplicant.conf was created.
+[INFO] 20201118 18:21:00.968892 [Class:WifiNT][Method:setWpaFile] Called.
+[NOTICE] 20201118 18:21:01.048138 [Class:WifiNT][Method:wifiConnection] network={
+	ssid="sensorway5g"
+	#psk="0295765000000"
+	psk=e55f2ebcbf573cb0b821c96e82a89fa7e780a7fa8d4611c3fd7cd5e918d7a294
+}
+
+[INFO] 20201118 18:21:01.048727 [Class:WifiNT][Method:wifiConnection] Wifi Module tried to connect AP(sensorway5g)
+[INFO] 20201118 18:21:01.048983 [Class:WifiNT][Method:setWpaCon] Called.
+[INFO] 20201118 18:21:01.049252 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201118 18:21:06.211157 [Class:WifiNT][Method:wifiConnection] Successfully initialized wpa_supplicant
+
+[INFO] 20201118 18:21:11.215185 [Class:WifiNT][Method:wifiConnection] Get Wifi Connection State from Wifi Module.
+[INFO] 20201118 18:21:11.216059 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201118 18:21:11.283871 [Class:WifiNT][Method:wifiConnection] Connected to 70:5d:cc:0c:c5:3e (on wlan0)
+	SSID: sensorway5g
+	freq: 5745
+	RX: 342 bytes (2 packets)
+	TX: 1904 bytes (16 packets)
+	signal: -59 dBm
+	rx bitrate: 24.0 MBit/s
+	tx bitrate: 24.0 MBit/s
+
+	bss flags:	
+	dtim period:	1
+	beacon int:	200
+
+[INFO] 20201118 18:21:16.290285 [Class:WifiNT][Method:wifiConnection] Get Connected SSID.
+[INFO] 20201118 18:21:16.291179 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 18:21:16.296318 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201118 18:21:16.376768 [Class:WifiNT][Method:wifiConnection] sensorway5g
+[INFO] 20201118 18:21:16.377862 [Class:WifiNT][Method:wifiConnection] Connection Validated.
+[INFO] 20201118 18:21:16.378401 [Class:WifiNT][Method:setThreadOn] Called.
+[INFO] 20201118 18:21:16.380376 [Class:None][Method:initBT] Called.
+[INFO] 20201118 18:21:16.379908 [Class:WifiNT][Method:monitor] Called.
+[INFO] 20201118 18:21:16.381883 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 18:21:16.381617 [Class:BTReceive][Method:__init__] initiated.
+[INFO] 20201118 18:21:16.382799 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 18:21:16.383233 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201118 18:21:16.390291 [Class:BTReceive][Method:pair] Called.
+[INFO] 20201118 18:21:16.392636 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201118 18:21:16.393207 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201118 18:21:16.393699 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201118 18:21:16.395221 [Class:BTReceive][Method:pair] Loaded - BT ADDRESS : 50:77:05:43:DF:98
+[INFO] 20201118 18:21:16.395910 [Class:BTReceive][Method:setAllThreadOn] Called.
+[INFO] 20201118 18:21:16.399484 [Class:BTReceive][Method:receiver] Called.
+[INFO] 20201118 18:21:16.400377 [Class:BTReceive][Method:monitor] Called.
+[INFO] 20201118 18:21:16.402049 [Class:BTReceive][Method:connection] Called.
+[NOTICE] 20201118 18:21:16.402994 [Class:BTReceive][Method:connection] Server socket was created
+[NOTICE] 20201118 18:21:16.405645 [Class:BTReceive][Method:connection] Try to connect to 50:77:05:43:DF:98
+[INFO] 20201118 18:21:21.479502 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 18:21:21.480494 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 18:21:25.444735 [Class:BTReceive][Method:msgConvert] Called.
+[INFO] 20201118 18:21:25.523865 [Class:FileProcess][Method:fileWrite] Called.
+[INFO] 20201118 18:21:25.524663 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201118 18:21:25.525209 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201118 18:21:25.528049 [Class:BTReceive][Method:sendMessageTo] Called.
+[INFO] 20201118 18:21:25.529823 [Class:UartRead][Method:loadFiles] Called.
+[INFO] 20201118 18:21:25.531323 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201118 18:21:25.532343 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201118 18:21:25.532804 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201118 18:21:25.533584 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201118 18:21:25.534019 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201118 18:21:25.534416 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201118 18:21:26.564726 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 18:21:26.565717 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 18:21:28.803484 [Class:BTReceive][Method:msgConvert] Called.
+[INFO] 20201118 18:21:28.840948 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201118 18:21:28.841854 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201118 18:21:28.842451 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201118 18:21:31.653920 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 18:21:31.654808 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 18:21:36.751706 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 18:21:36.753002 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 18:21:41.840069 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 18:21:41.841390 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 18:21:42.270661 [Class:BTReceive][Method:msgConvert] Called.
+[INFO] 20201118 18:21:42.364787 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201118 18:21:42.366389 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201118 18:21:42.367454 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201118 18:21:42.368519 [Class:FileProcess][Method:fileWrite] Called.
+[INFO] 20201118 18:21:42.369099 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201118 18:21:42.369644 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201118 18:21:42.371452 [Class:BTReceive][Method:sendMessageTo] Called.
+[INFO] 20201118 18:21:46.925911 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 18:21:46.926805 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 18:21:48.738041 [Class:BTReceive][Method:msgConvert] Called.
+[INFO] 20201118 18:21:48.783905 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201118 18:21:48.784825 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201118 18:21:48.785558 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201118 18:21:48.786732 [Class:BTReceive][Method:sendMessageTo] Called.
+[INFO] 20201118 18:21:52.013269 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 18:21:52.014152 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 18:21:57.110418 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 18:21:57.111726 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 18:21:57.216853 [Class:BTReceive][Method:msgConvert] Called.
+[INFO] 20201118 18:21:57.300833 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201118 18:21:57.301479 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201118 18:21:57.301889 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201118 18:21:57.302562 [Class:FileProcess][Method:fileWrite] Called.
+[INFO] 20201118 18:21:57.302949 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201118 18:21:57.303309 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201118 18:21:57.304601 [Class:BTReceive][Method:sendMessageTo] Called.
+[INFO] 20201118 18:22:02.208318 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 18:22:02.209210 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 18:22:04.698168 [Class:BTReceive][Method:msgConvert] Called.
+[INFO] 20201118 18:22:04.717952 [Class:UartRead][Method:uartSet] Called.
+[INFO] 20201118 18:22:04.806036 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 18:22:04.887448 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 18:22:04.986624 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 18:22:05.085338 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 18:22:05.186596 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 18:22:05.284833 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 18:22:05.320190 [Class:BTReceive][Method:sendMessageTo] Called.
+[INFO] 20201118 18:22:05.383938 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 18:22:05.483979 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 18:22:05.588534 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 18:22:05.686416 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 18:22:05.786828 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 18:22:05.886463 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 18:22:05.986635 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 18:22:06.085999 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 18:22:06.184537 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 18:22:06.285208 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 18:22:06.384719 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 18:22:06.483645 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 18:22:06.583793 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 18:22:06.683671 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 18:22:06.784005 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 18:22:06.884963 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 18:22:06.983066 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 18:22:07.082100 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 18:22:07.181616 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 18:22:07.281619 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 18:22:07.299035 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 18:22:07.299638 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 18:22:07.384763 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 18:22:07.480742 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 18:22:07.581756 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 18:22:07.680809 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 18:22:07.780681 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 18:22:07.880970 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 18:22:07.980490 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 18:22:08.078520 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 18:22:08.180144 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 18:22:08.279082 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 18:22:08.378707 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 18:22:08.478905 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 18:22:08.578300 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 18:22:08.678358 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 18:22:08.777467 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 18:22:08.877237 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 18:22:08.976801 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 18:22:09.076735 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 18:22:09.176204 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 18:22:09.276521 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 18:22:09.376842 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 18:22:09.475042 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 18:22:09.575264 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 18:22:09.674689 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 18:22:09.774285 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 18:22:09.873821 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 18:22:09.974310 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 18:22:10.073687 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 18:22:10.171949 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 18:22:10.272291 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 18:22:10.372862 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 18:22:10.473689 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 18:22:10.571351 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 18:22:10.670713 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 18:22:10.771449 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 18:22:10.870993 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 18:22:10.971119 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 18:22:11.071526 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 18:22:11.169346 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 18:22:11.269743 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 18:22:11.369180 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 18:22:11.469561 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 18:22:11.568788 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 18:22:11.668933 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 18:22:11.768413 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 18:22:11.868346 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 18:22:11.967977 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 18:22:12.066813 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 18:22:12.167570 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 18:22:12.266304 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 18:22:12.365548 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 18:22:12.367187 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 18:22:12.367669 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 18:22:12.468871 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 18:22:12.566249 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 18:22:12.665979 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 18:22:12.764713 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 18:22:12.864914 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 18:22:12.965203 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 18:22:13.064819 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 18:22:13.163913 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 18:22:13.263796 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 18:22:13.362981 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 18:22:13.463111 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 18:22:13.563289 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 18:22:13.662858 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 18:22:13.762739 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 18:22:13.862156 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 18:22:13.962218 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 18:22:14.061734 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 18:22:14.161027 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 18:22:14.261149 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 18:22:14.361029 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 18:22:14.461016 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 18:22:14.577243 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 18:22:14.659591 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 18:22:14.759517 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 18:22:14.859266 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 18:22:14.958338 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 18:22:15.058767 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 18:22:15.161084 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 18:22:15.257906 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 18:22:15.356924 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 18:22:15.456724 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 18:22:15.556874 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 18:22:15.656811 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 18:22:15.756917 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 18:22:15.856930 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 18:22:15.954863 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 18:22:16.054776 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 18:22:16.156690 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 18:22:16.255254 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 18:22:16.355083 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 18:22:16.454169 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 18:22:16.554633 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 18:22:16.656985 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 18:22:16.667928 [Class:BTReceive][Method:msgConvert] Called.
+[INFO] 20201118 18:22:16.749870 [Class:UartRead][Method:uartSet] Called.
+[INFO] 20201118 18:22:16.750243 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 18:22:17.351942 [Class:BTReceive][Method:sendMessageTo] Called.
+[INFO] 20201118 18:22:17.436069 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 18:22:17.436823 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 18:22:17.759868 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 18:22:18.749912 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 18:22:19.749615 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 18:22:20.742260 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 18:22:21.738690 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 18:22:22.516063 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 18:22:22.516942 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 18:22:22.739731 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 18:22:23.734125 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 18:22:24.732901 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201118 18:22:25.146205 [Class:BTReceive][Method:msgConvert] Called.
+[INFO] 20201118 18:22:25.165526 [Class:UartRead][Method:uartSet] Called.
+[INFO] 20201118 18:22:25.767679 [Class:BTReceive][Method:sendMessageTo] Called.
+[INFO] 20201118 18:22:27.613771 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 18:22:27.614649 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 18:22:29.070035 [Class:BTReceive][Method:closeSock] Called.
+[ERROR] 20201118 18:22:29.071593 [Class:BTReceive][Method:receiver] Failed to execute : [Errno 104] Connection reset by peer
+[NOTICE] 20201118 18:22:29.483465 [Class:BTReceive][Method:monitor] threadReceive was terminated and will re-initiate.
+[INFO] 20201118 18:22:29.483965 [Class:BTReceive][Method:setReceiveThreadOn] Called.
+[INFO] 20201118 18:22:29.484651 [Class:BTReceive][Method:receiver] Called.
+[INFO] 20201118 18:22:29.485078 [Class:BTReceive][Method:connection] Called.
+[NOTICE] 20201118 18:22:29.485369 [Class:BTReceive][Method:connection] Server socket was created
+[NOTICE] 20201118 18:22:29.485763 [Class:BTReceive][Method:connection] Try to connect to ('50:77:05:43:DF:98', 1)
+[INFO] 20201118 18:22:32.701883 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 18:22:32.702761 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 18:56:18.782454 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201118 18:56:18.783059 [Class:None][Method:setAllThreadOn] Called.
+[INFO] 20201118 18:56:18.783534 [Class:None][Method:initUart] Called.
+[INFO] 20201118 18:56:18.783995 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201118 18:56:18.784357 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201118 18:56:18.784885 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201118 18:56:18.785396 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201118 18:56:18.786103 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201118 18:56:18.786887 [Class:UartRead][Method:__init__] initiated.
+[INFO] 20201118 18:56:18.787366 [Class:UartRead][Method:loadFiles] Called.
+[INFO] 20201118 18:56:18.787790 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201118 18:56:18.788213 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201118 18:56:18.788595 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201118 18:56:18.789281 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201118 18:56:18.789676 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201118 18:56:18.789978 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201118 18:56:18.790577 [Class:UartRead][Method:initSerial] Called.
+[INFO] 20201118 18:56:18.791068 [Class:UartRead][Method:openSerial] Try to open port....
+[INFO] 20201118 18:56:18.791832 [Class:UartRead][Method:uartSet] Called.
+[INFO] 20201118 18:56:19.393474 [Class:UartRead][Method:setAllThreadOn] Called.
+[INFO] 20201118 18:56:19.395190 [Class:UartRead][Method:receiver] Called.
+[INFO] 20201118 18:56:19.427293 [Class:None][Method:initWifi] Called.
+[INFO] 20201118 18:56:19.428019 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201118 18:56:19.428415 [Class:WifiNT][Method:__init__] initiated.
+[INFO] 20201118 18:56:19.428753 [Class:WifiNT][Method:wifiConnection] Called.
+[INFO] 20201118 18:56:19.429058 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201118 18:56:19.429378 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201118 18:56:19.429622 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201118 18:56:19.429922 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201118 18:56:19.430450 [Class:WifiNT][Method:wifiConnection] Wifi Module was DOWN.
+[INFO] 20201118 18:56:19.430783 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 18:56:19.434265 [Class:UartRead][Method:monitor] Called.
+[INFO] 20201118 18:56:20.640929 [Class:WifiNT][Method:wifiConnection] Wifi Module was UP.
+[INFO] 20201118 18:56:20.648062 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 18:56:22.790307 [Class:WifiNT][Method:wifiConnection] wpa_supplicant.conf was created.
+[INFO] 20201118 18:56:22.791034 [Class:WifiNT][Method:setWpaFile] Called.
+[NOTICE] 20201118 18:56:22.866005 [Class:WifiNT][Method:wifiConnection] network={
+	ssid="sensorway"
+	#psk="0295765000000"
+	psk=29c56334bfebc0529fd4eeada62404fd65e3daabc6573eeab97698d5df066619
+}
+
+[INFO] 20201118 18:56:22.866724 [Class:WifiNT][Method:wifiConnection] Wifi Module tried to connect AP(sensorway)
+[INFO] 20201118 18:56:22.875309 [Class:WifiNT][Method:setWpaCon] Called.
+[INFO] 20201118 18:56:22.875798 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201118 18:56:28.271184 [Class:WifiNT][Method:wifiConnection] Successfully initialized wpa_supplicant
+
+[INFO] 20201118 18:56:33.274111 [Class:WifiNT][Method:wifiConnection] Get Wifi Connection State from Wifi Module.
+[INFO] 20201118 18:56:33.274562 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201118 18:56:33.304530 [Class:WifiNT][Method:wifiConnection] Connected to 70:5d:cc:0c:c5:3c (on wlan0)
+	SSID: sensorway
+	freq: 2422
+	RX: 1860 bytes (12 packets)
+	TX: 1748 bytes (16 packets)
+	signal: -52 dBm
+	rx bitrate: 135.0 MBit/s
+	tx bitrate: 150.0 MBit/s
+
+	bss flags:	short-slot-time
+	dtim period:	1
+	beacon int:	100
+
+[INFO] 20201118 18:56:38.307689 [Class:WifiNT][Method:wifiConnection] Get Connected SSID.
+[INFO] 20201118 18:56:38.313365 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 18:56:38.314279 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201118 18:56:38.401497 [Class:WifiNT][Method:wifiConnection] sensorway
+[INFO] 20201118 18:56:38.402337 [Class:WifiNT][Method:wifiConnection] Connection Validated.
+[INFO] 20201118 18:56:38.402725 [Class:WifiNT][Method:setThreadOn] Called.
+[INFO] 20201118 18:56:38.404224 [Class:None][Method:initBT] Called.
+[INFO] 20201118 18:56:38.403853 [Class:WifiNT][Method:monitor] Called.
+[INFO] 20201118 18:56:38.405161 [Class:BTReceive][Method:__init__] initiated.
+[INFO] 20201118 18:56:38.405487 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 18:56:38.405942 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201118 18:56:38.406425 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 18:56:38.406763 [Class:BTReceive][Method:pair] Called.
+[INFO] 20201118 18:56:38.411692 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201118 18:56:38.412836 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201118 18:56:38.413208 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201118 18:56:38.414112 [Class:BTReceive][Method:pair] Loaded - BT ADDRESS : 50:77:05:43:DF:98
+[INFO] 20201118 18:56:38.415272 [Class:BTReceive][Method:setAllThreadOn] Called.
+[INFO] 20201118 18:56:38.416586 [Class:BTReceive][Method:receiver] Called.
+[INFO] 20201118 18:56:38.417431 [Class:BTReceive][Method:connection] Called.
+[NOTICE] 20201118 18:56:38.417995 [Class:BTReceive][Method:connection] Server socket was created
+[NOTICE] 20201118 18:56:38.418555 [Class:BTReceive][Method:connection] Try to connect to 50:77:05:43:DF:98
+[INFO] 20201118 18:56:38.419307 [Class:BTReceive][Method:monitor] Called.
+[INFO] 20201118 18:56:43.465842 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 18:56:43.466686 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 18:56:48.551162 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 18:56:48.552487 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 18:56:53.653485 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 18:56:53.655159 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 18:56:58.757398 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 18:56:58.758734 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 18:57:03.857539 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 18:57:03.858895 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 18:57:08.951874 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 18:57:08.953226 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 18:57:14.044111 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 18:57:14.045575 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 18:57:19.136785 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 18:57:19.138130 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 18:57:24.225776 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 18:57:24.227118 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 18:57:29.319331 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 18:57:29.320681 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 18:57:34.414966 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 18:57:34.416405 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 18:57:39.498371 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 18:57:39.499703 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 18:57:44.599073 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 18:57:44.600420 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 18:57:49.692092 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 18:57:49.693441 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 18:57:54.786602 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 18:57:54.787941 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 18:57:59.885281 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 18:57:59.886238 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 18:58:04.962690 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 18:58:04.963882 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 18:58:10.049074 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 18:58:10.050422 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 18:58:15.135092 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 18:58:15.136436 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 18:58:20.230851 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 18:58:20.232197 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 18:58:25.331465 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 18:58:25.336810 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 18:58:30.429354 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 18:58:30.430690 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 18:58:35.529136 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 18:58:35.530463 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 18:58:40.618882 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 18:58:40.620221 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 18:58:45.709082 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 18:58:45.710448 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 18:58:50.803951 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 18:58:50.805337 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 18:58:55.895673 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 18:58:55.897005 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 18:59:00.989925 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 18:59:00.991263 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 18:59:06.095196 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 18:59:06.096550 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 18:59:11.186024 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 18:59:11.187373 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 18:59:16.289355 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 18:59:16.290705 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 18:59:21.380280 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 18:59:21.381620 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 18:59:24.246621 [Class:BTReceive][Method:msgConvert] Called.
+[INFO] 20201118 18:59:24.339675 [Class:WifiNT][Method:getWifiList] Called.
+[INFO] 20201118 18:59:24.340666 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 18:59:26.471457 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 18:59:26.472909 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 18:59:31.555059 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 18:59:31.556196 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 18:59:36.642456 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 18:59:36.643776 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 18:59:41.742646 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 18:59:41.743285 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 18:59:46.798133 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 18:59:46.799511 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 18:59:51.890676 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 18:59:51.891740 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201118 18:59:56.972328 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201118 18:59:56.972972 [Class:WifiNT][Method:getSubpro] Called.

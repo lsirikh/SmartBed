@@ -4,8 +4,6 @@ import json
 
 
 class ApiServer:
-    # file = None
-    # prop_dict = {}
 
     def __init__(self):
         self.file = FileProcess()
@@ -24,13 +22,24 @@ class ApiServer:
     def dataSend(self, dict_data):
 
         #url = 'http://182.173.185.246:3001/api/Bed/Sensor/SendData/Start'
+        # Wifi setting Check
+
         url = self.setUrl()
         header = {'Content-Type': 'application/json; charset=utf-8'}
+        res = None
+        try:
+            res = requests.post(url,
+                                timeout=2,
+                                headers=header,
+                                data=json.dumps(dict_data))
 
-        res = requests.post(url, headers=header, data=json.dumps(dict_data))
-
-        # s.file.data_store(dict_data)
-        self.file.data_store(dict_data)
+            # res is not ok will be stored
+            if not res.ok:
+                print("failed to send API server")
+                self.file.data_store(dict_data)
+        except Exception as ex:
+            self.file.data_store(dict_data)
+            print("Failed to send API server", ex)
 
         return res
 

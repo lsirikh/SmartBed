@@ -3,16 +3,27 @@ from datetime import datetime
 import json
 import csv
 
+from logs import Logs
+
 
 class FileProcess:
 
+    def __init__(self):
+        self.log = Logs(self.__class__.__name__)
+        self.log.write(self.log.INFO, self.__init__.__name__, "initiated.")
+
     def fileRead(self, subDir, filename):
-        if self.isFileExist(subDir, filename):
-            f = open(filename, 'r')
-            line = f.read()
-            f.close()
-            return line
-        else:
+        self.log.write(self.log.INFO, self.fileRead.__name__, "Called.")
+        try:
+            if self.isFileExist(subDir, filename):
+                f = open(filename, 'r', encoding='UTF-8')
+                line = f.read()
+                f.close()
+                return line
+            else:
+                return None
+        except Exception as ex:
+            self.log.write(self.log.ERROR, self.fileRead.__name__, "Failed to excute : {0}".format(ex))
             return None
 
     # def networkFileRead(self):
@@ -51,20 +62,25 @@ class FileProcess:
     #         return line
 
     def fileWrite(self, subDir, filename, dict_data):
+        self.log.write(self.log.INFO, self.fileWrite.__name__, "Called.")
         try:
             if self.isFileExist(subDir, filename):
-                f = open("user.txt", 'w')
-                json.dump(dict_data, f, indent=4)
+                f = open(filename, 'w', encoding='UTF-8')
+                json.dump(dict_data, f, indent=4, ensure_ascii=False)
                 f.close()
 
+            return True
         except Exception as ex:
-            pass
+            self.log.write(self.log.ERROR, self.fileWrite.__name__, "Failed to excute : {0}".format(ex))
+            #print("Failed to execute fileWrite!!!!")
+            return False
 
     def checkDir(self, subDir):
         """
         Directory check whether ./data directory exists or not
         :return: boolean
         """
+        self.log.write(self.log.INFO, self.checkDir.__name__, "Called.")
         try:
             dir = os.getcwd()
             if not (os.path.isdir(dir + subDir)):
@@ -72,21 +88,37 @@ class FileProcess:
 
             return True
 
-        except OSError as e:
-            print("Failed to create directory!!!!!")
+        except OSError as ex:
+            self.log.write(self.log.ERROR, self.checkDir.__name__, "Failed to excute : {0}".format(ex))
+            #print("Failed to create directory!!!!!")
             return False
 
     def getFilePath(self, subDir, filename):
+        self.log.write(self.log.INFO, self.getFilePath.__name__, "Called.")
         try:
             dir = os.getcwd()
             filepath = os.path.join(dir + subDir +"/{0}".format(filename))
             return filepath
 
         except Exception as ex:
-            print("Failed to execute getFilePath!!!!")
+            self.log.write(self.log.ERROR, self.getFilePath.__name__, "Failed to excute : {0}".format(ex))
+            #print("Failed to execute getFilePath!!!!")
+            return None
+
+    def getDirFiles(self, subDir):
+        result = self.checkDir(subDir)
+        try:
+            if result:
+                myPath = os.getcwd() + subDir
+                file_list = [f for f in os.listdir(myPath) if os.path.isfile(os.path.join(myPath, f))]
+                return file_list
+        except Exception as ex:
+            self.log.write(self.log.ERROR, self.getFilePath.__name__, "Failed to excute : {0}".format(ex))
+            #print("Failed to execute getDirFiles!!!!")
             return None
 
     def isFileExist(self, subDir, filename):
+        self.log.write(self.log.INFO, self.isFileExist.__name__, "Called.")
         try:
             filepath = self.getFilePath(subDir, filename)
 
@@ -94,7 +126,7 @@ class FileProcess:
                 return True
 
             elif (subDir == "") and (not os.path.isfile(filepath)):
-                f = open(filepath, "w")
+                f = open(filepath, "w", encoding='UTF-8')
                 data = ""
                 if filename == "user.txt":
                     # data = {'duid': '0000000000000', 'name': 'default',
@@ -116,6 +148,12 @@ class FileProcess:
                             "cloud_server-port": 0,
                             "cloud_server-urls": ""
                             }
+                elif filename == "reqeust.txt":
+                    data = {"target": 0,
+                            "range_start": "2020-01-01 00:00:00",
+                            "range_stop": "2020-01-01 23:59:59",
+                            "bed_num": "0000000000000"
+                            }
                 json.dump(data, f, indent=4)
                 f.close()
                 return True
@@ -127,7 +165,8 @@ class FileProcess:
                 return True
 
         except Exception as ex:
-            print("Failed to execute checkFiles!!!!")
+            self.log.write(self.log.ERROR, self.isFileExist.__name__, "Failed to excute : {0}".format(ex))
+            #print("Failed to execute checkFiles!!!!")
             return False
 
     # def isDataExist(self, file):
@@ -145,14 +184,19 @@ class FileProcess:
     #         print("Failed to execute isDataExist!!!!")
     #         return False
 
-    def checkDataFile(self):
-
+    def getTimeStamp(self):
+        self.log.write(self.log.INFO, self.getTimeStamp.__name__, "Called.")
         dt = datetime.now()
         stf = dt.strftime('%Y%m%d_%Hh')
+        return stf
+
+    def checkDataFile(self):
+        self.log.write(self.log.INFO, self.checkDataFile.__name__, "Called.")
+        stf = self.getTimeStamp()
         # checkData info Dictionary
-        dict = {}
-        dict["filepath"] = None
-        dict["isNew"] = False
+        dict_data = {}
+        dict_data["filepath"] = None
+        dict_data["isNew"] = False
 
         # subDir variable
         subDir = "/data"
@@ -163,56 +207,65 @@ class FileProcess:
         try:
             # default setting info
             filepath = self.getFilePath(subDir, filename)
-            dict["filepath"] = filepath
+            dict_data["filepath"] = filepath
 
             if not self.isFileExist(subDir, filename):
                 # if not os.path.isfile(filepath):
                 fid = open(filepath, "w")
                 fid.close()
-                dict["isNew"] = True
+                dict_data["isNew"] = True
 
         except Exception as ex:
-            print("Failed to execute checkDataFile!!!!")
+            self.log.write(self.log.ERROR, self.checkDataFile.__name__, "Failed to excute : {0}".format(ex))
+            #print("Failed to execute checkDataFile!!!!")
 
-        return dict
+        return dict_data
 
-    def data_store(self, dict):
-
+    def data_store(self, dict_arg):
+        self.log.write(self.log.INFO, self.data_store.__name__, "Called.")
         # get dictionary type data of file status
         r_dict = self.checkDataFile()
         filepath = r_dict["filepath"]
         isNew = r_dict["isNew"]
-        print(filepath)
+
         if filepath != None:
             try:
 
-                with open(filepath, 'a+', newline='') as f:
+                with open(filepath, 'a+', newline='', encoding='UTF-8') as f:
                     # Create a csv.writer object
                     csv_writer = csv.writer(f)
                     # Newly create file needs keys
                     if isNew:
-                        csv_writer.writerow(dict.keys())
+                        csv_writer.writerow(dict_arg.keys())
 
                     # Add contents of list as last row in the file
-                    csv_writer.writerow(dict.values())
+                    csv_writer.writerow(dict_arg.values())
                     f.close()
 
             except Exception as ex:
-                print("Failed to store sensor data!!!")
+                self.log.write(self.log.ERROR, self.data_store.__name__, "Failed to excute : {0}".format(ex))
+                #print("Failed to store sensor data!!!")
 
     def data_load(self, filename):
+
+        self.log.write(self.log.INFO, self.data_load.__name__, "Called.")
         subDir = "/data"
         if self.isFileExist(subDir, filename):
             filepath = self.getFilePath(subDir, filename)
             dict_data = []
-            with open(filepath, mode='r') as f:
-                fieldnames = ['collect_time', 'duid', 'name', 'sex',
-                              'age', 'height', 'weight', 'accelerationx',
-                              'accelerationy', 'accelerationz', 'temperature',
-                              'humidity', 'lightsensor', 'pad_value']
-                data = csv.DictReader(f)
+            try:
+                with open(filepath, mode='r', encoding='UTF-8') as f:
+                    fieldnames = ['collect_time', 'duid', 'name', 'sex',
+                                  'age', 'height', 'weight', 'accelerationx',
+                                  'accelerationy', 'accelerationz', 'temperature',
+                                  'humidity', 'lightsensor', 'pad_value']
+                    data = csv.DictReader(f)
 
-                for row in data:
-                    dict_data.append(dict(row))
+                    for row in data:
+                        dict_data.append(dict(row))
 
-                return dict_data
+                    return dict_data
+
+            except Exception as ex:
+                self.log.write(self.log.ERROR, self.data_load.__name__, "Failed to excute : {0}".format(ex))
+                return False
