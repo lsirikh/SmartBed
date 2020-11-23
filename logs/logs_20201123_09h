@@ -1,0 +1,2115 @@
+[INFO] 20201123 09:36:29.079850 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201123 09:36:29.080440 [Class:SmartBed][Method:setAllThreadOn] Called.
+[INFO] 20201123 09:36:29.081305 [Class:SmartBed][Method:initBT] Called.
+[INFO] 20201123 09:36:29.081719 [Class:SmartBed][Method:initUart] Called.
+[INFO] 20201123 09:36:29.082432 [Class:BTReceive][Method:__init__] initiated.
+[INFO] 20201123 09:36:29.082681 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201123 09:36:29.082970 [Class:SmartBed][Method:initWifi] Called.
+[INFO] 20201123 09:36:29.088767 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201123 09:36:29.151170 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 09:36:29.145628 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201123 09:36:29.178766 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 09:36:29.195011 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 09:36:29.200469 [Class:WifiNT][Method:__init__] initiated.
+[INFO] 20201123 09:36:29.226937 [Class:WifiNT][Method:setThreadOn] Called.
+[INFO] 20201123 09:36:29.248150 [Class:UartRead][Method:__init__] initiated.
+[INFO] 20201123 09:36:29.275422 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201123 09:36:29.269796 [Class:UartRead][Method:loadFiles] Called.
+[INFO] 20201123 09:36:29.291350 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 09:36:29.302005 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 09:36:29.302261 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 09:36:29.269522 [Class:WifiNT][Method:monitor] Called.
+[INFO] 20201123 09:36:29.302882 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201123 09:36:29.303132 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 09:36:29.303356 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 09:36:29.303573 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 09:36:29.303964 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201123 09:36:29.304238 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201123 09:36:29.324216 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 09:36:29.325208 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 09:36:29.325579 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 09:36:29.330152 [Class:UartRead][Method:initSerial] Called.
+[INFO] 20201123 09:36:29.330743 [Class:UartRead][Method:openSerial] Try to open port....
+[INFO] 20201123 09:36:29.331690 [Class:UartRead][Method:uartSet] Called.
+[NOTICE] 20201123 09:36:29.397494 [Class:WifiNT][Method:monitor] Wifi was disconnected.
+[INFO] 20201123 09:36:29.398161 [Class:WifiNT][Method:wifiConnection] Called.
+[INFO] 20201123 09:36:29.398459 [Class:WifiNT][Method:wifiConnection] Wifi Module was DOWN.
+[INFO] 20201123 09:36:29.398694 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201123 09:36:29.933448 [Class:UartRead][Method:setAllThreadOn] Called.
+[INFO] 20201123 09:36:29.936132 [Class:UartRead][Method:receiver] Called.
+[INFO] 20201123 09:36:29.937039 [Class:UartRead][Method:monitor] Called.
+[INFO] 20201123 09:36:30.442520 [Class:WifiNT][Method:wifiConnection] Wifi Module was UP.
+[INFO] 20201123 09:36:30.443371 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201123 09:36:31.409357 [Class:BTReceive][Method:pair] Called.
+[INFO] 20201123 09:36:31.410579 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 09:36:31.411194 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 09:36:31.411758 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 09:36:31.412915 [Class:BTReceive][Method:pair] Loaded - BT ADDRESS : 50:77:05:43:DF:98
+[INFO] 20201123 09:36:31.413527 [Class:BTReceive][Method:setAllThreadOn] Called.
+[INFO] 20201123 09:36:31.415246 [Class:BTReceive][Method:receiver] Called.
+[INFO] 20201123 09:36:31.419435 [Class:BTReceive][Method:connection] Called.
+[INFO] 20201123 09:36:31.418677 [Class:BTReceive][Method:monitor] Called.
+[NOTICE] 20201123 09:36:31.421008 [Class:BTReceive][Method:connection] Server socket was created
+[NOTICE] 20201123 09:36:31.421974 [Class:BTReceive][Method:connection] Try to connect to 50:77:05:43:DF:98
+[INFO] 20201123 09:36:32.515893 [Class:WifiNT][Method:wifiConnection] wpa_supplicant.conf was created.
+[INFO] 20201123 09:36:32.516889 [Class:WifiNT][Method:setWpaFile] Called.
+[NOTICE] 20201123 09:36:32.593413 [Class:WifiNT][Method:wifiConnection] network={
+	ssid="U+Net29A0"
+	#psk="7FG16A#7C0"
+	psk=a95f25a20c37a451c1b054a9d386c760602fa8461e7e45bfeae367c718bfb9bc
+}
+
+[INFO] 20201123 09:36:32.594431 [Class:WifiNT][Method:wifiConnection] Wifi Module tried to connect AP(U+Net29A0)
+[INFO] 20201123 09:36:32.594924 [Class:WifiNT][Method:setWpaCon] Called.
+[INFO] 20201123 09:36:32.595552 [Class:WifiNT][Method:getSubpro] Called.
+[ERROR] 20201123 09:36:34.425979 [Class:BTReceive][Method:connection] Failed to execute : timed out
+[INFO] 20201123 09:36:34.427272 [Class:BTReceive][Method:closeSock] Called.
+[ERROR] 20201123 09:36:34.428038 [Class:BTReceive][Method:receiver] Failed to execute : 'NoneType' object has no attribute 'recv'
+[NOTICE] 20201123 09:36:35.425491 [Class:BTReceive][Method:monitor] threadReceive was terminated and will re-initiate.
+[INFO] 20201123 09:36:35.426554 [Class:BTReceive][Method:setReceiveThreadOn] Called.
+[INFO] 20201123 09:36:35.428063 [Class:BTReceive][Method:receiver] Called.
+[INFO] 20201123 09:36:35.428887 [Class:BTReceive][Method:connection] Called.
+[NOTICE] 20201123 09:36:35.429664 [Class:BTReceive][Method:connection] Server socket was created
+[NOTICE] 20201123 09:36:35.430511 [Class:BTReceive][Method:connection] Try to connect to 50:77:05:43:DF:98
+[INFO] 20201123 09:37:27.060029 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201123 09:37:27.060557 [Class:SmartBed][Method:setAllThreadOn] Called.
+[INFO] 20201123 09:37:27.061774 [Class:SmartBed][Method:initUart] Called.
+[INFO] 20201123 09:37:27.061411 [Class:SmartBed][Method:initBT] Called.
+[INFO] 20201123 09:37:27.062288 [Class:SmartBed][Method:initWifi] Called.
+[INFO] 20201123 09:37:27.068270 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201123 09:37:27.117309 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201123 09:37:27.106665 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201123 09:37:27.073661 [Class:BTReceive][Method:__init__] initiated.
+[INFO] 20201123 09:37:27.148564 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 09:37:27.148741 [Class:WifiNT][Method:__init__] initiated.
+[INFO] 20201123 09:37:27.183795 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 09:37:27.189432 [Class:WifiNT][Method:setThreadOn] Called.
+[INFO] 20201123 09:37:27.239019 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 09:37:27.223106 [Class:WifiNT][Method:monitor] Called.
+[INFO] 20201123 09:37:27.254843 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201123 09:37:27.291764 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 09:37:27.297352 [Class:UartRead][Method:__init__] initiated.
+[INFO] 20201123 09:37:27.302953 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 09:37:27.308502 [Class:UartRead][Method:loadFiles] Called.
+[INFO] 20201123 09:37:27.329876 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 09:37:27.361454 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 09:37:27.319468 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 09:37:27.330398 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201123 09:37:27.387648 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 09:37:27.393179 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201123 09:37:27.409317 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 09:37:27.409457 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201123 09:37:27.409905 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 09:37:27.413618 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 09:37:27.416138 [Class:UartRead][Method:initSerial] Called.
+[INFO] 20201123 09:37:27.416771 [Class:UartRead][Method:openSerial] Try to open port....
+[INFO] 20201123 09:37:27.417644 [Class:UartRead][Method:uartSet] Called.
+[NOTICE] 20201123 09:37:27.456267 [Class:WifiNT][Method:monitor] Wifi was disconnected.
+[INFO] 20201123 09:37:27.456720 [Class:WifiNT][Method:wifiConnection] Called.
+[INFO] 20201123 09:37:27.457012 [Class:WifiNT][Method:wifiConnection] Wifi Module was DOWN.
+[INFO] 20201123 09:37:27.457248 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201123 09:37:28.019846 [Class:UartRead][Method:setAllThreadOn] Called.
+[INFO] 20201123 09:37:28.027301 [Class:UartRead][Method:receiver] Called.
+[INFO] 20201123 09:37:28.028079 [Class:UartRead][Method:monitor] Called.
+[INFO] 20201123 09:37:28.495735 [Class:WifiNT][Method:wifiConnection] Wifi Module was UP.
+[INFO] 20201123 09:37:28.496642 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201123 09:37:29.518245 [Class:BTReceive][Method:pair] Called.
+[INFO] 20201123 09:37:29.519502 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 09:37:29.520081 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 09:37:29.521004 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 09:37:29.522279 [Class:BTReceive][Method:pair] Loaded - BT ADDRESS : 50:77:05:43:DF:98
+[INFO] 20201123 09:37:29.522906 [Class:BTReceive][Method:setAllThreadOn] Called.
+[INFO] 20201123 09:37:29.524623 [Class:BTReceive][Method:receiver] Called.
+[INFO] 20201123 09:37:29.527853 [Class:BTReceive][Method:monitor] Called.
+[INFO] 20201123 09:37:29.529010 [Class:BTReceive][Method:connection] Called.
+[NOTICE] 20201123 09:37:29.530496 [Class:BTReceive][Method:connection] Server socket was created
+[NOTICE] 20201123 09:37:29.531448 [Class:BTReceive][Method:connection] Try to connect to 50:77:05:43:DF:98
+[INFO] 20201123 09:37:30.572102 [Class:WifiNT][Method:wifiConnection] wpa_supplicant.conf was created.
+[INFO] 20201123 09:37:30.573072 [Class:WifiNT][Method:setWpaFile] Called.
+[NOTICE] 20201123 09:37:30.641800 [Class:WifiNT][Method:wifiConnection] network={
+	ssid="sensorway"
+	#psk="0295765000000"
+	psk=29c56334bfebc0529fd4eeada62404fd65e3daabc6573eeab97698d5df066619
+}
+
+[INFO] 20201123 09:37:30.643079 [Class:WifiNT][Method:wifiConnection] Wifi Module tried to connect AP(sensorway)
+[INFO] 20201123 09:37:30.643630 [Class:WifiNT][Method:setWpaCon] Called.
+[INFO] 20201123 09:37:30.644155 [Class:WifiNT][Method:getSubpro] Called.
+[ERROR] 20201123 09:37:32.534522 [Class:BTReceive][Method:connection] Failed to execute : timed out
+[INFO] 20201123 09:37:32.535874 [Class:BTReceive][Method:closeSock] Called.
+[ERROR] 20201123 09:37:32.536634 [Class:BTReceive][Method:receiver] Failed to execute : 'NoneType' object has no attribute 'recv'
+[NOTICE] 20201123 09:37:33.534859 [Class:BTReceive][Method:monitor] threadReceive was terminated and will re-initiate.
+[INFO] 20201123 09:37:33.535873 [Class:BTReceive][Method:setReceiveThreadOn] Called.
+[INFO] 20201123 09:37:33.537388 [Class:BTReceive][Method:receiver] Called.
+[INFO] 20201123 09:37:33.538303 [Class:BTReceive][Method:connection] Called.
+[NOTICE] 20201123 09:37:33.539088 [Class:BTReceive][Method:connection] Server socket was created
+[NOTICE] 20201123 09:37:33.539885 [Class:BTReceive][Method:connection] Try to connect to 50:77:05:43:DF:98
+[NOTICE] 20201123 09:37:35.871458 [Class:WifiNT][Method:wifiConnection] Successfully initialized wpa_supplicant
+
+[ERROR] 20201123 09:37:36.543585 [Class:BTReceive][Method:connection] Failed to execute : timed out
+[INFO] 20201123 09:37:36.544568 [Class:BTReceive][Method:closeSock] Called.
+[ERROR] 20201123 09:37:36.545280 [Class:BTReceive][Method:receiver] Failed to execute : 'NoneType' object has no attribute 'recv'
+[NOTICE] 20201123 09:37:37.542148 [Class:BTReceive][Method:monitor] threadReceive was terminated and will re-initiate.
+[INFO] 20201123 09:37:37.543167 [Class:BTReceive][Method:setReceiveThreadOn] Called.
+[INFO] 20201123 09:37:37.544518 [Class:BTReceive][Method:receiver] Called.
+[INFO] 20201123 09:37:37.545494 [Class:BTReceive][Method:connection] Called.
+[NOTICE] 20201123 09:37:37.546232 [Class:BTReceive][Method:connection] Server socket was created
+[NOTICE] 20201123 09:37:37.547064 [Class:BTReceive][Method:connection] Try to connect to 50:77:05:43:DF:98
+[ERROR] 20201123 09:37:40.549169 [Class:BTReceive][Method:connection] Failed to execute : timed out
+[INFO] 20201123 09:37:40.549999 [Class:BTReceive][Method:closeSock] Called.
+[ERROR] 20201123 09:37:40.550678 [Class:BTReceive][Method:receiver] Failed to execute : 'NoneType' object has no attribute 'recv'
+[INFO] 20201123 09:37:40.876041 [Class:WifiNT][Method:wifiConnection] Get Wifi Connection State from Wifi Module.
+[INFO] 20201123 09:37:40.876876 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201123 09:37:40.939376 [Class:WifiNT][Method:wifiConnection] Connected to 70:5d:cc:0c:c5:3c (on wlan0)
+	SSID: sensorway
+	freq: 2422
+	RX: 1462 bytes (9 packets)
+	TX: 1478 bytes (13 packets)
+	signal: -52 dBm
+	rx bitrate: 108.0 MBit/s
+	tx bitrate: 121.5 MBit/s
+
+	bss flags:	short-slot-time
+	dtim period:	1
+	beacon int:	100
+
+[NOTICE] 20201123 09:37:41.549354 [Class:BTReceive][Method:monitor] threadReceive was terminated and will re-initiate.
+[INFO] 20201123 09:37:41.550414 [Class:BTReceive][Method:setReceiveThreadOn] Called.
+[INFO] 20201123 09:37:41.552239 [Class:BTReceive][Method:receiver] Called.
+[INFO] 20201123 09:37:41.553143 [Class:BTReceive][Method:connection] Called.
+[NOTICE] 20201123 09:37:41.554030 [Class:BTReceive][Method:connection] Server socket was created
+[NOTICE] 20201123 09:37:41.555170 [Class:BTReceive][Method:connection] Try to connect to 50:77:05:43:DF:98
+[ERROR] 20201123 09:37:44.559006 [Class:BTReceive][Method:connection] Failed to execute : timed out
+[INFO] 20201123 09:37:44.559983 [Class:BTReceive][Method:closeSock] Called.
+[ERROR] 20201123 09:37:44.560885 [Class:BTReceive][Method:receiver] Failed to execute : 'NoneType' object has no attribute 'recv'
+[NOTICE] 20201123 09:37:45.556995 [Class:BTReceive][Method:monitor] threadReceive was terminated and will re-initiate.
+[INFO] 20201123 09:37:45.558077 [Class:BTReceive][Method:setReceiveThreadOn] Called.
+[INFO] 20201123 09:37:45.563532 [Class:BTReceive][Method:receiver] Called.
+[INFO] 20201123 09:37:45.564863 [Class:BTReceive][Method:connection] Called.
+[NOTICE] 20201123 09:37:45.565581 [Class:BTReceive][Method:connection] Server socket was created
+[NOTICE] 20201123 09:37:45.566389 [Class:BTReceive][Method:connection] Try to connect to 50:77:05:43:DF:98
+[INFO] 20201123 09:37:45.944287 [Class:WifiNT][Method:wifiConnection] Get Connected SSID.
+[INFO] 20201123 09:37:45.945239 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201123 09:37:45.945842 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201123 09:37:46.027770 [Class:WifiNT][Method:wifiConnection] sensorway
+[INFO] 20201123 09:37:46.028715 [Class:WifiNT][Method:wifiConnection] Connection Validated.
+[INFO] 20201123 09:37:48.031273 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201123 09:37:48.032112 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 09:37:48.032715 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 09:37:48.033308 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 09:37:48.034563 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201123 09:37:48.035191 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201123 09:37:48.117854 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[sensorway], Now[sensorway]
+[ERROR] 20201123 09:37:48.570024 [Class:BTReceive][Method:connection] Failed to execute : timed out
+[INFO] 20201123 09:37:48.571037 [Class:BTReceive][Method:closeSock] Called.
+[ERROR] 20201123 09:37:48.571791 [Class:BTReceive][Method:receiver] Failed to execute : 'NoneType' object has no attribute 'recv'
+[NOTICE] 20201123 09:37:49.568624 [Class:BTReceive][Method:monitor] threadReceive was terminated and will re-initiate.
+[INFO] 20201123 09:37:49.569765 [Class:BTReceive][Method:setReceiveThreadOn] Called.
+[INFO] 20201123 09:37:49.571248 [Class:BTReceive][Method:receiver] Called.
+[INFO] 20201123 09:37:49.572050 [Class:BTReceive][Method:connection] Called.
+[NOTICE] 20201123 09:37:49.572801 [Class:BTReceive][Method:connection] Server socket was created
+[NOTICE] 20201123 09:37:49.573653 [Class:BTReceive][Method:connection] Try to connect to 50:77:05:43:DF:98
+[ERROR] 20201123 09:37:52.577762 [Class:BTReceive][Method:connection] Failed to execute : timed out
+[INFO] 20201123 09:37:52.578703 [Class:BTReceive][Method:closeSock] Called.
+[ERROR] 20201123 09:37:52.579584 [Class:BTReceive][Method:receiver] Failed to execute : 'NoneType' object has no attribute 'recv'
+[INFO] 20201123 09:37:53.124149 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201123 09:37:53.125036 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 09:37:53.125627 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 09:37:53.126208 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 09:37:53.127310 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201123 09:37:53.127901 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201123 09:37:53.214843 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[sensorway], Now[sensorway]
+[NOTICE] 20201123 09:37:53.576002 [Class:BTReceive][Method:monitor] threadReceive was terminated and will re-initiate.
+[INFO] 20201123 09:37:53.577125 [Class:BTReceive][Method:setReceiveThreadOn] Called.
+[INFO] 20201123 09:37:53.578773 [Class:BTReceive][Method:receiver] Called.
+[INFO] 20201123 09:37:53.579576 [Class:BTReceive][Method:connection] Called.
+[NOTICE] 20201123 09:37:53.580361 [Class:BTReceive][Method:connection] Server socket was created
+[NOTICE] 20201123 09:37:53.581935 [Class:BTReceive][Method:connection] Try to connect to 50:77:05:43:DF:98
+[ERROR] 20201123 09:37:56.585750 [Class:BTReceive][Method:connection] Failed to execute : timed out
+[INFO] 20201123 09:37:56.586671 [Class:BTReceive][Method:closeSock] Called.
+[ERROR] 20201123 09:37:56.587393 [Class:BTReceive][Method:receiver] Failed to execute : 'NoneType' object has no attribute 'recv'
+[NOTICE] 20201123 09:37:57.583400 [Class:BTReceive][Method:monitor] threadReceive was terminated and will re-initiate.
+[INFO] 20201123 09:37:57.584409 [Class:BTReceive][Method:setReceiveThreadOn] Called.
+[INFO] 20201123 09:37:57.585591 [Class:BTReceive][Method:receiver] Called.
+[INFO] 20201123 09:37:57.586592 [Class:BTReceive][Method:connection] Called.
+[NOTICE] 20201123 09:37:57.587326 [Class:BTReceive][Method:connection] Server socket was created
+[NOTICE] 20201123 09:37:57.588201 [Class:BTReceive][Method:connection] Try to connect to 50:77:05:43:DF:98
+[INFO] 20201123 09:37:58.221152 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201123 09:37:58.222090 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 09:37:58.222688 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 09:37:58.223244 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 09:37:58.224483 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201123 09:37:58.225107 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201123 09:37:58.309356 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[sensorway], Now[sensorway]
+[ERROR] 20201123 09:38:00.590790 [Class:BTReceive][Method:connection] Failed to execute : timed out
+[INFO] 20201123 09:38:00.591813 [Class:BTReceive][Method:closeSock] Called.
+[ERROR] 20201123 09:38:00.592564 [Class:BTReceive][Method:receiver] Failed to execute : 'NoneType' object has no attribute 'recv'
+[NOTICE] 20201123 09:38:01.590366 [Class:BTReceive][Method:monitor] threadReceive was terminated and will re-initiate.
+[INFO] 20201123 09:38:01.591521 [Class:BTReceive][Method:setReceiveThreadOn] Called.
+[INFO] 20201123 09:38:01.596323 [Class:BTReceive][Method:receiver] Called.
+[INFO] 20201123 09:38:01.597198 [Class:BTReceive][Method:connection] Called.
+[NOTICE] 20201123 09:38:01.597970 [Class:BTReceive][Method:connection] Server socket was created
+[NOTICE] 20201123 09:38:01.598843 [Class:BTReceive][Method:connection] Try to connect to 50:77:05:43:DF:98
+[INFO] 20201123 09:38:03.315518 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201123 09:38:03.316434 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 09:38:03.317079 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 09:38:03.317638 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 09:38:03.318833 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201123 09:38:03.319432 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201123 09:38:03.400983 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[sensorway], Now[sensorway]
+[ERROR] 20201123 09:38:04.602634 [Class:BTReceive][Method:connection] Failed to execute : timed out
+[INFO] 20201123 09:38:04.603612 [Class:BTReceive][Method:closeSock] Called.
+[ERROR] 20201123 09:38:04.604473 [Class:BTReceive][Method:receiver] Failed to execute : 'NoneType' object has no attribute 'recv'
+[NOTICE] 20201123 09:38:05.601068 [Class:BTReceive][Method:monitor] threadReceive was terminated and will re-initiate.
+[INFO] 20201123 09:38:05.602198 [Class:BTReceive][Method:setReceiveThreadOn] Called.
+[INFO] 20201123 09:38:05.603709 [Class:BTReceive][Method:receiver] Called.
+[INFO] 20201123 09:38:05.604688 [Class:BTReceive][Method:connection] Called.
+[NOTICE] 20201123 09:38:05.605461 [Class:BTReceive][Method:connection] Server socket was created
+[NOTICE] 20201123 09:38:05.606325 [Class:BTReceive][Method:connection] Try to connect to 50:77:05:43:DF:98
+[INFO] 20201123 09:38:08.406950 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201123 09:38:08.407901 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 09:38:08.408504 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 09:38:08.409065 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 09:38:08.410175 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201123 09:38:08.410750 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201123 09:38:08.500698 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[sensorway], Now[sensorway]
+[ERROR] 20201123 09:38:08.610177 [Class:BTReceive][Method:connection] Failed to execute : timed out
+[INFO] 20201123 09:38:08.610974 [Class:BTReceive][Method:closeSock] Called.
+[ERROR] 20201123 09:38:08.611597 [Class:BTReceive][Method:receiver] Failed to execute : 'NoneType' object has no attribute 'recv'
+[NOTICE] 20201123 09:38:09.608440 [Class:BTReceive][Method:monitor] threadReceive was terminated and will re-initiate.
+[INFO] 20201123 09:38:09.609559 [Class:BTReceive][Method:setReceiveThreadOn] Called.
+[INFO] 20201123 09:38:09.610974 [Class:BTReceive][Method:receiver] Called.
+[INFO] 20201123 09:38:09.611755 [Class:BTReceive][Method:connection] Called.
+[NOTICE] 20201123 09:38:09.612512 [Class:BTReceive][Method:connection] Server socket was created
+[NOTICE] 20201123 09:38:09.613378 [Class:BTReceive][Method:connection] Try to connect to 50:77:05:43:DF:98
+[ERROR] 20201123 09:38:12.617172 [Class:BTReceive][Method:connection] Failed to execute : timed out
+[INFO] 20201123 09:38:12.618127 [Class:BTReceive][Method:closeSock] Called.
+[ERROR] 20201123 09:38:12.618829 [Class:BTReceive][Method:receiver] Failed to execute : 'NoneType' object has no attribute 'recv'
+[INFO] 20201123 09:38:13.506671 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201123 09:38:13.507589 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 09:38:13.508220 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 09:38:13.508782 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 09:38:13.509846 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201123 09:38:13.510419 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201123 09:38:13.598790 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[sensorway], Now[sensorway]
+[NOTICE] 20201123 09:38:13.614320 [Class:BTReceive][Method:monitor] threadReceive was terminated and will re-initiate.
+[INFO] 20201123 09:38:13.614953 [Class:BTReceive][Method:setReceiveThreadOn] Called.
+[INFO] 20201123 09:38:13.616011 [Class:BTReceive][Method:receiver] Called.
+[INFO] 20201123 09:38:13.616557 [Class:BTReceive][Method:connection] Called.
+[NOTICE] 20201123 09:38:13.617050 [Class:BTReceive][Method:connection] Server socket was created
+[NOTICE] 20201123 09:38:13.617582 [Class:BTReceive][Method:connection] Try to connect to 50:77:05:43:DF:98
+[ERROR] 20201123 09:38:16.619538 [Class:BTReceive][Method:connection] Failed to execute : timed out
+[INFO] 20201123 09:38:16.620439 [Class:BTReceive][Method:closeSock] Called.
+[ERROR] 20201123 09:38:16.621143 [Class:BTReceive][Method:receiver] Failed to execute : 'NoneType' object has no attribute 'recv'
+[NOTICE] 20201123 09:38:17.620521 [Class:BTReceive][Method:monitor] threadReceive was terminated and will re-initiate.
+[INFO] 20201123 09:38:17.621425 [Class:BTReceive][Method:setReceiveThreadOn] Called.
+[INFO] 20201123 09:38:17.622557 [Class:BTReceive][Method:receiver] Called.
+[INFO] 20201123 09:38:17.623400 [Class:BTReceive][Method:connection] Called.
+[NOTICE] 20201123 09:38:17.624311 [Class:BTReceive][Method:connection] Server socket was created
+[NOTICE] 20201123 09:38:17.625154 [Class:BTReceive][Method:connection] Try to connect to 50:77:05:43:DF:98
+[INFO] 20201123 09:38:18.604414 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201123 09:38:18.605823 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 09:38:18.606482 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 09:38:18.607060 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 09:38:18.608191 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201123 09:38:18.608764 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201123 09:38:18.703644 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[sensorway], Now[sensorway]
+[ERROR] 20201123 09:38:20.628449 [Class:BTReceive][Method:connection] Failed to execute : timed out
+[INFO] 20201123 09:38:20.629414 [Class:BTReceive][Method:closeSock] Called.
+[ERROR] 20201123 09:38:20.630165 [Class:BTReceive][Method:receiver] Failed to execute : 'NoneType' object has no attribute 'recv'
+[NOTICE] 20201123 09:38:21.627519 [Class:BTReceive][Method:monitor] threadReceive was terminated and will re-initiate.
+[INFO] 20201123 09:38:21.628621 [Class:BTReceive][Method:setReceiveThreadOn] Called.
+[INFO] 20201123 09:38:21.630216 [Class:BTReceive][Method:receiver] Called.
+[INFO] 20201123 09:38:21.631022 [Class:BTReceive][Method:connection] Called.
+[NOTICE] 20201123 09:38:21.631772 [Class:BTReceive][Method:connection] Server socket was created
+[NOTICE] 20201123 09:38:21.632807 [Class:BTReceive][Method:connection] Try to connect to 50:77:05:43:DF:98
+[INFO] 20201123 09:38:23.709753 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201123 09:38:23.710708 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 09:38:23.714814 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 09:38:23.715481 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 09:38:23.716652 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201123 09:38:23.717249 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201123 09:38:23.811937 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[sensorway], Now[sensorway]
+[ERROR] 20201123 09:38:24.636661 [Class:BTReceive][Method:connection] Failed to execute : timed out
+[INFO] 20201123 09:38:24.637658 [Class:BTReceive][Method:closeSock] Called.
+[ERROR] 20201123 09:38:24.638410 [Class:BTReceive][Method:receiver] Failed to execute : 'NoneType' object has no attribute 'recv'
+[NOTICE] 20201123 09:38:25.634905 [Class:BTReceive][Method:monitor] threadReceive was terminated and will re-initiate.
+[INFO] 20201123 09:38:25.635974 [Class:BTReceive][Method:setReceiveThreadOn] Called.
+[INFO] 20201123 09:38:25.637543 [Class:BTReceive][Method:receiver] Called.
+[INFO] 20201123 09:38:25.638352 [Class:BTReceive][Method:connection] Called.
+[NOTICE] 20201123 09:38:25.639113 [Class:BTReceive][Method:connection] Server socket was created
+[NOTICE] 20201123 09:38:25.639983 [Class:BTReceive][Method:connection] Try to connect to 50:77:05:43:DF:98
+[ERROR] 20201123 09:38:28.643717 [Class:BTReceive][Method:connection] Failed to execute : timed out
+[INFO] 20201123 09:38:28.644697 [Class:BTReceive][Method:closeSock] Called.
+[ERROR] 20201123 09:38:28.645403 [Class:BTReceive][Method:receiver] Failed to execute : 'NoneType' object has no attribute 'recv'
+[INFO] 20201123 09:38:28.817675 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201123 09:38:28.818640 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 09:38:28.819243 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 09:38:28.819806 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 09:38:28.820914 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201123 09:38:28.821510 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201123 09:38:28.902120 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[sensorway], Now[sensorway]
+[NOTICE] 20201123 09:38:29.642221 [Class:BTReceive][Method:monitor] threadReceive was terminated and will re-initiate.
+[INFO] 20201123 09:38:29.643390 [Class:BTReceive][Method:setReceiveThreadOn] Called.
+[INFO] 20201123 09:38:29.645267 [Class:BTReceive][Method:receiver] Called.
+[INFO] 20201123 09:38:29.646166 [Class:BTReceive][Method:connection] Called.
+[NOTICE] 20201123 09:38:29.646984 [Class:BTReceive][Method:connection] Server socket was created
+[NOTICE] 20201123 09:38:29.647860 [Class:BTReceive][Method:connection] Try to connect to 50:77:05:43:DF:98
+[ERROR] 20201123 09:38:32.651866 [Class:BTReceive][Method:connection] Failed to execute : timed out
+[INFO] 20201123 09:38:32.652774 [Class:BTReceive][Method:closeSock] Called.
+[ERROR] 20201123 09:38:32.653757 [Class:BTReceive][Method:receiver] Failed to execute : 'NoneType' object has no attribute 'recv'
+[NOTICE] 20201123 09:38:33.649959 [Class:BTReceive][Method:monitor] threadReceive was terminated and will re-initiate.
+[INFO] 20201123 09:38:33.650907 [Class:BTReceive][Method:setReceiveThreadOn] Called.
+[INFO] 20201123 09:38:33.652107 [Class:BTReceive][Method:receiver] Called.
+[INFO] 20201123 09:38:33.652892 [Class:BTReceive][Method:connection] Called.
+[NOTICE] 20201123 09:38:33.653602 [Class:BTReceive][Method:connection] Server socket was created
+[NOTICE] 20201123 09:38:33.654518 [Class:BTReceive][Method:connection] Try to connect to 50:77:05:43:DF:98
+[INFO] 20201123 09:38:33.908283 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201123 09:38:33.909263 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 09:38:33.913505 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 09:38:33.914158 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 09:38:33.915483 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201123 09:38:33.916100 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201123 09:38:34.000900 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[sensorway], Now[sensorway]
+[ERROR] 20201123 09:38:36.658586 [Class:BTReceive][Method:connection] Failed to execute : timed out
+[INFO] 20201123 09:38:36.659585 [Class:BTReceive][Method:closeSock] Called.
+[ERROR] 20201123 09:38:36.660348 [Class:BTReceive][Method:receiver] Failed to execute : 'NoneType' object has no attribute 'recv'
+[NOTICE] 20201123 09:38:37.656763 [Class:BTReceive][Method:monitor] threadReceive was terminated and will re-initiate.
+[INFO] 20201123 09:38:37.657768 [Class:BTReceive][Method:setReceiveThreadOn] Called.
+[INFO] 20201123 09:38:37.659289 [Class:BTReceive][Method:receiver] Called.
+[INFO] 20201123 09:38:37.660089 [Class:BTReceive][Method:connection] Called.
+[NOTICE] 20201123 09:38:37.660854 [Class:BTReceive][Method:connection] Server socket was created
+[NOTICE] 20201123 09:38:37.661708 [Class:BTReceive][Method:connection] Try to connect to 50:77:05:43:DF:98
+[INFO] 20201123 09:38:39.007197 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201123 09:38:39.008053 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 09:38:39.008654 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 09:38:39.009215 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 09:38:39.010350 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201123 09:38:39.010937 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201123 09:38:39.094370 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[sensorway], Now[sensorway]
+[ERROR] 20201123 09:38:40.665556 [Class:BTReceive][Method:connection] Failed to execute : timed out
+[INFO] 20201123 09:38:40.666594 [Class:BTReceive][Method:closeSock] Called.
+[ERROR] 20201123 09:38:40.667357 [Class:BTReceive][Method:receiver] Failed to execute : 'NoneType' object has no attribute 'recv'
+[NOTICE] 20201123 09:38:41.663976 [Class:BTReceive][Method:monitor] threadReceive was terminated and will re-initiate.
+[INFO] 20201123 09:38:41.665196 [Class:BTReceive][Method:setReceiveThreadOn] Called.
+[INFO] 20201123 09:38:41.666744 [Class:BTReceive][Method:receiver] Called.
+[INFO] 20201123 09:38:41.667552 [Class:BTReceive][Method:connection] Called.
+[NOTICE] 20201123 09:38:41.668312 [Class:BTReceive][Method:connection] Server socket was created
+[NOTICE] 20201123 09:38:41.669176 [Class:BTReceive][Method:connection] Try to connect to 50:77:05:43:DF:98
+[INFO] 20201123 09:38:44.100700 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201123 09:38:44.101665 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 09:38:44.106282 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 09:38:44.106900 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 09:38:44.108080 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201123 09:38:44.108677 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201123 09:38:44.198663 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[sensorway], Now[sensorway]
+[ERROR] 20201123 09:38:44.672980 [Class:BTReceive][Method:connection] Failed to execute : timed out
+[INFO] 20201123 09:38:44.673853 [Class:BTReceive][Method:closeSock] Called.
+[ERROR] 20201123 09:38:44.674696 [Class:BTReceive][Method:receiver] Failed to execute : 'NoneType' object has no attribute 'recv'
+[NOTICE] 20201123 09:38:45.671450 [Class:BTReceive][Method:monitor] threadReceive was terminated and will re-initiate.
+[INFO] 20201123 09:38:45.672493 [Class:BTReceive][Method:setReceiveThreadOn] Called.
+[INFO] 20201123 09:38:45.673917 [Class:BTReceive][Method:receiver] Called.
+[INFO] 20201123 09:38:45.674832 [Class:BTReceive][Method:connection] Called.
+[NOTICE] 20201123 09:38:45.675612 [Class:BTReceive][Method:connection] Server socket was created
+[NOTICE] 20201123 09:38:45.676468 [Class:BTReceive][Method:connection] Try to connect to 50:77:05:43:DF:98
+[ERROR] 20201123 09:38:48.680426 [Class:BTReceive][Method:connection] Failed to execute : timed out
+[INFO] 20201123 09:38:48.681517 [Class:BTReceive][Method:closeSock] Called.
+[ERROR] 20201123 09:38:48.682240 [Class:BTReceive][Method:receiver] Failed to execute : 'NoneType' object has no attribute 'recv'
+[INFO] 20201123 09:38:49.204637 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201123 09:38:49.205500 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 09:38:49.206078 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 09:38:49.206652 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 09:38:49.207754 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201123 09:38:49.208343 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201123 09:38:49.291812 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[sensorway], Now[sensorway]
+[NOTICE] 20201123 09:38:49.678900 [Class:BTReceive][Method:monitor] threadReceive was terminated and will re-initiate.
+[INFO] 20201123 09:38:49.680052 [Class:BTReceive][Method:setReceiveThreadOn] Called.
+[INFO] 20201123 09:38:49.681761 [Class:BTReceive][Method:receiver] Called.
+[INFO] 20201123 09:38:49.682633 [Class:BTReceive][Method:connection] Called.
+[NOTICE] 20201123 09:38:49.683662 [Class:BTReceive][Method:connection] Server socket was created
+[NOTICE] 20201123 09:38:49.684660 [Class:BTReceive][Method:connection] Try to connect to 50:77:05:43:DF:98
+[ERROR] 20201123 09:38:52.687627 [Class:BTReceive][Method:connection] Failed to execute : timed out
+[INFO] 20201123 09:38:52.688494 [Class:BTReceive][Method:closeSock] Called.
+[ERROR] 20201123 09:38:52.689198 [Class:BTReceive][Method:receiver] Failed to execute : 'NoneType' object has no attribute 'recv'
+[NOTICE] 20201123 09:38:53.686452 [Class:BTReceive][Method:monitor] threadReceive was terminated and will re-initiate.
+[INFO] 20201123 09:38:53.687458 [Class:BTReceive][Method:setReceiveThreadOn] Called.
+[INFO] 20201123 09:38:53.688574 [Class:BTReceive][Method:receiver] Called.
+[INFO] 20201123 09:38:53.689479 [Class:BTReceive][Method:connection] Called.
+[NOTICE] 20201123 09:38:53.690182 [Class:BTReceive][Method:connection] Server socket was created
+[NOTICE] 20201123 09:38:53.690991 [Class:BTReceive][Method:connection] Try to connect to 50:77:05:43:DF:98
+[INFO] 20201123 09:38:54.297945 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201123 09:38:54.298912 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 09:38:54.299510 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 09:38:54.300099 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 09:38:54.301221 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201123 09:38:54.301825 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201123 09:38:54.389530 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[sensorway], Now[sensorway]
+[ERROR] 20201123 09:38:56.693904 [Class:BTReceive][Method:connection] Failed to execute : timed out
+[INFO] 20201123 09:38:56.694931 [Class:BTReceive][Method:closeSock] Called.
+[ERROR] 20201123 09:38:56.695673 [Class:BTReceive][Method:receiver] Failed to execute : 'NoneType' object has no attribute 'recv'
+[NOTICE] 20201123 09:38:57.693271 [Class:BTReceive][Method:monitor] threadReceive was terminated and will re-initiate.
+[INFO] 20201123 09:38:57.694491 [Class:BTReceive][Method:setReceiveThreadOn] Called.
+[INFO] 20201123 09:38:57.696100 [Class:BTReceive][Method:receiver] Called.
+[INFO] 20201123 09:38:57.696923 [Class:BTReceive][Method:connection] Called.
+[NOTICE] 20201123 09:38:57.697680 [Class:BTReceive][Method:connection] Server socket was created
+[NOTICE] 20201123 09:38:57.698736 [Class:BTReceive][Method:connection] Try to connect to 50:77:05:43:DF:98
+[INFO] 20201123 09:38:59.395554 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201123 09:38:59.396527 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 09:38:59.400816 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 09:38:59.401555 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 09:38:59.402746 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201123 09:38:59.403372 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201123 09:38:59.493312 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[sensorway], Now[sensorway]
+[ERROR] 20201123 09:39:00.702583 [Class:BTReceive][Method:connection] Failed to execute : timed out
+[INFO] 20201123 09:39:00.703741 [Class:BTReceive][Method:closeSock] Called.
+[ERROR] 20201123 09:39:00.704573 [Class:BTReceive][Method:receiver] Failed to execute : 'NoneType' object has no attribute 'recv'
+[NOTICE] 20201123 09:39:01.700892 [Class:BTReceive][Method:monitor] threadReceive was terminated and will re-initiate.
+[INFO] 20201123 09:39:01.702033 [Class:BTReceive][Method:setReceiveThreadOn] Called.
+[INFO] 20201123 09:39:01.703627 [Class:BTReceive][Method:receiver] Called.
+[INFO] 20201123 09:39:01.704507 [Class:BTReceive][Method:connection] Called.
+[NOTICE] 20201123 09:39:01.705274 [Class:BTReceive][Method:connection] Server socket was created
+[NOTICE] 20201123 09:39:01.706096 [Class:BTReceive][Method:connection] Try to connect to 50:77:05:43:DF:98
+[INFO] 20201123 09:39:04.499392 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201123 09:39:04.500343 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 09:39:04.500957 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 09:39:04.501523 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 09:39:04.502682 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201123 09:39:04.503283 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201123 09:39:04.593268 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[sensorway], Now[sensorway]
+[ERROR] 20201123 09:39:04.709916 [Class:BTReceive][Method:connection] Failed to execute : timed out
+[INFO] 20201123 09:39:04.710754 [Class:BTReceive][Method:closeSock] Called.
+[ERROR] 20201123 09:39:04.711476 [Class:BTReceive][Method:receiver] Failed to execute : 'NoneType' object has no attribute 'recv'
+[NOTICE] 20201123 09:39:05.708370 [Class:BTReceive][Method:monitor] threadReceive was terminated and will re-initiate.
+[INFO] 20201123 09:39:05.709488 [Class:BTReceive][Method:setReceiveThreadOn] Called.
+[INFO] 20201123 09:39:05.711048 [Class:BTReceive][Method:receiver] Called.
+[INFO] 20201123 09:39:05.711860 [Class:BTReceive][Method:connection] Called.
+[NOTICE] 20201123 09:39:05.712619 [Class:BTReceive][Method:connection] Server socket was created
+[NOTICE] 20201123 09:39:05.713472 [Class:BTReceive][Method:connection] Try to connect to 50:77:05:43:DF:98
+[ERROR] 20201123 09:39:08.717203 [Class:BTReceive][Method:connection] Failed to execute : timed out
+[INFO] 20201123 09:39:08.718131 [Class:BTReceive][Method:closeSock] Called.
+[ERROR] 20201123 09:39:08.718837 [Class:BTReceive][Method:receiver] Failed to execute : 'NoneType' object has no attribute 'recv'
+[INFO] 20201123 09:39:09.599253 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201123 09:39:09.600277 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 09:39:09.604720 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 09:39:09.605378 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 09:39:09.606561 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201123 09:39:09.607168 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201123 09:39:09.703047 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[sensorway], Now[sensorway]
+[NOTICE] 20201123 09:39:09.715704 [Class:BTReceive][Method:monitor] threadReceive was terminated and will re-initiate.
+[INFO] 20201123 09:39:09.716312 [Class:BTReceive][Method:setReceiveThreadOn] Called.
+[INFO] 20201123 09:39:09.717317 [Class:BTReceive][Method:receiver] Called.
+[INFO] 20201123 09:39:09.717915 [Class:BTReceive][Method:connection] Called.
+[NOTICE] 20201123 09:39:09.718478 [Class:BTReceive][Method:connection] Server socket was created
+[NOTICE] 20201123 09:39:09.719113 [Class:BTReceive][Method:connection] Try to connect to 50:77:05:43:DF:98
+[ERROR] 20201123 09:39:12.722642 [Class:BTReceive][Method:connection] Failed to execute : timed out
+[INFO] 20201123 09:39:12.723533 [Class:BTReceive][Method:closeSock] Called.
+[ERROR] 20201123 09:39:12.724323 [Class:BTReceive][Method:receiver] Failed to execute : 'NoneType' object has no attribute 'recv'
+[NOTICE] 20201123 09:39:13.721838 [Class:BTReceive][Method:monitor] threadReceive was terminated and will re-initiate.
+[INFO] 20201123 09:39:13.723074 [Class:BTReceive][Method:setReceiveThreadOn] Called.
+[INFO] 20201123 09:39:13.724305 [Class:BTReceive][Method:receiver] Called.
+[INFO] 20201123 09:39:13.725191 [Class:BTReceive][Method:connection] Called.
+[NOTICE] 20201123 09:39:13.725925 [Class:BTReceive][Method:connection] Server socket was created
+[NOTICE] 20201123 09:39:13.726768 [Class:BTReceive][Method:connection] Try to connect to 50:77:05:43:DF:98
+[INFO] 20201123 09:39:14.708946 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201123 09:39:14.709900 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 09:39:14.714144 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 09:39:14.714902 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 09:39:14.716071 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201123 09:39:14.716681 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201123 09:39:14.808815 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[sensorway], Now[sensorway]
+[ERROR] 20201123 09:39:16.730616 [Class:BTReceive][Method:connection] Failed to execute : timed out
+[INFO] 20201123 09:39:16.731594 [Class:BTReceive][Method:closeSock] Called.
+[ERROR] 20201123 09:39:16.732338 [Class:BTReceive][Method:receiver] Failed to execute : 'NoneType' object has no attribute 'recv'
+[NOTICE] 20201123 09:39:17.729319 [Class:BTReceive][Method:monitor] threadReceive was terminated and will re-initiate.
+[INFO] 20201123 09:39:17.730865 [Class:BTReceive][Method:setReceiveThreadOn] Called.
+[INFO] 20201123 09:39:17.732527 [Class:BTReceive][Method:receiver] Called.
+[INFO] 20201123 09:39:17.733347 [Class:BTReceive][Method:connection] Called.
+[NOTICE] 20201123 09:39:17.734101 [Class:BTReceive][Method:connection] Server socket was created
+[NOTICE] 20201123 09:39:17.735082 [Class:BTReceive][Method:connection] Try to connect to 50:77:05:43:DF:98
+[INFO] 20201123 09:39:19.814782 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201123 09:39:19.815745 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 09:39:19.816359 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 09:39:19.816945 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 09:39:19.818089 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201123 09:39:19.818692 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201123 09:39:19.906097 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[sensorway], Now[sensorway]
+[INFO] 20201123 09:39:21.782876 [Class:BTReceive][Method:msgConvert] Called.
+[INFO] 20201123 09:39:21.807522 [Class:WifiNT][Method:getWifiList] Called.
+[INFO] 20201123 09:39:21.808952 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201123 09:39:24.912571 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201123 09:39:24.914078 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 09:39:24.914875 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 09:39:24.915474 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 09:39:24.916609 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201123 09:39:24.917223 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201123 09:39:24.992835 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[sensorway], Now[sensorway]
+[INFO] 20201123 09:39:26.000324 [Class:BTReceive][Method:sendMessageTo] Called.
+[INFO] 20201123 09:39:29.998957 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201123 09:39:29.999945 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 09:39:30.004398 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 09:39:30.005076 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 09:39:30.006258 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201123 09:39:30.006871 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201123 09:39:30.096171 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[sensorway], Now[sensorway]
+[INFO] 20201123 09:39:32.764840 [Class:BTReceive][Method:msgConvert] Called.
+[INFO] 20201123 09:39:32.818754 [Class:FileProcess][Method:checkDir] Called.
+[INFO] 20201123 09:39:32.829229 [Class:BTReceive][Method:sendMessageTo] Called.
+[INFO] 20201123 09:39:35.102249 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201123 09:39:35.103111 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 09:39:35.103688 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 09:39:35.104434 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 09:39:35.105471 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201123 09:39:35.106076 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201123 09:39:35.195230 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[sensorway], Now[sensorway]
+[INFO] 20201123 09:39:38.233257 [Class:BTReceive][Method:msgConvert] Called.
+[INFO] 20201123 09:39:38.239724 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 09:39:38.240497 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 09:39:38.241089 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 09:39:38.242121 [Class:BTReceive][Method:sendMessageTo] Called.
+[INFO] 20201123 09:39:39.868155 [Class:BTReceive][Method:msgConvert] Called.
+[INFO] 20201123 09:39:39.945501 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 09:39:39.946437 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 09:39:39.947062 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 09:39:39.948089 [Class:FileProcess][Method:fileWrite] Called.
+[INFO] 20201123 09:39:39.948689 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 09:39:39.949301 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 09:39:39.951406 [Class:BTReceive][Method:sendMessageTo] Called.
+[INFO] 20201123 09:39:40.201561 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201123 09:39:40.202374 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 09:39:40.202950 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 09:39:40.203500 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 09:39:40.204586 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201123 09:39:40.205202 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201123 09:39:40.297776 [Class:WifiNT][Method:isMatched] Wifi is not matched. Before[U+Net29A0], Now[sensorway]
+[NOTICE] 20201123 09:39:40.298747 [Class:WifiNT][Method:isConnected] Wifi ssid was changed.
+[INFO] 20201123 09:39:40.299299 [Class:WifiNT][Method:wifiConnection] Called.
+[INFO] 20201123 09:39:40.299973 [Class:WifiNT][Method:wifiConnection] Wifi Module was DOWN.
+[INFO] 20201123 09:39:40.300358 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201123 09:39:41.362187 [Class:WifiNT][Method:wifiConnection] Wifi Module was UP.
+[INFO] 20201123 09:39:41.363556 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201123 09:39:43.426854 [Class:WifiNT][Method:wifiConnection] wpa_supplicant.conf was created.
+[INFO] 20201123 09:39:43.428181 [Class:WifiNT][Method:setWpaFile] Called.
+[NOTICE] 20201123 09:39:43.490773 [Class:WifiNT][Method:wifiConnection] network={
+	ssid="U+Net29A0"
+	#psk="7FG16A#7C0"
+	psk=a95f25a20c37a451c1b054a9d386c760602fa8461e7e45bfeae367c718bfb9bc
+}
+
+[INFO] 20201123 09:39:43.491894 [Class:WifiNT][Method:wifiConnection] Wifi Module tried to connect AP(U+Net29A0)
+[INFO] 20201123 09:39:43.492361 [Class:WifiNT][Method:setWpaCon] Called.
+[INFO] 20201123 09:39:43.492823 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201123 09:39:48.727091 [Class:WifiNT][Method:wifiConnection] Successfully initialized wpa_supplicant
+
+[INFO] 20201123 09:39:52.202714 [Class:BTReceive][Method:msgConvert] Called.
+[INFO] 20201123 09:39:52.271608 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 09:39:52.272670 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 09:39:52.273282 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 09:39:52.274596 [Class:FileProcess][Method:fileWrite] Called.
+[INFO] 20201123 09:39:52.275245 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 09:39:52.275805 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 09:39:52.277699 [Class:BTReceive][Method:sendMessageTo] Called.
+[INFO] 20201123 09:39:53.733497 [Class:WifiNT][Method:wifiConnection] Get Wifi Connection State from Wifi Module.
+[INFO] 20201123 09:39:53.734454 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201123 09:39:53.801093 [Class:WifiNT][Method:wifiConnection] Not connected.
+
+[INFO] 20201123 09:39:58.807408 [Class:WifiNT][Method:wifiConnection] Get Connected SSID.
+[INFO] 20201123 09:39:58.808341 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201123 09:39:58.808944 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201123 09:39:58.906092 [Class:WifiNT][Method:wifiConnection] 
+[INFO] 20201123 09:40:00.909597 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201123 09:40:00.910520 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 09:40:00.911135 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 09:40:00.911699 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 09:40:00.912818 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201123 09:40:00.913447 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201123 09:40:00.995047 [Class:WifiNT][Method:monitor] Wifi was disconnected.
+[INFO] 20201123 09:40:00.996412 [Class:WifiNT][Method:wifiConnection] Called.
+[INFO] 20201123 09:40:00.997324 [Class:WifiNT][Method:wifiConnection] Wifi Module was DOWN.
+[INFO] 20201123 09:40:00.997821 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201123 09:40:02.067826 [Class:WifiNT][Method:wifiConnection] Wifi Module was UP.
+[INFO] 20201123 09:40:02.069221 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201123 09:40:04.137592 [Class:WifiNT][Method:wifiConnection] wpa_supplicant.conf was created.
+[INFO] 20201123 09:40:04.143099 [Class:WifiNT][Method:setWpaFile] Called.
+[NOTICE] 20201123 09:40:04.217673 [Class:WifiNT][Method:wifiConnection] network={
+	ssid="U+Net29A0"
+	#psk="7FG16A#7C0"
+	psk=a95f25a20c37a451c1b054a9d386c760602fa8461e7e45bfeae367c718bfb9bc
+}
+
+[INFO] 20201123 09:40:04.219062 [Class:WifiNT][Method:wifiConnection] Wifi Module tried to connect AP(U+Net29A0)
+[INFO] 20201123 09:40:04.219683 [Class:WifiNT][Method:setWpaCon] Called.
+[INFO] 20201123 09:40:04.220269 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201123 09:40:09.400723 [Class:WifiNT][Method:wifiConnection] Successfully initialized wpa_supplicant
+
+[INFO] 20201123 09:40:14.411922 [Class:WifiNT][Method:wifiConnection] Get Wifi Connection State from Wifi Module.
+[INFO] 20201123 09:40:14.412824 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201123 09:40:14.482980 [Class:WifiNT][Method:wifiConnection] Not connected.
+
+[INFO] 20201123 09:40:19.489437 [Class:WifiNT][Method:wifiConnection] Get Connected SSID.
+[INFO] 20201123 09:40:19.494512 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201123 09:40:19.495405 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201123 09:40:19.584122 [Class:WifiNT][Method:wifiConnection] 
+[INFO] 20201123 09:40:21.587504 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201123 09:40:21.588431 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 09:40:21.589042 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 09:40:21.589601 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 09:40:21.590728 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201123 09:40:21.591375 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201123 09:40:21.679514 [Class:WifiNT][Method:monitor] Wifi was disconnected.
+[INFO] 20201123 09:40:21.680586 [Class:WifiNT][Method:wifiConnection] Called.
+[INFO] 20201123 09:40:21.681049 [Class:WifiNT][Method:wifiConnection] Wifi Module was DOWN.
+[INFO] 20201123 09:40:21.681438 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201123 09:40:22.750085 [Class:WifiNT][Method:wifiConnection] Wifi Module was UP.
+[INFO] 20201123 09:40:22.751455 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201123 09:40:24.816271 [Class:WifiNT][Method:wifiConnection] wpa_supplicant.conf was created.
+[INFO] 20201123 09:40:24.821602 [Class:WifiNT][Method:setWpaFile] Called.
+[NOTICE] 20201123 09:40:24.887574 [Class:WifiNT][Method:wifiConnection] network={
+	ssid="U+Net29A0"
+	#psk="7FG16A#7C0"
+	psk=a95f25a20c37a451c1b054a9d386c760602fa8461e7e45bfeae367c718bfb9bc
+}
+
+[INFO] 20201123 09:40:24.888485 [Class:WifiNT][Method:wifiConnection] Wifi Module tried to connect AP(U+Net29A0)
+[INFO] 20201123 09:40:24.888859 [Class:WifiNT][Method:setWpaCon] Called.
+[INFO] 20201123 09:40:24.889224 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201123 09:40:25.617723 [Class:BTReceive][Method:msgConvert] Called.
+[INFO] 20201123 09:40:25.632472 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 09:40:25.633475 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 09:40:25.635864 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 09:40:25.637037 [Class:FileProcess][Method:fileWrite] Called.
+[INFO] 20201123 09:40:25.637638 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 09:40:25.638199 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 09:40:25.646893 [Class:BTReceive][Method:sendMessageTo] Called.
+[NOTICE] 20201123 09:40:30.146104 [Class:WifiNT][Method:wifiConnection] Successfully initialized wpa_supplicant
+
+[INFO] 20201123 09:40:35.157435 [Class:WifiNT][Method:wifiConnection] Get Wifi Connection State from Wifi Module.
+[INFO] 20201123 09:40:35.158351 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201123 09:40:35.229185 [Class:WifiNT][Method:wifiConnection] Not connected.
+
+[INFO] 20201123 09:40:40.235684 [Class:WifiNT][Method:wifiConnection] Get Connected SSID.
+[INFO] 20201123 09:40:40.236623 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201123 09:40:40.241011 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201123 09:40:40.334776 [Class:WifiNT][Method:wifiConnection] 
+[INFO] 20201123 09:40:42.338080 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201123 09:40:42.339004 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 09:40:42.339623 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 09:40:42.340181 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 09:40:42.341289 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201123 09:40:42.341893 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201123 09:40:42.421905 [Class:WifiNT][Method:monitor] Wifi was disconnected.
+[INFO] 20201123 09:40:42.423113 [Class:WifiNT][Method:wifiConnection] Called.
+[INFO] 20201123 09:40:42.423635 [Class:WifiNT][Method:wifiConnection] Wifi Module was DOWN.
+[INFO] 20201123 09:40:42.424070 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201123 09:40:43.496007 [Class:WifiNT][Method:wifiConnection] Wifi Module was UP.
+[INFO] 20201123 09:40:43.497356 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201123 09:40:45.568149 [Class:WifiNT][Method:wifiConnection] wpa_supplicant.conf was created.
+[INFO] 20201123 09:40:45.569500 [Class:WifiNT][Method:setWpaFile] Called.
+[NOTICE] 20201123 09:40:45.639733 [Class:WifiNT][Method:wifiConnection] network={
+	ssid="sensorway"
+	#psk="0295765000000"
+	psk=29c56334bfebc0529fd4eeada62404fd65e3daabc6573eeab97698d5df066619
+}
+
+[INFO] 20201123 09:40:45.641039 [Class:WifiNT][Method:wifiConnection] Wifi Module tried to connect AP(sensorway)
+[INFO] 20201123 09:40:45.641580 [Class:WifiNT][Method:setWpaCon] Called.
+[INFO] 20201123 09:40:45.642093 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201123 09:40:50.861242 [Class:WifiNT][Method:wifiConnection] Successfully initialized wpa_supplicant
+
+[INFO] 20201123 09:40:55.867642 [Class:WifiNT][Method:wifiConnection] Get Wifi Connection State from Wifi Module.
+[INFO] 20201123 09:40:55.868549 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201123 09:40:55.933521 [Class:WifiNT][Method:wifiConnection] Connected to 70:5d:cc:0c:c5:3c (on wlan0)
+	SSID: sensorway
+	freq: 2422
+	RX: 2061 bytes (12 packets)
+	TX: 1748 bytes (16 packets)
+	signal: -51 dBm
+	rx bitrate: 108.0 MBit/s
+	tx bitrate: 150.0 MBit/s
+
+	bss flags:	short-slot-time
+	dtim period:	1
+	beacon int:	100
+
+[INFO] 20201123 09:41:00.939676 [Class:WifiNT][Method:wifiConnection] Get Connected SSID.
+[INFO] 20201123 09:41:00.940614 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201123 09:41:00.941215 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201123 09:41:01.030765 [Class:WifiNT][Method:wifiConnection] sensorway
+[INFO] 20201123 09:41:01.031681 [Class:WifiNT][Method:wifiConnection] Connection Validated.
+[INFO] 20201123 09:41:03.034280 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201123 09:41:03.035222 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 09:41:03.035846 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 09:41:03.036634 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 09:41:03.037772 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201123 09:41:03.038369 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201123 09:41:03.127341 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[sensorway], Now[sensorway]
+[INFO] 20201123 09:41:05.534574 [Class:BTReceive][Method:msgConvert] Called.
+[INFO] 20201123 09:41:05.618606 [Class:UartRead][Method:uartSet] Called.
+[INFO] 20201123 09:41:06.221135 [Class:BTReceive][Method:sendMessageTo] Called.
+[INFO] 20201123 09:41:06.665459 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:07.640373 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:08.129698 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201123 09:41:08.130481 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 09:41:08.134875 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 09:41:08.135690 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 09:41:08.136822 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201123 09:41:08.137434 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201123 09:41:08.224608 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[sensorway], Now[sensorway]
+[INFO] 20201123 09:41:08.643224 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:09.629984 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:10.627521 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:11.623121 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:12.619444 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:13.230863 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201123 09:41:13.231752 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 09:41:13.236226 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 09:41:13.236922 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 09:41:13.238201 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201123 09:41:13.238810 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201123 09:41:13.336818 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[sensorway], Now[sensorway]
+[INFO] 20201123 09:41:13.621061 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:14.609571 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:15.605141 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:16.602684 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:17.596863 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:18.343279 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201123 09:41:18.344370 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 09:41:18.348244 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 09:41:18.349263 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 09:41:18.350653 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201123 09:41:18.351326 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201123 09:41:18.439954 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[sensorway], Now[sensorway]
+[INFO] 20201123 09:41:18.598136 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:19.589371 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:20.477551 [Class:BTReceive][Method:msgConvert] Called.
+[INFO] 20201123 09:41:20.552087 [Class:UartRead][Method:uartSet] Called.
+[INFO] 20201123 09:41:20.586909 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:20.684486 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:20.784258 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:20.883366 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:20.983354 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:21.082757 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:21.155421 [Class:BTReceive][Method:sendMessageTo] Called.
+[INFO] 20201123 09:41:21.181948 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:21.282418 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:21.381876 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:21.481225 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:21.579979 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:21.679676 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:21.779501 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:21.879111 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:21.979505 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:22.078373 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:22.178681 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:22.278783 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:22.377431 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:22.476690 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:22.576965 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:22.677140 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:22.775419 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:22.874870 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:22.975707 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:23.074713 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:23.175521 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:23.274384 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:23.373336 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:23.446184 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201123 09:41:23.446739 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 09:41:23.447126 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 09:41:23.447501 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 09:41:23.448174 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201123 09:41:23.448571 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201123 09:41:23.479994 [Class:UartRead][Method:receiver] <Response [201]>
+[NOTICE] 20201123 09:41:23.517599 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[sensorway], Now[sensorway]
+[INFO] 20201123 09:41:23.573220 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:23.671945 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:23.772388 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:23.871906 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:23.971173 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:24.071690 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:24.171015 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:24.270877 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:24.370142 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:24.469143 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:24.569508 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:24.669936 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:24.768264 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:24.867933 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:24.968206 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:25.067631 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:25.166929 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:25.266433 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:25.366764 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:25.466321 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:25.565900 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:25.664419 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:25.765391 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:25.865906 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:25.963505 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:26.063846 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:26.163153 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:26.262821 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:26.362384 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:26.462234 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:26.561529 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:26.661410 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:26.760177 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:26.861393 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:26.960443 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:27.059815 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:27.158941 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:27.259144 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:27.359837 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:27.457704 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:27.557572 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:27.657099 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:27.757638 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:27.856347 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:27.955650 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:28.056383 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:28.155313 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:28.254324 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:28.354647 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:28.454594 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:28.525168 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201123 09:41:28.525791 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 09:41:28.526196 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 09:41:28.526568 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 09:41:28.527277 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201123 09:41:28.527677 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201123 09:41:28.559087 [Class:UartRead][Method:receiver] <Response [201]>
+[NOTICE] 20201123 09:41:28.595492 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[sensorway], Now[sensorway]
+[INFO] 20201123 09:41:28.652327 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:28.753364 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:28.852247 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:28.953543 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:29.050800 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:29.151013 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:29.250724 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:29.350487 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:29.450416 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:29.549740 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:29.649810 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:29.749406 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:29.849004 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:29.948949 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:30.048264 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:30.147954 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:30.247253 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:30.345908 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:30.445807 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:30.546513 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:30.646007 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:30.745009 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:30.845139 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:30.944285 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:31.043920 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:31.143521 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:31.244009 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:31.343067 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:31.442118 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:31.541638 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:31.641778 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:31.741641 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:31.840613 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:31.940426 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:32.039667 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:32.140213 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:32.238861 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:32.339482 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:32.438339 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:32.538627 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:32.638312 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:32.737327 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:32.836457 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:32.937185 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:33.036931 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:33.135727 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:33.234681 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:33.335075 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:33.434815 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:33.533934 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:33.601188 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201123 09:41:33.601777 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 09:41:33.602176 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 09:41:33.602579 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 09:41:33.603266 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201123 09:41:33.603719 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201123 09:41:33.638778 [Class:UartRead][Method:receiver] <Response [201]>
+[NOTICE] 20201123 09:41:33.664699 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[sensorway], Now[sensorway]
+[INFO] 20201123 09:41:33.730167 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:33.829888 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:33.929061 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:34.029211 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:34.128943 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:34.228169 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:34.327940 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:34.431881 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:34.528527 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:34.629932 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:34.728607 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:34.828480 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:34.928819 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:35.028355 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:35.128726 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:35.227988 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:35.326685 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:35.426727 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:35.525296 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:35.625615 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:35.724248 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:35.824024 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:35.925142 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:36.024703 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:36.122599 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:36.223347 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:36.322969 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:36.422222 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:36.521704 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:36.621322 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:36.721228 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:36.821075 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:36.920665 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:37.019300 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:37.120056 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:37.219440 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:37.319256 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:37.418403 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:37.517732 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:37.617822 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:37.717982 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:37.817336 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:37.917483 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:38.016079 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:38.115930 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:38.216276 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:38.315242 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:38.414933 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:38.515698 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:38.614733 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:38.670148 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201123 09:41:38.670746 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 09:41:38.671150 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 09:41:38.671527 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 09:41:38.672414 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201123 09:41:38.673392 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201123 09:41:38.728313 [Class:UartRead][Method:receiver] <Response [201]>
+[NOTICE] 20201123 09:41:38.746365 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[sensorway], Now[sensorway]
+[INFO] 20201123 09:41:38.809890 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:38.909687 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:39.008547 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:39.109739 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:39.209154 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:39.308162 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:39.408444 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:39.512380 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:39.610638 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:39.709643 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:39.809022 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:39.909216 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:40.009755 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:40.107829 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:40.207135 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:40.308022 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:40.407688 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:40.506944 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:40.606427 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:40.705752 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:40.804707 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:40.905903 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:41.005004 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:41.105736 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:41.204453 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:41.303764 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:41.403200 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:41.502591 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:41.602792 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:41.702226 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:41.802085 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:41.901449 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:42.000594 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:42.100058 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:42.200148 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:42.302993 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:42.399406 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:42.498018 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:42.595388 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:42.695594 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:42.794964 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:42.894795 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:42.994360 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:43.095235 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:43.197256 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:43.295002 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:43.396888 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:43.494813 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:43.595355 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:43.695097 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:43.752023 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201123 09:41:43.753825 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 09:41:43.754723 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 09:41:43.755549 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 09:41:43.757227 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201123 09:41:43.758143 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201123 09:41:43.799258 [Class:UartRead][Method:receiver] <Response [201]>
+[NOTICE] 20201123 09:41:43.826989 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[sensorway], Now[sensorway]
+[INFO] 20201123 09:41:43.892365 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:43.992444 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:44.094439 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:44.193636 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:44.292391 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:44.391796 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:44.491063 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:44.591836 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:44.689682 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:44.789528 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:44.890216 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:44.989382 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:45.088476 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:45.187800 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:45.287853 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:45.387951 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:45.487983 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:45.587843 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:45.686964 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:45.785781 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:45.887980 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:45.985293 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:46.084636 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:46.184663 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:46.285750 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:46.383850 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:46.482915 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:46.583185 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:46.692096 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:46.781853 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:46.881013 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:46.981327 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:47.080902 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:47.181177 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:47.280314 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:47.378730 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:47.479068 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:47.578815 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:47.679979 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:47.777358 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:47.877876 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:47.977658 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:48.077027 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:48.176770 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:48.276673 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:48.376609 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:48.475870 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:48.576118 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:48.674867 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:48.774435 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:48.833305 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201123 09:41:48.835171 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 09:41:48.835986 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 09:41:48.836915 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 09:41:48.838353 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201123 09:41:48.839243 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201123 09:41:48.878266 [Class:UartRead][Method:receiver] <Response [201]>
+[NOTICE] 20201123 09:41:48.908773 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[sensorway], Now[sensorway]
+[INFO] 20201123 09:41:48.973857 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:49.072526 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:49.173863 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:49.272743 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:49.371477 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:49.471338 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:49.571967 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:49.671653 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:49.770976 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:49.870499 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:49.969240 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:50.068501 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:50.168734 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:50.268680 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:50.367848 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:50.467281 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:50.567044 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:50.667382 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:50.767508 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:50.866133 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:50.965396 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:51.066608 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:51.165403 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:51.263381 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:51.364054 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:51.464451 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:51.563967 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:51.662586 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:51.762544 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:51.861583 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:51.961102 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:52.061304 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:52.162012 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:52.260239 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:52.359178 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:52.460019 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:52.559213 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:52.658725 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:52.758696 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:52.858681 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:52.958002 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:53.057100 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:53.156793 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:53.257204 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:53.356179 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:53.455221 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:53.555601 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:53.655508 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:53.755103 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:53.853908 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:53.914233 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201123 09:41:53.914863 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 09:41:53.915259 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 09:41:53.916364 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 09:41:53.917888 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201123 09:41:53.918767 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201123 09:41:53.958651 [Class:UartRead][Method:receiver] <Response [201]>
+[NOTICE] 20201123 09:41:53.989832 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[sensorway], Now[sensorway]
+[INFO] 20201123 09:41:54.050387 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:54.150230 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:54.249813 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:54.349555 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:54.449043 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:54.548175 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:54.648576 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:54.751446 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:54.850028 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:54.950069 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:55.050181 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:55.150068 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:55.248619 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:55.348413 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:55.448332 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:55.548036 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:55.647070 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:55.745918 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:55.847138 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:55.945907 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:56.045106 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:56.145016 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:56.245334 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:56.344708 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:56.444937 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:56.543867 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:56.642078 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:56.742924 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:56.843248 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:56.942063 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:57.040958 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:57.141486 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:57.241171 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:57.341282 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:57.439802 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:57.539522 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:57.639131 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:57.739491 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:57.838601 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:57.939219 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:58.039081 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:58.137796 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:58.237093 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:58.337064 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:58.437194 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:58.535356 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:58.636023 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:58.735552 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:58.834348 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:58.934433 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:58.995968 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201123 09:41:58.998493 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 09:41:58.999339 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 09:41:59.000216 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 09:41:59.001574 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201123 09:41:59.002518 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201123 09:41:59.039908 [Class:UartRead][Method:receiver] <Response [201]>
+[NOTICE] 20201123 09:41:59.068461 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[sensorway], Now[sensorway]
+[INFO] 20201123 09:41:59.132549 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:59.232669 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:59.332037 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:59.432852 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:59.532660 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:59.630858 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:59.730263 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:59.830842 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:41:59.931149 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:00.030102 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:00.130223 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:00.228999 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:00.328988 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:00.428400 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:00.528221 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:00.628055 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:00.727378 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:00.826788 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:00.926956 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:01.028589 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:01.126137 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:01.225597 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:01.325859 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:01.424505 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:01.523866 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:01.623808 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:01.723717 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:01.822477 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:01.922134 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:02.022179 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:02.122510 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:02.221008 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:02.320571 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:02.420918 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:02.520046 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:02.619073 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:02.718382 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:02.818413 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:02.918813 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:03.019081 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:03.118462 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:03.216653 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:03.316482 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:03.417196 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:03.516470 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:03.615777 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:03.715077 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:03.815502 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:03.914864 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:04.014552 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:04.074135 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201123 09:42:04.075820 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 09:42:04.076701 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 09:42:04.077674 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 09:42:04.079020 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201123 09:42:04.079749 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201123 09:42:04.118566 [Class:UartRead][Method:receiver] <Response [201]>
+[NOTICE] 20201123 09:42:04.151696 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[sensorway], Now[sensorway]
+[INFO] 20201123 09:42:04.213362 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:04.313220 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:04.412416 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:04.513711 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:04.611589 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:04.710805 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:04.811104 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:04.910966 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:05.009116 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:05.109478 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:05.209590 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:05.309717 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:05.408256 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:05.508499 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:05.608153 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:05.707368 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:05.807413 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:05.906340 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:06.006382 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:06.106013 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:06.205785 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:06.305805 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:06.405484 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:06.504085 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:06.604162 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:06.708905 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:06.802537 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:06.902440 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:07.002169 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:07.102363 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:07.201496 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:07.300798 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:07.401051 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:07.500483 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:07.600741 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:07.700010 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:07.798806 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:07.899078 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:07.998574 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:08.098972 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:08.197717 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:08.296767 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:08.399502 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:08.496317 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:08.596135 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:08.694845 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:08.795504 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:08.895234 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:08.993836 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:09.094845 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:09.157911 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201123 09:42:09.159922 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 09:42:09.160508 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 09:42:09.161437 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 09:42:09.162876 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201123 09:42:09.163678 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201123 09:42:09.198841 [Class:UartRead][Method:receiver] <Response [201]>
+[NOTICE] 20201123 09:42:09.234962 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[sensorway], Now[sensorway]
+[INFO] 20201123 09:42:09.292392 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:09.392755 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:09.492468 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:09.590910 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:09.691047 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:09.791653 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:09.891863 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:09.990795 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:10.089075 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:10.190150 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:10.290533 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:10.389590 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:10.487716 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:10.589031 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:10.689069 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:10.788093 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:10.888033 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:10.988806 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:11.088504 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:11.186258 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:11.286339 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:11.386103 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:11.485048 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:11.585207 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:11.684709 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:11.784432 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:11.883025 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:11.983135 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:12.083026 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:12.183868 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:12.281533 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:12.381693 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:12.481417 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:12.580730 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:12.680172 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:12.780146 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:12.879837 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:12.978901 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:13.078999 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:13.179583 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:13.278390 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:13.377927 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:13.477172 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:13.577846 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:13.681430 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:13.775091 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:13.876514 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:13.975198 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:14.075243 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:14.175623 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:14.241050 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201123 09:42:14.243322 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 09:42:14.243723 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 09:42:14.244094 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 09:42:14.245079 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201123 09:42:14.246111 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201123 09:42:14.279663 [Class:UartRead][Method:receiver] <Response [201]>
+[NOTICE] 20201123 09:42:14.315292 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[sensorway], Now[sensorway]
+[INFO] 20201123 09:42:14.370332 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:14.471338 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:14.570064 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:14.669787 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:14.769113 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:14.869351 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:14.968749 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:15.073591 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:15.170545 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:15.272175 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:15.372770 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:15.471030 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:15.570036 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:15.669510 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:15.768763 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:15.867937 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:15.968751 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:16.068135 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:16.171924 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:16.265140 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:16.367164 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:16.466807 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:16.566015 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:16.664727 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:16.766079 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:16.865987 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:16.963760 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:17.065158 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:17.166067 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:17.262704 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:17.362561 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:17.462583 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:17.562091 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:17.663241 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:17.761589 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:17.863256 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:17.960556 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:18.061073 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:18.159576 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:18.259239 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:18.359297 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:18.459264 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:18.559656 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:18.658362 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:18.757442 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:18.856928 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:18.957271 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:19.056336 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:19.155450 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:19.256389 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:19.319359 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201123 09:42:19.320035 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 09:42:19.320439 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 09:42:19.320812 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 09:42:19.321552 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201123 09:42:19.321967 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201123 09:42:19.360591 [Class:UartRead][Method:receiver] <Response [201]>
+[NOTICE] 20201123 09:42:19.389449 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[sensorway], Now[sensorway]
+[INFO] 20201123 09:42:19.455055 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:19.553765 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:19.654896 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:19.755368 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:19.853673 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:19.953197 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:20.051632 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:20.152089 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:20.253099 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:20.351535 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:20.450850 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:20.550519 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:20.649339 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:20.749578 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:20.850017 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:20.949414 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:21.049028 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:21.148851 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:21.248401 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:21.347745 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:21.446782 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:21.547107 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:21.646487 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:21.745280 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:21.845463 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:21.945544 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:22.046524 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:22.145702 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:22.243940 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:22.343457 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:22.443009 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:22.542947 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:22.642827 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:22.741104 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:22.840675 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:22.941792 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:23.040771 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:23.140843 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:23.239236 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:23.339892 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:23.439366 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:23.541598 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:23.639091 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:23.737485 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:23.838357 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:23.937573 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:24.036531 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:24.136390 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:24.235336 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:24.336205 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:24.394319 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201123 09:42:24.394893 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 09:42:24.395288 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 09:42:24.395715 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 09:42:24.396419 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201123 09:42:24.396812 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201123 09:42:24.441377 [Class:UartRead][Method:receiver] <Response [201]>
+[NOTICE] 20201123 09:42:24.466656 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[sensorway], Now[sensorway]
+[INFO] 20201123 09:42:24.532108 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:24.631523 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:24.731545 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:24.831939 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:24.930958 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:25.029620 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:25.129788 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:25.233627 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:25.330620 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:25.431459 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:25.530560 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:25.630571 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:25.730140 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:25.828980 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:25.929490 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:26.030088 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:26.128412 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:26.227766 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:26.328372 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:26.427711 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:26.527232 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:26.626465 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:26.726578 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:26.826201 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:26.924673 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:27.022219 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:27.121222 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:27.220732 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:27.321638 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:27.420954 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:27.519592 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:27.622116 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:27.723349 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:27.823117 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:27.922053 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:28.020516 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:28.121194 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:28.223846 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:29.326502 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:29.472321 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201123 09:42:29.473032 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 09:42:29.477509 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 09:42:29.478008 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 09:42:29.478838 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201123 09:42:29.479303 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201123 09:42:29.552047 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[sensorway], Now[sensorway]
+[INFO] 20201123 09:42:30.377948 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:30.439093 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:30.469896 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:30.496355 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:30.523035 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:30.549778 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:30.581545 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:30.614345 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:30.646078 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:30.677618 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:30.707857 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:30.735327 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:30.762076 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:30.792143 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:30.817432 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:30.842606 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:30.867648 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:30.893771 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:30.919487 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:30.944105 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:30.969546 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:30.994944 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:31.020244 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:31.045241 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:31.070770 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:31.096452 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:31.122332 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:31.146509 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:31.205589 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:31.305436 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:31.405310 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:31.505744 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:31.604114 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:31.704544 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:31.803353 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:31.907202 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:32.006519 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:32.105576 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:32.206057 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:32.304407 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:32.404442 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:32.504343 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:32.603680 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:32.703972 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:32.802914 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:32.902710 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:33.001244 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:33.101900 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:33.201217 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:33.300721 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:33.401115 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:33.500290 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:33.599327 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:33.699884 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:33.799009 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:33.898935 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:33.997957 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:34.098772 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:34.197765 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:34.298186 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:34.396611 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:34.497555 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:34.558054 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201123 09:42:34.559212 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 09:42:34.560037 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 09:42:34.560961 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 09:42:34.562427 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201123 09:42:34.563290 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201123 09:42:34.601640 [Class:UartRead][Method:receiver] <Response [201]>
+[NOTICE] 20201123 09:42:34.632483 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[sensorway], Now[sensorway]
+[INFO] 20201123 09:42:34.692648 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:34.791959 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:34.892262 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:34.990944 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:35.090793 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:35.191937 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:35.289356 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:35.393588 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:35.492666 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:35.592202 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:35.690889 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:35.791453 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:35.892145 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:35.991588 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:36.089471 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:36.189143 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:36.288396 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:36.388982 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:36.488779 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:36.589170 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:36.689406 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:36.787581 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:36.888108 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:36.987167 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:37.086685 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:37.186906 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:37.285898 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:37.385774 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:37.487058 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:37.585187 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:37.685096 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:37.783999 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:37.883140 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:37.982986 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:38.082689 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:38.183290 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:38.285486 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:38.379875 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:38.479261 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:38.578688 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:38.677642 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:38.777489 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:38.877790 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:38.976465 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:39.080777 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:39.181638 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:39.278793 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:39.378940 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:39.477850 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:39.577765 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:39.638452 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201123 09:42:39.640307 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 09:42:39.641180 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 09:42:39.642092 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 09:42:39.643467 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201123 09:42:39.644494 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201123 09:42:39.683454 [Class:UartRead][Method:receiver] <Response [201]>
+[NOTICE] 20201123 09:42:39.711154 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[sensorway], Now[sensorway]
+[INFO] 20201123 09:42:39.775176 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:39.873267 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:39.973408 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:40.072344 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:40.172479 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:40.271856 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:40.371588 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:40.475717 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:40.574126 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:40.675070 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:40.772121 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:40.881821 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:40.970132 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:41.069859 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:41.168221 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:41.267583 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:41.367966 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:41.467128 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:41.567754 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:41.671421 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:41.769860 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:41.868480 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:41.968007 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:42.068291 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:42.171366 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:42.266402 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:42.366865 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:42.467294 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:42.570393 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:42.665514 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:42.766823 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:42.865575 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:42.964520 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:43.063900 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:43.164784 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:43.263037 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:43.362803 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:43.462864 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:43.562878 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:43.662301 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:43.761498 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:43.861516 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:43.960858 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:44.060506 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:44.158938 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:44.260393 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:44.360446 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:44.458865 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:44.558346 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:44.658514 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:44.716609 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201123 09:42:44.719159 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 09:42:44.719697 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 09:42:44.720722 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 09:42:44.722224 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201123 09:42:44.723197 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201123 09:42:44.762795 [Class:UartRead][Method:receiver] <Response [201]>
+[NOTICE] 20201123 09:42:44.792961 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[sensorway], Now[sensorway]
+[INFO] 20201123 09:42:44.857058 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:44.957509 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:45.056917 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:45.156488 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:45.259531 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:45.356754 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:45.456987 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:45.555903 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:45.653621 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:45.757482 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:45.852503 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:45.952437 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:46.053694 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:46.156790 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:46.251957 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:46.351566 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:46.452150 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:46.553035 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:46.651055 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:46.749549 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:46.852642 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:46.952809 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:47.049705 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:47.149586 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:47.249236 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:47.348019 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:47.450044 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:47.547591 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:47.646358 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:47.747503 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:47.849949 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:47.948480 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:48.046278 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:48.147178 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:48.245735 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:48.345228 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:48.448612 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:48.543169 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:48.642996 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:48.746850 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:48.841257 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:48.943343 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:49.041066 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:49.141495 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:49.240991 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:49.340880 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:49.440854 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:49.542917 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:49.639218 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:49.740233 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:49.794271 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201123 09:42:49.795526 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 09:42:49.796552 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 09:42:49.797599 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 09:42:49.799360 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201123 09:42:49.800182 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201123 09:42:49.845586 [Class:UartRead][Method:receiver] <Response [201]>
+[NOTICE] 20201123 09:42:49.883118 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[sensorway], Now[sensorway]
+[INFO] 20201123 09:42:49.938159 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:50.034895 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:50.134667 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:50.233989 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:50.333664 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:50.434272 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:50.534518 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:50.636609 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:50.734164 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:50.837360 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:50.934888 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:51.033755 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:51.136999 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:51.233605 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:51.333142 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:51.435944 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:51.531702 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:51.631943 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:51.736341 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:51.831466 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:51.930379 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:52.031800 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:52.131549 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:52.229475 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:52.330105 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:52.432542 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:52.526914 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:52.628915 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:52.730936 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:52.826273 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:52.926003 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:53.026462 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:53.126276 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:53.224760 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:53.324547 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:53.424987 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:53.524345 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:53.623442 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:53.723105 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:53.822375 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:53.922747 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:54.023016 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:54.122499 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:54.222181 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:54.321837 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:54.421976 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:54.520614 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:54.620556 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:54.720350 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:54.819531 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:54.888635 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201123 09:42:54.889256 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 09:42:54.890240 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 09:42:54.891099 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 09:42:54.892601 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201123 09:42:54.893030 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201123 09:42:54.925103 [Class:UartRead][Method:receiver] <Response [201]>
+[NOTICE] 20201123 09:42:54.958614 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[sensorway], Now[sensorway]
+[INFO] 20201123 09:42:55.018273 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:55.117885 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:55.218488 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:55.317796 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:55.418051 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:55.517335 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:55.616090 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:55.715725 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:55.816447 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:55.915597 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:56.015439 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:56.113909 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:56.215109 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:56.314905 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:56.412849 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:56.512511 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:56.614277 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:56.713075 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:56.811573 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:56.910942 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:57.011277 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:57.110198 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:57.210016 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:57.310277 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:57.409517 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:57.508918 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:57.610320 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:57.709079 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:57.807926 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:57.907640 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:58.007880 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:58.107614 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:58.206894 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:58.306238 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:58.407233 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:58.506161 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:58.606024 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:58.704665 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:58.803817 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:58.904013 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:59.003460 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:59.103536 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:59.202227 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:59.302706 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:59.402094 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:59.501774 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:59.601457 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:59.702786 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:59.801210 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:59.900096 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:42:59.964791 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201123 09:42:59.966465 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 09:42:59.966882 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 09:42:59.967271 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 09:42:59.967981 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201123 09:42:59.968379 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201123 09:43:00.004900 [Class:UartRead][Method:receiver] <Response [201]>
+[NOTICE] 20201123 09:43:00.039893 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[sensorway], Now[sensorway]
+[INFO] 20201123 09:43:00.098536 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:43:00.198762 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:43:00.223416 [Class:BTReceive][Method:msgConvert] Called.
+[INFO] 20201123 09:43:00.273769 [Class:UartRead][Method:uartSet] Called.
+[INFO] 20201123 09:43:00.298429 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:43:00.875725 [Class:BTReceive][Method:sendMessageTo] Called.
+[INFO] 20201123 09:43:01.300020 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:43:02.296250 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:43:03.284628 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:43:04.287801 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:43:05.045807 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201123 09:43:05.046706 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 09:43:05.051421 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 09:43:05.052265 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 09:43:05.053385 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201123 09:43:05.054037 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201123 09:43:05.144316 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[sensorway], Now[sensorway]
+[INFO] 20201123 09:43:05.285765 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:43:06.279322 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:43:07.274383 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:43:08.269125 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:43:09.265770 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:43:10.150327 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201123 09:43:10.151765 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 09:43:10.156114 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 09:43:10.156961 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 09:43:10.157972 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201123 09:43:10.158494 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201123 09:43:10.226027 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[sensorway], Now[sensorway]
+[INFO] 20201123 09:43:10.262378 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:43:11.258802 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:43:12.256042 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:43:13.252401 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:43:14.250709 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:43:15.233119 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201123 09:43:15.233638 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 09:43:15.237993 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 09:43:15.238392 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 09:43:15.238926 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201123 09:43:15.239201 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201123 09:43:15.249372 [Class:UartRead][Method:receiver] <Response [201]>
+[NOTICE] 20201123 09:43:15.288926 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[sensorway], Now[sensorway]
+[INFO] 20201123 09:43:16.239451 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:43:17.237277 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:43:18.234084 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:43:19.230270 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:43:20.219751 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:43:20.294403 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201123 09:43:20.294781 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 09:43:20.299120 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 09:43:20.299932 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 09:43:20.301085 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201123 09:43:20.301692 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201123 09:43:20.399210 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[sensorway], Now[sensorway]
+[INFO] 20201123 09:43:21.226165 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:43:22.219117 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:43:23.214991 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:43:24.208383 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:43:25.204970 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:43:25.405243 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201123 09:43:25.406151 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 09:43:25.410252 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 09:43:25.410928 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 09:43:25.412286 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201123 09:43:25.412948 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201123 09:43:25.495098 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[sensorway], Now[sensorway]
+[INFO] 20201123 09:43:26.202897 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:43:27.196331 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:43:28.192719 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:43:29.185804 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:43:30.188407 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:43:30.501112 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201123 09:43:30.501877 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 09:43:30.506068 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 09:43:30.506583 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 09:43:30.507514 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201123 09:43:30.508019 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201123 09:43:30.609198 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[sensorway], Now[sensorway]
+[INFO] 20201123 09:43:31.190492 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:43:32.182083 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:43:33.177705 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:43:34.173774 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:43:35.144906 [Class:BTReceive][Method:msgConvert] Called.
+[INFO] 20201123 09:43:35.170669 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 09:43:35.187298 [Class:UartRead][Method:uartSet] Called.
+[INFO] 20201123 09:43:35.615759 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201123 09:43:35.616767 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 09:43:35.621356 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 09:43:35.621979 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 09:43:35.623144 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201123 09:43:35.623751 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201123 09:43:35.712911 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[sensorway], Now[sensorway]
+[INFO] 20201123 09:43:35.789592 [Class:BTReceive][Method:sendMessageTo] Called.
+[INFO] 20201123 09:43:40.714335 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201123 09:43:40.715425 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 09:43:40.719777 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 09:43:40.720711 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 09:43:40.721914 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201123 09:43:40.722650 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201123 09:43:40.822889 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[sensorway], Now[sensorway]
+[INFO] 20201123 09:43:45.828739 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201123 09:43:45.829754 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 09:43:45.834774 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 09:43:45.835511 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 09:43:45.836832 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201123 09:43:45.837657 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201123 09:43:45.928818 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[sensorway], Now[sensorway]
+[INFO] 20201123 09:43:50.934925 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201123 09:43:50.935965 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 09:43:50.940089 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 09:43:50.940766 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 09:43:50.942117 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201123 09:43:50.942849 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201123 09:43:51.039609 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[sensorway], Now[sensorway]
+[INFO] 20201123 09:43:56.045695 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201123 09:43:56.046680 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 09:43:56.050936 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 09:43:56.051792 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 09:43:56.053011 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201123 09:43:56.053611 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201123 09:43:56.150372 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[sensorway], Now[sensorway]
+[INFO] 20201123 09:44:01.156416 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201123 09:44:01.157234 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 09:44:01.161408 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 09:44:01.161981 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 09:44:01.163109 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201123 09:44:01.163632 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201123 09:44:01.250403 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[sensorway], Now[sensorway]
+[INFO] 20201123 09:44:06.255514 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201123 09:44:06.256435 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 09:44:06.260437 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 09:44:06.261377 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 09:44:06.262636 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201123 09:44:06.263252 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201123 09:44:06.356625 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[sensorway], Now[sensorway]
+[INFO] 20201123 09:44:11.361204 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201123 09:44:11.361685 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 09:44:11.365848 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 09:44:11.366240 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 09:44:11.366814 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201123 09:44:11.367079 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201123 09:44:11.412591 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[sensorway], Now[sensorway]
+[INFO] 20201123 09:44:16.418372 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201123 09:44:16.419400 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 09:44:16.424074 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 09:44:16.424915 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 09:44:16.426085 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201123 09:44:16.426682 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201123 09:44:16.514090 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[sensorway], Now[sensorway]
+[INFO] 20201123 09:44:21.520213 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201123 09:44:21.521215 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 09:44:21.525818 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 09:44:21.526631 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 09:44:21.527847 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201123 09:44:21.528490 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201123 09:44:21.609796 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[sensorway], Now[sensorway]
+[INFO] 20201123 09:44:26.615869 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201123 09:44:26.616847 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 09:44:26.620911 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 09:44:26.621569 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 09:44:26.622957 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201123 09:44:26.623626 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201123 09:44:26.718516 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[sensorway], Now[sensorway]
+[INFO] 20201123 09:44:31.724617 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201123 09:44:31.725486 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 09:44:31.729808 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 09:44:31.730471 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 09:44:31.731813 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201123 09:44:31.732414 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201123 09:44:31.827866 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[sensorway], Now[sensorway]
+[INFO] 20201123 09:44:36.833962 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201123 09:44:36.835014 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 09:44:36.839114 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 09:44:36.839771 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 09:44:36.841124 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201123 09:44:36.841707 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201123 09:44:36.937627 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[sensorway], Now[sensorway]
+[INFO] 20201123 09:44:41.943756 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201123 09:44:41.944808 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 09:44:41.949089 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 09:44:41.949786 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 09:44:41.951096 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201123 09:44:41.951692 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201123 09:44:42.047206 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[sensorway], Now[sensorway]
+[INFO] 20201123 09:44:47.053352 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201123 09:44:47.054437 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 09:44:47.058497 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 09:44:47.059136 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 09:44:47.060416 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201123 09:44:47.061022 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201123 09:44:47.157861 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[sensorway], Now[sensorway]

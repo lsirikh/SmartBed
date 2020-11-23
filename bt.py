@@ -11,64 +11,233 @@ from message import RequestData, User, ControlUart, CloudCycleSet, WifiInfo, Wif
 
 from monitor import MonitorClass
 
+import pexpect
+import subprocess
 
-class BTSetup:
-    server_sock = None
-    client_sock = None
-    address = None
+class BluetoothctlError(Exception):
+    """This exception is raised, when bluetoothctl fails to start."""
+    pass
+
+
+class Bluetoothctl:
+    """A wrapper for bluetoothctl utility."""
 
     def __init__(self):
-        """
+        self.paired_list = []
+        out = subprocess.check_output("rfkill unblock bluetooth", shell=True)
+        self.child = pexpect.spawn("bluetoothctl", echo=False)
 
-        """
-        if self.server_sock is None:
-            self.server_sock = bluetooth.BluetoothSocket(bluetooth.RFCOMM)
+    def get_output(self, command, pause=0):
+        """Run a command in bluetoothctl prompt, return output as a list of lines."""
+        self.child.send(command + "\n")
+        time.sleep(pause)
+        start_failed = self.child.expect(["bluetooth", pexpect.EOF])
+        result = str(self.child.before.decode('UTF-8')).split("\r\n")
+        # print(result)
 
-            port = 1
-            self.server_sock.bind(("", port))
-            self.server_sock.listen(1)
+        if start_failed:
+            raise BluetoothctlError("Bluetoothctl failed after running " + command)
 
-        if self.client_sock is None:
-            self.client_sock, self.address = self.server_sock.accept()
-            print("Accepted connection from " + str(self.address))
+        return result
 
-    def lookUpNearbyBluetoothDevices(self):
-        """
+    def called_pair(self):
+        try:
+            # res = self.child.expect(["Request confirmation", pexpect.EOF])
+            # print(res)
+            out = self.get_output("yes", 5)
 
-        :return:
-        """
-        nearby_devices = bluetooth.discover_devices()
-        for bdaddr in nearby_devices:
+            for i in range(30):
+                res = self.child.expect(["Failed to pair", "Pairing successful","Paired: yes", pexpect.EOF])
+                if res == 1 or res == 2:
+                    print("Successfully Paired...")
+                    return True
+                time.sleep(1)
 
-            print(str(bluetooth.lookup_name(bdaddr)) + " [" + str(bdaddr) + "]")
-            if bluetooth.lookup_name(bdaddr) == "Galaxy Note8":
-                return bdaddr
+        except BluetoothctlError as e:
+            #print(e)
+            return False
 
-    def closeSock(self):
-        """
 
-        :return:
-        """
 
-        self.client_sock.close()
-        self.server_sock.close()
+    def hearing(self):
+        """Try to hear with a device by mac address."""
+        try:
+            res = self.child.expect(["Request confirmation", pexpect.EOF], timeout=1)
+            if res == 0:
+                print("Pairing Call...")
+                return True
 
+            else:
+                return False
+
+        except Exception as e:
+            # print(e)
+            return False
+
+    def start_scan(self, cmd):
+        """Start bluetooth scanning process."""
+        try:
+            out = self.get_output("scan " + cmd)
+        except BluetoothctlError as e:
+            print(e)
+            return None
+
+    def set_default_agent(self):
+        try:
+            out = self.get_output("default-agent", 2)
+            res = self.child.expect(["Default agent request successful", pexpect.EOF])
+            print(res)
+        except BluetoothctlError as e:
+            print(e)
+            return None
+
+    def make_discoverable(self):
+        """Make device discoverable."""
+        try:
+            out = self.get_output("discoverable on")
+        except BluetoothctlError as e:
+            print(e)
+            return None
+
+    def parse_device_info(self, info_string):
+        """Parse a string corresponding to a device."""
+        device = {}
+        block_list = ["[\x1b[0;", "removed"]
+        string_valid = not any(keyword in info_string for keyword in block_list)
+
+        if string_valid:
+            try:
+                device_position = info_string.index("Device")
+            except ValueError:
+                pass
+            else:
+                if device_position > -1:
+                    attribute_list = info_string[device_position:].split(" ", 2)
+                    device = {
+                        "mac_address": attribute_list[1],
+                        "name": attribute_list[2]
+                    }
+
+        return device
+
+    def get_available_devices(self):
+        """Return a list of tuples of paired and discoverable devices."""
+        try:
+            out = self.get_output("devices")
+        except BluetoothctlError as e:
+            print(e)
+            return None
+        else:
+            available_devices = []
+            for line in out:
+                device = self.parse_device_info(line)
+                if device:
+                    available_devices.append(device)
+
+            return available_devices
+
+    def get_paired_devices(self):
+        """Return a list of tuples of paired devices."""
+        try:
+            out = self.get_output("paired-devices",2)
+        except BluetoothctlError as e:
+            print(e)
+            return None
+        else:
+            paired_devices = []
+            for line in out:
+                device = self.parse_device_info(line)
+                if device:
+                    paired_devices.append(device)
+
+            return paired_devices
+
+    def get_discoverable_devices(self):
+        """Filter paired devices out of available."""
+        available = self.get_available_devices()
+        paired = self.get_paired_devices()
+
+        return [d for d in available if d not in paired]
+
+    def get_device_info(self, mac_address):
+        """Get device info by mac address."""
+        try:
+            out = self.get_output("info " + mac_address)
+        except BluetoothctlError as e:
+            print(e)
+            return None
+        else:
+            return out
+
+    def pair(self, mac_address):
+        """Try to pair with a device by mac address."""
+        try:
+            out = self.get_output("pair " + mac_address, 4)
+
+        except BluetoothctlError as e:
+            print(e)
+            return None
+        else:
+            res = self.child.expect(["Request confirmation", pexpect.EOF])
+            out = self.get_output("yes", 3)
+            # success = True if res == 1 else False
+            # return success
+        finally:
+            for i in range(30):
+                res = self.child.expect(["Failed to pair", "Pairing successful", pexpect.EOF])
+                if res == 1:
+                    return True
+                time.sleep(1)
+
+    def remove(self, mac_address):
+        """Remove paired device by mac address, return success of the operation."""
+        try:
+            out = self.get_output("remove " + mac_address, 3)
+        except BluetoothctlError as e:
+            print(e)
+            return None
+        else:
+            res = self.child.expect(["not available", "Device has been removed", pexpect.EOF])
+            success = True if res == 1 else False
+            return success
+
+    def connect(self, mac_address):
+        """Try to connect to a device by mac address."""
+        try:
+            out = self.get_output("connect " + mac_address, 2)
+        except BluetoothctlError as e:
+            print(e)
+            return None
+        else:
+            res = self.child.expect(["Failed to connect", "Connection successful", pexpect.EOF])
+            success = True if res == 1 else False
+            return success
+
+    def disconnect(self, mac_address):
+        """Try to disconnect to a device by mac address."""
+        try:
+            out = self.get_output("disconnect " + mac_address, 2)
+        except BluetoothctlError as e:
+            print(e)
+            return None
+        else:
+            res = self.child.expect(["Failed to disconnect", "Successful disconnected", pexpect.EOF])
+            success = True if res == 1 else False
+            return success
 
 # class BTReceive(threading.Thread):
 class BTReceive(MonitorClass):
 #class BTReceive():
     def __init__(self):
-
         super().setBTStatus(False)
-        #print("BTReceive - ", self.getBTStatus())
-        # self.mClass = MonitorClass()
-        # self.mClass.setBTStatus(False)
 
         self.receiverStatus = False
         self.monitorStatus = False
+        self.hearingStatus = False
 
         self.threadReceive = None
         self.threadMonitor = None
+        self.threadHearing = None
 
         self.server_sock = None
         self.client_sock = None
@@ -77,17 +246,41 @@ class BTReceive(MonitorClass):
 
         self.msg = None
 
+        self.paired_list = None
+
         # Log Object
         self.log = Logs(self.__class__.__name__)
         self.log.write(self.log.INFO, self.__init__.__name__, "initiated.")
 
+        # BluetoothCtl Object
+        #self.bl = Bluetoothctl()
+
+        # FileProcess Object
         self.file = FileProcess()
 
     def initialize(self):
         self.setBTStatus(True)
+        #self.bl.make_discoverable()
+        #print("Set Default-Agent")
+        #self.bl.set_default_agent()
+        #self.bl.paired_list = self.bl.get_paired_devices()
+
         self.pair()
         self.setAllThreadOn()
 
+    # def hearing(self):
+    #     try:
+    #         while self.hearingStatus:
+    #             result = self.bl.hearing()
+    #             if result:
+    #                 self.bl.called_pair()
+    #                 self.paired_list = self.bl.get_paired_devices()
+    #                 print(self.paired_list)
+    #
+    #             time.sleep(1)
+    #
+    #     except Exception as ex:
+    #         pass
 
     def pair(self):
         self.log.write(self.log.INFO, self.pair.__name__, "Called.")
@@ -106,14 +299,14 @@ class BTReceive(MonitorClass):
 
             self.server_sock = bluetooth.BluetoothSocket(bluetooth.RFCOMM)
             self.log.write(self.log.NOTICE, self.connection.__name__, "Server socket was created")
-            print("Server socket was created")
+            #print("Server socket was created")
 
             self.server_sock.bind(("", self.port))
             self.server_sock.listen(1)
             self.server_sock.settimeout(3)
         except Exception as ex:
             self.log.write(self.log.ERROR, self.connection.__name__, "Failed to execute : {0}".format(ex))
-            print("Failed to open or bind server socket", ex)
+            #print("Failed to open or bind server socket", ex)
 
         try:
             if self.client_sock is not None:
@@ -126,7 +319,7 @@ class BTReceive(MonitorClass):
             print("Accepted : ", self.address)
         except Exception as ex:
             self.log.write(self.log.ERROR, self.connection.__name__, "Failed to execute : {0}".format(ex))
-            print("Failed to open or bind client_sock", ex)
+            #print("Failed to open or bind client_sock", ex)
 
     def setAllThreadOn(self):
         self.log.write(self.log.INFO, self.setAllThreadOn.__name__, "Called.")
@@ -140,7 +333,7 @@ class BTReceive(MonitorClass):
             self.threadMonitor.daemon = False
             self.receiverStatus = True
             self.monitorStatus = True
-
+            self.hearingStatus = True
 
             self.threadReceive.start()
             self.threadMonitor.start()
@@ -176,26 +369,20 @@ class BTReceive(MonitorClass):
 
     def monitor(self):
         self.log.write(self.log.INFO, self.monitor.__name__, "Called.")
-        count =0
         while self.monitorStatus:
             # print(self.threadReceive.is_alive())
-            if count > 10:
-                if self.threadReceive.is_alive() is True:
-                    self.threadReceive.join()
-                    print("bt thread was stopped.")
 
             if self.threadReceive.is_alive() is False:
                 self.setBTStatus(False)
                 self.log.write(self.log.NOTICE, self.monitor.__name__, "threadReceive was terminated and will re-initiate.")
-                print("threadReceive was terminated.")
-                print("threadReceive will re-initiate.")
+                #print("threadReceive was terminated.")
+                #print("threadReceive will re-initiate.")
                 self.setReceiveThreadOn()
 
             time.sleep(1)
 
     def receiver(self):
         self.log.write(self.log.INFO, self.receiver.__name__, "Called.")
-        #super().setWifiStatus(True)
         self.connection()
         try:
             while self.receiverStatus:
@@ -205,6 +392,7 @@ class BTReceive(MonitorClass):
                 data = data.decode('utf-8')
                 data = str(data).replace("\n", "")
                 data = data.replace("\r", "")
+                self.log.write(self.log.NOTICE, self.receiver.__name__, "received : {0}".format(data))
                 print("received [%s]" % data)
 
                 self.msgConvert(data)
@@ -215,7 +403,7 @@ class BTReceive(MonitorClass):
             # Thread will be dead with Exception
             self.closeSock()
             self.log.write(self.log.ERROR, self.receiver.__name__, "Failed to execute : {0}".format(ex))
-            print("Bluetooth was disconnected or aborted- ", ex)
+            #print("Bluetooth was disconnected or aborted- ", ex)
 
     def msgConvert(self, data):
         """
@@ -231,7 +419,7 @@ class BTReceive(MonitorClass):
             typeMessage = dict_data["TypeMessage"]
             if typeMessage == 1:
                 self.msg = RequestData(dict_data)
-                # print(self.msg)
+
             elif typeMessage == 2:
                 self.msg = User(dict_data)
             elif typeMessage == 3:
@@ -294,10 +482,14 @@ class BTReceive(MonitorClass):
         """
         self.log.write(self.log.INFO, self.closeSock.__name__, "Called.")
         try:
-            self.client_sock.close()
-            self.server_sock.close()
-            self.server_sock = None
+
+            if self.client_sock is not None:
+                self.client_sock.close()
             self.client_sock = None
+
+            if self.server_sock is not None:
+                self.server_sock.close()
+            self.server_sock = None
 
             return True
         except Exception as ex:

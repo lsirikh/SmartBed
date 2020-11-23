@@ -1,6 +1,6 @@
 {
     "bluetooth": "50:77:05:43:DF:98",
-    "wifi-ssid": "sensorway5g",
+    "wifi-ssid": "sensorway",
     "wifi-password": "0295765000000",
     "time_server-ip": "123.123.123.123",
     "time_server-port": 6400,

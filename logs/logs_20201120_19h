@@ -5538,3 +5538,164 @@
 [INFO] 20201120 19:40:47.111265 [Class:BTReceive][Method:connection] Called.
 [NOTICE] 20201120 19:40:47.112011 [Class:BTReceive][Method:connection] Server socket was created
 [NOTICE] 20201120 19:40:47.112781 [Class:BTReceive][Method:connection] Try to connect to 50:77:05:43:DF:98
+[INFO] 20201120 19:59:32.179561 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201120 19:59:32.180903 [Class:SmartBed][Method:setAllThreadOn] Called.
+[INFO] 20201120 19:59:32.182121 [Class:SmartBed][Method:initUart] Called.
+[INFO] 20201120 19:59:32.181726 [Class:SmartBed][Method:initBT] Called.
+[INFO] 20201120 19:59:32.182961 [Class:BTReceive][Method:__init__] initiated.
+[INFO] 20201120 19:59:32.182809 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201120 19:59:32.183955 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201120 19:59:32.184327 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201120 19:59:32.195134 [Class:BTReceive][Method:pair] Called.
+[INFO] 20201120 19:59:32.196043 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201120 19:59:32.196285 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201120 19:59:32.196788 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201120 19:59:32.197590 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201120 19:59:32.197197 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201120 19:59:32.198378 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201120 19:59:32.183436 [Class:SmartBed][Method:initWifi] Called.
+[INFO] 20201120 19:59:32.198834 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201120 19:59:32.199079 [Class:WifiNT][Method:__init__] initiated.
+[INFO] 20201120 19:59:32.199305 [Class:WifiNT][Method:setThreadOn] Called.
+[INFO] 20201120 19:59:32.199829 [Class:WifiNT][Method:monitor] Called.
+[INFO] 20201120 19:59:32.200142 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201120 19:59:32.200375 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201120 19:59:32.200593 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201120 19:59:32.200811 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201120 19:59:32.201706 [Class:BTReceive][Method:pair] Loaded - BT ADDRESS : 50:77:05:43:DF:98
+[INFO] 20201120 19:59:32.202185 [Class:BTReceive][Method:setAllThreadOn] Called.
+[INFO] 20201120 19:59:32.203226 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201120 19:59:32.202788 [Class:UartRead][Method:__init__] initiated.
+[INFO] 20201120 19:59:32.204702 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201120 19:59:32.204566 [Class:BTReceive][Method:monitor] Called.
+[INFO] 20201120 19:59:32.204387 [Class:UartRead][Method:loadFiles] Called.
+[INFO] 20201120 19:59:32.204033 [Class:BTReceive][Method:receiver] Called.
+[INFO] 20201120 19:59:32.209778 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201120 19:59:32.210582 [Class:BTReceive][Method:connection] Called.
+[INFO] 20201120 19:59:32.210865 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201120 19:59:32.213442 [Class:FileProcess][Method:getFilePath] Called.
+[NOTICE] 20201120 19:59:32.213869 [Class:BTReceive][Method:connection] Server socket was created
+[NOTICE] 20201120 19:59:32.214664 [Class:BTReceive][Method:connection] Try to connect to 50:77:05:43:DF:98
+[INFO] 20201120 19:59:32.218139 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201120 19:59:32.218497 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201120 19:59:32.218729 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201120 19:59:32.220599 [Class:UartRead][Method:initSerial] Called.
+[INFO] 20201120 19:59:32.221204 [Class:UartRead][Method:openSerial] Try to open port....
+[INFO] 20201120 19:59:32.222051 [Class:UartRead][Method:uartSet] Called.
+[NOTICE] 20201120 19:59:32.287078 [Class:WifiNT][Method:monitor] Wifi was disconnected.
+[INFO] 20201120 19:59:32.287533 [Class:WifiNT][Method:wifiConnection] Called.
+[INFO] 20201120 19:59:32.287829 [Class:WifiNT][Method:wifiConnection] Wifi Module was DOWN.
+[INFO] 20201120 19:59:32.288125 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201120 19:59:32.824494 [Class:UartRead][Method:setAllThreadOn] Called.
+[INFO] 20201120 19:59:32.827433 [Class:UartRead][Method:receiver] Called.
+[INFO] 20201120 19:59:32.828303 [Class:UartRead][Method:monitor] Called.
+[INFO] 20201120 19:59:33.330328 [Class:WifiNT][Method:wifiConnection] Wifi Module was UP.
+[INFO] 20201120 19:59:33.331296 [Class:WifiNT][Method:getSubpro] Called.
+[ERROR] 20201120 19:59:35.218459 [Class:BTReceive][Method:connection] Failed to execute : timed out
+[INFO] 20201120 19:59:35.219911 [Class:BTReceive][Method:closeSock] Called.
+[ERROR] 20201120 19:59:35.220546 [Class:BTReceive][Method:closeSock] Failed to execute : 'NoneType' object has no attribute 'close'
+[ERROR] 20201120 19:59:35.221111 [Class:BTReceive][Method:receiver] Failed to execute : 'NoneType' object has no attribute 'recv'
+[INFO] 20201120 19:59:35.408325 [Class:WifiNT][Method:wifiConnection] wpa_supplicant.conf was created.
+[INFO] 20201120 19:59:35.409302 [Class:WifiNT][Method:setWpaFile] Called.
+[NOTICE] 20201120 19:59:35.495356 [Class:WifiNT][Method:wifiConnection] network={
+	ssid="sensorway5g"
+	#psk="0295765000000"
+	psk=e55f2ebcbf573cb0b821c96e82a89fa7e780a7fa8d4611c3fd7cd5e918d7a294
+}
+
+[INFO] 20201120 19:59:35.496886 [Class:WifiNT][Method:wifiConnection] Wifi Module tried to connect AP(sensorway5g)
+[INFO] 20201120 19:59:35.497525 [Class:WifiNT][Method:setWpaCon] Called.
+[INFO] 20201120 19:59:35.498191 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201120 19:59:36.214894 [Class:BTReceive][Method:monitor] threadReceive was terminated and will re-initiate.
+[INFO] 20201120 19:59:36.216440 [Class:BTReceive][Method:setReceiveThreadOn] Called.
+[INFO] 20201120 19:59:36.218052 [Class:BTReceive][Method:receiver] Called.
+[INFO] 20201120 19:59:36.219133 [Class:BTReceive][Method:connection] Called.
+[NOTICE] 20201120 19:59:36.220228 [Class:BTReceive][Method:connection] Server socket was created
+[NOTICE] 20201120 19:59:36.221263 [Class:BTReceive][Method:connection] Try to connect to 50:77:05:43:DF:98
+[ERROR] 20201120 19:59:39.225231 [Class:BTReceive][Method:connection] Failed to execute : timed out
+[INFO] 20201120 19:59:39.226154 [Class:BTReceive][Method:closeSock] Called.
+[ERROR] 20201120 19:59:39.226725 [Class:BTReceive][Method:closeSock] Failed to execute : 'NoneType' object has no attribute 'close'
+[ERROR] 20201120 19:59:39.227277 [Class:BTReceive][Method:receiver] Failed to execute : 'NoneType' object has no attribute 'recv'
+[NOTICE] 20201120 19:59:40.222927 [Class:BTReceive][Method:monitor] threadReceive was terminated and will re-initiate.
+[INFO] 20201120 19:59:40.223929 [Class:BTReceive][Method:setReceiveThreadOn] Called.
+[INFO] 20201120 19:59:40.225027 [Class:BTReceive][Method:receiver] Called.
+[INFO] 20201120 19:59:40.225811 [Class:BTReceive][Method:connection] Called.
+[NOTICE] 20201120 19:59:40.226522 [Class:BTReceive][Method:connection] Server socket was created
+[NOTICE] 20201120 19:59:40.227292 [Class:BTReceive][Method:connection] Try to connect to 50:77:05:43:DF:98
+[NOTICE] 20201120 19:59:40.685975 [Class:WifiNT][Method:wifiConnection] Successfully initialized wpa_supplicant
+
+[ERROR] 20201120 19:59:43.231026 [Class:BTReceive][Method:connection] Failed to execute : timed out
+[INFO] 20201120 19:59:43.231952 [Class:BTReceive][Method:closeSock] Called.
+[ERROR] 20201120 19:59:43.232560 [Class:BTReceive][Method:closeSock] Failed to execute : 'NoneType' object has no attribute 'close'
+[ERROR] 20201120 19:59:43.233171 [Class:BTReceive][Method:receiver] Failed to execute : 'NoneType' object has no attribute 'recv'
+[NOTICE] 20201120 19:59:44.229766 [Class:BTReceive][Method:monitor] threadReceive was terminated and will re-initiate.
+[INFO] 20201120 19:59:44.230921 [Class:BTReceive][Method:setReceiveThreadOn] Called.
+[INFO] 20201120 19:59:44.235263 [Class:BTReceive][Method:receiver] Called.
+[INFO] 20201120 19:59:44.236136 [Class:BTReceive][Method:connection] Called.
+[NOTICE] 20201120 19:59:44.236877 [Class:BTReceive][Method:connection] Server socket was created
+[NOTICE] 20201120 19:59:44.237675 [Class:BTReceive][Method:connection] Try to connect to 50:77:05:43:DF:98
+[INFO] 20201120 19:59:45.688182 [Class:WifiNT][Method:wifiConnection] Get Wifi Connection State from Wifi Module.
+[INFO] 20201120 19:59:45.689182 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201120 19:59:45.751370 [Class:WifiNT][Method:wifiConnection] Not connected.
+
+[ERROR] 20201120 19:59:47.241696 [Class:BTReceive][Method:connection] Failed to execute : timed out
+[INFO] 20201120 19:59:47.242831 [Class:BTReceive][Method:closeSock] Called.
+[ERROR] 20201120 19:59:47.243564 [Class:BTReceive][Method:closeSock] Failed to execute : 'NoneType' object has no attribute 'close'
+[ERROR] 20201120 19:59:47.244224 [Class:BTReceive][Method:receiver] Failed to execute : 'NoneType' object has no attribute 'recv'
+[NOTICE] 20201120 19:59:48.240114 [Class:BTReceive][Method:monitor] threadReceive was terminated and will re-initiate.
+[INFO] 20201120 19:59:48.241402 [Class:BTReceive][Method:setReceiveThreadOn] Called.
+[INFO] 20201120 19:59:48.242934 [Class:BTReceive][Method:receiver] Called.
+[INFO] 20201120 19:59:48.243728 [Class:BTReceive][Method:connection] Called.
+[NOTICE] 20201120 19:59:48.244548 [Class:BTReceive][Method:connection] Server socket was created
+[NOTICE] 20201120 19:59:48.245368 [Class:BTReceive][Method:connection] Try to connect to 50:77:05:43:DF:98
+[INFO] 20201120 19:59:50.757413 [Class:WifiNT][Method:wifiConnection] Get Connected SSID.
+[INFO] 20201120 19:59:50.758434 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201120 19:59:50.759036 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201120 19:59:50.856227 [Class:WifiNT][Method:wifiConnection] 
+[ERROR] 20201120 19:59:51.249224 [Class:BTReceive][Method:connection] Failed to execute : timed out
+[INFO] 20201120 19:59:51.250200 [Class:BTReceive][Method:closeSock] Called.
+[ERROR] 20201120 19:59:51.250892 [Class:BTReceive][Method:closeSock] Failed to execute : 'NoneType' object has no attribute 'close'
+[ERROR] 20201120 19:59:51.251544 [Class:BTReceive][Method:receiver] Failed to execute : 'NoneType' object has no attribute 'recv'
+[NOTICE] 20201120 19:59:52.247795 [Class:BTReceive][Method:monitor] threadReceive was terminated and will re-initiate.
+[INFO] 20201120 19:59:52.248869 [Class:BTReceive][Method:setReceiveThreadOn] Called.
+[INFO] 20201120 19:59:52.250293 [Class:BTReceive][Method:receiver] Called.
+[INFO] 20201120 19:59:52.251129 [Class:BTReceive][Method:connection] Called.
+[NOTICE] 20201120 19:59:52.251927 [Class:BTReceive][Method:connection] Server socket was created
+[NOTICE] 20201120 19:59:52.252745 [Class:BTReceive][Method:connection] Try to connect to 50:77:05:43:DF:98
+[INFO] 20201120 19:59:52.860017 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201120 19:59:52.860885 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201120 19:59:52.861441 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201120 19:59:52.861993 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201120 19:59:52.863084 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201120 19:59:52.863667 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201120 19:59:52.961586 [Class:WifiNT][Method:monitor] Wifi was disconnected.
+[INFO] 20201120 19:59:52.963068 [Class:WifiNT][Method:wifiConnection] Called.
+[INFO] 20201120 19:59:52.963756 [Class:WifiNT][Method:wifiConnection] Wifi Module was DOWN.
+[INFO] 20201120 19:59:52.964325 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201120 19:59:54.003812 [Class:WifiNT][Method:wifiConnection] Wifi Module was UP.
+[INFO] 20201120 19:59:54.005425 [Class:WifiNT][Method:getSubpro] Called.
+[ERROR] 20201120 19:59:55.256695 [Class:BTReceive][Method:connection] Failed to execute : timed out
+[INFO] 20201120 19:59:55.258047 [Class:BTReceive][Method:closeSock] Called.
+[ERROR] 20201120 19:59:55.258711 [Class:BTReceive][Method:closeSock] Failed to execute : 'NoneType' object has no attribute 'close'
+[ERROR] 20201120 19:59:55.259273 [Class:BTReceive][Method:receiver] Failed to execute : 'NoneType' object has no attribute 'recv'
+[INFO] 20201120 19:59:56.074956 [Class:WifiNT][Method:wifiConnection] wpa_supplicant.conf was created.
+[INFO] 20201120 19:59:56.079993 [Class:WifiNT][Method:setWpaFile] Called.
+[NOTICE] 20201120 19:59:56.147541 [Class:WifiNT][Method:wifiConnection] network={
+	ssid="sensorway5g"
+	#psk="0295765000000"
+	psk=e55f2ebcbf573cb0b821c96e82a89fa7e780a7fa8d4611c3fd7cd5e918d7a294
+}
+
+[INFO] 20201120 19:59:56.148847 [Class:WifiNT][Method:wifiConnection] Wifi Module tried to connect AP(sensorway5g)
+[INFO] 20201120 19:59:56.149370 [Class:WifiNT][Method:setWpaCon] Called.
+[INFO] 20201120 19:59:56.149906 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201120 19:59:56.255272 [Class:BTReceive][Method:monitor] threadReceive was terminated and will re-initiate.
+[INFO] 20201120 19:59:56.256018 [Class:BTReceive][Method:setReceiveThreadOn] Called.
+[INFO] 20201120 19:59:56.256759 [Class:BTReceive][Method:receiver] Called.
+[INFO] 20201120 19:59:56.257118 [Class:BTReceive][Method:connection] Called.
+[NOTICE] 20201120 19:59:56.257492 [Class:BTReceive][Method:connection] Server socket was created
+[NOTICE] 20201120 19:59:56.258271 [Class:BTReceive][Method:connection] Try to connect to 50:77:05:43:DF:98
+[ERROR] 20201120 19:59:59.261741 [Class:BTReceive][Method:connection] Failed to execute : timed out
+[INFO] 20201120 19:59:59.262729 [Class:BTReceive][Method:closeSock] Called.
+[ERROR] 20201120 19:59:59.263326 [Class:BTReceive][Method:closeSock] Failed to execute : 'NoneType' object has no attribute 'close'
+[ERROR] 20201120 19:59:59.263891 [Class:BTReceive][Method:receiver] Failed to execute : 'NoneType' object has no attribute 'recv'

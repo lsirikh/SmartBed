@@ -177,6 +177,9 @@ class UartRead(MonitorClass):
         self.log.write(self.log.INFO, self.monitor.__name__, "Called.")
         while self.monitorStatus:
             try:
+                # Update api time request.
+                self.api.requestTime()
+
                 if self.threadReceive.is_alive() is False:
                     self.setUartStatus(False)
                     self.setReceiveThreadOn()
@@ -205,7 +208,7 @@ class UartRead(MonitorClass):
                     dict_data = ApiSendData(line, self.prop)
 
                     res = self.api.dataSend(dict_data.__dict__)
-                    #print(stf, res)
+                    print(stf, res)
                     self.log.write(self.log.INFO, self.receiver.__name__, res)
 
                     # async thread
