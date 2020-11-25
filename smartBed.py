@@ -10,9 +10,6 @@ from wifi_network import WifiNT
 from monitor import MonitorClass
 
 
-
-
-
 class SmartBed:
 
     def __init__(self):
@@ -21,7 +18,6 @@ class SmartBed:
         self.monitor = MonitorClass()
 
         #multiprocess
-
         self.func_list = [
             'initBT',
             'initUart',
@@ -212,10 +208,10 @@ class SmartBed:
                     obj = self.bt_receiver.msg
                     load_str = self.file.fileRead("","bed.txt")
                     json_data = json.loads(load_str)
-                    print("json_data : ",json_data)
-                    print("obj : ",obj)
+                    #print("json_data : ",json_data)
+                    #print("obj : ",obj)
                     inter_result = obj.checkBedNum(json_data['duid'])
-                    print("inter result : ", inter_result)
+                    #print("inter result : ", inter_result)
                     if inter_result:
                         dict_data = obj.setRequest()
 

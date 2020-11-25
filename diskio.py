@@ -23,7 +23,7 @@ class FileProcess:
             else:
                 return None
         except Exception as ex:
-            self.log.write(self.log.ERROR, self.fileRead.__name__, "Failed to excute : {0}".format(ex))
+            self.log.write(self.log.ERROR, self.fileRead.__name__, "Failed to execute : {0}".format(ex))
             return None
 
     # def networkFileRead(self):
@@ -71,7 +71,7 @@ class FileProcess:
 
             return True
         except Exception as ex:
-            self.log.write(self.log.ERROR, self.fileWrite.__name__, "Failed to excute : {0}".format(ex))
+            self.log.write(self.log.ERROR, self.fileWrite.__name__, "Failed to execute : {0}".format(ex))
             #print("Failed to execute fileWrite!!!!")
             return False
 
@@ -89,7 +89,7 @@ class FileProcess:
             return True
 
         except OSError as ex:
-            self.log.write(self.log.ERROR, self.checkDir.__name__, "Failed to excute : {0}".format(ex))
+            self.log.write(self.log.ERROR, self.checkDir.__name__, "Failed to execute : {0}".format(ex))
             #print("Failed to create directory!!!!!")
             return False
 
@@ -101,7 +101,7 @@ class FileProcess:
             return filepath
 
         except Exception as ex:
-            self.log.write(self.log.ERROR, self.getFilePath.__name__, "Failed to excute : {0}".format(ex))
+            self.log.write(self.log.ERROR, self.getFilePath.__name__, "Failed to execute : {0}".format(ex))
             #print("Failed to execute getFilePath!!!!")
             return None
 
@@ -113,7 +113,7 @@ class FileProcess:
                 file_list = [f for f in os.listdir(myPath) if os.path.isfile(os.path.join(myPath, f))]
                 return file_list
         except Exception as ex:
-            self.log.write(self.log.ERROR, self.getFilePath.__name__, "Failed to excute : {0}".format(ex))
+            self.log.write(self.log.ERROR, self.getFilePath.__name__, "Failed to execute : {0}".format(ex))
             #print("Failed to execute getDirFiles!!!!")
             return None
 
@@ -165,24 +165,9 @@ class FileProcess:
                 return True
 
         except Exception as ex:
-            self.log.write(self.log.ERROR, self.isFileExist.__name__, "Failed to excute : {0}".format(ex))
+            self.log.write(self.log.ERROR, self.isFileExist.__name__, "Failed to execute : {0}".format(ex))
             #print("Failed to execute checkFiles!!!!")
             return False
-
-    # def isDataExist(self, file):
-    #     try:
-    #         if self.checkDir():
-    #             dir = os.getcwd()
-    #             dir += "/data/"
-    #             filepath = os.path.join(dir + str(file))
-    #             if os.path.isfile(filepath):
-    #                 return True
-    #             else:
-    #                 return False
-    #
-    #     except Exception as ex:
-    #         print("Failed to execute isDataExist!!!!")
-    #         return False
 
     def getTimeStamp(self):
         self.log.write(self.log.INFO, self.getTimeStamp.__name__, "Called.")
@@ -216,7 +201,7 @@ class FileProcess:
                 dict_data["isNew"] = True
 
         except Exception as ex:
-            self.log.write(self.log.ERROR, self.checkDataFile.__name__, "Failed to excute : {0}".format(ex))
+            self.log.write(self.log.ERROR, self.checkDataFile.__name__, "Failed to execute : {0}".format(ex))
             #print("Failed to execute checkDataFile!!!!")
 
         return dict_data
@@ -243,7 +228,7 @@ class FileProcess:
                     f.close()
 
             except Exception as ex:
-                self.log.write(self.log.ERROR, self.data_store.__name__, "Failed to excute : {0}".format(ex))
+                self.log.write(self.log.ERROR, self.data_store.__name__, "Failed to execute : {0}".format(ex))
                 #print("Failed to store sensor data!!!")
 
     def data_load(self, filename):
@@ -267,5 +252,5 @@ class FileProcess:
                     return dict_data
 
             except Exception as ex:
-                self.log.write(self.log.ERROR, self.data_load.__name__, "Failed to excute : {0}".format(ex))
+                self.log.write(self.log.ERROR, self.data_load.__name__, "Failed to execute : {0}".format(ex))
                 return False

@@ -63,6 +63,10 @@ class ApiServer:
             #return False
 
 
+    async def date_send_async(self):
+        pass
+
+
     def dataSend(self, dict_data):
 
         #url = 'http://182.173.185.246:3001/api/Bed/Sensor/SendData/Start'
@@ -91,7 +95,6 @@ class ApiServer:
             print("Failed to send API server", ex)
 
         return res
-
 
     def storedDataSend(self, dict_list):
         url = self.setUrl()

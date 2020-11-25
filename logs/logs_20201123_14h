@@ -1,0 +1,1535 @@
+[INFO] 20201123 14:56:15.932448 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:56:15.933692 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:56:15.934341 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:56:16.936930 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:56:16.937392 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:56:16.941932 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:56:16.974194 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201123 14:56:16.974550 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:56:16.974787 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:56:16.975013 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:56:16.975432 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201123 14:56:16.975766 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201123 14:56:17.016033 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[imcloud_main_5G], Now[imcloud_main_5G]
+[ERROR] 20201123 14:56:17.253953 [Class:BTReceive][Method:connection] Failed to execute : timed out
+[INFO] 20201123 14:56:17.254880 [Class:BTReceive][Method:closeSock] Called.
+[ERROR] 20201123 14:56:17.255537 [Class:BTReceive][Method:receiver] Failed to execute : 'NoneType' object has no attribute 'recv'
+[INFO] 20201123 14:56:17.943752 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:56:17.944663 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:56:17.945287 [Class:FileProcess][Method:getFilePath] Called.
+[NOTICE] 20201123 14:56:18.252598 [Class:BTReceive][Method:monitor] threadReceive was terminated and will re-initiate.
+[INFO] 20201123 14:56:18.253482 [Class:BTReceive][Method:setReceiveThreadOn] Called.
+[INFO] 20201123 14:56:18.254754 [Class:BTReceive][Method:receiver] Called.
+[INFO] 20201123 14:56:18.255431 [Class:BTReceive][Method:connection] Called.
+[NOTICE] 20201123 14:56:18.256098 [Class:BTReceive][Method:connection] Server socket was created
+[NOTICE] 20201123 14:56:18.256790 [Class:BTReceive][Method:connection] Try to connect to 50:77:05:43:DF:98
+[INFO] 20201123 14:56:18.948166 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:56:18.949090 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:56:18.949683 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:56:19.952362 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:56:19.953292 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:56:19.953882 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:56:20.956344 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:56:20.957277 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:56:20.957863 [Class:FileProcess][Method:getFilePath] Called.
+[ERROR] 20201123 14:56:21.260401 [Class:BTReceive][Method:connection] Failed to execute : timed out
+[INFO] 20201123 14:56:21.261156 [Class:BTReceive][Method:closeSock] Called.
+[ERROR] 20201123 14:56:21.261847 [Class:BTReceive][Method:receiver] Failed to execute : 'NoneType' object has no attribute 'recv'
+[INFO] 20201123 14:56:21.960372 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:56:21.961211 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:56:21.965140 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:56:22.021751 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201123 14:56:22.022703 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:56:22.023299 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:56:22.023854 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:56:22.024862 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201123 14:56:22.025450 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201123 14:56:22.108240 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[imcloud_main_5G], Now[imcloud_main_5G]
+[NOTICE] 20201123 14:56:22.259544 [Class:BTReceive][Method:monitor] threadReceive was terminated and will re-initiate.
+[INFO] 20201123 14:56:22.260284 [Class:BTReceive][Method:setReceiveThreadOn] Called.
+[INFO] 20201123 14:56:22.261507 [Class:BTReceive][Method:receiver] Called.
+[INFO] 20201123 14:56:22.262162 [Class:BTReceive][Method:connection] Called.
+[NOTICE] 20201123 14:56:22.262713 [Class:BTReceive][Method:connection] Server socket was created
+[NOTICE] 20201123 14:56:22.263570 [Class:BTReceive][Method:connection] Try to connect to 50:77:05:43:DF:98
+[INFO] 20201123 14:56:22.968029 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:56:22.968995 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:56:22.969612 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:56:23.972388 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:56:23.973337 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:56:23.973916 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:56:24.976401 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:56:24.977206 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:56:24.977770 [Class:FileProcess][Method:getFilePath] Called.
+[ERROR] 20201123 14:56:25.265151 [Class:BTReceive][Method:connection] Failed to execute : timed out
+[INFO] 20201123 14:56:25.266061 [Class:BTReceive][Method:closeSock] Called.
+[ERROR] 20201123 14:56:25.266771 [Class:BTReceive][Method:receiver] Failed to execute : 'NoneType' object has no attribute 'recv'
+[INFO] 20201123 14:56:25.980351 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:56:25.981179 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:56:25.981760 [Class:FileProcess][Method:getFilePath] Called.
+[NOTICE] 20201123 14:56:26.266075 [Class:BTReceive][Method:monitor] threadReceive was terminated and will re-initiate.
+[INFO] 20201123 14:56:26.266822 [Class:BTReceive][Method:setReceiveThreadOn] Called.
+[INFO] 20201123 14:56:26.267894 [Class:BTReceive][Method:receiver] Called.
+[INFO] 20201123 14:56:26.268712 [Class:BTReceive][Method:connection] Called.
+[NOTICE] 20201123 14:56:26.269361 [Class:BTReceive][Method:connection] Server socket was created
+[NOTICE] 20201123 14:56:26.270105 [Class:BTReceive][Method:connection] Try to connect to 50:77:05:43:DF:98
+[INFO] 20201123 14:56:26.984180 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:56:26.984912 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:56:26.985359 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:56:27.114183 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201123 14:56:27.115097 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:56:27.115692 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:56:27.116222 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:56:27.117082 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201123 14:56:27.117594 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201123 14:56:27.197989 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[imcloud_main_5G], Now[imcloud_main_5G]
+[INFO] 20201123 14:56:27.987684 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:56:27.988642 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:56:27.989272 [Class:FileProcess][Method:getFilePath] Called.
+[NOTICE] 20201123 14:56:28.044808 [Class:BTReceive][Method:receiver] received : {"TypeMessage": 8,   "Uart_Cmd_Data":{   "Option_Sel":0,   "Op_Mode":"on"   }  }
+[INFO] 20201123 14:56:28.045860 [Class:BTReceive][Method:msgConvert] Called.
+[INFO] 20201123 14:56:28.057243 [Class:UartRead][Method:uartSet] Called.
+[INFO] 20201123 14:56:28.214323 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:28.292218 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:28.393322 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:28.495526 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:28.592877 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:28.659785 [Class:BTReceive][Method:sendMessageTo] Called.
+[INFO] 20201123 14:56:28.693389 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:28.790939 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:28.891257 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:28.992807 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:28.992498 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:56:28.993716 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:56:28.994319 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:56:29.093873 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:29.190166 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:29.292524 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:29.391577 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:29.491205 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:29.589072 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:29.689406 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:29.791836 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:29.898541 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:29.988775 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:29.995727 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:56:29.996290 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:56:29.996686 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:56:30.090633 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:30.190682 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:30.289591 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:30.391599 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:30.491200 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:30.588874 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:30.688253 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:30.788072 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:30.889149 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:30.988976 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:30.998708 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:56:30.999290 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:56:30.999694 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:56:31.087116 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:31.194548 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:31.287503 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:31.387068 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:31.487259 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:31.585905 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:31.687083 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:31.785686 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:31.886035 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:31.988478 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:32.001776 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:56:32.002520 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:56:32.003665 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:56:32.085992 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:32.187396 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:32.203958 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201123 14:56:32.204603 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:56:32.205050 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:56:32.205429 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:56:32.206199 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201123 14:56:32.206610 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201123 14:56:32.275901 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[imcloud_main_5G], Now[imcloud_main_5G]
+[INFO] 20201123 14:56:32.288860 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:32.385141 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:32.484105 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:32.584233 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:32.682895 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:32.785477 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:32.883477 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:32.983144 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:33.006090 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:56:33.006830 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:56:33.007241 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:56:33.084703 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:33.183200 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:33.283213 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:33.384168 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:33.482725 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:33.582774 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:33.681919 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:33.781282 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:33.882230 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:33.981811 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:34.009354 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:56:34.010022 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:56:34.010413 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:56:34.084398 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:34.182093 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:34.281750 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:34.380361 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:34.480880 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:34.580538 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:34.682376 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:34.781561 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:34.880730 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:34.979518 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:35.013104 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:56:35.014942 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:56:35.015972 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:56:35.078696 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:35.178770 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:35.280067 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:35.383339 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:35.480719 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:35.581726 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:35.677629 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:35.779126 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:35.879276 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:35.979756 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:36.018819 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:56:36.020976 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:56:36.021444 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:56:36.081201 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:36.180463 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:36.279248 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:36.377061 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:36.476400 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:36.576042 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:36.676241 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:36.777885 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:36.877875 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:36.975356 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:37.024343 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:56:37.025661 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:56:37.026625 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:56:37.074793 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:37.178994 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:37.275167 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:37.281623 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201123 14:56:37.282159 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:56:37.282632 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:56:37.283024 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:56:37.283734 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201123 14:56:37.284131 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201123 14:56:37.350616 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[imcloud_main_5G], Now[imcloud_main_5G]
+[INFO] 20201123 14:56:37.376299 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:37.471423 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:37.571629 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:37.670075 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:37.770696 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:37.871126 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:37.970483 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:38.029328 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:56:38.030103 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:56:38.030390 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:56:38.074364 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:38.173520 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:38.274896 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:38.373514 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:38.472589 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:38.577021 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:38.672546 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:38.772374 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:38.879666 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:38.973159 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:39.032122 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:56:39.032810 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:56:39.033209 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:56:39.073772 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:39.175796 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:39.274225 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:39.374642 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:39.478038 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:39.573079 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:39.672660 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:39.769383 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:39.872143 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:39.972871 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:40.035262 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:56:40.035882 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:56:40.036249 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:56:40.069392 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:40.170144 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:40.268686 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:40.371309 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:40.469040 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:40.567012 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:40.672794 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:40.770387 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:40.871230 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:40.971043 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:41.038166 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:56:41.038744 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:56:41.039103 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:56:41.066700 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:41.166325 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:41.269874 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:41.367408 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:41.467634 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:41.568044 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:41.667486 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:41.768165 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:41.867189 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:41.965909 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:42.041019 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:56:42.046105 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:56:42.046650 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:56:42.067658 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:42.164644 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:42.266060 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:42.355705 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201123 14:56:42.356404 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:56:42.356847 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:56:42.357267 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:56:42.358030 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201123 14:56:42.358468 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201123 14:56:42.375422 [Class:UartRead][Method:receiver] <Response [201]>
+[NOTICE] 20201123 14:56:42.431111 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[imcloud_main_5G], Now[imcloud_main_5G]
+[INFO] 20201123 14:56:42.480301 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:42.563837 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:42.665276 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:42.764117 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:42.863929 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:42.965704 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:43.051260 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:56:43.051896 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:56:43.052303 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:56:43.064577 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:43.164254 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:43.265116 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:43.362969 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:43.462214 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:43.561277 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:43.661739 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:43.760742 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:43.861204 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:43.961524 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:44.054430 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:56:44.055262 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:56:44.056124 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:56:44.062771 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:44.161751 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:44.262314 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:44.362298 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:44.460416 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:44.560599 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:44.658961 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:44.759425 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:44.859000 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:44.958833 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:45.058551 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:45.058267 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:56:45.059554 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:56:45.059974 [Class:FileProcess][Method:getFilePath] Called.
+[NOTICE] 20201123 14:56:45.127686 [Class:BTReceive][Method:receiver] received : {  "TypeMessage":5,   "CloudServer_Option": {     "Option_Sel" : 3,      "Target" : 0,   "Send_Cycle" : "1000ms"   }  }
+[INFO] 20201123 14:56:45.128794 [Class:BTReceive][Method:msgConvert] Called.
+[INFO] 20201123 14:56:45.160360 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:45.195831 [Class:UartRead][Method:uartSet] Called.
+[INFO] 20201123 14:56:45.258553 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:45.798954 [Class:BTReceive][Method:sendMessageTo] Called.
+[INFO] 20201123 14:56:46.061980 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:56:46.062754 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:56:46.063330 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:56:46.256298 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:47.065771 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:56:47.066695 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:56:47.070640 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:56:47.253946 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:47.436772 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201123 14:56:47.437766 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:56:47.438368 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:56:47.438931 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:56:47.439929 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201123 14:56:47.440520 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201123 14:56:47.531401 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[imcloud_main_5G], Now[imcloud_main_5G]
+[INFO] 20201123 14:56:48.073394 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:56:48.074344 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:56:48.074966 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:56:48.256881 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:49.078091 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:56:49.078978 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:56:49.079559 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:56:49.253194 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:50.082001 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:56:50.082897 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:56:50.083476 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:56:50.251045 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:51.085939 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:56:51.086855 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:56:51.087469 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:56:51.249417 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:52.089920 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:56:52.090890 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:56:52.095139 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:56:52.246792 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:52.537293 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201123 14:56:52.538235 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:56:52.538823 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:56:52.539378 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:56:52.540397 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201123 14:56:52.541017 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201123 14:56:52.632748 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[imcloud_main_5G], Now[imcloud_main_5G]
+[INFO] 20201123 14:56:53.098053 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:56:53.099021 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:56:53.099626 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:56:53.250752 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:54.102568 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:56:54.103472 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:56:54.104052 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:56:54.243584 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:55.106491 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:56:55.107393 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:56:55.107973 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:56:55.241760 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:56.110401 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:56:56.111269 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:56:56.111864 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:56:56.241060 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:57.114336 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:56:57.115280 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:56:57.119554 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:56:57.237480 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:57.639106 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201123 14:56:57.639601 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:56:57.639849 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:56:57.640078 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:56:57.640497 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201123 14:56:57.640745 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201123 14:56:57.679452 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[imcloud_main_5G], Now[imcloud_main_5G]
+[INFO] 20201123 14:56:58.122371 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:56:58.123313 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:56:58.123941 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:56:58.240371 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:56:59.127094 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:56:59.127943 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:56:59.128558 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:56:59.236159 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:57:00.131022 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:57:00.131928 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:57:00.132520 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:57:00.233746 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:57:01.134979 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:57:01.136038 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:57:01.136646 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:57:01.230138 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:57:02.139144 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:57:02.140079 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:57:02.144218 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:57:02.228362 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:57:02.685073 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201123 14:57:02.685519 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:57:02.685824 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:57:02.686055 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:57:02.686480 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201123 14:57:02.686727 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201123 14:57:02.725389 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[imcloud_main_5G], Now[imcloud_main_5G]
+[INFO] 20201123 14:57:03.147144 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:57:03.148082 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:57:03.148702 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:57:03.227331 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:57:04.151671 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:57:04.152653 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:57:04.153248 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:57:04.223861 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:57:05.155707 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:57:05.158130 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:57:05.159517 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:57:05.220722 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:57:06.163302 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:57:06.168173 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:57:06.169422 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:57:06.217479 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:57:07.173186 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:57:07.176875 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:57:07.180952 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:57:07.214666 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:57:07.731111 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201123 14:57:07.732092 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:57:07.732699 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:57:07.733267 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:57:07.734312 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201123 14:57:07.734916 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201123 14:57:07.814325 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[imcloud_main_5G], Now[imcloud_main_5G]
+[INFO] 20201123 14:57:08.184288 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:57:08.185007 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:57:08.185489 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:57:08.218573 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:57:09.188107 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:57:09.188722 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:57:09.189124 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:57:09.212957 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:57:10.191111 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:57:10.198496 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:57:10.198950 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:57:10.211853 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:57:11.200934 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:57:11.201539 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:57:11.201934 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:57:11.209055 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:57:12.203123 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:57:12.203918 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:57:12.208177 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:57:12.208682 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:57:12.820437 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201123 14:57:12.821401 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:57:12.822003 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:57:12.822569 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:57:12.823599 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201123 14:57:12.824199 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201123 14:57:12.906887 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[imcloud_main_5G], Now[imcloud_main_5G]
+[INFO] 20201123 14:57:13.206313 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:57:13.210717 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:57:13.211276 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:57:13.211681 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:57:14.204230 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:57:14.213765 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:57:14.214302 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:57:14.214791 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:57:15.201566 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:57:15.217015 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:57:15.217675 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:57:15.218207 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:57:16.199634 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:57:16.220433 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:57:16.221018 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:57:16.221370 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:57:17.200289 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:57:17.223281 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:57:17.223875 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:57:17.224232 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:57:17.912874 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201123 14:57:17.913821 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:57:17.914418 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:57:17.914972 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:57:17.916066 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201123 14:57:17.916687 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201123 14:57:17.997153 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[imcloud_main_5G], Now[imcloud_main_5G]
+[INFO] 20201123 14:57:18.197663 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:57:18.225774 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:57:18.226478 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:57:18.226925 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:57:19.188531 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:57:19.229122 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:57:19.229763 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:57:19.230158 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:57:20.187352 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:57:20.232169 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:57:20.232891 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:57:20.233380 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:57:21.187654 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:57:21.235526 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:57:21.236538 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:57:21.236996 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:57:22.184922 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:57:22.239176 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:57:22.239824 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:57:22.243811 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:57:23.003336 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201123 14:57:23.004228 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:57:23.004825 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:57:23.005389 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:57:23.006727 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201123 14:57:23.007344 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201123 14:57:23.092541 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[imcloud_main_5G], Now[imcloud_main_5G]
+[INFO] 20201123 14:57:23.185847 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:57:23.245939 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:57:23.246624 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:57:23.247041 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:57:24.183330 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:57:24.249137 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:57:24.249719 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:57:24.250070 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:57:25.184267 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:57:25.252024 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:57:25.252602 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:57:25.252948 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:57:26.179858 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:57:26.254844 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:57:26.255472 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:57:26.255888 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:57:27.177886 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:57:27.257790 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:57:27.258441 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:57:27.262386 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:57:28.098494 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201123 14:57:28.099357 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:57:28.099972 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:57:28.100527 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:57:28.101502 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201123 14:57:28.102092 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201123 14:57:28.180541 [Class:UartRead][Method:receiver] <Response [201]>
+[NOTICE] 20201123 14:57:28.193801 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[imcloud_main_5G], Now[imcloud_main_5G]
+[INFO] 20201123 14:57:28.264428 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:57:28.264896 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:57:28.265149 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:57:29.172651 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:57:29.266907 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:57:29.267493 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:57:29.267847 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:57:30.170999 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:57:30.269743 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:57:30.270327 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:57:30.270679 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:57:31.169682 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:57:31.272574 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:57:31.273153 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:57:31.273504 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:57:32.166026 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:57:32.275397 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:57:32.275971 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:57:32.279961 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:57:33.165126 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:57:33.195732 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201123 14:57:33.196699 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:57:33.197126 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:57:33.197469 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:57:33.198128 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201123 14:57:33.198496 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201123 14:57:33.258825 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[imcloud_main_5G], Now[imcloud_main_5G]
+[INFO] 20201123 14:57:33.282079 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:57:33.282583 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:57:33.282952 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:57:34.165384 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:57:34.285155 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:57:34.285778 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:57:34.286140 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:57:35.159823 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:57:35.288061 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:57:35.288905 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:57:35.289408 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:57:36.156260 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:57:36.291657 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:57:36.292410 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:57:36.292892 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:57:37.152087 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:57:37.295082 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:57:37.295841 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:57:37.299894 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:57:38.151027 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:57:38.264698 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201123 14:57:38.265535 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:57:38.266150 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:57:38.266639 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:57:38.267528 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201123 14:57:38.268048 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201123 14:57:38.302450 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:57:38.304017 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:57:38.304669 [Class:FileProcess][Method:getFilePath] Called.
+[NOTICE] 20201123 14:57:38.345849 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[imcloud_main_5G], Now[imcloud_main_5G]
+[INFO] 20201123 14:57:39.157512 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:57:39.307941 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:57:39.308758 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:57:39.309254 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:57:40.150108 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:57:40.311458 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:57:40.312264 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:57:40.312772 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:57:41.156994 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:57:41.315079 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:57:41.315917 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:57:41.316439 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:57:42.144998 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:57:42.318709 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:57:42.319516 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:57:42.324316 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:57:43.143344 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:57:43.326798 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:57:43.327584 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:57:43.328122 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:57:43.351534 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201123 14:57:43.352190 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:57:43.352719 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:57:43.353270 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:57:43.354311 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201123 14:57:43.354914 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201123 14:57:43.453110 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[imcloud_main_5G], Now[imcloud_main_5G]
+[INFO] 20201123 14:57:44.145741 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:57:44.330368 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:57:44.330827 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:57:44.331080 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:57:45.135361 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:57:45.332833 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:57:45.333758 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:57:45.334383 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:57:46.135258 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:57:46.336968 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:57:46.337908 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:57:46.338491 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:57:47.133572 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:57:47.340938 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:57:47.341859 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:57:47.345984 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:57:48.348617 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:57:48.349501 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:57:48.350072 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:57:48.459503 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201123 14:57:48.460208 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:57:48.460779 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:57:48.461341 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:57:48.462318 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201123 14:57:48.462896 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201123 14:57:48.550490 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[imcloud_main_5G], Now[imcloud_main_5G]
+[INFO] 20201123 14:57:49.352624 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:57:49.353573 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:57:49.354195 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:57:50.123817 [Class:FileProcess][Method:data_store] Called.
+[INFO] 20201123 14:57:50.124730 [Class:FileProcess][Method:checkDataFile] Called.
+[INFO] 20201123 14:57:50.125345 [Class:FileProcess][Method:getTimeStamp] Called.
+[INFO] 20201123 14:57:50.126093 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:57:50.126667 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:57:50.127197 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:57:50.133591 [Class:UartRead][Method:receiver] None
+[INFO] 20201123 14:57:50.357212 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:57:50.358135 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:57:50.358767 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:57:51.361173 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:57:51.362015 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:57:51.362831 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:57:52.175724 [Class:FileProcess][Method:data_store] Called.
+[INFO] 20201123 14:57:52.176503 [Class:FileProcess][Method:checkDataFile] Called.
+[INFO] 20201123 14:57:52.177071 [Class:FileProcess][Method:getTimeStamp] Called.
+[INFO] 20201123 14:57:52.177696 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:57:52.178265 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:57:52.178794 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:57:52.180183 [Class:UartRead][Method:receiver] None
+[INFO] 20201123 14:57:52.365318 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:57:52.366342 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:57:52.370804 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:57:53.373399 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:57:53.374340 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:57:53.374929 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:57:53.556477 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201123 14:57:53.557273 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:57:53.557861 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:57:53.558412 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:57:53.559354 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201123 14:57:53.559942 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201123 14:57:53.650947 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[imcloud_main_5G], Now[imcloud_main_5G]
+[INFO] 20201123 14:57:54.227240 [Class:FileProcess][Method:data_store] Called.
+[INFO] 20201123 14:57:54.228109 [Class:FileProcess][Method:checkDataFile] Called.
+[INFO] 20201123 14:57:54.228720 [Class:FileProcess][Method:getTimeStamp] Called.
+[INFO] 20201123 14:57:54.229380 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:57:54.229950 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:57:54.230505 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:57:54.232073 [Class:UartRead][Method:receiver] None
+[INFO] 20201123 14:57:54.377462 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:57:54.378146 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:57:54.378539 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:57:55.380637 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:57:55.381485 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:57:55.382062 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:57:56.275433 [Class:FileProcess][Method:data_store] Called.
+[INFO] 20201123 14:57:56.276398 [Class:FileProcess][Method:checkDataFile] Called.
+[INFO] 20201123 14:57:56.276976 [Class:FileProcess][Method:getTimeStamp] Called.
+[INFO] 20201123 14:57:56.277597 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:57:56.278164 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:57:56.278690 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:57:56.280103 [Class:UartRead][Method:receiver] None
+[INFO] 20201123 14:57:56.384456 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:57:56.385048 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:57:56.385400 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:57:57.387425 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:57:57.388301 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:57:57.392556 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:57:58.325963 [Class:FileProcess][Method:data_store] Called.
+[INFO] 20201123 14:57:58.326771 [Class:FileProcess][Method:checkDataFile] Called.
+[INFO] 20201123 14:57:58.327330 [Class:FileProcess][Method:getTimeStamp] Called.
+[INFO] 20201123 14:57:58.327941 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:57:58.328580 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:57:58.329121 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:57:58.330544 [Class:UartRead][Method:receiver] None
+[INFO] 20201123 14:57:58.394971 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:57:58.395730 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:57:58.396217 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:57:58.656948 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201123 14:57:58.657837 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:57:58.658419 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:57:58.658987 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:57:58.659992 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201123 14:57:58.660569 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201123 14:57:58.751388 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[imcloud_main_5G], Now[imcloud_main_5G]
+[INFO] 20201123 14:57:59.398440 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:57:59.399390 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:57:59.400014 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:58:00.372075 [Class:FileProcess][Method:data_store] Called.
+[INFO] 20201123 14:58:00.373047 [Class:FileProcess][Method:checkDataFile] Called.
+[INFO] 20201123 14:58:00.373657 [Class:FileProcess][Method:getTimeStamp] Called.
+[INFO] 20201123 14:58:00.374309 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:58:00.374891 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:58:00.375426 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:58:00.377025 [Class:UartRead][Method:receiver] None
+[INFO] 20201123 14:58:00.402875 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:58:00.406431 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:58:00.407719 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:58:01.411079 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:58:01.412000 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:58:01.412591 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:58:02.415036 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:58:02.415942 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:58:02.420396 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:58:02.432016 [Class:FileProcess][Method:data_store] Called.
+[INFO] 20201123 14:58:02.432834 [Class:FileProcess][Method:checkDataFile] Called.
+[INFO] 20201123 14:58:02.433421 [Class:FileProcess][Method:getTimeStamp] Called.
+[INFO] 20201123 14:58:02.434057 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:58:02.434629 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:58:02.435162 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:58:02.436718 [Class:UartRead][Method:receiver] None
+[INFO] 20201123 14:58:03.422993 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:58:03.423907 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:58:03.424494 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:58:03.757444 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201123 14:58:03.758385 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:58:03.758962 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:58:03.759525 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:58:03.760494 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201123 14:58:03.761080 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201123 14:58:03.844046 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[imcloud_main_5G], Now[imcloud_main_5G]
+[INFO] 20201123 14:58:04.427108 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:58:04.428026 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:58:04.428769 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:58:04.483697 [Class:FileProcess][Method:data_store] Called.
+[INFO] 20201123 14:58:04.484561 [Class:FileProcess][Method:checkDataFile] Called.
+[INFO] 20201123 14:58:04.485165 [Class:FileProcess][Method:getTimeStamp] Called.
+[INFO] 20201123 14:58:04.485941 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:58:04.486541 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:58:04.487091 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:58:04.488626 [Class:UartRead][Method:receiver] None
+[INFO] 20201123 14:58:05.431640 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:58:05.432558 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:58:05.433147 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:58:06.435582 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:58:06.436452 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:58:06.437032 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:58:06.537257 [Class:FileProcess][Method:data_store] Called.
+[INFO] 20201123 14:58:06.538081 [Class:FileProcess][Method:checkDataFile] Called.
+[INFO] 20201123 14:58:06.538673 [Class:FileProcess][Method:getTimeStamp] Called.
+[INFO] 20201123 14:58:06.539299 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:58:06.539868 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:58:06.540404 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:58:06.541723 [Class:UartRead][Method:receiver] None
+[INFO] 20201123 14:58:07.439443 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:58:07.440413 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:58:07.444720 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:58:07.615715 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:58:07.675005 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:58:07.717645 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:58:07.746427 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:58:07.776927 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:58:07.805913 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:58:07.834991 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:58:07.862809 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:58:07.890368 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:58:07.919384 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:58:07.948173 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:58:08.083610 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:58:08.447442 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:58:08.447871 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:58:08.448114 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:58:08.850287 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201123 14:58:08.851135 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:58:08.851759 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:58:08.852326 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:58:08.853337 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201123 14:58:08.853935 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201123 14:58:08.935059 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[imcloud_main_5G], Now[imcloud_main_5G]
+[INFO] 20201123 14:58:09.088540 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:58:09.449847 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:58:09.450824 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:58:09.451436 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:58:10.085688 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:58:10.454027 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:58:10.454940 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:58:10.455545 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:58:11.087611 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:58:11.458213 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:58:11.459067 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:58:11.459629 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:58:12.082540 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:58:12.462006 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:58:12.462948 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:58:12.467114 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:58:13.081596 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:58:13.469744 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:58:13.470653 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:58:13.471271 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:58:13.941399 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201123 14:58:13.942213 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:58:13.942808 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:58:13.943366 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:58:13.944354 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201123 14:58:13.944954 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201123 14:58:14.025920 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[imcloud_main_5G], Now[imcloud_main_5G]
+[INFO] 20201123 14:58:14.088796 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:58:14.473786 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:58:14.474815 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:58:14.475426 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:58:15.077516 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:58:15.478105 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:58:15.479041 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:58:15.479640 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:58:16.070625 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:58:16.482117 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:58:16.483065 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:58:16.483669 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:58:17.071535 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:58:17.486166 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:58:17.487156 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:58:17.491878 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:58:18.070501 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:58:18.494391 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:58:18.495342 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:58:18.496098 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:58:19.032506 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201123 14:58:19.035153 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:58:19.035796 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:58:19.036311 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:58:19.037183 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201123 14:58:19.037698 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201123 14:58:19.075860 [Class:UartRead][Method:receiver] <Response [201]>
+[NOTICE] 20201123 14:58:19.123478 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[imcloud_main_5G], Now[imcloud_main_5G]
+[NOTICE] 20201123 14:58:19.197799 [Class:BTReceive][Method:receiver] received : {"TypeMessage": 8, "Uart_Cmd_Data":{ "Op_Mode":"off" } }
+[INFO] 20201123 14:58:19.198404 [Class:BTReceive][Method:msgConvert] Called.
+[INFO] 20201123 14:58:19.293129 [Class:UartRead][Method:uartSet] Called.
+[INFO] 20201123 14:58:19.498683 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:58:19.499527 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:58:19.500134 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:58:19.895353 [Class:BTReceive][Method:sendMessageTo] Called.
+[INFO] 20201123 14:58:20.502676 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:58:20.503542 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:58:20.504119 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:58:21.506535 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:58:21.507337 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:58:21.507919 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:58:22.510263 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:58:22.511032 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:58:22.515760 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:58:23.518841 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:58:23.519737 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:58:23.520333 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:58:24.129439 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201123 14:58:24.130307 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:58:24.130891 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:58:24.131445 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:58:24.132443 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201123 14:58:24.133031 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201123 14:58:24.223647 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[imcloud_main_5G], Now[imcloud_main_5G]
+[INFO] 20201123 14:58:24.522867 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:58:24.523778 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:58:24.524391 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:58:25.527304 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:58:25.528387 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:58:25.528993 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:58:26.531456 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:58:26.532266 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:58:26.532848 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:58:27.535238 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:58:27.536094 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:58:27.540411 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:58:28.542937 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:58:28.543743 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:58:28.544322 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:58:29.229645 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201123 14:58:29.230476 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:58:29.231066 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:58:29.231628 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:58:29.232711 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201123 14:58:29.233296 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201123 14:58:29.329137 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[imcloud_main_5G], Now[imcloud_main_5G]
+[INFO] 20201123 14:58:29.546997 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:58:29.547912 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:58:29.548615 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:58:30.551470 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:58:30.552299 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:58:30.552887 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:58:31.555336 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:58:31.556207 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:58:31.556790 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:58:32.559190 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:58:32.559916 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:58:32.564455 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:58:33.567130 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:58:33.567934 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:58:33.568520 [Class:FileProcess][Method:getFilePath] Called.
+[NOTICE] 20201123 14:58:34.161504 [Class:BTReceive][Method:receiver] received : {   "TypeMessage":4,  "Wifi_Option": {   "Option_Sel" : 0,    "Wifi_Info_Chk" : "on"   }   }
+[INFO] 20201123 14:58:34.162582 [Class:BTReceive][Method:msgConvert] Called.
+[INFO] 20201123 14:58:34.219158 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:58:34.220297 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:58:34.221148 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:58:34.222449 [Class:BTReceive][Method:sendMessageTo] Called.
+[INFO] 20201123 14:58:34.335571 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201123 14:58:34.336226 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:58:34.336658 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:58:34.337029 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:58:34.337699 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201123 14:58:34.338094 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201123 14:58:34.418105 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[imcloud_main_5G], Now[imcloud_main_5G]
+[INFO] 20201123 14:58:34.571050 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:58:34.571981 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:58:34.572612 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:58:35.575456 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:58:35.576328 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:58:35.576904 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:58:36.579320 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:58:36.580168 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:58:36.580757 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:58:37.583189 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:58:37.584164 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:58:37.588720 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:58:38.591313 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:58:38.592146 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:58:38.592716 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:58:39.424350 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201123 14:58:39.425307 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:58:39.426027 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:58:39.426598 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:58:39.427594 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201123 14:58:39.428195 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201123 14:58:39.516383 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[imcloud_main_5G], Now[imcloud_main_5G]
+[INFO] 20201123 14:58:39.595174 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:58:39.595873 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:58:39.596406 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:58:40.598859 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:58:40.599497 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:58:40.599918 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:58:41.601924 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:58:41.602849 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:58:41.603483 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:58:42.605930 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:58:42.606793 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:58:42.611224 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:58:43.613741 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:58:43.614578 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:58:43.615158 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:58:44.519531 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201123 14:58:44.520503 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:58:44.521107 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:58:44.521672 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:58:44.522699 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201123 14:58:44.523305 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201123 14:58:44.606652 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[imcloud_main_5G], Now[imcloud_main_5G]
+[INFO] 20201123 14:58:44.617785 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:58:44.618275 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:58:44.618642 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:58:45.620806 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:58:45.621710 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:58:45.622297 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:58:46.624742 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:58:46.625569 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:58:46.626262 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:58:47.628628 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:58:47.629502 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:58:47.634091 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:58:48.636633 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:58:48.637483 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:58:48.638066 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:58:49.612602 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201123 14:58:49.613548 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:58:49.614148 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:58:49.614710 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:58:49.615806 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201123 14:58:49.616448 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201123 14:58:49.640833 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:58:49.642343 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:58:49.642967 [Class:FileProcess][Method:getFilePath] Called.
+[NOTICE] 20201123 14:58:49.708906 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[imcloud_main_5G], Now[imcloud_main_5G]
+[INFO] 20201123 14:58:50.645955 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:58:50.646957 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:58:50.647633 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:58:51.650181 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:58:51.651134 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:58:51.651732 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:58:52.654283 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:58:52.655176 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:58:52.659302 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:58:53.661764 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:58:53.662577 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:58:53.663152 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:58:54.665571 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:58:54.666575 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:58:54.667185 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:58:54.714528 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201123 14:58:54.715315 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:58:54.716005 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:58:54.716579 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:58:54.717614 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201123 14:58:54.718209 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201123 14:58:54.806423 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[imcloud_main_5G], Now[imcloud_main_5G]
+[INFO] 20201123 14:58:55.669781 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:58:55.670735 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:58:55.671392 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:58:56.674237 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:58:56.675131 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:58:56.675843 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:58:57.678230 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:58:57.679135 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:58:57.679732 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:58:58.682179 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:58:58.683007 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:58:58.683582 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:58:59.685992 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:58:59.686852 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:58:59.692264 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:58:59.812423 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201123 14:58:59.813196 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:58:59.813781 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:58:59.814347 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:58:59.815350 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201123 14:58:59.816188 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201123 14:58:59.909546 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[imcloud_main_5G], Now[imcloud_main_5G]
+[INFO] 20201123 14:59:00.694840 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:59:00.695849 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:59:00.696499 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:59:01.699336 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:59:01.700307 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:59:01.700921 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:59:02.703387 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:59:02.704242 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:59:02.704826 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:59:03.707385 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:59:03.708207 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:59:03.708785 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:59:04.711121 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:59:04.712039 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:59:04.716453 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:59:04.915411 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201123 14:59:04.916372 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:59:04.916979 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:59:04.917543 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:59:04.918701 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201123 14:59:04.919305 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201123 14:59:05.015008 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[imcloud_main_5G], Now[imcloud_main_5G]
+[INFO] 20201123 14:59:05.719518 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:59:05.720449 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:59:05.721076 [Class:FileProcess][Method:getFilePath] Called.
+[NOTICE] 20201123 14:59:06.582251 [Class:BTReceive][Method:receiver] received : {  "TypeMessage":4,  "Wifi_Option": {  "Option_Sel" : 1,   "Wifi_Name" : "imcloud_main_2.4",   "Wifi_Password" : "BigHadoop"   }  }
+[INFO] 20201123 14:59:06.583296 [Class:BTReceive][Method:msgConvert] Called.
+[INFO] 20201123 14:59:06.679167 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:59:06.679916 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:59:06.680375 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:59:06.681200 [Class:FileProcess][Method:fileWrite] Called.
+[INFO] 20201123 14:59:06.681687 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:59:06.682095 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:59:06.683619 [Class:BTReceive][Method:sendMessageTo] Called.
+[INFO] 20201123 14:59:06.723898 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:59:06.724510 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:59:06.725113 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:59:07.726664 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:59:07.727444 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:59:07.728031 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:59:08.730472 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:59:08.731314 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:59:08.731944 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:59:09.734326 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:59:09.735205 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:59:09.745742 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:59:10.021081 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201123 14:59:10.021871 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:59:10.022448 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:59:10.023002 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:59:10.024008 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201123 14:59:10.024594 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201123 14:59:10.109760 [Class:WifiNT][Method:isMatched] Wifi is not matched. Before[imcloud_main_2.4], Now[imcloud_main_5G]
+[NOTICE] 20201123 14:59:10.110885 [Class:WifiNT][Method:isConnected] Wifi ssid was changed.
+[INFO] 20201123 14:59:10.111549 [Class:WifiNT][Method:wifiConnection] Called.
+[INFO] 20201123 14:59:10.112190 [Class:WifiNT][Method:wifiConnection] Wifi Module was DOWN.
+[INFO] 20201123 14:59:10.112695 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201123 14:59:10.748575 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:59:10.750051 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:59:10.750701 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:59:11.178429 [Class:WifiNT][Method:wifiConnection] Wifi Module was UP.
+[INFO] 20201123 14:59:11.179358 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201123 14:59:11.753825 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:59:11.755279 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:59:11.756036 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:59:12.758898 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:59:12.759689 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:59:12.760259 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:59:13.246047 [Class:WifiNT][Method:wifiConnection] wpa_supplicant.conf was created.
+[INFO] 20201123 14:59:13.246865 [Class:WifiNT][Method:setWpaFile] Called.
+[NOTICE] 20201123 14:59:13.317987 [Class:WifiNT][Method:wifiConnection] network={
+	ssid="imcloud_main_2.4"
+	#psk="BigHadoop"
+	psk=32d388c85c41c4602354bd331a6a9ca8dfe81dd5a4ed5c604113b4722150afff
+}
+
+[INFO] 20201123 14:59:13.319460 [Class:WifiNT][Method:wifiConnection] Wifi Module tried to connect AP(imcloud_main_2.4)
+[INFO] 20201123 14:59:13.320119 [Class:WifiNT][Method:setWpaCon] Called.
+[INFO] 20201123 14:59:13.320762 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201123 14:59:13.762745 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:59:13.763393 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:59:13.763652 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:59:14.765469 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:59:14.766461 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:59:14.775827 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:59:15.778290 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:59:15.779191 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:59:15.779781 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:59:16.782214 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:59:16.783135 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:59:16.783722 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:59:17.786143 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:59:17.786957 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:59:17.787540 [Class:FileProcess][Method:getFilePath] Called.
+[NOTICE] 20201123 14:59:18.501941 [Class:WifiNT][Method:wifiConnection] Successfully initialized wpa_supplicant
+
+[INFO] 20201123 14:59:18.789919 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:59:18.790611 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:59:18.791172 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:59:19.793549 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:59:19.794459 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:59:19.804157 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:59:20.806893 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:59:20.807831 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:59:20.808477 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:59:21.810921 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:59:21.811919 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:59:21.812520 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:59:22.814994 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:59:22.815994 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:59:22.816597 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:59:23.507850 [Class:WifiNT][Method:wifiConnection] Get Wifi Connection State from Wifi Module.
+[INFO] 20201123 14:59:23.508783 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201123 14:59:23.570808 [Class:WifiNT][Method:wifiConnection] Connected to 70:8b:cd:c2:30:30 (on wlan0)
+	SSID: imcloud_main_2.4
+	freq: 2462
+	RX: 2104 bytes (10 packets)
+	TX: 1694 bytes (15 packets)
+	signal: -51 dBm
+	rx bitrate: 1.0 MBit/s
+	tx bitrate: 58.5 MBit/s
+
+	bss flags:	short-slot-time
+	dtim period:	3
+	beacon int:	100
+
+[INFO] 20201123 14:59:23.819171 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:59:23.820106 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:59:23.820733 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:59:24.823679 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:59:24.824646 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:59:24.834118 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:59:25.836860 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:59:25.837814 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:59:25.838413 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:59:26.840889 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:59:26.841834 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:59:26.842432 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:59:27.844808 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:59:27.845725 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:59:27.846326 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:59:28.576858 [Class:WifiNT][Method:wifiConnection] Get Connected SSID.
+[INFO] 20201123 14:59:28.577688 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201123 14:59:28.578287 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201123 14:59:28.670553 [Class:WifiNT][Method:wifiConnection] imcloud_main_2.4
+[INFO] 20201123 14:59:28.671934 [Class:WifiNT][Method:wifiConnection] Connection Validated.
+[INFO] 20201123 14:59:28.848846 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:59:28.849724 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:59:28.850249 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:59:29.852877 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:59:29.853823 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:59:29.863121 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:59:30.674725 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201123 14:59:30.675657 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:59:30.676247 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:59:30.676799 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:59:30.677820 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201123 14:59:30.678407 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201123 14:59:30.758880 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[imcloud_main_2.4], Now[imcloud_main_2.4]
+[INFO] 20201123 14:59:30.865791 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:59:30.866615 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:59:30.867237 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:59:31.869914 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:59:31.870816 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:59:31.871401 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:59:32.874082 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:59:32.875070 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:59:32.875755 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:59:33.878126 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:59:33.879060 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:59:33.879638 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:59:34.882090 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:59:34.882948 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:59:34.887140 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:59:35.764837 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201123 14:59:35.765751 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:59:35.766437 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:59:35.767016 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:59:35.768083 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201123 14:59:35.768670 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201123 14:59:35.856150 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[imcloud_main_2.4], Now[imcloud_main_2.4]
+[INFO] 20201123 14:59:35.889768 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:59:35.890354 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:59:35.890759 [Class:FileProcess][Method:getFilePath] Called.
+[NOTICE] 20201123 14:59:36.506943 [Class:BTReceive][Method:receiver] received : {  "TypeMessage":5,   "CloudServer_Option": {     "Option_Sel" : 3,      "Target" : 0,   "Send_Cycle" : "1000ms"   }  }
+[INFO] 20201123 14:59:36.508017 [Class:BTReceive][Method:msgConvert] Called.
+[INFO] 20201123 14:59:36.541066 [Class:UartRead][Method:uartSet] Called.
+[INFO] 20201123 14:59:36.893040 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:59:36.893897 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:59:36.894467 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:59:37.143786 [Class:BTReceive][Method:sendMessageTo] Called.
+[INFO] 20201123 14:59:37.416928 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:59:37.897022 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:59:37.897938 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:59:37.898522 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:59:38.436050 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:59:38.900982 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:59:38.901916 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:59:38.902495 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:59:39.405702 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:59:39.904963 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:59:39.905989 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:59:39.909933 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:59:40.407327 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:59:40.862147 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201123 14:59:40.863066 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:59:40.863661 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:59:40.864215 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:59:40.865214 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201123 14:59:40.865912 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201123 14:59:40.912818 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:59:40.914601 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:59:40.915348 [Class:FileProcess][Method:getFilePath] Called.
+[NOTICE] 20201123 14:59:40.958961 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[imcloud_main_2.4], Now[imcloud_main_2.4]
+[INFO] 20201123 14:59:41.414126 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:59:41.918821 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:59:41.919818 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:59:41.920416 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:59:42.401296 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:59:42.922895 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:59:42.923829 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:59:42.924412 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:59:43.398902 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:59:43.926955 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:59:43.927776 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:59:43.928431 [Class:FileProcess][Method:getFilePath] Called.
+[NOTICE] 20201123 14:59:44.198513 [Class:BTReceive][Method:receiver] received : {"TypeMessage": 8,   "Uart_Cmd_Data":{   "Option_Sel":0,   "Op_Mode":"on"   }  }
+[INFO] 20201123 14:59:44.199481 [Class:BTReceive][Method:msgConvert] Called.
+[INFO] 20201123 14:59:44.261895 [Class:UartRead][Method:uartSet] Called.
+[INFO] 20201123 14:59:44.395323 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:59:44.496453 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:59:44.602909 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:59:44.701505 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:59:44.793838 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:59:44.864224 [Class:BTReceive][Method:sendMessageTo] Called.
+[INFO] 20201123 14:59:44.909141 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:59:44.930880 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:59:44.933142 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:59:44.934130 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:59:45.010006 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:59:45.096651 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:59:45.195634 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:59:45.298297 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:59:45.396422 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:59:45.510387 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:59:45.588982 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:59:45.723733 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:59:45.793420 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:59:45.937179 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:59:45.938025 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:59:45.941538 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:59:45.942084 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:59:45.964579 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201123 14:59:45.965730 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:59:45.966950 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:59:45.967939 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:59:45.969589 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201123 14:59:45.970742 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201123 14:59:46.015673 [Class:UartRead][Method:receiver] <Response [201]>
+[NOTICE] 20201123 14:59:46.044233 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[imcloud_main_2.4], Now[imcloud_main_2.4]
+[INFO] 20201123 14:59:46.090729 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:59:46.190126 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:59:46.290892 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:59:46.408126 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:59:46.522983 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:59:46.596448 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:59:46.711800 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:59:46.790575 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:59:46.903660 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:59:46.945058 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:59:46.945913 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:59:46.946706 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:59:46.985141 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:59:47.109319 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:59:47.185152 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:59:47.320789 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:59:47.399295 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:59:47.492785 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:59:47.595568 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:59:47.692984 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:59:47.784756 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:59:47.903034 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:59:47.949089 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:59:47.949794 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:59:47.951100 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:59:47.988208 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:59:48.104521 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:59:48.184364 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:59:48.289055 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:59:48.391446 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:59:48.488360 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:59:48.583516 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:59:48.703987 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:59:48.787011 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:59:48.885835 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:59:48.954441 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:59:48.955061 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:59:48.955456 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:59:49.012242 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:59:49.090970 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:59:49.193643 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:59:49.306828 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:59:49.382870 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:59:49.485177 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:59:49.582127 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:59:49.681813 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:59:49.780717 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:59:49.879436 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:59:49.957582 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:59:49.958223 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:59:49.963009 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:59:49.985654 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:59:50.081223 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:59:50.179447 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:59:50.305091 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:59:50.384397 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:59:50.484632 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:59:50.581496 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:59:50.678294 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:59:50.779153 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:59:50.899005 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:59:50.966863 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:59:50.967517 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:59:50.967918 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:59:50.982211 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:59:51.045688 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201123 14:59:51.046348 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:59:51.047320 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:59:51.048341 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:59:51.049586 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201123 14:59:51.050370 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201123 14:59:51.084843 [Class:UartRead][Method:receiver] <Response [201]>
+[NOTICE] 20201123 14:59:51.117744 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[imcloud_main_2.4], Now[imcloud_main_2.4]
+[INFO] 20201123 14:59:51.179004 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:59:51.281173 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:59:51.379087 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:59:51.477493 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:59:51.577111 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:59:51.675977 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:59:51.777398 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:59:51.875485 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:59:51.970007 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:59:51.970728 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:59:51.971165 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:59:51.978533 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:59:52.077388 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:59:52.176138 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:59:52.276215 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:59:52.380522 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:59:52.477722 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:59:52.577864 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:59:52.681746 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:59:52.777283 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:59:52.880560 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:59:52.973760 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:59:52.974447 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:59:52.974902 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:59:52.978951 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:59:53.081146 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:59:53.173967 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:59:53.275904 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:59:53.374258 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:59:53.473096 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:59:53.573930 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:59:53.675655 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:59:53.771827 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:59:53.872254 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:59:53.973361 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:59:53.977133 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:59:53.977656 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:59:53.978043 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:59:54.077681 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:59:54.175042 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:59:54.283953 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:59:54.374924 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:59:54.471450 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:59:54.570364 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:59:54.671490 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:59:54.770188 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:59:54.870655 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:59:54.972423 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:59:54.980052 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:59:54.980742 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:59:54.981194 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:59:55.069202 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:59:55.169111 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:59:55.293125 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:59:55.376306 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:59:55.472251 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:59:55.586722 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:59:55.696796 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:59:55.796808 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:59:55.868766 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:59:55.973999 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:59:55.983302 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:59:55.983852 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:59:55.984301 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:59:56.087404 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:59:56.123814 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201123 14:59:56.124987 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:59:56.127111 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:59:56.128211 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:59:56.130155 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201123 14:59:56.131006 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201123 14:59:56.182397 [Class:UartRead][Method:receiver] <Response [201]>
+[NOTICE] 20201123 14:59:56.207244 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[imcloud_main_2.4], Now[imcloud_main_2.4]
+[INFO] 20201123 14:59:56.274055 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:59:56.413277 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:59:56.493301 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:59:56.569314 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:59:56.675691 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:59:56.766982 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:59:56.872291 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:59:56.972902 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:59:56.986575 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:59:56.987458 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:59:56.988170 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:59:57.065438 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:59:57.165959 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:59:57.263879 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:59:57.381456 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:59:57.467144 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:59:57.564596 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:59:57.667582 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:59:57.765265 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:59:57.865458 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:59:57.965721 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:59:57.990993 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:59:57.991657 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:59:57.992094 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:59:58.067691 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:59:58.166169 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:59:58.267732 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:59:58.363877 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:59:58.462665 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:59:58.584185 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:59:58.671283 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:59:58.762241 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:59:58.863902 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:59:58.962120 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:59:58.994112 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:59:58.994732 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201123 14:59:58.995128 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201123 14:59:59.062432 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:59:59.164497 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201123 14:59:59.997291 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201123 14:59:59.998299 [Class:FileProcess][Method:isFileExist] Called.
