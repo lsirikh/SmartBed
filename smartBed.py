@@ -3,7 +3,7 @@ import subprocess
 import sys
 import multiprocessing
 
-from bt import *
+from bt import Bluetooth
 
 from uart import *
 from wifi_network import WifiNT
@@ -47,7 +47,7 @@ class SmartBed:
         self.statusBT = None
         self.threadBT = None
         self.mProcessBT = False
-        self.bt_receiver = None
+        self.bt = None
 
         #WifiNT class was created
         self.statusWifi = None
@@ -91,8 +91,8 @@ class SmartBed:
     def initBT(self):
         self.log.write(self.log.INFO, self.initBT.__name__, "Called.")
         try:
-            self.bt_receiver = BTReceive()
-            self.bt_receiver.initialize()
+            self.bt = Bluetooth()
+            self.bt.initialize()
         except Exception as ex:
             self.log.write(self.log.ERROR, self.initBT.__name__, "Failed to execute : {0}".format(ex))
 
@@ -149,7 +149,7 @@ class SmartBed:
     def close(self):
 
         #uartWrite.finish()
-        if self.bt_receiver.finish() and self.uart.finish():
+        if self.bt.finish() and self.uart.finish():
             print("all threads were finished.")
             sys.exit()
 
@@ -198,14 +198,14 @@ class SmartBed:
                 typeMessage = None
 
                 # Check msg is None or not
-                if self.bt_receiver.msg is not None:
-                    typeMessage = self.bt_receiver.msg.typeMessage
+                if self.bt.msg is not None:
+                    typeMessage = self.bt.msg.typeMessage
 
                 result = False
 
                 # Each action will be taken
                 if typeMessage == 1:
-                    obj = self.bt_receiver.msg
+                    obj = self.bt.msg
                     load_str = self.file.fileRead("","bed.txt")
                     json_data = json.loads(load_str)
                     #print("json_data : ",json_data)
@@ -221,25 +221,25 @@ class SmartBed:
                         result = True
 
                         result = self.file.fileWrite("", "request.txt", dict_data)
-                        self.bt_receiver.sendMessageTo(str(obj.response(result)))
+                        self.bt.sendMessageTo(str(obj.response(result)))
 
                 elif typeMessage == 2:
-                    obj = self.bt_receiver.msg
+                    obj = self.bt.msg
                     result = self.file.fileWrite("", "user.txt", obj.getData())
-                    self.bt_receiver.sendMessageTo(str(obj.response(result)))
+                    self.bt.sendMessageTo(str(obj.response(result)))
                     self.uart.loadFiles()
                     # if getConSSID() == "":
                     #     print("disconnected")
                 elif typeMessage == 3:
                     pass
                 elif typeMessage == 4:
-                    obj = self.bt_receiver.msg
+                    obj = self.bt.msg
                     # wifi get ssid
                     if obj.option_sel == 0:
                         load_str = self.file.fileRead("","network.txt")
                         json_data = json.loads(load_str)
                         data = obj.response(json_data['wifi-ssid'])
-                        self.bt_receiver.sendMessageTo(str(data))
+                        self.bt.sendMessageTo(str(data))
                     # wifi ssid and pw setting
                     elif obj.option_sel == 1:
                         load_str = self.file.fileRead("","network.txt")
@@ -252,7 +252,7 @@ class SmartBed:
                         # wifi network re-init function need!!!!!
                         # -------------------------------------
 
-                        self.bt_receiver.sendMessageTo(str(data))
+                        self.bt.sendMessageTo(str(data))
 
                         # wifi ssid and pw setting
                     elif obj.option_sel == 2:
@@ -265,15 +265,15 @@ class SmartBed:
                         if result:
                             data = obj.response(ap_list)
 
-                        self.bt_receiver.sendMessageTo(str(data))
+                        self.bt.sendMessageTo(str(data))
 
                 elif typeMessage == 5:
 
-                    obj = self.bt_receiver.msg
+                    obj = self.bt.msg
                     result = self.uart.uartSet(obj.converter())
-                    self.bt_receiver.sendMessageTo(str(obj.response(result)))
+                    self.bt.sendMessageTo(str(obj.response(result)))
                 elif typeMessage == 6:
-                    obj = self.bt_receiver.msg
+                    obj = self.bt.msg
 
                     if obj.option_sel == 0:
                         data_list = self.file.getDirFiles("/data")
@@ -281,19 +281,19 @@ class SmartBed:
                         if result:
                             data = obj.response(data_list)
 
-                    self.bt_receiver.sendMessageTo(str(data))
+                    self.bt.sendMessageTo(str(data))
                 elif typeMessage == 7:
                     pass
                 elif typeMessage == 8:
                     # uart receive on/off
-                    obj = self.bt_receiver.msg
+                    obj = self.bt.msg
                     if obj.operation():
                         result = self.uart.uartSet(SPEED01)
                     else:
                         result = self.uart.uartSet(SPEED00)
-                    self.bt_receiver.sendMessageTo(str(obj.response(result)))
+                    self.bt.sendMessageTo(str(obj.response(result)))
 
-                self.bt_receiver.msg = None
+                self.bt.msg = None
                 #self.uart.op_code = ''
 
                 time.sleep(0.1)
@@ -314,8 +314,11 @@ class SmartBed:
 
         write, flush = sys.stdout.write, sys.stdout.flush
         for char in itertools.cycle('|/-\\'):
-            if self.statusIdex < 3:
-                status = "{0}  loading...".format(char)
+            if self.statusIdex < 10:
+                try:
+                    status = "{0}  loading...({1})        ".format(char, self.bt.bl.state)
+                except AttributeError as ex:
+                    status = "{0}  loading...({1})        ".format(char, "PREPARING")
                 write(status)
                 flush()
                 write('\x08' * len(status))
@@ -326,7 +329,7 @@ class SmartBed:
                 # print("SmartBed(uart) : ", self.uart.getUartStatus())
                 # print("SmartBed(wifi) : ", self.wifi.getWifiStatus())
                 # print("confirmed index : ", self.statusIdex)
-                if self.bt_receiver.getBTStatus() and not flagBluetooth:
+                if self.bt.getBTStatus() and not flagBluetooth:
                     flagBluetooth = True
                     print("Now Bluetooth Module is ready!")
                     self.statusIdex += 1

@@ -1,0 +1,331 @@
+[INFO] 20201127 20:00:00.201171 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201127 20:00:00.201892 [Class:SmartBed][Method:setAllThreadOn] Called.
+[INFO] 20201127 20:00:00.203031 [Class:SmartBed][Method:initBT] Called.
+[INFO] 20201127 20:00:00.203664 [Class:Bluetooth][Method:__init__] initiated.
+[INFO] 20201127 20:00:00.221466 [Class:SmartBed][Method:initUart] Called.
+[INFO] 20201127 20:00:00.222480 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201127 20:00:00.222971 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201127 20:00:00.224461 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201127 20:00:00.223968 [Class:SmartBed][Method:initWifi] Called.
+[INFO] 20201127 20:00:00.240755 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201127 20:00:00.241373 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201127 20:00:00.242187 [Class:UartRead][Method:__init__] initiated.
+[INFO] 20201127 20:00:00.242748 [Class:UartRead][Method:loadFiles] Called.
+[INFO] 20201127 20:00:00.243187 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201127 20:00:00.243575 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201127 20:00:00.243941 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201127 20:00:00.244529 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201127 20:00:00.270307 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201127 20:00:00.270729 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201127 20:00:00.271250 [Class:UartRead][Method:initSerial] Called.
+[INFO] 20201127 20:00:00.271811 [Class:UartRead][Method:openSerial] Try to open port....
+[INFO] 20201127 20:00:00.272839 [Class:UartRead][Method:uartSet] Called.
+[INFO] 20201127 20:00:00.275051 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201127 20:00:00.275650 [Class:WifiNT][Method:__init__] initiated.
+[INFO] 20201127 20:00:00.276125 [Class:WifiNT][Method:setThreadOn] Called.
+[INFO] 20201127 20:00:00.315394 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201127 20:00:00.286337 [Class:WifiNT][Method:monitor] Called.
+[INFO] 20201127 20:00:00.316648 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201127 20:00:00.317229 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201127 20:00:00.317694 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201127 20:00:00.318219 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201127 20:00:00.319177 [Class:Bluetooth][Method:pair] Called.
+[INFO] 20201127 20:00:00.320052 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201127 20:00:00.320891 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201127 20:00:00.321953 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201127 20:00:00.324488 [Class:Bluetooth][Method:pair] Loaded - BT ADDRESS : 50:77:05:43:DF:98
+[INFO] 20201127 20:00:00.335643 [Class:Bluetooth][Method:setAllThreadOn] Called.
+[INFO] 20201127 20:00:00.337400 [Class:Bluetooth][Method:receiver] Called.
+[INFO] 20201127 20:00:00.339382 [Class:Bluetooth][Method:connection] Called.
+[NOTICE] 20201127 20:00:00.347111 [Class:Bluetooth][Method:connection] Server socket was created
+[NOTICE] 20201127 20:00:00.347632 [Class:Bluetooth][Method:connection] Try to connect to 50:77:05:43:DF:98
+[INFO] 20201127 20:00:00.335096 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201127 20:00:00.389501 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201127 20:00:00.339652 [Class:Bluetooth][Method:monitor] Called.
+[NOTICE] 20201127 20:00:00.470636 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[sensorway], Now[sensorway]
+[INFO] 20201127 20:00:00.874821 [Class:UartRead][Method:setAllThreadOn] Called.
+[INFO] 20201127 20:00:00.876647 [Class:UartRead][Method:monitor] Called.
+[INFO] 20201127 20:00:00.875984 [Class:UartRead][Method:receiver] Called.
+[INFO] 20201127 20:00:00.877741 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201127 20:00:00.878501 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201127 20:00:00.879020 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201127 20:00:01.897360 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201127 20:00:01.897924 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201127 20:00:01.898360 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201127 20:00:02.900363 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201127 20:00:02.900875 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201127 20:00:02.901236 [Class:FileProcess][Method:getFilePath] Called.
+[ERROR] 20201127 20:00:03.351170 [Class:Bluetooth][Method:connection] Failed to execute : timed out
+[INFO] 20201127 20:00:03.351833 [Class:Bluetooth][Method:closeSock] Called.
+[ERROR] 20201127 20:00:03.352439 [Class:Bluetooth][Method:receiver] Failed to execute : 'NoneType' object has no attribute 'recv'
+[NOTICE] 20201127 20:00:03.408583 [Class:Bluetooth][Method:monitor] threadReceive was terminated and will re-initiate.
+[INFO] 20201127 20:00:03.409138 [Class:Bluetooth][Method:setReceiveThreadOn] Called.
+[INFO] 20201127 20:00:03.410052 [Class:Bluetooth][Method:receiver] Called.
+[INFO] 20201127 20:00:03.410700 [Class:Bluetooth][Method:connection] Called.
+[NOTICE] 20201127 20:00:03.411299 [Class:Bluetooth][Method:connection] Server socket was created
+[NOTICE] 20201127 20:00:03.411861 [Class:Bluetooth][Method:connection] Try to connect to 50:77:05:43:DF:98
+[INFO] 20201127 20:00:03.903113 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201127 20:00:03.903635 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201127 20:00:03.904073 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201127 20:00:04.906258 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201127 20:00:04.906734 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201127 20:00:04.916586 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201127 20:00:05.475667 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201127 20:00:05.476159 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201127 20:00:05.476523 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201127 20:00:05.476793 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201127 20:00:05.477258 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201127 20:00:05.477507 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201127 20:00:05.520824 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[sensorway], Now[sensorway]
+[INFO] 20201127 20:00:05.918571 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201127 20:00:05.919538 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201127 20:00:05.920151 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201127 20:00:06.922930 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201127 20:00:06.923853 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201127 20:00:06.924638 [Class:FileProcess][Method:getFilePath] Called.
+[NOTICE] 20201127 20:00:07.493268 [Class:Bluetooth][Method:receiver] received : {"TypeMessage":1, "RequestData_Option": {"Target" : 0, "Range_Start" : "2019-08-23 12:00:00", "Range_Stop" : "2020-11-30 12:35:00", "Bed_Num" : "8800000000000" } }
+[INFO] 20201127 20:00:07.493754 [Class:Bluetooth][Method:msgConvert] Called.
+[INFO] 20201127 20:00:07.558273 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201127 20:00:07.558720 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201127 20:00:07.558973 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201127 20:00:07.559370 [Class:FileProcess][Method:fileWrite] Called.
+[INFO] 20201127 20:00:07.559611 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201127 20:00:07.559833 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201127 20:00:07.560673 [Class:Bluetooth][Method:sendMessageTo] Called.
+[INFO] 20201127 20:00:07.927523 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201127 20:00:07.928293 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201127 20:00:07.928781 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201127 20:00:08.930987 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201127 20:00:08.931713 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201127 20:00:08.932254 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201127 20:00:09.934464 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201127 20:00:09.935251 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201127 20:00:09.935735 [Class:FileProcess][Method:getFilePath] Called.
+[NOTICE] 20201127 20:00:10.314400 [Class:Bluetooth][Method:receiver] received : { "TypeMessage":6,   "StoredFiles_Option": { "Option_Sel" : 0, "Stored_Data_list_Request" : "on" } }
+[INFO] 20201127 20:00:10.315285 [Class:Bluetooth][Method:msgConvert] Called.
+[INFO] 20201127 20:00:10.366158 [Class:FileProcess][Method:checkDir] Called.
+[INFO] 20201127 20:00:10.367879 [Class:Bluetooth][Method:sendMessageTo] Called.
+[INFO] 20201127 20:00:10.523035 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201127 20:00:10.523503 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201127 20:00:10.523746 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201127 20:00:10.523971 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201127 20:00:10.524375 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201127 20:00:10.524614 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201127 20:00:10.567995 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[sensorway], Now[sensorway]
+[INFO] 20201127 20:00:10.937935 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201127 20:00:10.938410 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201127 20:00:10.938663 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201127 20:00:11.940482 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201127 20:00:11.941311 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201127 20:00:11.941872 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201127 20:00:12.116148 [Class:Bluetooth][Method:closeSock] Called.
+[ERROR] 20201127 20:00:12.117189 [Class:Bluetooth][Method:receiver] Failed to execute : [Errno 104] Connection reset by peer
+[NOTICE] 20201127 20:00:12.419192 [Class:Bluetooth][Method:monitor] threadReceive was terminated and will re-initiate.
+[INFO] 20201127 20:00:12.420009 [Class:Bluetooth][Method:setReceiveThreadOn] Called.
+[INFO] 20201127 20:00:12.421338 [Class:Bluetooth][Method:receiver] Called.
+[INFO] 20201127 20:00:12.422093 [Class:Bluetooth][Method:connection] Called.
+[NOTICE] 20201127 20:00:12.422765 [Class:Bluetooth][Method:connection] Server socket was created
+[NOTICE] 20201127 20:00:12.423443 [Class:Bluetooth][Method:connection] Try to connect to ('50:77:05:43:DF:98', 1)
+[INFO] 20201127 20:00:12.944257 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201127 20:00:12.945143 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201127 20:00:12.945713 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201127 20:00:13.948299 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201127 20:00:13.949125 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201127 20:00:13.949681 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201127 20:00:14.952165 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201127 20:00:14.952981 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201127 20:00:14.953542 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201127 20:00:15.571102 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201127 20:00:15.571970 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201127 20:00:15.572546 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201127 20:00:15.573092 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201127 20:00:15.574037 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201127 20:00:15.574608 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201127 20:00:15.660998 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[sensorway], Now[sensorway]
+[INFO] 20201127 20:00:15.956208 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201127 20:00:15.957184 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201127 20:00:15.966325 [Class:FileProcess][Method:getFilePath] Called.
+[NOTICE] 20201127 20:00:16.666072 [Class:Bluetooth][Method:receiver] received : {"TypeMessage":1, "RequestData_Option": {"Target" : 0, "Range_Start" : "2019-08-23 12:00:00", "Range_Stop" : "2020-11-30 12:35:00", "Bed_Num" : "8800000000000" } }
+[INFO] 20201127 20:00:16.666958 [Class:Bluetooth][Method:msgConvert] Called.
+[INFO] 20201127 20:00:16.683656 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201127 20:00:16.684482 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201127 20:00:16.685113 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201127 20:00:16.685962 [Class:FileProcess][Method:fileWrite] Called.
+[INFO] 20201127 20:00:16.686483 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201127 20:00:16.687001 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201127 20:00:16.688581 [Class:Bluetooth][Method:sendMessageTo] Called.
+[INFO] 20201127 20:00:16.969292 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201127 20:00:16.969740 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201127 20:00:16.970014 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201127 20:00:17.941072 [Class:Bluetooth][Method:closeSock] Called.
+[ERROR] 20201127 20:00:17.941942 [Class:Bluetooth][Method:receiver] Failed to execute : [Errno 104] Connection reset by peer
+[INFO] 20201127 20:00:17.971653 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201127 20:00:17.972523 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201127 20:00:17.973017 [Class:FileProcess][Method:getFilePath] Called.
+[NOTICE] 20201127 20:00:18.428314 [Class:Bluetooth][Method:monitor] threadReceive was terminated and will re-initiate.
+[INFO] 20201127 20:00:18.429077 [Class:Bluetooth][Method:setReceiveThreadOn] Called.
+[INFO] 20201127 20:00:18.430224 [Class:Bluetooth][Method:receiver] Called.
+[INFO] 20201127 20:00:18.430927 [Class:Bluetooth][Method:connection] Called.
+[NOTICE] 20201127 20:00:18.431614 [Class:Bluetooth][Method:connection] Server socket was created
+[NOTICE] 20201127 20:00:18.432208 [Class:Bluetooth][Method:connection] Try to connect to ('50:77:05:43:DF:98', 1)
+[INFO] 20201127 20:00:18.975288 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201127 20:00:18.976110 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201127 20:00:18.976664 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201127 20:00:19.979038 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201127 20:00:19.979768 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201127 20:00:19.980249 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201127 20:00:20.667024 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201127 20:00:20.667773 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201127 20:00:20.668310 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201127 20:00:20.668794 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201127 20:00:20.669605 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201127 20:00:20.670145 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201127 20:00:20.766521 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[sensorway], Now[sensorway]
+[INFO] 20201127 20:00:20.982450 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201127 20:00:20.982936 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201127 20:00:20.991984 [Class:FileProcess][Method:getFilePath] Called.
+[NOTICE] 20201127 20:00:21.715832 [Class:Bluetooth][Method:receiver] received : {"TypeMessage": 8,   "Uart_Cmd_Data":{   "Option_Sel":0,   "Op_Mode":"on"   }  }
+[INFO] 20201127 20:00:21.716853 [Class:Bluetooth][Method:msgConvert] Called.
+[INFO] 20201127 20:00:21.798379 [Class:UartRead][Method:uartSet] Called.
+[INFO] 20201127 20:00:21.913377 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201127 20:00:21.993907 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201127 20:00:21.994313 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201127 20:00:21.994558 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201127 20:00:22.001715 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201127 20:00:22.105403 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201127 20:00:22.200132 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201127 20:00:22.300337 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201127 20:00:22.401092 [Class:Bluetooth][Method:sendMessageTo] Called.
+[INFO] 20201127 20:00:22.401718 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201127 20:00:22.501405 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201127 20:00:22.601133 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201127 20:00:22.701236 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201127 20:00:22.803786 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201127 20:00:22.901141 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201127 20:00:22.996304 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201127 20:00:22.996876 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201127 20:00:22.997340 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201127 20:00:23.002074 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201127 20:00:23.101110 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201127 20:00:23.201767 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201127 20:00:23.301555 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201127 20:00:23.401214 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201127 20:00:23.501404 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201127 20:00:23.604585 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201127 20:00:23.704811 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201127 20:00:23.804619 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201127 20:00:23.903876 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201127 20:00:23.999003 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201127 20:00:23.999588 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201127 20:00:23.999977 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201127 20:00:24.004379 [Class:UartRead][Method:receiver] <Response [201]>
+[NOTICE] 20201127 20:00:24.066238 [Class:Bluetooth][Method:receiver] received : {"TypeMessage": 8, "Uart_Cmd_Data":{ "Op_Mode":"off" } }
+[INFO] 20201127 20:00:24.067290 [Class:Bluetooth][Method:msgConvert] Called.
+[INFO] 20201127 20:00:24.104418 [Class:UartRead][Method:receiver] <Response [201]>
+[INFO] 20201127 20:00:24.105095 [Class:UartRead][Method:uartSet] Called.
+[INFO] 20201127 20:00:24.707096 [Class:Bluetooth][Method:sendMessageTo] Called.
+[INFO] 20201127 20:00:25.001990 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201127 20:00:25.002851 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201127 20:00:25.003423 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201127 20:00:25.773010 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201127 20:00:25.773845 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201127 20:00:25.774415 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201127 20:00:25.775101 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201127 20:00:25.776074 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201127 20:00:25.776639 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201127 20:00:25.855775 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[sensorway], Now[sensorway]
+[INFO] 20201127 20:00:26.005972 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201127 20:00:26.006716 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201127 20:00:26.016048 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201127 20:00:26.416308 [Class:Bluetooth][Method:closeSock] Called.
+[ERROR] 20201127 20:00:26.417411 [Class:Bluetooth][Method:receiver] Failed to execute : [Errno 104] Connection reset by peer
+[NOTICE] 20201127 20:00:26.439523 [Class:Bluetooth][Method:monitor] threadReceive was terminated and will re-initiate.
+[INFO] 20201127 20:00:26.440366 [Class:Bluetooth][Method:setReceiveThreadOn] Called.
+[INFO] 20201127 20:00:26.442216 [Class:Bluetooth][Method:receiver] Called.
+[INFO] 20201127 20:00:26.443023 [Class:Bluetooth][Method:connection] Called.
+[NOTICE] 20201127 20:00:26.443789 [Class:Bluetooth][Method:connection] Server socket was created
+[NOTICE] 20201127 20:00:26.444488 [Class:Bluetooth][Method:connection] Try to connect to ('50:77:05:43:DF:98', 1)
+[INFO] 20201127 20:00:27.019103 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201127 20:00:27.019934 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201127 20:00:27.020492 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201127 20:00:28.022968 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201127 20:00:28.023708 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201127 20:00:28.024193 [Class:FileProcess][Method:getFilePath] Called.
+[NOTICE] 20201127 20:00:28.763702 [Class:Bluetooth][Method:receiver] received : {"TypeMessage":1, "RequestData_Option": {"Target" : 0, "Range_Start" : "2019-08-23 12:00:00", "Range_Stop" : "2020-11-30 12:35:00", "Bed_Num" : "8800000000000" } }
+[INFO] 20201127 20:00:28.764688 [Class:Bluetooth][Method:msgConvert] Called.
+[INFO] 20201127 20:00:28.816085 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201127 20:00:28.816987 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201127 20:00:28.817603 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201127 20:00:28.818568 [Class:FileProcess][Method:fileWrite] Called.
+[INFO] 20201127 20:00:28.819162 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201127 20:00:28.819759 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201127 20:00:28.821743 [Class:Bluetooth][Method:sendMessageTo] Called.
+[INFO] 20201127 20:00:29.026468 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201127 20:00:29.027215 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201127 20:00:29.027708 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201127 20:00:29.765901 [Class:Bluetooth][Method:closeSock] Called.
+[ERROR] 20201127 20:00:29.766892 [Class:Bluetooth][Method:receiver] Failed to execute : [Errno 104] Connection reset by peer
+[INFO] 20201127 20:00:30.029937 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201127 20:00:30.030776 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201127 20:00:30.031338 [Class:FileProcess][Method:getFilePath] Called.
+[NOTICE] 20201127 20:00:30.447040 [Class:Bluetooth][Method:monitor] threadReceive was terminated and will re-initiate.
+[INFO] 20201127 20:00:30.447887 [Class:Bluetooth][Method:setReceiveThreadOn] Called.
+[INFO] 20201127 20:00:30.448905 [Class:Bluetooth][Method:receiver] Called.
+[INFO] 20201127 20:00:30.449678 [Class:Bluetooth][Method:connection] Called.
+[NOTICE] 20201127 20:00:30.450291 [Class:Bluetooth][Method:connection] Server socket was created
+[NOTICE] 20201127 20:00:30.450933 [Class:Bluetooth][Method:connection] Try to connect to ('50:77:05:43:DF:98', 1)
+[INFO] 20201127 20:00:30.861884 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201127 20:00:30.862728 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201127 20:00:30.863298 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201127 20:00:30.863838 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201127 20:00:30.865005 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201127 20:00:30.865613 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201127 20:00:30.951906 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[sensorway], Now[sensorway]
+[INFO] 20201127 20:00:31.033779 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201127 20:00:31.034859 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201127 20:00:31.043938 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201127 20:00:32.046711 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201127 20:00:32.047157 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201127 20:00:32.047398 [Class:FileProcess][Method:getFilePath] Called.
+[NOTICE] 20201127 20:00:32.188521 [Class:Bluetooth][Method:receiver] received : {"TypeMessage":1, "RequestData_Option": {"Target" : 0, "Range_Start" : "2019-08-23 12:00:00", "Range_Stop" : "2020-11-30 12:35:00", "Bed_Num" : "8800000000000" } }
+[INFO] 20201127 20:00:32.189044 [Class:Bluetooth][Method:msgConvert] Called.
+[INFO] 20201127 20:00:32.230036 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201127 20:00:32.230485 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201127 20:00:32.230815 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201127 20:00:32.231259 [Class:FileProcess][Method:fileWrite] Called.
+[INFO] 20201127 20:00:32.231493 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201127 20:00:32.231709 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201127 20:00:32.232468 [Class:Bluetooth][Method:sendMessageTo] Called.
+[INFO] 20201127 20:00:33.049077 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201127 20:00:33.049960 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201127 20:00:33.050540 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201127 20:00:33.190590 [Class:Bluetooth][Method:closeSock] Called.
+[ERROR] 20201127 20:00:33.191465 [Class:Bluetooth][Method:receiver] Failed to execute : [Errno 104] Connection reset by peer
+[NOTICE] 20201127 20:00:33.452631 [Class:Bluetooth][Method:monitor] threadReceive was terminated and will re-initiate.
+[INFO] 20201127 20:00:33.453511 [Class:Bluetooth][Method:setReceiveThreadOn] Called.
+[INFO] 20201127 20:00:33.454838 [Class:Bluetooth][Method:receiver] Called.
+[INFO] 20201127 20:00:33.455653 [Class:Bluetooth][Method:connection] Called.
+[NOTICE] 20201127 20:00:33.456295 [Class:Bluetooth][Method:connection] Server socket was created
+[NOTICE] 20201127 20:00:33.456951 [Class:Bluetooth][Method:connection] Try to connect to ('50:77:05:43:DF:98', 1)
+[INFO] 20201127 20:00:34.052968 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201127 20:00:34.053866 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201127 20:00:34.054531 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201127 20:00:35.057055 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201127 20:00:35.057892 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201127 20:00:35.058463 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201127 20:00:35.957870 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201127 20:00:35.958718 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201127 20:00:35.959341 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201127 20:00:35.959931 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201127 20:00:35.960970 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201127 20:00:35.961664 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201127 20:00:36.047682 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[sensorway], Now[sensorway]
+[INFO] 20201127 20:00:36.060937 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201127 20:00:36.061733 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201127 20:00:36.062284 [Class:FileProcess][Method:getFilePath] Called.
+[ERROR] 20201127 20:00:36.458794 [Class:Bluetooth][Method:connection] Failed to execute : timed out
+[INFO] 20201127 20:00:36.459711 [Class:Bluetooth][Method:closeSock] Called.
+[ERROR] 20201127 20:00:36.460481 [Class:Bluetooth][Method:receiver] Failed to execute : 'NoneType' object has no attribute 'recv'
+[INFO] 20201127 20:00:37.064978 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201127 20:00:37.065466 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201127 20:00:37.065901 [Class:FileProcess][Method:getFilePath] Called.

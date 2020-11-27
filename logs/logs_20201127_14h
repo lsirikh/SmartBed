@@ -1,0 +1,168 @@
+[INFO] 20201127 14:45:46.458443 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201127 14:45:46.458971 [Class:SmartBed][Method:setAllThreadOn] Called.
+[INFO] 20201127 14:45:46.459760 [Class:SmartBed][Method:initBT] Called.
+[INFO] 20201127 14:45:46.460117 [Class:SmartBed][Method:initUart] Called.
+[INFO] 20201127 14:45:46.460794 [Class:BTReceive][Method:__init__] initiated.
+[INFO] 20201127 14:45:46.461073 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201127 14:45:46.461553 [Class:SmartBed][Method:initWifi] Called.
+[INFO] 20201127 14:45:46.482897 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201127 14:45:46.465415 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201127 14:45:46.526451 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201127 14:45:46.526208 [Class:WifiNT][Method:__init__] initiated.
+[INFO] 20201127 14:45:46.553749 [Class:WifiNT][Method:setThreadOn] Called.
+[INFO] 20201127 14:45:46.547543 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201127 14:45:46.566528 [Class:WifiNT][Method:monitor] Called.
+[INFO] 20201127 14:45:46.566872 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201127 14:45:46.572668 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201127 14:45:46.579037 [Class:UartRead][Method:__init__] initiated.
+[INFO] 20201127 14:45:46.573233 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201127 14:45:46.590424 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201127 14:45:46.590273 [Class:UartRead][Method:loadFiles] Called.
+[INFO] 20201127 14:45:46.596068 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201127 14:45:46.606682 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201127 14:45:46.607339 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201127 14:45:46.607580 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201127 14:45:46.613117 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201127 14:45:46.613364 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201127 14:45:46.630029 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201127 14:45:46.631420 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201127 14:45:46.631838 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201127 14:45:46.638294 [Class:UartRead][Method:initSerial] Called.
+[INFO] 20201127 14:45:46.639211 [Class:UartRead][Method:openSerial] Try to open port....
+[INFO] 20201127 14:45:46.640381 [Class:UartRead][Method:uartSet] Called.
+[NOTICE] 20201127 14:45:46.740923 [Class:WifiNT][Method:monitor] Wifi was disconnected.
+[INFO] 20201127 14:45:46.771924 [Class:WifiNT][Method:wifiConnection] Called.
+[INFO] 20201127 14:45:46.824072 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201127 14:45:46.813205 [Class:WifiNT][Method:wifiConnection] Wifi Module was DOWN.
+[INFO] 20201127 14:45:46.845619 [Class:BTReceive][Method:pair] Called.
+[INFO] 20201127 14:45:46.846005 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201127 14:45:46.846407 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201127 14:45:46.846922 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201127 14:45:46.850915 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201127 14:45:46.852070 [Class:BTReceive][Method:pair] Loaded - BT ADDRESS : 50:77:05:43:DF:98
+[INFO] 20201127 14:45:46.852494 [Class:BTReceive][Method:setAllThreadOn] Called.
+[INFO] 20201127 14:45:46.853959 [Class:BTReceive][Method:receiver] Called.
+[INFO] 20201127 14:45:46.854463 [Class:BTReceive][Method:monitor] Called.
+[INFO] 20201127 14:45:46.855293 [Class:BTReceive][Method:connection] Called.
+[NOTICE] 20201127 14:45:46.855680 [Class:BTReceive][Method:connection] Server socket was created
+[NOTICE] 20201127 14:45:46.856123 [Class:BTReceive][Method:connection] Try to connect to 50:77:05:43:DF:98
+[INFO] 20201127 14:45:47.246815 [Class:UartRead][Method:setAllThreadOn] Called.
+[INFO] 20201127 14:45:47.247884 [Class:UartRead][Method:monitor] Called.
+[INFO] 20201127 14:45:47.247528 [Class:UartRead][Method:receiver] Called.
+[INFO] 20201127 14:45:47.248896 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201127 14:45:47.249226 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201127 14:45:47.249454 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201127 14:45:47.892334 [Class:WifiNT][Method:wifiConnection] Wifi Module was UP.
+[INFO] 20201127 14:45:47.892914 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201127 14:45:48.260952 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201127 14:45:48.262573 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201127 14:45:48.263161 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201127 14:45:49.266046 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201127 14:45:49.266793 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201127 14:45:49.267280 [Class:FileProcess][Method:getFilePath] Called.
+[ERROR] 20201127 14:45:49.859727 [Class:BTReceive][Method:connection] Failed to execute : timed out
+[INFO] 20201127 14:45:49.860510 [Class:BTReceive][Method:closeSock] Called.
+[ERROR] 20201127 14:45:49.861105 [Class:BTReceive][Method:receiver] Failed to execute : 'NoneType' object has no attribute 'recv'
+[INFO] 20201127 14:45:49.944507 [Class:WifiNT][Method:wifiConnection] wpa_supplicant.conf was created.
+[INFO] 20201127 14:45:49.945128 [Class:WifiNT][Method:setWpaFile] Called.
+[NOTICE] 20201127 14:45:50.014532 [Class:WifiNT][Method:wifiConnection] network={
+	ssid="sensorway"
+	#psk="0295765000000"
+	psk=29c56334bfebc0529fd4eeada62404fd65e3daabc6573eeab97698d5df066619
+}
+
+[INFO] 20201127 14:45:50.015825 [Class:WifiNT][Method:wifiConnection] Wifi Module tried to connect AP(sensorway)
+[INFO] 20201127 14:45:50.016357 [Class:WifiNT][Method:setWpaCon] Called.
+[INFO] 20201127 14:45:50.016867 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201127 14:45:50.269601 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201127 14:45:50.270238 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201127 14:45:50.270486 [Class:FileProcess][Method:getFilePath] Called.
+[NOTICE] 20201127 14:45:50.859298 [Class:BTReceive][Method:monitor] threadReceive was terminated and will re-initiate.
+[INFO] 20201127 14:45:50.860189 [Class:BTReceive][Method:setReceiveThreadOn] Called.
+[INFO] 20201127 14:45:50.861730 [Class:BTReceive][Method:receiver] Called.
+[INFO] 20201127 14:45:50.862634 [Class:BTReceive][Method:connection] Called.
+[NOTICE] 20201127 14:45:50.863390 [Class:BTReceive][Method:connection] Server socket was created
+[NOTICE] 20201127 14:45:50.864168 [Class:BTReceive][Method:connection] Try to connect to 50:77:05:43:DF:98
+[INFO] 20201127 14:45:51.272307 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201127 14:45:51.273070 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201127 14:45:51.273563 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201127 14:45:52.275744 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201127 14:45:52.276173 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201127 14:45:52.276414 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201127 14:45:53.278072 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201127 14:45:53.278820 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201127 14:45:53.279307 [Class:FileProcess][Method:getFilePath] Called.
+[ERROR] 20201127 14:45:53.868015 [Class:BTReceive][Method:connection] Failed to execute : timed out
+[INFO] 20201127 14:45:53.868785 [Class:BTReceive][Method:closeSock] Called.
+[ERROR] 20201127 14:45:53.869376 [Class:BTReceive][Method:receiver] Failed to execute : 'NoneType' object has no attribute 'recv'
+[INFO] 20201127 14:45:54.281515 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201127 14:45:54.282251 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201127 14:45:54.282743 [Class:FileProcess][Method:getFilePath] Called.
+[NOTICE] 20201127 14:45:54.866079 [Class:BTReceive][Method:monitor] threadReceive was terminated and will re-initiate.
+[INFO] 20201127 14:45:54.866921 [Class:BTReceive][Method:setReceiveThreadOn] Called.
+[INFO] 20201127 14:45:54.868055 [Class:BTReceive][Method:receiver] Called.
+[INFO] 20201127 14:45:54.869127 [Class:BTReceive][Method:connection] Called.
+[NOTICE] 20201127 14:45:54.869872 [Class:BTReceive][Method:connection] Server socket was created
+[NOTICE] 20201127 14:45:54.870624 [Class:BTReceive][Method:connection] Try to connect to 50:77:05:43:DF:98
+[NOTICE] 20201127 14:45:55.212895 [Class:WifiNT][Method:wifiConnection] Successfully initialized wpa_supplicant
+
+[INFO] 20201127 14:45:55.284760 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201127 14:45:55.285169 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201127 14:45:55.285404 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201127 14:45:56.287065 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201127 14:45:56.287930 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201127 14:45:56.288610 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201127 14:45:57.291025 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201127 14:45:57.291782 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201127 14:45:57.296986 [Class:FileProcess][Method:getFilePath] Called.
+[ERROR] 20201127 14:45:57.874281 [Class:BTReceive][Method:connection] Failed to execute : timed out
+[INFO] 20201127 14:45:57.874753 [Class:BTReceive][Method:closeSock] Called.
+[ERROR] 20201127 14:45:57.875089 [Class:BTReceive][Method:receiver] Failed to execute : 'NoneType' object has no attribute 'recv'
+[INFO] 20201127 14:45:58.299282 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201127 14:45:58.299711 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201127 14:45:58.299952 [Class:FileProcess][Method:getFilePath] Called.
+[NOTICE] 20201127 14:45:58.872999 [Class:BTReceive][Method:monitor] threadReceive was terminated and will re-initiate.
+[INFO] 20201127 14:45:58.873751 [Class:BTReceive][Method:setReceiveThreadOn] Called.
+[INFO] 20201127 14:45:58.874820 [Class:BTReceive][Method:receiver] Called.
+[INFO] 20201127 14:45:58.875549 [Class:BTReceive][Method:connection] Called.
+[NOTICE] 20201127 14:45:58.876089 [Class:BTReceive][Method:connection] Server socket was created
+[NOTICE] 20201127 14:45:58.876679 [Class:BTReceive][Method:connection] Try to connect to 50:77:05:43:DF:98
+[INFO] 20201127 14:45:59.301618 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201127 14:45:59.302462 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201127 14:45:59.303093 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201127 14:46:00.214813 [Class:WifiNT][Method:wifiConnection] Get Wifi Connection State from Wifi Module.
+[INFO] 20201127 14:46:00.215656 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201127 14:46:00.282638 [Class:WifiNT][Method:wifiConnection] Connected to 70:5d:cc:0c:c5:3c (on wlan0)
+	SSID: sensorway
+	freq: 2422
+	RX: 1337 bytes (7 packets)
+	TX: 1058 bytes (11 packets)
+	signal: -48 dBm
+	rx bitrate: 1.0 MBit/s
+	tx bitrate: 135.0 MBit/s
+
+	bss flags:	short-slot-time
+	dtim period:	1
+	beacon int:	100
+
+[INFO] 20201127 14:46:00.304895 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201127 14:46:00.305527 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201127 14:46:00.305924 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201127 14:46:01.308159 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201127 14:46:01.308703 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201127 14:46:01.309131 [Class:FileProcess][Method:getFilePath] Called.
+[ERROR] 20201127 14:46:01.878229 [Class:BTReceive][Method:connection] Failed to execute : timed out
+[INFO] 20201127 14:46:01.878853 [Class:BTReceive][Method:closeSock] Called.
+[ERROR] 20201127 14:46:01.879575 [Class:BTReceive][Method:receiver] Failed to execute : 'NoneType' object has no attribute 'recv'
+[INFO] 20201127 14:46:02.311133 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201127 14:46:02.317651 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201127 14:46:02.318142 [Class:FileProcess][Method:getFilePath] Called.
+[NOTICE] 20201127 14:46:02.880260 [Class:BTReceive][Method:monitor] threadReceive was terminated and will re-initiate.
+[INFO] 20201127 14:46:02.880842 [Class:BTReceive][Method:setReceiveThreadOn] Called.
+[INFO] 20201127 14:46:02.881752 [Class:BTReceive][Method:receiver] Called.
+[INFO] 20201127 14:46:02.883308 [Class:BTReceive][Method:connection] Called.
+[NOTICE] 20201127 14:46:02.883910 [Class:BTReceive][Method:connection] Server socket was created
+[NOTICE] 20201127 14:46:02.885531 [Class:BTReceive][Method:connection] Try to connect to 50:77:05:43:DF:98
+[INFO] 20201127 14:46:03.321055 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201127 14:46:03.321594 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201127 14:46:03.322061 [Class:FileProcess][Method:getFilePath] Called.
