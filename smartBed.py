@@ -1,8 +1,10 @@
+import asyncio
 import itertools
 import subprocess
 import sys
 import multiprocessing
 
+from api_bg import AsyncHttp
 from bt import Bluetooth
 
 from uart import *
@@ -68,17 +70,6 @@ class SmartBed:
         self.statusIdex = 0
 
 
-    # def funcMap(self, funcName):
-    #     if funcName == "initWifi":
-    #         self.mProcessWifi=self.initWifi()
-    #     elif funcName == "initBT":
-    #         self.mProcessBT=self.initBT()
-    #     elif funcName == "initUart":
-    #         self.mProcessUart=self.initUart()
-    #     elif funcName == "loadExp":
-    #         self.loadExp()
-    #     elif funcName == "loading":
-    #         self.loading()
 
     def initWifi(self):
         self.log.write(self.log.INFO, self.initWifi.__name__, "Called.")
@@ -104,13 +95,6 @@ class SmartBed:
         except Exception as ex:
             self.log.write(self.log.ERROR, self.initUart.__name__, "Failed to execute : {0}".format(ex))
 
-    # def setMultiprocess(self):
-    #     try:
-    #         self.pool = multiprocessing.Pool(processes=2)
-    #         self.pool.map(self.funcMap, self.func_list)
-    #         #pool.map(self.count, self.func_list)
-    #     except Exception as ex:
-    #         print(ex)
 
     def setAllThreadOn(self):
         self.log.write(self.log.INFO, self.setAllThreadOn.__name__, "Called.")
@@ -190,7 +174,22 @@ class SmartBed:
             #print(ex)
             return None
 
-    def workFlow(self):
+    async def async_sending(self, range):
+        api = AsyncHttp()
+
+        await api.send_data_with_range(range)
+
+        # tasks = [api.send_data_with_range(range)]
+        # asyncio.run(asyncio.wait(tasks))
+        # await asyncio.sleep(0.1)
+        # loop = asyncio.get_event_loop()
+        # loop.run_until_complete(api.send_data_with_range(range))
+        # loop.close()
+        #
+        # loop.run_until_complete(api.send_data_with_range(range))
+        # loop.close()
+
+    async def workFlow(self):
         # Main thread
         while self.statusWorkflow:
             try:
@@ -215,13 +214,22 @@ class SmartBed:
                     if inter_result:
                         dict_data = obj.setRequest()
 
+                        range = {
+                            "begin_date": dict_data["range_start"],
+                            "end_date": dict_data["range_stop"]
+                        }
                         # inter_result will be used
                         # uart to api send re-init function need!!!!!
                         # -------------------------------------
                         result = True
-
                         result = self.file.fileWrite("", "request.txt", dict_data)
+                        #await self.async_sending(range)
                         self.bt.sendMessageTo(str(obj.response(result)))
+                        # self.bt.msg = None
+                        api = AsyncHttp()
+                        thread = Thread(target=api.loop_caller, args=(range,))
+                        thread.start()
+
 
                 elif typeMessage == 2:
                     obj = self.bt.msg
@@ -296,9 +304,10 @@ class SmartBed:
                 self.bt.msg = None
                 #self.uart.op_code = ''
 
-                time.sleep(0.1)
+                await asyncio.sleep(0.1)
+                #time.sleep(0.1)
             except Exception as ex:
-                #print(ex)
+                print(ex)
                 pass
 
 
@@ -325,10 +334,6 @@ class SmartBed:
 
 
             try:
-                # print("SmartBed(bt_receiver) : ", self.bt_receiver.getBTStatus())
-                # print("SmartBed(uart) : ", self.uart.getUartStatus())
-                # print("SmartBed(wifi) : ", self.wifi.getWifiStatus())
-                # print("confirmed index : ", self.statusIdex)
                 if self.bt.getBTStatus() and not flagBluetooth:
                     flagBluetooth = True
                     print("Now Bluetooth Module is ready!")
@@ -378,9 +383,7 @@ if __name__ == '__main__':
     smartBed.setAllThreadOn()
     #smartBed.setMultiprocess()
     #smartBed.loading()
-    # smartBed.pool.close()
-    # smartBed.pool.join()
     #smartBed.mutex()
     #print("SmartBed was Activated.")
-    smartBed.workFlow()
+    asyncio.run(smartBed.workFlow())
 

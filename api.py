@@ -79,16 +79,16 @@ class ApiServer:
         # if not self.requestTime():
         #     return res
         try:
-            if self.isSendable:
-                res = requests.post(url,
-                                    timeout=2,
-                                    headers=header,
-                                    data=json.dumps(dict_data))
+            #if self.isSendable:
+            res = requests.post(url,
+                                timeout=2,
+                                headers=header,
+                                data=json.dumps(dict_data))
 
-                # res is not ok will be stored
-                if not res.ok:
-                    print("failed to send API server")
-                    self.file.data_store(dict_data)
+            # res is not ok will be stored
+            if not res.ok:
+                print("failed to send API server")
+                self.file.data_store(dict_data)
 
         except Exception as ex:
             self.file.data_store(dict_data)

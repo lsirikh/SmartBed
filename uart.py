@@ -177,8 +177,6 @@ class UartRead(MonitorClass):
         self.log.write(self.log.INFO, self.monitor.__name__, "Called.")
         while self.monitorStatus:
             try:
-                # Update api time request.
-                self.api.requestTime()
 
                 if self.threadReceive.is_alive() is False:
                     self.setUartStatus(False)

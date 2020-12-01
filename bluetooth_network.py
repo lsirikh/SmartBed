@@ -325,7 +325,8 @@ class Bluetooth(MonitorClass):
 
         self.status_sub = False
 
-        self.thread_prime = None
+        self.thread_prime_re = None
+        self.thread_prime_mo = None
         self.thread_sub = None
 
         self.server_sock = None
@@ -357,14 +358,14 @@ class Bluetooth(MonitorClass):
             #bl.async_loading()
         ]
 
-
     def initialize(self):
         self.log.write(self.log.INFO, self.initialize.__name__, "Called.")
         self.setBTStatus(True)
         self.load_info()
-        self.setAllThreadOn()
+        #self.setAllThreadOn()
+        self.setAllTaskOn()
 
-    def load_sub(self):
+    async def load_sub(self):
         self.log.write(self.log.INFO, self.load_sub.__name__, "Called.")
         self.bl.hearing_cmd = True
         self.status_sub = True
@@ -378,17 +379,22 @@ class Bluetooth(MonitorClass):
         self.log.write(self.log.INFO, self.halt_hearing.__name__, "Called.")
         self.bl.hearing_cmd = False
 
-    def load_prime(self):
-        self.log.write(self.log.INFO, self.load_prime.__name__, "Called.")
-        self.status_monitor = True
-        self.status_receiver = True
+    async def load_prime_re(self):
+        self.log.write(self.log.INFO, self.load_prime_re.__name__, "Called.")
         tasks_prime = [
-            self.monitor(),
             self.receiver()
         ]
         asyncio.run(asyncio.wait(tasks_prime))
 
-    def load_receiver(self):
+    async def load_prime_mo(self):
+        self.log.write(self.log.INFO, self.load_prime_mo.__name__, "Called.")
+        self.status_monitor = True
+        tasks_prime = [
+            self.monitor()
+        ]
+        asyncio.run(asyncio.wait(tasks_prime))
+
+    async def load_receiver(self):
         self.log.write(self.log.INFO, self.load_receiver.__name__, "Called.")
         self.status_receiver = True
         tasks_prime = [
@@ -405,19 +411,29 @@ class Bluetooth(MonitorClass):
         self.address = json_data['bluetooth']
         self.port = 1
 
-    def start_prime_thread(self):
-        self.log.write(self.log.INFO, self.start_prime_thread.__name__, "Called.")
+    def start_prime_re_thread(self):
+        self.log.write(self.log.INFO, self.start_prime_re_thread.__name__, "Called.")
         try:
             # Temporally Set Ready Baseline at this point
-            self.thread_prime = Thread(target=self.load_prime)
-            self.thread_prime.daemon = False
-            self.status_monitor = True
-            self.status_receiver = True
-
-            self.thread_prime.start()
+            self.thread_prime_re = Thread(target=self.load_prime_re)
+            self.thread_prime_re.daemon = False
+            # Thread Starts
+            self.thread_prime_re.start()
         except Exception as ex:
-            self.log.write(self.log.ERROR, self.start_prime_thread.__name__, "Failed to execute : {0}".format(ex))
-            print("Failed to assign or start start_prime_thread.")
+            self.log.write(self.log.ERROR, self.start_prime_re_thread.__name__, "Failed to execute : {0}".format(ex))
+            print("Failed to assign or start start_prime_re_thread.")
+
+    def start_prime_mo_thread(self):
+        self.log.write(self.log.INFO, self.start_prime_mo_thread.__name__, "Called.")
+        try:
+            # Temporally Set Ready Baseline at this point
+            self.thread_prime_mo = Thread(target=self.load_prime_mo)
+            self.thread_prime_mo.daemon = False
+            # Thread Starts
+            self.thread_prime_mo.start()
+        except Exception as ex:
+            self.log.write(self.log.ERROR, self.start_prime_mo_thread.__name__, "Failed to execute : {0}".format(ex))
+            print("Failed to assign or start start_prime_mo_thread.")
 
     def start_sub_thread(self):
         self.log.write(self.log.INFO, self.start_sub_thread.__name__, "Called.")
@@ -433,15 +449,33 @@ class Bluetooth(MonitorClass):
             self.log.write(self.log.ERROR, self.start_sub_thread.__name__, "Failed to execute : {0}".format(ex))
             print("Failed to assign or start start_sub_tread")
 
+    def setAllTaskOn(self):
+        self.log.write(self.log.INFO, self.setAllTaskOn.__name__, "Called.")
+        try:
+            # Temporally Set Ready Baseline at this point
+            self.setBTStatus(True)
+
+            loop_sub = asyncio.get_event_loop()
+            loop_sub.run_until_complete(self.load_sub())
+            #loop_prime_mo = asyncio.get_event_loop()
+            #loop_prime_mo.run_until_complete(self.load_prime_mo())
+            # loop_prime_re = asyncio.get_event_loop()
+            # loop_prime_re.run_until_complete(self.load_prime_re())
+
+        except Exception as ex:
+            self.log.write(self.log.ERROR, self.setAllTaskOn.__name__, "Failed to execute : {0}".format(ex))
+            print("Failed to assign or start start_prime_thread, start_sub_thread.")
+
     def setAllThreadOn(self):
         self.log.write(self.log.INFO, self.setAllThreadOn.__name__, "Called.")
         try:
             # Temporally Set Ready Baseline at this point
             self.setBTStatus(True)
 
-            # Start Dual Thread
-            self.start_sub_thread()
-            self.start_prime_thread()
+            # Start Threads
+            #self.start_sub_thread()
+            #self.start_prime_mo_thread()
+            #self.start_prime_re_thread()
 
         except Exception as ex:
             self.log.write(self.log.ERROR, self.setAllThreadOn.__name__, "Failed to execute : {0}".format(ex))
@@ -473,7 +507,8 @@ class Bluetooth(MonitorClass):
             self.client_sock, self.address = self.server_sock.accept()
             self.log.write(self.log.NOTICE, self.connection.__name__, "{0} was successfully connected to SmartBed".format(str(self.address)))
             print("{0} was successfully connected to SmartBed".format(str(self.address)))
-            print(self.client_sock, self)
+            loop = asyncio.get_event_loop()
+            loop.run_until_complete(self.load_receiver())
             # self.bl.reuqest_condition = StateType.REQUEST_PAIRED_DEVICES
             # await asyncio.sleep(5)
             # print(self.bl.paired_devices)
@@ -484,7 +519,7 @@ class Bluetooth(MonitorClass):
             #print("Accepted : ", self.address)
 
         except Exception as ex:
-            self.close_socket()
+            #self.thread_prime_re.join()
             self.log.write(self.log.NOTICE, self.connection.__name__, "Failed to execute : {0}".format(ex))
             print("Failed to open or bind client_sock", ex)
 
@@ -494,13 +529,16 @@ class Bluetooth(MonitorClass):
             # print(self.threadReceive.is_alive())
             if self.client_sock is None or self.server_sock is None:
                 await self.connection()
-
-            elif self.status_receiver is False:
-                self.setBTStatus(False)
-                self.log.write(self.log.NOTICE, self.monitor.__name__, "threadReceive was terminated and will re-initiate.")
-                self.load_receiver()
+                await asyncio.sleep(1)
             else:
                 await asyncio.sleep(1)
+            #
+            # elif self.status_receiver is False:
+            #     self.setBTStatus(False)
+            #     self.log.write(self.log.NOTICE, self.monitor.__name__, "threadReceive was terminated and will re-initiate.")
+            #     self.load_receiver()
+            # else:
+            #     await asyncio.sleep(1)
 
     async def receiver(self):
         self.log.write(self.log.INFO, self.receiver.__name__, "Called.")
@@ -524,8 +562,8 @@ class Bluetooth(MonitorClass):
 
         except Exception as ex:
             # Thread will be dead with Exception
+            print("Socket receive was time out")
             self.status_receiver = False
-            self.close_socket()
             self.log.write(self.log.ERROR, self.receiver.__name__, "Failed to execute : {0}".format(ex))
 
     def msgConvert(self, data):
@@ -598,7 +636,7 @@ class Bluetooth(MonitorClass):
             self.log.write(self.log.ERROR, self.sendMessageTo.__name__, "Failed to execute : {0}".format(ex))
             print("Failed to send a message to BT module.")
 
-    def close_socket(self):
+    async def close_socket(self):
         """
 
         :return:
@@ -634,9 +672,14 @@ class Bluetooth(MonitorClass):
         time.sleep(1)
 
         try:
-            if self.thread_prime.is_alive():
-                self.thread_prime.join()
-                self.log.write(self.log.NOTICE, self.finish.__name__, "Bluetooth threadReceive was successfully finished")
+            if self.thread_prime_re.is_alive():
+                self.thread_prime_re.join()
+                self.log.write(self.log.NOTICE, self.finish.__name__, "Bluetooth thread_prime_re was successfully finished")
+                print("Bluetooth threadReceive was successfully finished")
+
+            if self.thread_prime_mo.is_alive():
+                self.thread_prime_mo.join()
+                self.log.write(self.log.NOTICE, self.finish.__name__, "Bluetooth thread_prime_mo was successfully finished")
                 print("Bluetooth threadReceive was successfully finished")
 
             if self.thread_sub.is_alive():

@@ -1,0 +1,1112 @@
+[INFO] 20201201 10:03:13.071226 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201201 10:03:13.071759 [Class:SmartBed][Method:setAllThreadOn] Called.
+[INFO] 20201201 10:03:13.072586 [Class:SmartBed][Method:initBT] Called.
+[INFO] 20201201 10:03:13.072944 [Class:SmartBed][Method:initUart] Called.
+[INFO] 20201201 10:03:13.073383 [Class:SmartBed][Method:initWifi] Called.
+[INFO] 20201201 10:03:13.105928 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201201 10:03:13.079237 [Class:Bluetooth][Method:__init__] initiated.
+[INFO] 20201201 10:03:13.125217 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201201 10:03:13.125494 [Class:WifiNT][Method:__init__] initiated.
+[INFO] 20201201 10:03:13.155183 [Class:WifiNT][Method:setThreadOn] Called.
+[INFO] 20201201 10:03:13.171917 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201201 10:03:13.173891 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:03:13.191376 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:03:13.198087 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:03:13.197584 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201201 10:03:13.209625 [Class:UartRead][Method:__init__] initiated.
+[INFO] 20201201 10:03:13.209899 [Class:Bluetooth][Method:initialize] Called.
+[INFO] 20201201 10:03:13.210614 [Class:UartRead][Method:loadFiles] Called.
+[INFO] 20201201 10:03:13.210865 [Class:Bluetooth][Method:load_info] Called.
+[INFO] 20201201 10:03:13.211302 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:03:13.211662 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:03:13.174168 [Class:WifiNT][Method:monitor] Called.
+[INFO] 20201201 10:03:13.212045 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:03:13.212405 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:03:13.212706 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:03:13.213088 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:03:13.213671 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:03:13.214194 [Class:Bluetooth][Method:load_info] Loaded - BT ADDRESS : 50:77:05:43:DF:98
+[INFO] 20201201 10:03:13.214410 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:03:13.215054 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:03:13.214890 [Class:Bluetooth][Method:setAllThreadOn] Called.
+[INFO] 20201201 10:03:13.215714 [Class:UartRead][Method:initSerial] Called.
+[INFO] 20201201 10:03:13.215939 [Class:Bluetooth][Method:start_sub_thread] Called.
+[INFO] 20201201 10:03:13.216538 [Class:UartRead][Method:openSerial] Try to open port....
+[INFO] 20201201 10:03:13.214697 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201201 10:03:13.217597 [Class:Bluetooth][Method:start_prime_mo_thread] Called.
+[INFO] 20201201 10:03:13.217322 [Class:Bluetooth][Method:load_sub] Called.
+[INFO] 20201201 10:03:13.218522 [Class:UartRead][Method:uartSet] Called.
+[INFO] 20201201 10:03:13.219000 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:03:13.224957 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:03:13.227563 [Class:Bluetooth][Method:start_prime_re_thread] Called.
+[INFO] 20201201 10:03:13.226531 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:03:13.228531 [Class:Bluetooth][Method:load_prime_re] Called.
+[INFO] 20201201 10:03:13.228950 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201201 10:03:13.230183 [Class:Bluetooth][Method:receiver] Called.
+[INFO] 20201201 10:03:13.230354 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201201 10:03:13.227029 [Class:Bluetooth][Method:load_prime_mo] Called.
+[INFO] 20201201 10:03:13.237406 [Class:Bluetooth][Method:monitor] Called.
+[INFO] 20201201 10:03:13.238211 [Class:Bluetooth][Method:connection] Called.
+[NOTICE] 20201201 10:03:13.238658 [Class:Bluetooth][Method:connection] Server socket was created
+[NOTICE] 20201201 10:03:13.276422 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[sensorway], Now[sensorway]
+[INFO] 20201201 10:03:13.821487 [Class:UartRead][Method:setAllThreadOn] Called.
+[INFO] 20201201 10:03:13.822296 [Class:UartRead][Method:receiver] Called.
+[INFO] 20201201 10:03:13.822550 [Class:UartRead][Method:monitor] Called.
+[INFO] 20201201 10:03:13.823298 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:03:13.823587 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:03:13.823812 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:03:14.830961 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:03:14.831778 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:03:14.832342 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:03:15.834729 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:03:15.835636 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:03:15.836214 [Class:FileProcess][Method:getFilePath] Called.
+[NOTICE] 20201201 10:03:16.242439 [Class:Bluetooth][Method:connection] Failed to execute : timed out
+[INFO] 20201201 10:03:16.243348 [Class:Bluetooth][Method:connection] Called.
+[NOTICE] 20201201 10:03:16.244097 [Class:Bluetooth][Method:connection] Server socket was created
+[INFO] 20201201 10:03:16.838596 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:03:16.839405 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:03:16.839967 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:03:17.842350 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:03:17.843181 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:03:17.848380 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:03:18.281941 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201201 10:03:18.282797 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:03:18.283364 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:03:18.283904 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:03:18.284836 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201201 10:03:18.285519 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201201 10:03:18.376403 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[sensorway], Now[sensorway]
+[INFO] 20201201 10:03:18.851245 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:03:18.852168 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:03:18.852962 [Class:FileProcess][Method:getFilePath] Called.
+[NOTICE] 20201201 10:03:19.248151 [Class:Bluetooth][Method:connection] Failed to execute : timed out
+[INFO] 20201201 10:03:19.249125 [Class:Bluetooth][Method:connection] Called.
+[NOTICE] 20201201 10:03:19.249925 [Class:Bluetooth][Method:connection] Server socket was created
+[INFO] 20201201 10:03:19.855785 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:03:19.856546 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:03:19.857035 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:03:20.859263 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:03:20.860096 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:03:20.860658 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:03:21.863039 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:03:21.863873 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:03:21.864426 [Class:FileProcess][Method:getFilePath] Called.
+[NOTICE] 20201201 10:03:22.253793 [Class:Bluetooth][Method:connection] Failed to execute : timed out
+[INFO] 20201201 10:03:22.254693 [Class:Bluetooth][Method:connection] Called.
+[NOTICE] 20201201 10:03:22.255541 [Class:Bluetooth][Method:connection] Server socket was created
+[INFO] 20201201 10:03:22.866984 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:03:22.867808 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:03:22.872865 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:03:23.382284 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201201 10:03:23.383129 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:03:23.383748 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:03:23.384293 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:03:23.385306 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201201 10:03:23.385903 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201201 10:03:23.473475 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[sensorway], Now[sensorway]
+[INFO] 20201201 10:03:23.875379 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:03:23.876153 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:03:23.876645 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:03:24.879116 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:03:24.879945 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:03:24.880498 [Class:FileProcess][Method:getFilePath] Called.
+[NOTICE] 20201201 10:03:25.259533 [Class:Bluetooth][Method:connection] Failed to execute : timed out
+[INFO] 20201201 10:03:25.260470 [Class:Bluetooth][Method:connection] Called.
+[NOTICE] 20201201 10:03:25.261321 [Class:Bluetooth][Method:connection] Server socket was created
+[INFO] 20201201 10:03:25.882876 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:03:25.883609 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:03:25.884081 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:03:26.886365 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:03:26.887107 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:03:26.887588 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:03:27.889804 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:03:27.890567 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:03:27.894824 [Class:FileProcess][Method:getFilePath] Called.
+[NOTICE] 20201201 10:03:28.262432 [Class:Bluetooth][Method:connection] Failed to execute : timed out
+[INFO] 20201201 10:03:28.263210 [Class:Bluetooth][Method:connection] Called.
+[NOTICE] 20201201 10:03:28.263802 [Class:Bluetooth][Method:connection] Server socket was created
+[INFO] 20201201 10:03:28.479518 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201201 10:03:28.480313 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:03:28.480809 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:03:28.481270 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:03:28.482098 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201201 10:03:28.482588 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201201 10:03:28.559115 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[sensorway], Now[sensorway]
+[INFO] 20201201 10:03:28.897310 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:03:28.898218 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:03:28.898817 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:03:29.901561 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:03:29.902011 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:03:29.902251 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:03:30.903936 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:03:30.904780 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:03:30.905455 [Class:FileProcess][Method:getFilePath] Called.
+[NOTICE] 20201201 10:03:31.264877 [Class:Bluetooth][Method:connection] Failed to execute : timed out
+[INFO] 20201201 10:03:31.265641 [Class:Bluetooth][Method:connection] Called.
+[NOTICE] 20201201 10:03:31.266277 [Class:Bluetooth][Method:connection] Server socket was created
+[INFO] 20201201 10:03:31.907880 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:03:31.908732 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:03:31.909295 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:03:32.911702 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:03:32.912561 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:03:32.916754 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:03:33.565047 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201201 10:03:33.565948 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:03:33.566517 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:03:33.567061 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:03:33.567998 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201201 10:03:33.568557 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201201 10:03:33.667298 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[sensorway], Now[sensorway]
+[INFO] 20201201 10:03:33.919436 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:03:33.920329 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:03:33.920905 [Class:FileProcess][Method:getFilePath] Called.
+[NOTICE] 20201201 10:03:34.270048 [Class:Bluetooth][Method:connection] Failed to execute : timed out
+[INFO] 20201201 10:03:34.271097 [Class:Bluetooth][Method:connection] Called.
+[NOTICE] 20201201 10:03:34.271917 [Class:Bluetooth][Method:connection] Server socket was created
+[INFO] 20201201 10:03:34.923694 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:03:34.924533 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:03:34.925093 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:03:35.927597 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:03:35.928459 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:03:35.929020 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:03:36.931408 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:03:36.932226 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:03:36.932784 [Class:FileProcess][Method:getFilePath] Called.
+[NOTICE] 20201201 10:03:37.275849 [Class:Bluetooth][Method:connection] Failed to execute : timed out
+[INFO] 20201201 10:03:37.276791 [Class:Bluetooth][Method:connection] Called.
+[NOTICE] 20201201 10:03:37.277520 [Class:Bluetooth][Method:connection] Server socket was created
+[INFO] 20201201 10:03:37.935198 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:03:37.936035 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:03:37.940346 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:03:38.673620 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201201 10:03:38.674468 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:03:38.675028 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:03:38.675666 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:03:38.676607 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201201 10:03:38.677165 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201201 10:03:38.760385 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[sensorway], Now[sensorway]
+[INFO] 20201201 10:03:38.942893 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:03:38.943790 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:03:38.944366 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:03:39.947227 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:03:39.948066 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:03:39.948626 [Class:FileProcess][Method:getFilePath] Called.
+[NOTICE] 20201201 10:03:40.281550 [Class:Bluetooth][Method:connection] Failed to execute : timed out
+[INFO] 20201201 10:03:40.282571 [Class:Bluetooth][Method:connection] Called.
+[NOTICE] 20201201 10:03:40.283383 [Class:Bluetooth][Method:connection] Server socket was created
+[INFO] 20201201 10:03:40.950995 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:03:40.951875 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:03:40.952499 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:03:41.954946 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:03:41.955893 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:03:41.956454 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:03:42.959018 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:03:42.960280 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:03:42.964513 [Class:FileProcess][Method:getFilePath] Called.
+[NOTICE] 20201201 10:03:43.287329 [Class:Bluetooth][Method:connection] Failed to execute : timed out
+[INFO] 20201201 10:03:43.288311 [Class:Bluetooth][Method:connection] Called.
+[NOTICE] 20201201 10:03:43.289059 [Class:Bluetooth][Method:connection] Server socket was created
+[INFO] 20201201 10:03:43.766538 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201201 10:03:43.767395 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:03:43.767959 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:03:43.768497 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:03:43.769439 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201201 10:03:43.770042 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201201 10:03:43.848233 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[sensorway], Now[sensorway]
+[INFO] 20201201 10:03:43.967110 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:03:43.967813 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:03:43.968253 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:03:44.970620 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:03:44.971454 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:03:44.972023 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:03:45.974410 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:03:45.975326 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:03:45.975896 [Class:FileProcess][Method:getFilePath] Called.
+[NOTICE] 20201201 10:03:46.293127 [Class:Bluetooth][Method:connection] Failed to execute : timed out
+[INFO] 20201201 10:03:46.294275 [Class:Bluetooth][Method:connection] Called.
+[NOTICE] 20201201 10:03:46.295227 [Class:Bluetooth][Method:connection] Server socket was created
+[INFO] 20201201 10:03:46.978276 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:03:46.979089 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:03:46.979650 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:03:47.982048 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:03:47.982901 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:03:47.987424 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:03:48.854181 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201201 10:03:48.855035 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:03:48.855688 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:03:48.856232 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:03:48.857198 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201201 10:03:48.857768 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201201 10:03:48.943525 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[sensorway], Now[sensorway]
+[INFO] 20201201 10:03:48.990002 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:03:48.990648 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:03:48.991039 [Class:FileProcess][Method:getFilePath] Called.
+[NOTICE] 20201201 10:03:49.299344 [Class:Bluetooth][Method:connection] Failed to execute : timed out
+[INFO] 20201201 10:03:49.300431 [Class:Bluetooth][Method:connection] Called.
+[NOTICE] 20201201 10:03:49.301327 [Class:Bluetooth][Method:connection] Server socket was created
+[INFO] 20201201 10:03:49.993337 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:03:49.994179 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:03:49.994734 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:03:50.997284 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:03:50.998166 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:03:50.998727 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:03:52.001091 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:03:52.001925 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:03:52.002480 [Class:FileProcess][Method:getFilePath] Called.
+[NOTICE] 20201201 10:03:52.305353 [Class:Bluetooth][Method:connection] Failed to execute : timed out
+[INFO] 20201201 10:03:52.306330 [Class:Bluetooth][Method:connection] Called.
+[NOTICE] 20201201 10:03:52.307054 [Class:Bluetooth][Method:connection] Server socket was created
+[INFO] 20201201 10:03:53.004842 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:03:53.005764 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:03:53.010171 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:03:53.949479 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201201 10:03:53.950330 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:03:53.950891 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:03:53.951430 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:03:53.952362 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201201 10:03:53.952924 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201201 10:03:54.012948 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:03:54.014439 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:03:54.015071 [Class:FileProcess][Method:getFilePath] Called.
+[NOTICE] 20201201 10:03:54.047160 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[sensorway], Now[sensorway]
+[INFO] 20201201 10:03:55.018295 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:03:55.019157 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:03:55.019789 [Class:FileProcess][Method:getFilePath] Called.
+[NOTICE] 20201201 10:03:55.311081 [Class:Bluetooth][Method:connection] Failed to execute : timed out
+[INFO] 20201201 10:03:55.312101 [Class:Bluetooth][Method:connection] Called.
+[NOTICE] 20201201 10:03:55.312909 [Class:Bluetooth][Method:connection] Server socket was created
+[INFO] 20201201 10:03:56.022230 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:03:56.023070 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:03:56.023702 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:03:57.026083 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:03:57.026926 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:03:57.027513 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:03:58.028901 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:03:58.029755 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:03:58.033759 [Class:FileProcess][Method:getFilePath] Called.
+[NOTICE] 20201201 10:03:58.316844 [Class:Bluetooth][Method:connection] Failed to execute : timed out
+[INFO] 20201201 10:03:58.317813 [Class:Bluetooth][Method:connection] Called.
+[NOTICE] 20201201 10:03:58.318539 [Class:Bluetooth][Method:connection] Server socket was created
+[INFO] 20201201 10:03:59.036427 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:03:59.037254 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:03:59.037811 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:03:59.053700 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201201 10:03:59.054386 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:03:59.054940 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:03:59.055553 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:03:59.056470 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201201 10:03:59.057028 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201201 10:03:59.140816 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[sensorway], Now[sensorway]
+[INFO] 20201201 10:04:00.040277 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:04:00.041172 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:04:00.041749 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:04:01.044418 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:04:01.045350 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:04:01.045933 [Class:FileProcess][Method:getFilePath] Called.
+[NOTICE] 20201201 10:04:01.322580 [Class:Bluetooth][Method:connection] Failed to execute : timed out
+[INFO] 20201201 10:04:01.323588 [Class:Bluetooth][Method:connection] Called.
+[NOTICE] 20201201 10:04:01.324382 [Class:Bluetooth][Method:connection] Server socket was created
+[INFO] 20201201 10:04:02.048296 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:04:02.049111 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:04:02.049665 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:04:03.052035 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:04:03.052849 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:04:03.056834 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:04:04.059290 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:04:04.060094 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:04:04.060645 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:04:04.147010 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201201 10:04:04.147855 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:04:04.148416 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:04:04.148950 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:04:04.149884 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201201 10:04:04.150449 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201201 10:04:04.239237 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[sensorway], Now[sensorway]
+[NOTICE] 20201201 10:04:04.325436 [Class:Bluetooth][Method:connection] Failed to execute : timed out
+[INFO] 20201201 10:04:04.326277 [Class:Bluetooth][Method:connection] Called.
+[NOTICE] 20201201 10:04:04.326909 [Class:Bluetooth][Method:connection] Server socket was created
+[INFO] 20201201 10:04:05.063088 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:04:05.063942 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:04:05.064506 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:04:06.067300 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:04:06.068127 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:04:06.068675 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:04:07.071045 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:04:07.071868 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:04:07.072426 [Class:FileProcess][Method:getFilePath] Called.
+[NOTICE] 20201201 10:04:07.330667 [Class:Bluetooth][Method:connection] Failed to execute : timed out
+[INFO] 20201201 10:04:07.331626 [Class:Bluetooth][Method:connection] Called.
+[NOTICE] 20201201 10:04:07.332350 [Class:Bluetooth][Method:connection] Server socket was created
+[INFO] 20201201 10:04:08.074797 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:04:08.075696 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:04:08.079629 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:04:09.082079 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:04:09.082903 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:04:09.083457 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:04:09.245386 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201201 10:04:09.246229 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:04:09.246791 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:04:09.247326 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:04:09.248257 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201201 10:04:09.248875 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201201 10:04:09.331566 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[sensorway], Now[sensorway]
+[INFO] 20201201 10:04:10.085917 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:04:10.086816 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:04:10.087396 [Class:FileProcess][Method:getFilePath] Called.
+[NOTICE] 20201201 10:04:10.336389 [Class:Bluetooth][Method:connection] Failed to execute : timed out
+[INFO] 20201201 10:04:10.337426 [Class:Bluetooth][Method:connection] Called.
+[NOTICE] 20201201 10:04:10.338233 [Class:Bluetooth][Method:connection] Server socket was created
+[INFO] 20201201 10:04:11.090077 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:04:11.090898 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:04:11.091449 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:04:12.093827 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:04:12.094663 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:04:12.095296 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:04:13.097714 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:04:13.098561 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:04:13.102915 [Class:FileProcess][Method:getFilePath] Called.
+[NOTICE] 20201201 10:04:13.342127 [Class:Bluetooth][Method:connection] Failed to execute : timed out
+[INFO] 20201201 10:04:13.342971 [Class:Bluetooth][Method:connection] Called.
+[NOTICE] 20201201 10:04:13.343704 [Class:Bluetooth][Method:connection] Server socket was created
+[INFO] 20201201 10:04:14.105361 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:04:14.106170 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:04:14.106718 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:04:14.337042 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201201 10:04:14.337877 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:04:14.338438 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:04:14.338976 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:04:14.339905 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201201 10:04:14.340464 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201201 10:04:14.430801 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[sensorway], Now[sensorway]
+[INFO] 20201201 10:04:15.109236 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:04:15.110148 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:04:15.110733 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:04:16.113520 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:04:16.114389 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:04:16.114956 [Class:FileProcess][Method:getFilePath] Called.
+[NOTICE] 20201201 10:04:16.347880 [Class:Bluetooth][Method:connection] Failed to execute : timed out
+[INFO] 20201201 10:04:16.348867 [Class:Bluetooth][Method:connection] Called.
+[NOTICE] 20201201 10:04:16.349642 [Class:Bluetooth][Method:connection] Server socket was created
+[INFO] 20201201 10:04:17.117483 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:04:17.118337 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:04:17.118906 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:04:18.121309 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:04:18.122185 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:04:18.127187 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:04:19.129701 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:04:19.130547 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:04:19.131115 [Class:FileProcess][Method:getFilePath] Called.
+[NOTICE] 20201201 10:04:19.353461 [Class:Bluetooth][Method:connection] Failed to execute : timed out
+[INFO] 20201201 10:04:19.354354 [Class:Bluetooth][Method:connection] Called.
+[NOTICE] 20201201 10:04:19.354995 [Class:Bluetooth][Method:connection] Server socket was created
+[INFO] 20201201 10:04:19.435253 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201201 10:04:19.436005 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:04:19.436491 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:04:19.436955 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:04:19.437764 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201201 10:04:19.438259 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201201 10:04:19.503710 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[sensorway], Now[sensorway]
+[INFO] 20201201 10:04:20.133618 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:04:20.134585 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:04:20.135284 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:04:21.138013 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:04:21.138836 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:04:21.139396 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:04:22.141787 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:04:22.142588 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:04:22.143136 [Class:FileProcess][Method:getFilePath] Called.
+[NOTICE] 20201201 10:04:22.359120 [Class:Bluetooth][Method:connection] Failed to execute : timed out
+[INFO] 20201201 10:04:22.360089 [Class:Bluetooth][Method:connection] Called.
+[NOTICE] 20201201 10:04:22.360981 [Class:Bluetooth][Method:connection] Server socket was created
+[INFO] 20201201 10:04:23.145494 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:04:23.146300 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:04:23.150584 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:04:24.153200 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:04:24.153997 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:04:24.154737 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:04:24.509698 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201201 10:04:24.510554 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:04:24.511122 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:04:24.511658 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:04:24.512595 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201201 10:04:24.513156 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201201 10:04:24.597570 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[sensorway], Now[sensorway]
+[INFO] 20201201 10:04:25.157393 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:04:25.158297 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:04:25.158872 [Class:FileProcess][Method:getFilePath] Called.
+[NOTICE] 20201201 10:04:25.364997 [Class:Bluetooth][Method:connection] Failed to execute : timed out
+[INFO] 20201201 10:04:25.365989 [Class:Bluetooth][Method:connection] Called.
+[NOTICE] 20201201 10:04:25.366844 [Class:Bluetooth][Method:connection] Server socket was created
+[INFO] 20201201 10:04:26.161846 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:04:26.162291 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:04:26.162529 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:04:27.164217 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:04:27.165079 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:04:27.165751 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:04:28.168375 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:04:28.169236 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:04:28.173361 [Class:FileProcess][Method:getFilePath] Called.
+[NOTICE] 20201201 10:04:28.370700 [Class:Bluetooth][Method:connection] Failed to execute : timed out
+[INFO] 20201201 10:04:28.371728 [Class:Bluetooth][Method:connection] Called.
+[NOTICE] 20201201 10:04:28.372456 [Class:Bluetooth][Method:connection] Server socket was created
+[INFO] 20201201 10:04:29.175863 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:04:29.176663 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:04:29.177213 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:04:29.599555 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201201 10:04:29.600395 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:04:29.601029 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:04:29.601716 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:04:29.602824 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201201 10:04:29.603405 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201201 10:04:29.696602 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[sensorway], Now[sensorway]
+[INFO] 20201201 10:04:30.179702 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:04:30.180566 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:04:30.181142 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:04:31.183899 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:04:31.184704 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:04:31.185352 [Class:FileProcess][Method:getFilePath] Called.
+[NOTICE] 20201201 10:04:31.376454 [Class:Bluetooth][Method:connection] Failed to execute : timed out
+[INFO] 20201201 10:04:31.377515 [Class:Bluetooth][Method:connection] Called.
+[NOTICE] 20201201 10:04:31.378333 [Class:Bluetooth][Method:connection] Server socket was created
+[INFO] 20201201 10:04:32.187920 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:04:32.188739 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:04:32.189288 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:04:33.191657 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:04:33.192471 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:04:33.196772 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:04:34.199337 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:04:34.200156 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:04:34.200709 [Class:FileProcess][Method:getFilePath] Called.
+[NOTICE] 20201201 10:04:34.382215 [Class:Bluetooth][Method:connection] Failed to execute : timed out
+[INFO] 20201201 10:04:34.383145 [Class:Bluetooth][Method:connection] Called.
+[NOTICE] 20201201 10:04:34.383865 [Class:Bluetooth][Method:connection] Server socket was created
+[INFO] 20201201 10:04:34.699088 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201201 10:04:34.699905 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:04:34.700477 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:04:34.701088 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:04:34.702160 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201201 10:04:34.702753 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201201 10:04:34.785684 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[sensorway], Now[sensorway]
+[INFO] 20201201 10:04:35.203194 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:04:35.204080 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:04:35.204654 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:04:36.207515 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:04:36.208381 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:04:36.208947 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:04:37.211336 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:04:37.212156 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:04:37.212709 [Class:FileProcess][Method:getFilePath] Called.
+[NOTICE] 20201201 10:04:37.387864 [Class:Bluetooth][Method:connection] Failed to execute : timed out
+[INFO] 20201201 10:04:37.388917 [Class:Bluetooth][Method:connection] Called.
+[NOTICE] 20201201 10:04:37.389726 [Class:Bluetooth][Method:connection] Server socket was created
+[INFO] 20201201 10:04:38.215199 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:04:38.216065 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:04:38.220182 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:04:39.222646 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:04:39.223484 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:04:39.224043 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:04:39.791907 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201201 10:04:39.792765 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:04:39.793521 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:04:39.794065 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:04:39.795003 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201201 10:04:39.796030 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201201 10:04:39.882864 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[sensorway], Now[sensorway]
+[INFO] 20201201 10:04:40.226633 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:04:40.227530 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:04:40.228115 [Class:FileProcess][Method:getFilePath] Called.
+[NOTICE] 20201201 10:04:40.393744 [Class:Bluetooth][Method:connection] Failed to execute : timed out
+[INFO] 20201201 10:04:40.394811 [Class:Bluetooth][Method:connection] Called.
+[NOTICE] 20201201 10:04:40.395720 [Class:Bluetooth][Method:connection] Server socket was created
+[INFO] 20201201 10:04:41.230890 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:04:41.231719 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:04:41.232275 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:04:42.234657 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:04:42.235625 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:04:42.236194 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:04:43.238586 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:04:43.239424 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:04:43.243906 [Class:FileProcess][Method:getFilePath] Called.
+[NOTICE] 20201201 10:04:43.399574 [Class:Bluetooth][Method:connection] Failed to execute : timed out
+[INFO] 20201201 10:04:43.400346 [Class:Bluetooth][Method:connection] Called.
+[NOTICE] 20201201 10:04:43.400968 [Class:Bluetooth][Method:connection] Server socket was created
+[INFO] 20201201 10:04:44.246573 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:04:44.247370 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:04:44.247911 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:04:44.888247 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201201 10:04:44.889104 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:04:44.889672 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:04:44.890216 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:04:44.891152 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201201 10:04:44.891717 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201201 10:04:44.973133 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[sensorway], Now[sensorway]
+[INFO] 20201201 10:04:45.250417 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:04:45.251312 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:04:45.251891 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:04:46.254649 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:04:46.255552 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:04:46.256113 [Class:FileProcess][Method:getFilePath] Called.
+[NOTICE] 20201201 10:04:46.404870 [Class:Bluetooth][Method:connection] Failed to execute : timed out
+[INFO] 20201201 10:04:46.405745 [Class:Bluetooth][Method:connection] Called.
+[NOTICE] 20201201 10:04:46.406446 [Class:Bluetooth][Method:connection] Server socket was created
+[INFO] 20201201 10:04:47.258542 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:04:47.259347 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:04:47.259906 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:04:48.262290 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:04:48.263146 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:04:48.267718 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:04:49.270197 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:04:49.270993 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:04:49.271544 [Class:FileProcess][Method:getFilePath] Called.
+[NOTICE] 20201201 10:04:49.410210 [Class:Bluetooth][Method:connection] Failed to execute : timed out
+[INFO] 20201201 10:04:49.411084 [Class:Bluetooth][Method:connection] Called.
+[NOTICE] 20201201 10:04:49.411811 [Class:Bluetooth][Method:connection] Server socket was created
+[INFO] 20201201 10:04:49.979089 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201201 10:04:49.979951 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:04:49.980523 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:04:49.981070 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:04:49.982013 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201201 10:04:49.982581 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201201 10:04:50.070876 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[sensorway], Now[sensorway]
+[INFO] 20201201 10:04:50.274033 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:04:50.274902 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:04:50.275576 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:04:51.278380 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:04:51.279203 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:04:51.279763 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:04:52.282142 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:04:52.282970 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:04:52.283530 [Class:FileProcess][Method:getFilePath] Called.
+[NOTICE] 20201201 10:04:52.415786 [Class:Bluetooth][Method:connection] Failed to execute : timed out
+[INFO] 20201201 10:04:52.416735 [Class:Bluetooth][Method:connection] Called.
+[NOTICE] 20201201 10:04:52.417537 [Class:Bluetooth][Method:connection] Server socket was created
+[INFO] 20201201 10:04:53.286105 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:04:53.286914 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:04:53.291054 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:04:54.293473 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:04:54.294283 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:04:54.294837 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:04:55.076816 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201201 10:04:55.077707 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:04:55.078423 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:04:55.079003 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:04:55.079931 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201201 10:04:55.080489 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201201 10:04:55.176993 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[sensorway], Now[sensorway]
+[INFO] 20201201 10:04:55.297428 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:04:55.298230 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:04:55.298737 [Class:FileProcess][Method:getFilePath] Called.
+[NOTICE] 20201201 10:04:55.421539 [Class:Bluetooth][Method:connection] Failed to execute : timed out
+[INFO] 20201201 10:04:55.422488 [Class:Bluetooth][Method:connection] Called.
+[NOTICE] 20201201 10:04:55.423295 [Class:Bluetooth][Method:connection] Server socket was created
+[INFO] 20201201 10:04:56.301393 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:04:56.302251 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:04:56.302801 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:04:57.305300 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:04:57.306136 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:04:57.306683 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:04:58.309070 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:04:58.309919 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:04:58.314155 [Class:FileProcess][Method:getFilePath] Called.
+[NOTICE] 20201201 10:04:58.427158 [Class:Bluetooth][Method:connection] Failed to execute : timed out
+[INFO] 20201201 10:04:58.428065 [Class:Bluetooth][Method:connection] Called.
+[NOTICE] 20201201 10:04:58.428839 [Class:Bluetooth][Method:connection] Server socket was created
+[INFO] 20201201 10:04:59.316689 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:04:59.317536 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:04:59.318092 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:05:00.182898 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201201 10:05:00.183735 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:05:00.184296 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:05:00.184833 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:05:00.185876 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201201 10:05:00.186443 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201201 10:05:00.271064 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[sensorway], Now[sensorway]
+[INFO] 20201201 10:05:00.320518 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:05:00.321236 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:05:00.321679 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:05:01.324097 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:05:01.324945 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:05:01.325620 [Class:FileProcess][Method:getFilePath] Called.
+[NOTICE] 20201201 10:05:01.432813 [Class:Bluetooth][Method:connection] Failed to execute : timed out
+[INFO] 20201201 10:05:01.433769 [Class:Bluetooth][Method:connection] Called.
+[NOTICE] 20201201 10:05:01.434569 [Class:Bluetooth][Method:connection] Server socket was created
+[INFO] 20201201 10:05:02.328077 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:05:02.328966 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:05:02.329559 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:05:03.331968 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:05:03.332828 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:05:03.337260 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:05:04.339750 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:05:04.340599 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:05:04.341166 [Class:FileProcess][Method:getFilePath] Called.
+[NOTICE] 20201201 10:05:04.438555 [Class:Bluetooth][Method:connection] Failed to execute : timed out
+[INFO] 20201201 10:05:04.439453 [Class:Bluetooth][Method:connection] Called.
+[NOTICE] 20201201 10:05:04.440174 [Class:Bluetooth][Method:connection] Server socket was created
+[INFO] 20201201 10:05:05.277075 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201201 10:05:05.277906 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:05:05.278466 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:05:05.279649 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:05:05.280629 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201201 10:05:05.281198 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201201 10:05:05.343899 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:05:05.345638 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:05:05.346307 [Class:FileProcess][Method:getFilePath] Called.
+[NOTICE] 20201201 10:05:05.372490 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[sensorway], Now[sensorway]
+[INFO] 20201201 10:05:06.350374 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:05:06.351280 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:05:06.351863 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:05:07.354263 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:05:07.355094 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:05:07.355796 [Class:FileProcess][Method:getFilePath] Called.
+[NOTICE] 20201201 10:05:07.444143 [Class:Bluetooth][Method:connection] Failed to execute : timed out
+[INFO] 20201201 10:05:07.445084 [Class:Bluetooth][Method:connection] Called.
+[NOTICE] 20201201 10:05:07.446015 [Class:Bluetooth][Method:connection] Server socket was created
+[INFO] 20201201 10:05:08.358222 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:05:08.359104 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:05:08.363226 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:05:09.365700 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:05:09.366545 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:05:09.367110 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:05:10.369514 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:05:10.370361 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:05:10.370923 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:05:10.378067 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201201 10:05:10.378756 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:05:10.379312 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:05:10.379846 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:05:10.380754 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201201 10:05:10.381310 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201201 10:05:10.450306 [Class:Bluetooth][Method:connection] Failed to execute : timed out
+[INFO] 20201201 10:05:10.452190 [Class:Bluetooth][Method:connection] Called.
+[NOTICE] 20201201 10:05:10.460880 [Class:Bluetooth][Method:connection] Server socket was created
+[NOTICE] 20201201 10:05:10.473516 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[sensorway], Now[sensorway]
+[INFO] 20201201 10:05:11.373400 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:05:11.374305 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:05:11.374879 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:05:12.377710 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:05:12.378551 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:05:12.379101 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:05:13.381465 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:05:13.382295 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:05:13.386723 [Class:FileProcess][Method:getFilePath] Called.
+[NOTICE] 20201201 10:05:13.463228 [Class:Bluetooth][Method:connection] Failed to execute : timed out
+[INFO] 20201201 10:05:13.464140 [Class:Bluetooth][Method:connection] Called.
+[NOTICE] 20201201 10:05:13.464930 [Class:Bluetooth][Method:connection] Server socket was created
+[INFO] 20201201 10:05:14.389185 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:05:14.390020 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:05:14.390575 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:05:15.393021 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:05:15.393862 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:05:15.394418 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:05:15.479135 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201201 10:05:15.479983 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:05:15.480598 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:05:15.481201 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:05:15.482186 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201201 10:05:15.482746 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201201 10:05:15.569081 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[sensorway], Now[sensorway]
+[INFO] 20201201 10:05:16.396998 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:05:16.397799 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:05:16.398308 [Class:FileProcess][Method:getFilePath] Called.
+[NOTICE] 20201201 10:05:16.469147 [Class:Bluetooth][Method:connection] Failed to execute : timed out
+[INFO] 20201201 10:05:16.470132 [Class:Bluetooth][Method:connection] Called.
+[NOTICE] 20201201 10:05:16.470947 [Class:Bluetooth][Method:connection] Server socket was created
+[INFO] 20201201 10:05:17.400795 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:05:17.401637 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:05:17.402200 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:05:18.404598 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:05:18.405513 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:05:18.409730 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:05:19.412195 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:05:19.413033 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:05:19.413589 [Class:FileProcess][Method:getFilePath] Called.
+[NOTICE] 20201201 10:05:19.474828 [Class:Bluetooth][Method:connection] Failed to execute : timed out
+[INFO] 20201201 10:05:19.475822 [Class:Bluetooth][Method:connection] Called.
+[NOTICE] 20201201 10:05:19.476568 [Class:Bluetooth][Method:connection] Server socket was created
+[INFO] 20201201 10:05:20.415984 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:05:20.416833 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:05:20.417403 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:05:20.575225 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201201 10:05:20.576078 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:05:20.576648 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:05:20.577193 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:05:20.578131 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201201 10:05:20.578693 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201201 10:05:20.658614 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[sensorway], Now[sensorway]
+[INFO] 20201201 10:05:21.419920 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:05:21.420827 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:05:21.421411 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:05:22.424207 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:05:22.425090 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:05:22.425757 [Class:FileProcess][Method:getFilePath] Called.
+[NOTICE] 20201201 10:05:22.480554 [Class:Bluetooth][Method:connection] Failed to execute : timed out
+[INFO] 20201201 10:05:22.481543 [Class:Bluetooth][Method:connection] Called.
+[NOTICE] 20201201 10:05:22.482362 [Class:Bluetooth][Method:connection] Server socket was created
+[INFO] 20201201 10:05:23.428183 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:05:23.429044 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:05:23.433376 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:05:24.435921 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:05:24.436756 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:05:24.437318 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:05:25.439719 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:05:25.440547 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:05:25.441097 [Class:FileProcess][Method:getFilePath] Called.
+[NOTICE] 20201201 10:05:25.485364 [Class:Bluetooth][Method:connection] Failed to execute : timed out
+[INFO] 20201201 10:05:25.486295 [Class:Bluetooth][Method:connection] Called.
+[NOTICE] 20201201 10:05:25.487036 [Class:Bluetooth][Method:connection] Server socket was created
+[INFO] 20201201 10:05:25.664532 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201201 10:05:25.665244 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:05:25.665684 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:05:25.666092 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:05:25.666805 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201201 10:05:25.667232 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201201 10:05:25.741610 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[sensorway], Now[sensorway]
+[INFO] 20201201 10:05:26.443595 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:05:26.444506 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:05:26.445090 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:05:27.447993 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:05:27.448832 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:05:27.449392 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:05:28.451790 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:05:28.452655 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:05:28.457083 [Class:FileProcess][Method:getFilePath] Called.
+[NOTICE] 20201201 10:05:28.491028 [Class:Bluetooth][Method:connection] Failed to execute : timed out
+[INFO] 20201201 10:05:28.491999 [Class:Bluetooth][Method:connection] Called.
+[NOTICE] 20201201 10:05:28.492834 [Class:Bluetooth][Method:connection] Server socket was created
+[INFO] 20201201 10:05:29.459590 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:05:29.460392 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:05:29.460937 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:05:30.463305 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:05:30.464113 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:05:30.464660 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:05:30.747588 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201201 10:05:30.748436 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:05:30.749002 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:05:30.749541 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:05:30.750498 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201201 10:05:30.751058 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201201 10:05:30.849174 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[sensorway], Now[sensorway]
+[INFO] 20201201 10:05:31.467236 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:05:31.468108 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:05:31.468688 [Class:FileProcess][Method:getFilePath] Called.
+[NOTICE] 20201201 10:05:31.496827 [Class:Bluetooth][Method:connection] Failed to execute : timed out
+[INFO] 20201201 10:05:31.497812 [Class:Bluetooth][Method:connection] Called.
+[NOTICE] 20201201 10:05:31.498613 [Class:Bluetooth][Method:connection] Server socket was created
+[INFO] 20201201 10:05:32.471415 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:05:32.472237 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:05:32.472845 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:05:33.475224 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:05:33.476023 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:05:33.480133 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:05:34.482599 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:05:34.483390 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:05:34.483956 [Class:FileProcess][Method:getFilePath] Called.
+[NOTICE] 20201201 10:05:34.502465 [Class:Bluetooth][Method:connection] Failed to execute : timed out
+[INFO] 20201201 10:05:34.503352 [Class:Bluetooth][Method:connection] Called.
+[NOTICE] 20201201 10:05:34.504068 [Class:Bluetooth][Method:connection] Server socket was created
+[INFO] 20201201 10:05:35.486455 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:05:35.487246 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:05:35.487790 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:05:35.855247 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201201 10:05:35.855845 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:05:35.856192 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:05:35.856520 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:05:35.857104 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201201 10:05:35.857449 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201201 10:05:35.913055 [Class:Bluetooth][Method:connection] ('50:77:05:43:DF:98', 1) was successfully connected to SmartBed
+[INFO] 20201201 10:05:35.914318 [Class:Bluetooth][Method:load_receiver] Called.
+[NOTICE] 20201201 10:05:35.915092 [Class:Bluetooth][Method:connection] Failed to execute : asyncio.run() cannot be called from a running event loop
+[NOTICE] 20201201 10:05:35.952109 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[sensorway], Now[sensorway]
+[INFO] 20201201 10:05:36.495237 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:05:36.495696 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:05:36.495933 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:05:37.502703 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:05:37.503116 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:05:37.503349 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:05:38.510032 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:05:38.510448 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:05:38.510679 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:05:39.517414 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:05:39.517876 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:05:39.518111 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:05:40.524791 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:05:40.525281 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:05:40.525519 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:05:40.993697 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201201 10:05:41.034932 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:05:41.055654 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:05:41.081481 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:05:41.127956 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201201 10:05:41.158802 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201201 10:05:41.296792 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[sensorway], Now[sensorway]
+[INFO] 20201201 10:05:41.532257 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:05:41.532702 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:05:41.532941 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:05:42.539807 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:05:42.540267 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:05:42.540503 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:05:43.547202 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:05:43.547630 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:05:43.547860 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:05:44.554547 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:05:44.554976 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:05:44.565419 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:05:45.628358 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:05:45.669572 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:05:45.695405 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:05:46.348331 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201201 10:05:46.348770 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:05:46.369442 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:05:46.400586 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:05:46.457391 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201201 10:05:46.498661 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201201 10:05:46.648514 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[sensorway], Now[sensorway]
+[INFO] 20201201 10:05:46.758462 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:05:46.794614 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:05:46.841042 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:05:47.899242 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:05:47.899678 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:05:47.899916 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:05:48.906816 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:05:48.943918 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:05:48.964647 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:05:50.022405 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:05:50.022842 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:05:50.023081 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:05:51.029870 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:05:51.071336 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:05:51.102942 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:05:51.689784 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201201 10:05:51.725810 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:05:51.761984 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:05:51.787840 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:05:51.855521 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201201 10:05:51.886510 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201201 10:05:52.020908 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[sensorway], Now[sensorway]
+[INFO] 20201201 10:05:52.161444 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:05:52.198422 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:05:52.219165 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:05:53.282582 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:05:53.313673 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:05:53.339518 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:05:54.392552 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:05:54.413440 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:05:54.439243 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:05:55.517700 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:05:55.559250 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:05:55.590257 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:05:56.664308 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:05:56.685267 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:05:56.716226 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:05:57.067426 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201201 10:05:57.067899 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:05:57.103904 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:05:57.129921 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:05:57.186608 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201201 10:05:57.212458 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201201 10:05:57.340428 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[sensorway], Now[sensorway]
+[INFO] 20201201 10:05:57.771844 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:05:57.803014 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:05:57.839201 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:05:58.898408 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:05:58.934721 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:05:58.975908 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:06:00.059303 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:06:00.085321 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:06:00.111192 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:06:01.191635 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:06:01.227852 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:06:01.263928 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:06:02.343384 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:06:02.369247 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201201 10:06:02.384876 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:06:02.395438 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:06:02.411311 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:06:02.421785 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:06:02.453042 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:06:02.494635 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201201 10:06:02.535798 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201201 10:06:02.680226 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[sensorway], Now[sensorway]
+[INFO] 20201201 10:06:03.470250 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:06:03.501334 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:06:03.537470 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:06:04.601508 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:06:04.632538 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:06:04.663529 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:06:05.721537 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:06:05.752875 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:06:05.804377 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:06:06.872954 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:06:06.873416 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:06:06.873736 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:06:07.730297 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201201 10:06:07.730778 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:06:07.753133 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:06:07.802546 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:06:07.882306 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:06:07.908896 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:06:07.926500 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:06:07.876913 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201201 10:06:07.928202 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201201 10:06:08.003839 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[sensorway], Now[sensorway]
+[INFO] 20201201 10:06:08.933973 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:06:08.934497 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:06:08.950513 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:06:09.962988 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:06:09.963670 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:06:09.964317 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:06:10.971467 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:06:10.971960 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:06:10.972376 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:06:11.989893 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:06:11.990374 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:06:11.990719 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:06:13.013017 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201201 10:06:13.023723 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:06:13.050114 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:06:13.092161 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:06:13.129097 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:06:13.123704 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:06:13.176500 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:06:13.271460 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201201 10:06:13.318340 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201201 10:06:13.472810 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[sensorway], Now[sensorway]
+[INFO] 20201201 10:06:14.251542 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:06:14.303360 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:06:14.355200 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:06:15.425017 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:06:15.472144 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:06:15.514198 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:06:16.599067 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:06:16.646094 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:06:16.693140 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:06:17.752132 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:06:17.794278 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:06:17.841119 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:06:18.530136 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201201 10:06:18.577124 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:06:18.619762 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:06:18.666575 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:06:18.740266 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201201 10:06:18.782075 [Class:WifiNT][Method:getSubpro] Called.
+[INFO] 20201201 10:06:18.919198 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:06:18.946900 [Class:FileProcess][Method:isFileExist] Called.
+[NOTICE] 20201201 10:06:18.946245 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[sensorway], Now[sensorway]
+[INFO] 20201201 10:06:18.951348 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:06:19.968116 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:06:19.999837 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:06:20.043869 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:06:21.120321 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:06:21.173542 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:06:21.215246 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:06:22.278241 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:06:22.325065 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:06:22.335399 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:06:23.344640 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:06:23.381367 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:06:23.423142 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:06:23.961759 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201201 10:06:24.016744 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:06:24.072909 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:06:24.103974 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:06:24.166107 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201201 10:06:24.203793 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201201 10:06:24.446536 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[sensorway], Now[sensorway]
+[INFO] 20201201 10:06:24.515307 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:06:24.526528 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:06:24.527073 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:06:25.533939 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:06:25.581029 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:06:25.617949 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:06:26.724963 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:06:26.766956 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:06:26.811515 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:06:27.896586 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:06:27.949429 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:06:27.997365 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:06:29.099140 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:06:29.151774 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:06:29.204417 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:06:29.455875 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201201 10:06:29.515974 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:06:29.568427 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:06:29.626926 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:06:29.711059 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201201 10:06:29.758570 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201201 10:06:29.940188 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[sensorway], Now[sensorway]
+[INFO] 20201201 10:06:30.316758 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:06:30.317867 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:06:30.318448 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:06:31.326062 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:06:31.326678 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:06:31.327152 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:06:32.334337 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:06:32.334986 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:06:32.335595 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:06:33.343012 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:06:33.343581 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:06:33.344072 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:06:34.350434 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:06:34.365064 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:06:34.365554 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:06:34.950327 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201201 10:06:34.950867 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:06:34.951340 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:06:34.951786 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:06:34.952547 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201201 10:06:34.952992 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201201 10:06:35.046165 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[sensorway], Now[sensorway]
+[INFO] 20201201 10:06:35.372714 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:06:35.373418 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:06:35.374008 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:06:36.381510 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:06:36.382005 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:06:36.382425 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:06:37.389480 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:06:37.389995 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:06:37.390387 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:06:38.397419 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:06:38.398034 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:06:38.398426 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:06:39.405498 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:06:39.406127 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:06:39.406668 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:06:40.057068 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201201 10:06:40.057640 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:06:40.058009 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:06:40.058440 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:06:40.059169 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201201 10:06:40.059579 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201201 10:06:40.165452 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[sensorway], Now[sensorway]
+[INFO] 20201201 10:06:40.412480 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:06:40.413208 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:06:40.413704 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:06:41.418641 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:06:41.419380 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:06:41.419874 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:06:42.427037 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:06:42.427610 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:06:42.428096 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:06:43.435318 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:06:43.435940 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:06:43.436478 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:06:44.443655 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:06:44.444086 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:06:44.444323 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:06:45.173370 [Class:WifiNT][Method:loadFiles] Called.
+[INFO] 20201201 10:06:45.184105 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:06:45.184514 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:06:45.184880 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:06:45.185709 [Class:WifiNT][Method:getConSSID] Called.
+[INFO] 20201201 10:06:45.186273 [Class:WifiNT][Method:getSubpro] Called.
+[NOTICE] 20201201 10:06:45.236498 [Class:WifiNT][Method:monitor] Current Wifi info Setting. Before[sensorway], Now[sensorway]
+[INFO] 20201201 10:06:45.450394 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:06:45.497289 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:06:45.539554 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:06:46.613583 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:06:46.639586 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:06:46.675589 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201201 10:06:47.718250 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201201 10:06:47.751795 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201201 10:06:47.752381 [Class:FileProcess][Method:getFilePath] Called.
