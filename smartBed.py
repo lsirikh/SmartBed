@@ -65,7 +65,6 @@ class SmartBed:
         self.statusWorkflow = None
         self.threadWorkflow = None
 
-
         # statusIndex
         self.statusIdex = 0
 
@@ -176,7 +175,6 @@ class SmartBed:
 
     async def async_sending(self, range):
         api = AsyncHttp()
-
         await api.send_data_with_range(range)
 
         # tasks = [api.send_data_with_range(range)]
@@ -307,7 +305,7 @@ class SmartBed:
                 await asyncio.sleep(0.1)
                 #time.sleep(0.1)
             except Exception as ex:
-                print(ex)
+                #print(ex)
                 pass
 
 

@@ -107,15 +107,16 @@ class BluetoothctlAsync:
                 res = await self.child.expect(pattern, timeout=2, async_=True)
                 #print(res)
                 if res == 0 or res == 1:
-                    # await asyncio.sleep(1)
                     self.state = StateType.READY.name
                     await self.get_agent_output("agent on", 1)
 
-                    # await asyncio.sleep(1)
                     self.state = StateType.SET_DEFUALT_DEVICE.name
                     await self.get_agent_output("default-agent", 1)
 
                 elif res == 2:
+                    # bluetooth discoverable on
+                    await self.get_agent_output("discoverable on", 1)
+
                     self.state = StateType.REQUEST_PAIRED_DEVICES.name
                     self.paired_devices = await self.get_paired_devices()
                     if len(self.paired_devices) > 0:

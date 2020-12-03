@@ -116,6 +116,8 @@ class BluetoothctlAsync:
                     await self.get_agent_output("default-agent", 1)
 
                 elif res == 2:
+                    await self.get_agent_output("discoverable on", 1)
+
                     self.state = StateType.REQUEST_PAIRED_DEVICES.name
                     self.paired_devices = await self.get_paired_devices()
                     if len(self.paired_devices) > 0:
