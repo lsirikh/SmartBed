@@ -319,14 +319,14 @@ class BluetoothctlAsync:
 class Bluetooth(MonitorClass):
 #class BTReceive():
     def __init__(self):
-        super().setBTStatus(False)
+        super().set_bt_status(False)
 
-        self.receiverStatus = False
-        self.monitorStatus = False
-        self.hearingStatus = False
+        self.receiver_status = False
+        self.monitor_status = False
+        self.hearing_status = False
 
-        self.threadReceive = None
-        self.threadMonitor = None
+        self.thread_receive = None
+        self.thread_monitor = None
         self.threadHearing = None
 
         self.server_sock = None
@@ -354,13 +354,11 @@ class Bluetooth(MonitorClass):
             #bl.async_loading()
         ]
 
-
-
     def initialize(self):
-        self.setBTStatus(True)
+        self.set_bt_status(True)
 
         self.pair()
-        self.setAllThreadOn()
+        self.set_all_thread_on()
 
     def load_hearing(self):
         self.bl.hearing_cmd = True
@@ -409,28 +407,28 @@ class Bluetooth(MonitorClass):
             self.log.write(self.log.ERROR, self.connection.__name__, "Failed to execute : {0}".format(ex))
             #print("Failed to open or bind client_sock", ex)
 
-    def setAllThreadOn(self):
-        self.log.write(self.log.INFO, self.setAllThreadOn.__name__, "Called.")
+    def set_all_thread_on(self):
+        self.log.write(self.log.INFO, self.set_all_thread_on.__name__, "Called.")
         try:
             # Temporally Set Ready Baseline at this point
-            self.setBTStatus(True)
+            self.set_bt_status(True)
 
-            self.threadReceive = Thread(target=self.receiver)
-            self.threadMonitor = Thread(target=self.monitor)
-            self.threadBlCtl = Thread(target=self.load_hearing)
-            self.threadReceive.daemon = False
-            self.threadMonitor.daemon = False
-            self.threadBlCtl.daemon = False
-            self.receiverStatus = True
-            self.monitorStatus = True
-            self.hearingStatus = True
+            self.thread_receive = Thread(target=self.receiver)
+            self.thread_monitor = Thread(target=self.monitor)
+            self.thread_bluetoothctl = Thread(target=self.load_hearing)
+            self.thread_receive.daemon = False
+            self.thread_monitor.daemon = False
+            self.thread_bluetoothctl.daemon = False
+            self.receiver_status = True
+            self.monitor_status = True
+            self.hearing_status = True
 
-            self.threadReceive.start()
-            self.threadMonitor.start()
-            self.threadBlCtl.start()
+            self.thread_receive.start()
+            self.thread_monitor.start()
+            self.thread_bluetoothctl.start()
 
         except Exception as ex:
-            self.log.write(self.log.ERROR, self.setAllThreadOn.__name__, "Failed to execute : {0}".format(ex))
+            self.log.write(self.log.ERROR, self.set_all_thread_on.__name__, "Failed to execute : {0}".format(ex))
             print("Failed to assign or start threadReceive, threadMonitor.")
 
     def bluetoothReConnect(self):
@@ -448,11 +446,11 @@ class Bluetooth(MonitorClass):
     def setReceiveThreadOn(self):
         self.log.write(self.log.INFO, self.setReceiveThreadOn.__name__, "Called.")
         try:
-            self.threadReceive = Thread(target=self.receiver)
-            self.threadReceive.daemon = False
-            self.receiverStatus = True
-            self.setBTStatus(True)
-            self.threadReceive.start()
+            self.thread_receive = Thread(target=self.receiver)
+            self.thread_receive.daemon = False
+            self.receiver_status = True
+            self.set_bt_status(True)
+            self.thread_receive.start()
 
         except Exception as ex:
             self.log.write(self.log.ERROR, self.setReceiveThreadOn.__name__, "Failed to execute : {0}".format(ex))
@@ -460,11 +458,11 @@ class Bluetooth(MonitorClass):
 
     def monitor(self):
         self.log.write(self.log.INFO, self.monitor.__name__, "Called.")
-        while self.monitorStatus:
+        while self.monitor_status:
             # print(self.threadReceive.is_alive())
 
-            if self.threadReceive.is_alive() is False:
-                self.setBTStatus(False)
+            if self.thread_receive.is_alive() is False:
+                self.set_bt_status(False)
                 self.log.write(self.log.NOTICE, self.monitor.__name__, "threadReceive was terminated and will re-initiate.")
                 #print("threadReceive was terminated.")
                 #print("threadReceive will re-initiate.")
@@ -476,7 +474,7 @@ class Bluetooth(MonitorClass):
         self.log.write(self.log.INFO, self.receiver.__name__, "Called.")
         self.connection()
         try:
-            while self.receiverStatus:
+            while self.receiver_status:
                 # Waiting for data from Android until received
                 # unlimited wait
                 data = self.client_sock.recv(1024)
@@ -590,25 +588,25 @@ class Bluetooth(MonitorClass):
 
     def finish(self):
         self.log.write(self.log.INFO, self.finish.__name__, "Called.")
-        self.monitorStatus = False
-        self.receiverStatus = False
+        self.monitor_status = False
+        self.receiver_status = False
         self.bl.hearing_cmd = False
         result = self.closeSock()
 
-        self.setBTStatus(False)
+        self.set_bt_status(False)
         if result:
             self.log.write(self.log.NOTICE, self.finish.__name__, "Bluetooth sockets were successfully closed.")
             print("Bluetooth sockets were successfully closed.")
         time.sleep(1)
 
         try:
-            if self.threadReceive.is_alive():
-                self.threadReceive.join()
+            if self.thread_receive.is_alive():
+                self.thread_receive.join()
                 self.log.write(self.log.NOTICE, self.finish.__name__, "Bluetooth threadReceive was successfully finished")
                 print("Bluetooth threadReceive was successfully finished")
 
-            if self.threadMonitor.is_alive():
-                self.threadMonitor.join()
+            if self.thread_monitor.is_alive():
+                self.thread_monitor.join()
                 self.log.write(self.log.NOTICE, self.finish.__name__, "Bluetooth threadMonitor was successfully finished")
                 print("Bluetooth threadMonitor was successfully finished")
 

@@ -20,7 +20,7 @@ class MonitorClass:
     def getWifiStatus(self):
         return self.wifiStatus
 
-    def setBTStatus(self, flag):
+    def set_bt_status(self, flag):
         if flag:
             self.btStatus = True
         else:

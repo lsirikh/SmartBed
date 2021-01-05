@@ -31,7 +31,7 @@ SPEED10 = 's10'  # 1000ms
 DEVICE_PORT = "/dev/ttyAMA1" # set device serial port
 
 
-class UartRead(MonitorClass):
+class Uart(MonitorClass):
 
     def __init__(self):
         super().setUartStatus(False)

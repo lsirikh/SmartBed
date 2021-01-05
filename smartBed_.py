@@ -5,8 +5,8 @@ import sys
 import multiprocessing
 
 from api_bg import AsyncHttp
-from bt import Bluetooth
-#from bluetooth_network import Bluetooth
+#from bt import Bluetooth
+from bluetooth_network import Bluetooth
 
 from uart import *
 from wifi_network import Wifi
@@ -20,14 +20,6 @@ class SmartBed:
         # MonitorClass init
         self.monitor = MonitorClass()
 
-        #multiprocess
-        self.func_list = [
-            'initBT',
-            'initUart',
-            'initWifi',
-            'loadExp',
-            'loading'
-        ]
         self.pool = None
 
         #FileProcess class was created
@@ -35,11 +27,18 @@ class SmartBed:
         #self.uartThread = None
         self.file = FileProcess()
 
+        #Class Variables
+        self.bt = None
+        self.uart = None
+        self.wifi = None
+
+        self.threadPool = []
+
         #UartData class was created
         self.statusUart = None
         self.threadUart = None
         self.mProcessUart = False
-        self.uart = None
+
 
         #Logs class was created
         self.logStatus = None
@@ -50,7 +49,7 @@ class SmartBed:
         self.statusBT = None
         self.threadBT = None
         self.mProcessBT = False
-        self.bt = None
+
 
         #WifiNT class was created
         self.statusWifi = None
@@ -67,97 +66,80 @@ class SmartBed:
         self.threadWorkflow = None
 
         # statusIndex
-        self.statusIndex = 0
+        self.statusIdex = 0
 
 
 
-    def initWifi(self):
-        self.log.write(self.log.INFO, self.initWifi.__name__, "Called.")
-        try:
-            self.wifi = Wifi()
-            self.wifi.initialize()
-        except Exception as ex:
-            self.log.write(self.log.ERROR, self.initWifi.__name__, "Failed to execute : {0}".format(ex))
+    # def initWifi(self):
+    #     self.log.write(self.log.INFO, self.initWifi.__name__, "Called.")
+    #     try:
+    #         self.wifi = WifiNT()
+    #         self.wifi.initialize()
+    #     except Exception as ex:
+    #         self.log.write(self.log.ERROR, self.initWifi.__name__, "Failed to execute : {0}".format(ex))
+    #
+    # def initBT(self):
+    #     self.log.write(self.log.INFO, self.initBT.__name__, "Called.")
+    #     try:
+    #         self.bt = Bluetooth()
+    #         self.bt.initialize()
+    #     except Exception as ex:
+    #         self.log.write(self.log.ERROR, self.initBT.__name__, "Failed to execute : {0}".format(ex))
+    #
+    # def initUart(self):
+    #     self.log.write(self.log.INFO, self.initUart.__name__, "Called.")
+    #     try:
+    #         self.uart = UartRead()
+    #         self.uart.initialize()
+    #     except Exception as ex:
+    #         self.log.write(self.log.ERROR, self.initUart.__name__, "Failed to execute : {0}".format(ex))
 
-    def initBT(self):
-        self.log.write(self.log.INFO, self.initBT.__name__, "Called.")
-        try:
-            self.bt = Bluetooth()
-            self.bt.initialize()
-        except Exception as ex:
-            self.log.write(self.log.ERROR, self.initBT.__name__, "Failed to execute : {0}".format(ex))
 
-    def initUart(self):
-        self.log.write(self.log.INFO, self.initUart.__name__, "Called.")
-        try:
-            self.uart = Uart()
-            self.uart.initialize()
-        except Exception as ex:
-            self.log.write(self.log.ERROR, self.initUart.__name__, "Failed to execute : {0}".format(ex))
+    # def setAllThreadOn(self):
+    #     self.log.write(self.log.INFO, self.setAllThreadOn.__name__, "Called.")
+    #     try:
+    #         #Set thread environment
+    #         self.threadUart = Thread(target=self.initUart)
+    #         self.threadUart.daemon = False
+    #         self.statusUart = True
+    #
+    #         self.threadBT = Thread(target=self.initBT)
+    #         self.threadBT.daemon = False
+    #         self.statusBT = True
+    #
+    #         self.threadWifi = Thread(target=self.initWifi)
+    #         self.threadWifi.daemon = False
+    #         self.statusWifi = True
+    #
+    #         self.threadWorkflow = Thread(target=self.workFlow)
+    #         self.threadWifi.daemon = False
+    #         self.statusWorkflow = True
+    #
+    #         self.threadLoadingExp = Thread(target=self.loadExp)
+    #         self.threadLoadingExp.daemon = False
+    #         self.statusLoadingExp = True
+    #
+    #         #Start threads
+    #         self.threadBT.start()
+    #         self.threadUart.start()
+    #         self.threadWifi.start()
+    #         self.threadLoadingExp.start()
+    #
+    #     except Exception as ex:
+    #         print(ex)
+    #         self.log.write(self.log.ERROR, self.setAllThreadOn.__name__, "Failed to execute : {0}".format(ex))
 
-
-    def setAllThreadOn(self):
-        self.log.write(self.log.INFO, self.setAllThreadOn.__name__, "Called.")
-        try:
-            #Set thread environment
-            self.threadUart = Thread(target=self.initUart)
-            self.threadUart.daemon = False
-            self.statusUart = True
-
-            self.threadBT = Thread(target=self.initBT)
-            self.threadBT.daemon = False
-            self.statusBT = True
-
-            self.threadWifi = Thread(target=self.initWifi)
-            self.threadWifi.daemon = False
-            self.statusWifi = True
-
-            self.threadWorkflow = Thread(target=self.workFlow)
-            self.threadWifi.daemon = False
-            self.statusWorkflow = True
-
-            self.threadLoadingExp = Thread(target=self.loadExp)
-            self.threadLoadingExp.daemon = False
-            self.statusLoadingExp = True
-
-            #Start threads
-            self.threadBT.start()
-            self.threadUart.start()
-            self.threadWifi.start()
-            self.threadLoadingExp.start()
-
-        except Exception as ex:
-            print(ex)
-            self.log.write(self.log.ERROR, self.setAllThreadOn.__name__, "Failed to execute : {0}".format(ex))
-
-    def close(self):
-
-        #uartWrite.finish()
-        if self.bt.finish() and self.uart.finish():
-            print("all threads were finished.")
-            sys.exit()
+    # def close(self):
+    #
+    #     #uartWrite.finish()
+    #     if self.bt.finish() and self.uart.finish():
+    #         print("all threads were finished.")
+    #         sys.exit()
 
     def mutex(self):
         filename = sys.argv[0].split('/')[-1].split('.')[0]
-        out = self.getSubpro("ps aux | grep {0}".format(filename), 3)['output']
-        count = 0
-        target = 'smartBed.py'
-        index = -1
-        while True:
-            index = out.find(target, index+1)
-
-            if count > 1:
-                print("SmartBed program was executed? ", "Y")
-                return True
-
-            if index == -1:
-                print("SmartBed program was executed? ", "N")
-                return False
-
-            count += 1
-
-        # print(self.getSubpro("ps aux | grep {0}".format(filename), 3)['output'])
-        # print(self.getSubpro("ps aux | grep "+filename+" |awk '{print $2}'" , 3)['output'])
+        print(self.getSubpro("ps aux | grep {0}".format(filename), 3)['output'])
+        print(self.getSubpro("ps aux | grep "+filename+" |awk '{print $2}'" , 3)['output'])
 
     def getSubpro(self, command, timeout=None):
         """
@@ -195,15 +177,6 @@ class SmartBed:
         api = AsyncHttp()
         await api.send_data_with_range(range)
 
-        # tasks = [api.send_data_with_range(range)]
-        # asyncio.run(asyncio.wait(tasks))
-        # await asyncio.sleep(0.1)
-        # loop = asyncio.get_event_loop()
-        # loop.run_until_complete(api.send_data_with_range(range))
-        # loop.close()
-        #
-        # loop.run_until_complete(api.send_data_with_range(range))
-        # loop.close()
 
     async def workFlow(self):
         # Main thread
@@ -327,9 +300,11 @@ class SmartBed:
                 pass
 
 
+
+
     def loadExp(self):
         print("Now Program Initiate. Please Wait.")
-        self.statusIndex = 0
+        self.statusIdex = 0
         flagWifi = False
         flagUart = False
         flagBluetooth = False
@@ -337,7 +312,7 @@ class SmartBed:
 
         write, flush = sys.stdout.write, sys.stdout.flush
         for char in itertools.cycle('|/-\\'):
-            if self.statusIndex < 10:
+            if self.statusIdex < 10:
                 try:
                     status = "{0}  loading...({1})        ".format(char, self.bt.bl.state)
                 except AttributeError as ex:
@@ -351,7 +326,7 @@ class SmartBed:
                 if self.bt.getBTStatus() and not flagBluetooth:
                     flagBluetooth = True
                     print("Now Bluetooth Module is ready!")
-                    self.statusIndex += 1
+                    self.statusIdex += 1
 
             except Exception as ex:
                 #print("SmartBed ex : ",ex)
@@ -361,7 +336,7 @@ class SmartBed:
                 if self.uart.getUartStatus() and not flagUart:
                     flagUart = True
                     print("Now Uart Module is ready!")
-                    self.statusIndex += 1
+                    self.statusIdex += 1
             except Exception as ex:
                 #print("uart ex : ",ex)
                 pass
@@ -371,13 +346,13 @@ class SmartBed:
                 if self.wifi.getWifiStatus() and not flagWifi:
                     flagWifi = True
                     print("Now Wifi Module is ready!")
-                    self.statusIndex += 1
+                    self.statusIdex += 1
             except Exception as ex:
                 #print("wifi ex : ",ex)
                 pass
 
             try:
-                if self.statusIndex == 3 and not flagComplete:
+                if self.statusIdex == 3 and not flagComplete:
                     flagComplete = True
                     print("Loading was completed.")
                     #self.threadLoadingExp.join(2)
@@ -394,15 +369,30 @@ class SmartBed:
 if __name__ == '__main__':
 
     smartBed = SmartBed()
+    smartBed.bt = Bluetooth()
+    smartBed.wifi = Wifi()
+    smartBed.uart = Uart()
 
-    ret = smartBed.mutex()
+    smartBed.threadPool.append(Thread(target=smartBed.uart.initialize))
+    #smartBed.threadPool.append(Thread(target=smartBed.bt.initialize))
+    smartBed.threadPool.append(Thread(target=smartBed.wifi.initialize))
+    smartBed.threadPool.append(Thread(target=smartBed.loadExp))
 
-    if ret:
-        sys.exit()
 
-    smartBed.setAllThreadOn()
+
+    for thread in smartBed.threadPool:
+        thread.daemon = False
+        thread.start()
+    await asyncio.gather(smartBed.bt.start_all_coroutine(),
+                         smartBed.workFlow())
+    asyncio.run(smartBed.bt.start_all_coroutine())
+    # asyncio.run(smartBed.bt.bl.hearing())
+    # asyncio.run(smartBed.bt.monitor())
+    #asyncio.run(smartBed.bt.monitor())
+
     #smartBed.setMultiprocess()
     #smartBed.loading()
+    #smartBed.mutex()
     #print("SmartBed was Activated.")
     asyncio.run(smartBed.workFlow())
 

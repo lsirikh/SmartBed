@@ -4,10 +4,10 @@ import sys
 from bt import BTSetup, BTReceive
 import threading
 
-from uart import UartRead
+from uart import Uart
 
 #UartData class create
-uartRead = UartRead()
+uartRead = Uart()
 #uartWrite = UartWrite()
 
 #bt_receiver thread start

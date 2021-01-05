@@ -1,0 +1,91 @@
+[INFO] 20201203 14:22:08.517418 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201203 14:22:08.518002 [Class:Bluetooth][Method:__init__] initiated.
+[INFO] 20201203 14:22:08.754030 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201203 14:22:08.754728 [Class:Bluetooth][Method:initialize] Called.
+[INFO] 20201203 14:22:08.755067 [Class:Bluetooth][Method:load_info] Called.
+[INFO] 20201203 14:22:08.755403 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201203 14:22:08.755692 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201203 14:22:08.755960 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201203 14:22:08.756531 [Class:Bluetooth][Method:load_info] Loaded - BT ADDRESS : 50:77:05:43:DF:98
+[INFO] 20201203 14:22:08.758062 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201203 14:22:08.758471 [Class:Wifi][Method:__init__] initiated.
+[INFO] 20201203 14:22:08.758780 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201203 14:22:08.759102 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201203 14:22:08.759442 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201203 14:22:08.759726 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201203 14:22:08.759977 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201203 14:22:08.760457 [Class:Uart][Method:__init__] initiated.
+[INFO] 20201203 14:22:08.761558 [Class:Uart][Method:loadFiles] Called.
+[INFO] 20201203 14:22:08.762484 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201203 14:22:08.762873 [Class:Bluetooth][Method:initialize] Called.
+[INFO] 20201203 14:22:08.763322 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201203 14:22:08.765350 [Class:Bluetooth][Method:load_info] Called.
+[INFO] 20201203 14:22:08.764330 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201203 14:22:08.770862 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201203 14:22:08.773759 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201203 14:22:08.773535 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201203 14:22:08.774249 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201203 14:22:08.774441 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201203 14:22:08.763934 [Class:Wifi][Method:setThreadOn] Called.
+[INFO] 20201203 14:22:08.775026 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201203 14:22:08.775392 [Class:Bluetooth][Method:load_info] Loaded - BT ADDRESS : 50:77:05:43:DF:98
+[INFO] 20201203 14:22:08.776032 [Class:Uart][Method:initSerial] Called.
+[INFO] 20201203 14:22:08.776483 [Class:Wifi][Method:monitor] Called.
+[INFO] 20201203 14:22:08.777138 [Class:Uart][Method:openSerial] Try to open port....
+[INFO] 20201203 14:22:08.777265 [Class:Wifi][Method:loadFiles] Called.
+[INFO] 20201203 14:22:08.778844 [Class:Uart][Method:uartSet] Called.
+[INFO] 20201203 14:22:08.777813 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201203 14:22:08.780760 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201203 14:22:08.781114 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201203 14:22:08.781569 [Class:Wifi][Method:getConSSID] Called.
+[INFO] 20201203 14:22:08.781818 [Class:Wifi][Method:getSubpro] Called.
+[NOTICE] 20201203 14:22:08.825575 [Class:Wifi][Method:monitor] Current Wifi info Setting. Before[sensorway], Now[sensorway]
+[INFO] 20201203 14:22:09.380605 [Class:Uart][Method:setAllThreadOn] Called.
+[INFO] 20201203 14:22:09.382386 [Class:Uart][Method:receiver] Called.
+[INFO] 20201203 14:22:09.383158 [Class:Uart][Method:monitor] Called.
+[INFO] 20201203 14:24:15.835025 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201203 14:24:15.835563 [Class:Bluetooth][Method:__init__] initiated.
+[INFO] 20201203 14:24:16.077359 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201203 14:24:16.078093 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201203 14:24:16.078443 [Class:Wifi][Method:__init__] initiated.
+[INFO] 20201203 14:24:16.078791 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201203 14:24:16.079095 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201203 14:24:16.079418 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201203 14:24:16.079703 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201203 14:24:16.079972 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201203 14:24:16.080575 [Class:Uart][Method:__init__] initiated.
+[INFO] 20201203 14:24:16.081679 [Class:Uart][Method:loadFiles] Called.
+[INFO] 20201203 14:24:16.082698 [Class:Wifi][Method:setThreadOn] Called.
+[INFO] 20201203 14:24:16.082136 [Class:Bluetooth][Method:initialize] Called.
+[INFO] 20201203 14:24:16.086125 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201203 14:24:16.092435 [Class:Bluetooth][Method:load_info] Called.
+[INFO] 20201203 14:24:16.092674 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201203 14:24:16.090434 [Class:Wifi][Method:monitor] Called.
+[INFO] 20201203 14:24:16.095116 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201203 14:24:16.095493 [Class:Wifi][Method:loadFiles] Called.
+[INFO] 20201203 14:24:16.095963 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201203 14:24:16.096722 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201203 14:24:16.096982 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201203 14:24:16.097296 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201203 14:24:16.097564 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201203 14:24:16.097915 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201203 14:24:16.098492 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201203 14:24:16.098709 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201203 14:24:16.098919 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201203 14:24:16.100090 [Class:Uart][Method:initSerial] Called.
+[INFO] 20201203 14:24:16.099806 [Class:Bluetooth][Method:load_info] Loaded - BT ADDRESS : 50:77:05:43:DF:98
+[INFO] 20201203 14:24:16.100645 [Class:Wifi][Method:getConSSID] Called.
+[INFO] 20201203 14:24:16.101027 [Class:Uart][Method:openSerial] Try to open port....
+[INFO] 20201203 14:24:16.102209 [Class:Wifi][Method:getSubpro] Called.
+[INFO] 20201203 14:24:16.105610 [Class:Uart][Method:uartSet] Called.
+[NOTICE] 20201203 14:24:16.146317 [Class:Wifi][Method:monitor] Current Wifi info Setting. Before[sensorway], Now[sensorway]
+[INFO] 20201203 14:24:16.711616 [Class:Uart][Method:setAllThreadOn] Called.
+[INFO] 20201203 14:24:16.713313 [Class:Uart][Method:receiver] Called.
+[INFO] 20201203 14:24:16.714058 [Class:Uart][Method:monitor] Called.
+[INFO] 20201203 14:24:21.147895 [Class:Wifi][Method:loadFiles] Called.
+[INFO] 20201203 14:24:21.148699 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201203 14:24:21.149232 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201203 14:24:21.149752 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201203 14:24:21.150689 [Class:Wifi][Method:getConSSID] Called.
+[INFO] 20201203 14:24:21.151183 [Class:Wifi][Method:getSubpro] Called.
+[NOTICE] 20201203 14:24:21.232592 [Class:Wifi][Method:monitor] Current Wifi info Setting. Before[sensorway], Now[sensorway]

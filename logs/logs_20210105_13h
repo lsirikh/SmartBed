@@ -1,0 +1,290 @@
+[INFO] 20210105 13:12:02.320929 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20210105 13:12:02.321711 [Class:SmartBed][Method:getSubpro] Called.
+[INFO] 20210105 13:12:02.369305 [Class:SmartBed][Method:getSubpro] Called.
+[INFO] 20210105 13:12:02.498474 [Class:SmartBed][Method:setAllThreadOn] Called.
+[INFO] 20210105 13:12:02.500621 [Class:SmartBed][Method:initBT] Called.
+[INFO] 20210105 13:12:02.501240 [Class:SmartBed][Method:initUart] Called.
+[INFO] 20210105 13:12:02.502147 [Class:Bluetooth][Method:__init__] initiated.
+[INFO] 20210105 13:12:02.502548 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20210105 13:12:02.503531 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20210105 13:12:02.520145 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20210105 13:12:02.520768 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20210105 13:12:02.521231 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20210105 13:12:02.522146 [Class:Uart][Method:__init__] initiated.
+[INFO] 20210105 13:12:02.522716 [Class:Uart][Method:loadFiles] Called.
+[INFO] 20210105 13:12:02.523128 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20210105 13:12:02.523448 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20210105 13:12:02.523807 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20210105 13:12:02.524404 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20210105 13:12:02.524993 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20210105 13:12:02.525492 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20210105 13:12:02.526237 [Class:Uart][Method:initSerial] Called.
+[ERROR] 20210105 13:12:02.526731 [Class:SmartBed][Method:initUart] Failed to execute : module 'serial' has no attribute 'Serial'
+[INFO] 20210105 13:12:02.527889 [Class:SmartBed][Method:initWifi] Called.
+[INFO] 20210105 13:12:02.528557 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20210105 13:12:02.529076 [Class:Wifi][Method:__init__] initiated.
+[INFO] 20210105 13:12:02.529678 [Class:Wifi][Method:setThreadOn] Called.
+[INFO] 20210105 13:12:02.531719 [Class:Wifi][Method:monitor] Called.
+[INFO] 20210105 13:12:02.538103 [Class:Wifi][Method:loadFiles] Called.
+[INFO] 20210105 13:12:02.538666 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20210105 13:12:02.539141 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20210105 13:12:02.557949 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20210105 13:12:02.558946 [Class:Bluetooth][Method:pair] Called.
+[INFO] 20210105 13:12:02.559470 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20210105 13:12:02.559922 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20210105 13:12:02.560463 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20210105 13:12:02.561307 [Class:Bluetooth][Method:pair] Loaded - BT ADDRESS : 50:77:05:43:DF:98
+[INFO] 20210105 13:12:02.561840 [Class:Bluetooth][Method:set_all_thread_on] Called.
+[INFO] 20210105 13:12:02.563015 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20210105 13:12:02.563920 [Class:Wifi][Method:getConSSID] Called.
+[INFO] 20210105 13:12:02.564534 [Class:Wifi][Method:getSubpro] Called.
+[INFO] 20210105 13:12:02.574318 [Class:Bluetooth][Method:receiver] Called.
+[INFO] 20210105 13:12:02.586203 [Class:Bluetooth][Method:connection] Called.
+[NOTICE] 20210105 13:12:02.587429 [Class:Bluetooth][Method:connection] Server socket was created
+[NOTICE] 20210105 13:12:02.588344 [Class:Bluetooth][Method:connection] Try to connect to 50:77:05:43:DF:98
+[INFO] 20210105 13:12:02.589049 [Class:Bluetooth][Method:monitor] Called.
+[NOTICE] 20210105 13:12:02.650746 [Class:Wifi][Method:monitor] Current Wifi info Setting. Before[sensorway], Now[sensorway]
+[ERROR] 20210105 13:12:05.591968 [Class:Bluetooth][Method:connection] Failed to execute : timed out
+[INFO] 20210105 13:12:05.592748 [Class:Bluetooth][Method:closeSock] Called.
+[ERROR] 20210105 13:12:05.593349 [Class:Bluetooth][Method:receiver] Failed to execute : 'NoneType' object has no attribute 'recv'
+[NOTICE] 20210105 13:12:05.611833 [Class:Bluetooth][Method:monitor] threadReceive was terminated and will re-initiate.
+[INFO] 20210105 13:12:05.612565 [Class:Bluetooth][Method:setReceiveThreadOn] Called.
+[INFO] 20210105 13:12:05.613529 [Class:Bluetooth][Method:receiver] Called.
+[INFO] 20210105 13:12:05.614315 [Class:Bluetooth][Method:connection] Called.
+[NOTICE] 20210105 13:12:05.614950 [Class:Bluetooth][Method:connection] Server socket was created
+[NOTICE] 20210105 13:12:05.615645 [Class:Bluetooth][Method:connection] Try to connect to 50:77:05:43:DF:98
+[INFO] 20210105 13:20:26.786925 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20210105 13:20:26.787614 [Class:SmartBed][Method:getSubpro] Called.
+[INFO] 20210105 13:20:26.867769 [Class:SmartBed][Method:setAllThreadOn] Called.
+[INFO] 20210105 13:20:26.878339 [Class:SmartBed][Method:initUart] Called.
+[INFO] 20210105 13:20:26.879123 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20210105 13:20:26.879774 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20210105 13:20:26.880592 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20210105 13:20:26.881238 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20210105 13:20:26.898106 [Class:SmartBed][Method:initWifi] Called.
+[INFO] 20210105 13:20:26.907884 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20210105 13:20:26.908360 [Class:Wifi][Method:__init__] initiated.
+[INFO] 20210105 13:20:26.908787 [Class:Wifi][Method:setThreadOn] Called.
+[INFO] 20210105 13:20:26.909676 [Class:Wifi][Method:monitor] Called.
+[INFO] 20210105 13:20:26.910335 [Class:Wifi][Method:loadFiles] Called.
+[INFO] 20210105 13:20:26.910802 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20210105 13:20:26.913484 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20210105 13:20:26.914206 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20210105 13:20:26.915169 [Class:Wifi][Method:getConSSID] Called.
+[INFO] 20210105 13:20:26.915710 [Class:Wifi][Method:getSubpro] Called.
+[INFO] 20210105 13:20:26.877634 [Class:SmartBed][Method:initBT] Called.
+[INFO] 20210105 13:20:26.928871 [Class:Bluetooth][Method:__init__] initiated.
+[INFO] 20210105 13:20:26.947478 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20210105 13:20:26.949093 [Class:Uart][Method:__init__] initiated.
+[INFO] 20210105 13:20:26.993269 [Class:Uart][Method:loadFiles] Called.
+[INFO] 20210105 13:20:27.016834 [Class:FileProcess][Method:fileRead] Called.
+[NOTICE] 20210105 13:20:27.057084 [Class:Wifi][Method:monitor] Current Wifi info Setting. Before[sensorway], Now[sensorway]
+[INFO] 20210105 13:20:27.056295 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20210105 13:20:27.058798 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20210105 13:20:27.058173 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20210105 13:20:27.060440 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20210105 13:20:27.060967 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20210105 13:20:27.061449 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20210105 13:20:27.062213 [Class:Uart][Method:initSerial] Called.
+[ERROR] 20210105 13:20:27.062753 [Class:SmartBed][Method:initUart] Failed to execute : module 'serial' has no attribute 'Serial'
+[INFO] 20210105 13:20:27.059678 [Class:Bluetooth][Method:pair] Called.
+[INFO] 20210105 13:20:27.068602 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20210105 13:20:27.069184 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20210105 13:20:27.069683 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20210105 13:20:27.070420 [Class:Bluetooth][Method:pair] Loaded - BT ADDRESS : 50:77:05:43:DF:98
+[INFO] 20210105 13:20:27.070927 [Class:Bluetooth][Method:set_all_thread_on] Called.
+[INFO] 20210105 13:20:27.072000 [Class:Bluetooth][Method:receiver] Called.
+[INFO] 20210105 13:20:27.072553 [Class:Bluetooth][Method:connection] Called.
+[NOTICE] 20210105 13:20:27.073118 [Class:Bluetooth][Method:connection] Server socket was created
+[NOTICE] 20210105 13:20:27.073633 [Class:Bluetooth][Method:connection] Try to connect to 50:77:05:43:DF:98
+[INFO] 20210105 13:20:27.082595 [Class:Bluetooth][Method:monitor] Called.
+[ERROR] 20210105 13:20:30.075842 [Class:Bluetooth][Method:connection] Failed to execute : timed out
+[INFO] 20210105 13:20:30.076613 [Class:Bluetooth][Method:closeSock] Called.
+[ERROR] 20210105 13:20:30.077339 [Class:Bluetooth][Method:receiver] Failed to execute : 'NoneType' object has no attribute 'recv'
+[NOTICE] 20210105 13:20:30.087031 [Class:Bluetooth][Method:monitor] threadReceive was terminated and will re-initiate.
+[INFO] 20210105 13:20:30.087694 [Class:Bluetooth][Method:setReceiveThreadOn] Called.
+[INFO] 20210105 13:20:30.088622 [Class:Bluetooth][Method:receiver] Called.
+[INFO] 20210105 13:20:30.089235 [Class:Bluetooth][Method:connection] Called.
+[NOTICE] 20210105 13:20:30.089824 [Class:Bluetooth][Method:connection] Server socket was created
+[NOTICE] 20210105 13:20:30.090417 [Class:Bluetooth][Method:connection] Try to connect to 50:77:05:43:DF:98
+[INFO] 20210105 13:20:32.061931 [Class:Wifi][Method:loadFiles] Called.
+[INFO] 20210105 13:20:32.062665 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20210105 13:20:32.063282 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20210105 13:20:32.063885 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20210105 13:20:32.064783 [Class:Wifi][Method:getConSSID] Called.
+[INFO] 20210105 13:20:32.065375 [Class:Wifi][Method:getSubpro] Called.
+[NOTICE] 20210105 13:20:32.147583 [Class:Wifi][Method:monitor] Current Wifi info Setting. Before[sensorway], Now[sensorway]
+[ERROR] 20210105 13:20:33.094140 [Class:Bluetooth][Method:connection] Failed to execute : timed out
+[INFO] 20210105 13:20:33.094899 [Class:Bluetooth][Method:closeSock] Called.
+[ERROR] 20210105 13:20:33.100128 [Class:Bluetooth][Method:receiver] Failed to execute : 'NoneType' object has no attribute 'recv'
+[NOTICE] 20210105 13:20:34.092795 [Class:Bluetooth][Method:monitor] threadReceive was terminated and will re-initiate.
+[INFO] 20210105 13:20:34.093404 [Class:Bluetooth][Method:setReceiveThreadOn] Called.
+[INFO] 20210105 13:20:34.094447 [Class:Bluetooth][Method:receiver] Called.
+[INFO] 20210105 13:20:34.095191 [Class:Bluetooth][Method:connection] Called.
+[NOTICE] 20210105 13:20:34.095975 [Class:Bluetooth][Method:connection] Server socket was created
+[NOTICE] 20210105 13:20:34.096689 [Class:Bluetooth][Method:connection] Try to connect to 50:77:05:43:DF:98
+[ERROR] 20210105 13:20:37.100476 [Class:Bluetooth][Method:connection] Failed to execute : timed out
+[INFO] 20210105 13:20:37.101519 [Class:Bluetooth][Method:closeSock] Called.
+[ERROR] 20210105 13:20:37.102304 [Class:Bluetooth][Method:receiver] Failed to execute : 'NoneType' object has no attribute 'recv'
+[INFO] 20210105 13:20:37.153509 [Class:Wifi][Method:loadFiles] Called.
+[INFO] 20210105 13:20:37.154434 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20210105 13:20:37.155075 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20210105 13:20:37.155692 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20210105 13:20:37.156909 [Class:Wifi][Method:getConSSID] Called.
+[INFO] 20210105 13:20:37.157699 [Class:Wifi][Method:getSubpro] Called.
+[NOTICE] 20210105 13:20:37.245741 [Class:Wifi][Method:monitor] Current Wifi info Setting. Before[sensorway], Now[sensorway]
+[NOTICE] 20210105 13:20:38.099353 [Class:Bluetooth][Method:monitor] threadReceive was terminated and will re-initiate.
+[INFO] 20210105 13:20:38.099868 [Class:Bluetooth][Method:setReceiveThreadOn] Called.
+[INFO] 20210105 13:20:38.100616 [Class:Bluetooth][Method:receiver] Called.
+[INFO] 20210105 13:20:38.104535 [Class:Bluetooth][Method:connection] Called.
+[NOTICE] 20210105 13:20:38.104987 [Class:Bluetooth][Method:connection] Server socket was created
+[NOTICE] 20210105 13:20:38.105356 [Class:Bluetooth][Method:connection] Try to connect to 50:77:05:43:DF:98
+[INFO] 20210105 13:20:39.359022 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20210105 13:20:39.359574 [Class:SmartBed][Method:getSubpro] Called.
+[ERROR] 20210105 13:20:41.108812 [Class:Bluetooth][Method:connection] Failed to execute : timed out
+[INFO] 20210105 13:20:41.109829 [Class:Bluetooth][Method:closeSock] Called.
+[ERROR] 20210105 13:20:41.110623 [Class:Bluetooth][Method:receiver] Failed to execute : 'NoneType' object has no attribute 'recv'
+[NOTICE] 20210105 13:20:42.105313 [Class:Bluetooth][Method:monitor] threadReceive was terminated and will re-initiate.
+[INFO] 20210105 13:20:42.106149 [Class:Bluetooth][Method:setReceiveThreadOn] Called.
+[INFO] 20210105 13:20:42.107215 [Class:Bluetooth][Method:receiver] Called.
+[INFO] 20210105 13:20:42.108094 [Class:Bluetooth][Method:connection] Called.
+[NOTICE] 20210105 13:20:42.108699 [Class:Bluetooth][Method:connection] Server socket was created
+[NOTICE] 20210105 13:20:42.109308 [Class:Bluetooth][Method:connection] Try to connect to 50:77:05:43:DF:98
+[INFO] 20210105 13:20:42.251864 [Class:Wifi][Method:loadFiles] Called.
+[INFO] 20210105 13:20:42.252695 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20210105 13:20:42.253261 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20210105 13:20:42.253780 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20210105 13:20:42.254778 [Class:Wifi][Method:getConSSID] Called.
+[INFO] 20210105 13:20:42.255312 [Class:Wifi][Method:getSubpro] Called.
+[NOTICE] 20210105 13:20:42.337437 [Class:Wifi][Method:monitor] Current Wifi info Setting. Before[sensorway], Now[sensorway]
+[ERROR] 20210105 13:20:45.113043 [Class:Bluetooth][Method:connection] Failed to execute : timed out
+[INFO] 20210105 13:20:45.113970 [Class:Bluetooth][Method:closeSock] Called.
+[ERROR] 20210105 13:20:45.114679 [Class:Bluetooth][Method:receiver] Failed to execute : 'NoneType' object has no attribute 'recv'
+[NOTICE] 20210105 13:20:46.112430 [Class:Bluetooth][Method:monitor] threadReceive was terminated and will re-initiate.
+[INFO] 20210105 13:20:46.113501 [Class:Bluetooth][Method:setReceiveThreadOn] Called.
+[INFO] 20210105 13:20:46.114950 [Class:Bluetooth][Method:receiver] Called.
+[INFO] 20210105 13:20:46.115830 [Class:Bluetooth][Method:connection] Called.
+[NOTICE] 20210105 13:20:46.116562 [Class:Bluetooth][Method:connection] Server socket was created
+[NOTICE] 20210105 13:20:46.117358 [Class:Bluetooth][Method:connection] Try to connect to 50:77:05:43:DF:98
+[INFO] 20210105 13:20:47.343288 [Class:Wifi][Method:loadFiles] Called.
+[INFO] 20210105 13:20:47.344169 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20210105 13:20:47.344729 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20210105 13:20:47.345254 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20210105 13:20:47.346422 [Class:Wifi][Method:getConSSID] Called.
+[INFO] 20210105 13:20:47.347092 [Class:Wifi][Method:getSubpro] Called.
+[NOTICE] 20210105 13:20:47.450386 [Class:Wifi][Method:monitor] Current Wifi info Setting. Before[sensorway], Now[sensorway]
+[ERROR] 20210105 13:20:49.121257 [Class:Bluetooth][Method:connection] Failed to execute : timed out
+[INFO] 20210105 13:20:49.123653 [Class:Bluetooth][Method:closeSock] Called.
+[ERROR] 20210105 13:20:49.124741 [Class:Bluetooth][Method:receiver] Failed to execute : 'NoneType' object has no attribute 'recv'
+[NOTICE] 20210105 13:20:50.120197 [Class:Bluetooth][Method:monitor] threadReceive was terminated and will re-initiate.
+[INFO] 20210105 13:20:50.123819 [Class:Bluetooth][Method:setReceiveThreadOn] Called.
+[INFO] 20210105 13:20:50.125701 [Class:Bluetooth][Method:receiver] Called.
+[INFO] 20210105 13:20:50.126886 [Class:Bluetooth][Method:connection] Called.
+[NOTICE] 20210105 13:20:50.127989 [Class:Bluetooth][Method:connection] Server socket was created
+[NOTICE] 20210105 13:20:50.129846 [Class:Bluetooth][Method:connection] Try to connect to 50:77:05:43:DF:98
+[INFO] 20210105 13:20:52.456314 [Class:Wifi][Method:loadFiles] Called.
+[INFO] 20210105 13:20:52.456785 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20210105 13:20:52.457077 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20210105 13:20:52.457414 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20210105 13:20:52.457971 [Class:Wifi][Method:getConSSID] Called.
+[INFO] 20210105 13:20:52.458270 [Class:Wifi][Method:getSubpro] Called.
+[NOTICE] 20210105 13:20:52.506620 [Class:Wifi][Method:monitor] Current Wifi info Setting. Before[sensorway], Now[sensorway]
+[ERROR] 20210105 13:20:53.133771 [Class:Bluetooth][Method:connection] Failed to execute : timed out
+[INFO] 20210105 13:20:53.134294 [Class:Bluetooth][Method:closeSock] Called.
+[ERROR] 20210105 13:20:53.134781 [Class:Bluetooth][Method:receiver] Failed to execute : 'NoneType' object has no attribute 'recv'
+[INFO] 20210105 13:20:53.658945 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20210105 13:20:53.659459 [Class:SmartBed][Method:getSubpro] Called.
+[NOTICE] 20210105 13:20:54.130759 [Class:Bluetooth][Method:monitor] threadReceive was terminated and will re-initiate.
+[INFO] 20210105 13:20:54.131235 [Class:Bluetooth][Method:setReceiveThreadOn] Called.
+[INFO] 20210105 13:20:54.131871 [Class:Bluetooth][Method:receiver] Called.
+[INFO] 20210105 13:20:54.132268 [Class:Bluetooth][Method:connection] Called.
+[NOTICE] 20210105 13:20:54.132582 [Class:Bluetooth][Method:connection] Server socket was created
+[NOTICE] 20210105 13:20:54.132935 [Class:Bluetooth][Method:connection] Try to connect to 50:77:05:43:DF:98
+[ERROR] 20210105 13:20:57.136332 [Class:Bluetooth][Method:connection] Failed to execute : timed out
+[INFO] 20210105 13:20:57.137379 [Class:Bluetooth][Method:closeSock] Called.
+[ERROR] 20210105 13:20:57.138111 [Class:Bluetooth][Method:receiver] Failed to execute : 'NoneType' object has no attribute 'recv'
+[INFO] 20210105 13:20:57.512473 [Class:Wifi][Method:loadFiles] Called.
+[INFO] 20210105 13:20:57.513503 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20210105 13:20:57.514194 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20210105 13:20:57.514815 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20210105 13:20:57.516036 [Class:Wifi][Method:getConSSID] Called.
+[INFO] 20210105 13:20:57.516702 [Class:Wifi][Method:getSubpro] Called.
+[NOTICE] 20210105 13:20:57.605159 [Class:Wifi][Method:monitor] Current Wifi info Setting. Before[sensorway], Now[sensorway]
+[NOTICE] 20210105 13:20:58.136826 [Class:Bluetooth][Method:monitor] threadReceive was terminated and will re-initiate.
+[INFO] 20210105 13:20:58.137928 [Class:Bluetooth][Method:setReceiveThreadOn] Called.
+[INFO] 20210105 13:20:58.139517 [Class:Bluetooth][Method:receiver] Called.
+[INFO] 20210105 13:20:58.140663 [Class:Bluetooth][Method:connection] Called.
+[NOTICE] 20210105 13:20:58.141585 [Class:Bluetooth][Method:connection] Server socket was created
+[NOTICE] 20210105 13:20:58.142437 [Class:Bluetooth][Method:connection] Try to connect to 50:77:05:43:DF:98
+[INFO] 20210105 13:21:04.620591 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20210105 13:21:04.621125 [Class:SmartBed][Method:getSubpro] Called.
+[INFO] 20210105 13:21:04.659478 [Class:SmartBed][Method:setAllThreadOn] Called.
+[INFO] 20210105 13:21:04.661532 [Class:SmartBed][Method:initUart] Called.
+[INFO] 20210105 13:21:04.661093 [Class:SmartBed][Method:initBT] Called.
+[INFO] 20210105 13:21:04.663146 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20210105 13:21:04.698896 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20210105 13:21:04.730339 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20210105 13:21:04.751232 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20210105 13:21:04.662127 [Class:SmartBed][Method:initWifi] Called.
+[INFO] 20210105 13:21:04.664132 [Class:Bluetooth][Method:__init__] initiated.
+[INFO] 20210105 13:21:04.777223 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20210105 13:21:04.830062 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20210105 13:21:04.865366 [Class:Uart][Method:__init__] initiated.
+[INFO] 20210105 13:21:04.886430 [Class:Wifi][Method:__init__] initiated.
+[INFO] 20210105 13:21:04.922764 [Class:Wifi][Method:setThreadOn] Called.
+[INFO] 20210105 13:21:04.933393 [Class:Uart][Method:loadFiles] Called.
+[INFO] 20210105 13:21:04.974746 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20210105 13:21:04.991507 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20210105 13:21:05.014957 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20210105 13:21:05.016825 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20210105 13:21:04.986228 [Class:Wifi][Method:monitor] Called.
+[INFO] 20210105 13:21:05.028302 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20210105 13:21:05.027671 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20210105 13:21:05.044722 [Class:Bluetooth][Method:pair] Called.
+[INFO] 20210105 13:21:05.045459 [Class:Wifi][Method:loadFiles] Called.
+[INFO] 20210105 13:21:05.046033 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20210105 13:21:05.045831 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20210105 13:21:05.046611 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20210105 13:21:05.047063 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20210105 13:21:05.047230 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20210105 13:21:05.048476 [Class:Bluetooth][Method:pair] Loaded - BT ADDRESS : 50:77:05:43:DF:98
+[INFO] 20210105 13:21:05.048911 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20210105 13:21:05.049234 [Class:Bluetooth][Method:set_all_thread_on] Called.
+[INFO] 20210105 13:21:05.049610 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20210105 13:21:05.048088 [Class:Uart][Method:initSerial] Called.
+[INFO] 20210105 13:21:05.050758 [Class:Wifi][Method:getConSSID] Called.
+[ERROR] 20210105 13:21:05.051556 [Class:SmartBed][Method:initUart] Failed to execute : module 'serial' has no attribute 'Serial'
+[INFO] 20210105 13:21:05.051944 [Class:Wifi][Method:getSubpro] Called.
+[INFO] 20210105 13:21:05.052277 [Class:Bluetooth][Method:monitor] Called.
+[INFO] 20210105 13:21:05.051216 [Class:Bluetooth][Method:receiver] Called.
+[INFO] 20210105 13:21:05.054755 [Class:Bluetooth][Method:connection] Called.
+[NOTICE] 20210105 13:21:05.055105 [Class:Bluetooth][Method:connection] Server socket was created
+[NOTICE] 20210105 13:21:05.055430 [Class:Bluetooth][Method:connection] Try to connect to 50:77:05:43:DF:98
+[NOTICE] 20210105 13:21:05.102682 [Class:Wifi][Method:monitor] Current Wifi info Setting. Before[sensorway], Now[sensorway]
+[ERROR] 20210105 13:21:08.057408 [Class:Bluetooth][Method:connection] Failed to execute : timed out
+[INFO] 20210105 13:21:08.057907 [Class:Bluetooth][Method:closeSock] Called.
+[ERROR] 20210105 13:21:08.058329 [Class:Bluetooth][Method:receiver] Failed to execute : 'NoneType' object has no attribute 'recv'
+[NOTICE] 20210105 13:21:08.058981 [Class:Bluetooth][Method:monitor] threadReceive was terminated and will re-initiate.
+[INFO] 20210105 13:21:08.059364 [Class:Bluetooth][Method:setReceiveThreadOn] Called.
+[INFO] 20210105 13:21:08.060004 [Class:Bluetooth][Method:receiver] Called.
+[INFO] 20210105 13:21:08.060456 [Class:Bluetooth][Method:connection] Called.
+[NOTICE] 20210105 13:21:08.060822 [Class:Bluetooth][Method:connection] Server socket was created
+[NOTICE] 20210105 13:21:08.061196 [Class:Bluetooth][Method:connection] Try to connect to 50:77:05:43:DF:98
+[INFO] 20210105 13:21:09.786418 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20210105 13:21:09.789106 [Class:SmartBed][Method:getSubpro] Called.
+[INFO] 20210105 13:21:10.108195 [Class:Wifi][Method:loadFiles] Called.
+[INFO] 20210105 13:21:10.108665 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20210105 13:21:10.108946 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20210105 13:21:10.109196 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20210105 13:21:10.109741 [Class:Wifi][Method:getConSSID] Called.
+[INFO] 20210105 13:21:10.110034 [Class:Wifi][Method:getSubpro] Called.
+[NOTICE] 20210105 13:21:10.155554 [Class:Wifi][Method:monitor] Current Wifi info Setting. Before[sensorway], Now[sensorway]
+[ERROR] 20210105 13:21:11.064732 [Class:Bluetooth][Method:connection] Failed to execute : timed out
+[INFO] 20210105 13:21:11.065833 [Class:Bluetooth][Method:closeSock] Called.
+[ERROR] 20210105 13:21:11.066653 [Class:Bluetooth][Method:receiver] Failed to execute : 'NoneType' object has no attribute 'recv'
+[NOTICE] 20210105 13:21:12.064864 [Class:Bluetooth][Method:monitor] threadReceive was terminated and will re-initiate.
+[INFO] 20210105 13:21:12.065870 [Class:Bluetooth][Method:setReceiveThreadOn] Called.
+[INFO] 20210105 13:21:12.067574 [Class:Bluetooth][Method:receiver] Called.
+[INFO] 20210105 13:21:12.068543 [Class:Bluetooth][Method:connection] Called.
+[NOTICE] 20210105 13:21:12.069280 [Class:Bluetooth][Method:connection] Server socket was created
+[NOTICE] 20210105 13:21:12.069988 [Class:Bluetooth][Method:connection] Try to connect to 50:77:05:43:DF:98

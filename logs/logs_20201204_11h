@@ -1,0 +1,57 @@
+[INFO] 20201204 11:33:13.859819 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201204 11:33:13.860395 [Class:Bluetooth][Method:__init__] initiated.
+[INFO] 20201204 11:33:14.093910 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201204 11:33:14.100437 [Class:Bluetooth][Method:initialize] Called.
+[INFO] 20201204 11:33:14.100900 [Class:Bluetooth][Method:load_info] Called.
+[INFO] 20201204 11:33:14.101407 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201204 11:33:14.101819 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201204 11:33:14.102137 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201204 11:33:14.103320 [Class:Bluetooth][Method:load_info] Loaded - BT ADDRESS : 50:77:05:43:DF:98
+[INFO] 20201204 11:33:14.103760 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201204 11:33:14.104097 [Class:Wifi][Method:__init__] initiated.
+[INFO] 20201204 11:33:14.104465 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201204 11:33:14.104779 [Class:FileProcess][Method:__init__] initiated.
+[INFO] 20201204 11:33:14.105074 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201204 11:33:14.105338 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201204 11:33:14.105612 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201204 11:33:14.106082 [Class:Uart][Method:__init__] initiated.
+[INFO] 20201204 11:33:14.107548 [Class:Wifi][Method:setThreadOn] Called.
+[INFO] 20201204 11:33:14.107101 [Class:Uart][Method:loadFiles] Called.
+[INFO] 20201204 11:33:14.109019 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201204 11:33:14.108755 [Class:Wifi][Method:monitor] Called.
+[INFO] 20201204 11:33:14.110319 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201204 11:33:14.112783 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201204 11:33:14.110902 [Class:Wifi][Method:loadFiles] Called.
+[INFO] 20201204 11:33:14.113883 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201204 11:33:14.114356 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201204 11:33:14.114633 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201204 11:33:14.114928 [Class:FileProcess][Method:fileRead] Called.
+[INFO] 20201204 11:33:14.115725 [Class:FileProcess][Method:isFileExist] Called.
+[INFO] 20201204 11:33:14.115606 [Class:Wifi][Method:getConSSID] Called.
+[INFO] 20201204 11:33:14.116374 [Class:Wifi][Method:getSubpro] Called.
+[INFO] 20201204 11:33:14.116155 [Class:FileProcess][Method:getFilePath] Called.
+[INFO] 20201204 11:33:14.121185 [Class:Uart][Method:initSerial] Called.
+[INFO] 20201204 11:33:14.122156 [Class:Uart][Method:openSerial] Try to open port....
+[INFO] 20201204 11:33:14.123562 [Class:Uart][Method:uartSet] Called.
+[NOTICE] 20201204 11:33:14.185709 [Class:Wifi][Method:monitor] Wifi was disconnected.
+[INFO] 20201204 11:33:14.186152 [Class:Wifi][Method:wifiConnection] Called.
+[INFO] 20201204 11:33:14.186434 [Class:Wifi][Method:wifiConnection] Wifi Module was DOWN.
+[INFO] 20201204 11:33:14.186676 [Class:Wifi][Method:getSubpro] Called.
+[INFO] 20201204 11:33:14.725257 [Class:Uart][Method:setAllThreadOn] Called.
+[INFO] 20201204 11:33:14.726454 [Class:Uart][Method:receiver] Called.
+[INFO] 20201204 11:33:14.726944 [Class:Uart][Method:monitor] Called.
+[INFO] 20201204 11:33:15.223728 [Class:Wifi][Method:wifiConnection] Wifi Module was UP.
+[INFO] 20201204 11:33:15.224507 [Class:Wifi][Method:getSubpro] Called.
+[INFO] 20201204 11:33:17.296808 [Class:Wifi][Method:wifiConnection] wpa_supplicant.conf was created.
+[INFO] 20201204 11:33:17.297496 [Class:Wifi][Method:setWpaFile] Called.
+[NOTICE] 20201204 11:33:17.336062 [Class:Wifi][Method:wifiConnection] network={
+	ssid="sensorway"
+	#psk="0295765000000"
+	psk=29c56334bfebc0529fd4eeada62404fd65e3daabc6573eeab97698d5df066619
+}
+
+[INFO] 20201204 11:33:17.336703 [Class:Wifi][Method:wifiConnection] Wifi Module tried to connect AP(sensorway)
+[INFO] 20201204 11:33:17.336956 [Class:Wifi][Method:setWpaCon] Called.
+[INFO] 20201204 11:33:17.337201 [Class:Wifi][Method:getSubpro] Called.
+[NOTICE] 20201204 11:33:22.571213 [Class:Wifi][Method:wifiConnection] Successfully initialized wpa_supplicant
+

@@ -27,7 +27,7 @@ WIFI_WPA_CONNECT = "sudo wpa_supplicant -B -i wlan0 -c wpa_supplicant.conf"
 # WIFI_WPA_CONNECT = "sudo wpa_supplicant -i wlan0 -c wpa_supplicant.conf"
 
 
-class WifiNT(MonitorClass):
+class Wifi(MonitorClass):
     def __init__(self):
 
         super().setWifiStatus(False)
